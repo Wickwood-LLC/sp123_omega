@@ -27,8 +27,8 @@
       <div class="highlighted-inner">
         <div id='page-title'><div class='limiter clearfix'>
           <div class='tabs clearfix'>
-            <?php if ($primary_local_tasks): ?>
-              <ul class='primary-tabs links clearfix'><?php print render($primary_local_tasks) ?></ul>
+            <?php if ($tabs): ?>
+              <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
             <?php endif; ?>
           </div>
           <?php print render($title_prefix); ?>
@@ -51,13 +51,15 @@
         <?php if ($show_messages && $messages): ?>
           <div id='console'><div class='limiter clearfix'><?php print $messages; ?></div></div>
         <?php endif; ?>
+
+        <?php print render($page['highlighted']); ?>
       </div>
     </section>
   <?php else: ?>
     <div id='page-title'><div class='limiter clearfix'>
       <div class='tabs clearfix'>
-        <?php if ($primary_local_tasks): ?>
-          <ul class='primary-tabs links clearfix'><?php print render($primary_local_tasks) ?></ul>
+        <?php if ($tabs): ?>
+          <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
         <?php endif; ?>
       </div>
       <?php print render($title_prefix); ?>

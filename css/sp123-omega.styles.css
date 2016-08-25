@@ -1,6 +1,26 @@
+/* No files to import found in abstractions/* */
 a {
   color: #0f753b;
   text-decoration: none; }
+
+.boxed {
+  border: 1px solid #4cae4c;
+  padding: 1em;
+  margin: 1em 0;
+  position: relative; }
+  .boxed h2, .boxed h3 {
+    position: absolute;
+    margin: 0;
+    top: -11px;
+    background: white;
+    padding: 0 1em;
+    display: inline-block !important; }
+    .boxed h2.ctools-collapsible-handle, .boxed h3.ctools-collapsible-handle {
+      padding-left: 1em; }
+  .boxed .ctools-toggle {
+    position: absolute;
+    top: -10px;
+    z-index: 1; }
 
 body {
   margin: 0; }

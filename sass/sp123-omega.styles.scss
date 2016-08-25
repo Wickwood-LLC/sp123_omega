@@ -4,9 +4,9 @@
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
 @import "variables/*";
-//@import "abstractions/{YOUR FILE NAME HERE}";
+@import "abstractions/*";
 @import "base/*";
-//@import "components/{YOUR FILE NAME HERE}";
+@import "components/*";
 
 body {
 	margin: 0;

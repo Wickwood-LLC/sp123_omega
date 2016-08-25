@@ -1,6 +1,8 @@
 // Import variables, abstractions, base styles and components.
 // Uncomment the next lines and adjust them to your needs.
 
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
 @import "variables/_variables.scss";
 //@import "abstractions/{YOUR FILE NAME HERE}";
 //@import "base/{YOUR FILE NAME HERE}";
@@ -18,6 +20,78 @@ body {
 .footer-inner {
 	max-width: 1360px;
 	margin: 0 auto;
+}
+
+#mini-panel-header {
+	display: flex;
+	width: 100%;
+	margin-bottom: 0px;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+
+	#site-title {
+		display: inline-block;
+		line-height: 1;
+		text-align: right;
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	.site-title-1 {
+		font-size: 3em;
+	}
+	.site-title-2 {
+		color: #9bcb3c;
+		display: block;
+		font-size: 2.8em;
+		margin-right: 0.8em;
+		margin-top: -28px;
+	}
+
+	#logo img {
+		height: 80px;
+		width: auto;
+	}
+
+	.logo-container {
+		display: inline-block;
+	}
+
+	.pane-page-logo {
+		flex: 0;
+	}
+
+	.pane-page-site-name {
+		font-size: 2.1em ;
+		line-height: 1.5;
+		text-align: center;
+		flex: 1 0;
+
+		@include breakpoint(568px) {
+			font-size: 2em;
+			flex: 4;
+		}
+		@include breakpoint(768px) {
+			font-size: 2.2em;
+		}
+		@include breakpoint(1024px) {
+			font-size: 2.5em;
+		}
+	}
+	.pane-page-slogan {
+		font-size: 1em;
+		line-height: 1.5;
+		text-align: center;
+		flex: 1 1 100%;
+
+		@include breakpoint(568px) {
+			flex: 5;
+		}
+		@include breakpoint(1024px) {
+			font-size: 1.2em;
+		}
+	}
 }
 
 #highlighted {

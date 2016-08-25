@@ -10,6 +10,87 @@ body {
   max-width: 1360px;
   margin: 0 auto; }
 
+#mini-panel-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 0px;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #mini-panel-header #site-title {
+    display: inline-block;
+    line-height: 1;
+    text-align: right;
+    margin: 0;
+    vertical-align: middle; }
+  #mini-panel-header .site-title-1 {
+    font-size: 3em; }
+  #mini-panel-header .site-title-2 {
+    color: #9bcb3c;
+    display: block;
+    font-size: 2.8em;
+    margin-right: 0.8em;
+    margin-top: -28px; }
+  #mini-panel-header #logo img {
+    height: 80px;
+    width: auto; }
+  #mini-panel-header .logo-container {
+    display: inline-block; }
+  #mini-panel-header .pane-page-logo {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0;
+        -ms-flex: 0;
+            flex: 0; }
+  #mini-panel-header .pane-page-site-name {
+    font-size: 2.1em;
+    line-height: 1.5;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0;
+        -ms-flex: 1 0;
+            flex: 1 0; }
+    @media (min-width: 568px) {
+      #mini-panel-header .pane-page-site-name {
+        font-size: 2em;
+        -webkit-box-flex: 4;
+        -webkit-flex: 4;
+            -ms-flex: 4;
+                flex: 4; } }
+    @media (min-width: 768px) {
+      #mini-panel-header .pane-page-site-name {
+        font-size: 2.2em; } }
+    @media (min-width: 1024px) {
+      #mini-panel-header .pane-page-site-name {
+        font-size: 2.5em; } }
+  #mini-panel-header .pane-page-slogan {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%; }
+    @media (min-width: 568px) {
+      #mini-panel-header .pane-page-slogan {
+        -webkit-box-flex: 5;
+        -webkit-flex: 5;
+            -ms-flex: 5;
+                flex: 5; } }
+    @media (min-width: 1024px) {
+      #mini-panel-header .pane-page-slogan {
+        font-size: 1.2em; } }
+
 #highlighted {
   background: url("../images/banner.jpg") no-repeat center center;
   background-size: cover; }

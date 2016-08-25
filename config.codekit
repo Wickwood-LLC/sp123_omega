@@ -31,6 +31,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/images\/banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28112,
+		"inputAbbreviatedPath": "\/images\/banner.jpg",
+		"outputAbbreviatedPath": "\/images\/banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/js\/sp123-omega.behaviors.js": {
 		"fileType": 64,
 		"ignore": 0,

@@ -8,8 +8,14 @@
 .header-inner,
 #page-title,
 #console,
+.l-region--highlighted,
 #content,
 .footer-inner {
 	max-width: 1360px;
 	margin: 0 auto;
+}
+
+#highlighted {
+	background-image: url('../images/banner.jpg') center center;
+	background-size: cover;
 }

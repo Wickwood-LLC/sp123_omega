@@ -1,1 +1,1 @@
-{"version":3,"sources":["../sass/sp123-omega.styles.scss"],"names":[],"mappings":"AAOA;;;;;;EAMC,kBAAiB;EACjB,eAAc,EAAA;;AAGf;EACC,4DAA2D;EAC3D,uBAAsB,EAAA","file":"sp123-omega.styles.css"}
+{"version":3,"sources":["../sass/sp123-omega.styles.scss","../sass/variables/_variables.scss"],"names":[],"mappings":"AAQA;EACC,UAAS,EAAA;;AAGV;;;;;;EAMC,kBAAiB;EACjB,eAAc,EAAA;;AAGf;EACC,gEAA+D;EAC/D,uBAAsB,EAAA;;AAGvB;EACC,oBC5BgB,EAAA","file":"sp123-omega.styles.css"}

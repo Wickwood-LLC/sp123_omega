@@ -1,5 +1,9 @@
-img, media {
-  max-width: 100%;
-}
+.header-inner,
+.page-title,
+.console,
+#content,
+.footer-inner {
+  max-width: 1360px;
+  margin: 0 auto; }
 
-/* No files to import found in partials/components/**\/* */
+/*# sourceMappingURL=sp123-omega.styles.css.map */

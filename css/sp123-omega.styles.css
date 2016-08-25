@@ -1,4 +1,7 @@
 /* No files to import found in abstractions/* */
+body {
+  font: 16px/1.2 Georgia, "Times New Roman", Times, serif; }
+
 a {
   color: #0f753b;
   text-decoration: none; }

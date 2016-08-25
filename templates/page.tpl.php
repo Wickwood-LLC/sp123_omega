@@ -22,7 +22,7 @@
 
 <main id="page">
 
-  <?php if (!empty($page['highlighted'])) : ?>
+  <?php if ($page['highlighted']) : ?>
     <section id="highlighted">
       <div class="highlighted-inner">
         <div id='page-title'><div class='limiter clearfix'>

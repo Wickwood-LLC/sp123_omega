@@ -90,7 +90,7 @@
   </div>
 </main>
 
-<footer> id='footer' class='clearfix'>
+<footer id='footer' class='clearfix'>
   <div class="footer-inner">
     <?php print render($page['footer']); ?>
   </div>

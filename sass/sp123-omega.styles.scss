@@ -3,9 +3,9 @@
 
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 
-@import "variables/_variables.scss";
+@import "variables/*";
 //@import "abstractions/{YOUR FILE NAME HERE}";
-//@import "base/{YOUR FILE NAME HERE}";
+@import "base/*";
 //@import "components/{YOUR FILE NAME HERE}";
 
 body {

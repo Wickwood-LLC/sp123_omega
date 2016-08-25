@@ -102,3 +102,118 @@ body {
 #footer {
 	background: $primary;
 }
+
+#block-panels-mini-footer {
+  #mini-panel-footer {
+    display: block;
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      display: flex;
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      display: block;
+    }
+    
+    @include breakpoint(768px (orientation landscape)) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .pane-custom.pane-2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 1em;
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      width: auto;
+      padding-top: 5px;
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      width: 50%;
+    }
+
+    
+    @include breakpoint(768px (orientation landscape)) {
+      flex: 0 auto;
+      width: auto;
+      margin-bottom: 0px;
+    }
+  }
+
+  .pane-menu-menu-footer-links .pane-content {
+    float: right;
+    width: 50%;
+
+    ul.menu {
+      text-align: center;
+    }
+
+    .menu li {
+      border-bottom: 0px;
+      float: none;
+      margin-left: 0;
+
+      a {
+        color: white;
+      }
+    }
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      width: auto;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      width: 50%;
+      float: left;
+      clear: left;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
+    
+    @include breakpoint(768px (orientation landscape)) {
+      flex: 0 auto;
+      width: auto;
+
+      .menu li {
+        float: left;
+
+        &:first-child {
+          margin-left: 2em;
+        }
+      }
+    }
+  }
+
+  .pane-custom.pane-3 {
+    float: left;
+    width: 50%;
+    text-align: center;
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      width: auto;
+      padding-top: 5px;
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      width: 50%;
+      position: absolute;
+      right: 0;
+    }
+  }
+}

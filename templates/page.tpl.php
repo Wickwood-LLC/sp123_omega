@@ -56,11 +56,13 @@
       </div>
     </section>
   <?php else: ?>
-    <div id='page-title'><div class='limiter clearfix'>
-      <div class='tabs clearfix'>
-        <?php if ($tabs): ?>
-          <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
-        <?php endif; ?>
+    <div id='page-title'>
+      <div class='limiter clearfix'>
+        <div class='tabs clearfix'>
+          <?php if ($tabs): ?>
+            <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
+          <?php endif; ?>
+        </div>
       </div>
       <?php print render($title_prefix); ?>
       <h1 class='page-title <?php print $page_icon_class ?>'>

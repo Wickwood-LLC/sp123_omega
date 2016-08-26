@@ -5,6 +5,6 @@
  */
 function sp123_omega_preprocess_page(&$variables) {
 	if ($variables['node']->type == 'panopoly_landing_page') {
-		$variables['title'] = NULL; // Hide the node title before the node is getting rendered.
+		$variables['title'] = '0'; // Hide the node title before the node is getting rendered.
 	}
 }

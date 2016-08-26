@@ -13,9 +13,9 @@ body {
 }
 
 .header-inner,
+#branding .limiter,
 #page-title,
 #console,
-.l-region--highlighted,
 #content,
 .footer-inner {
 	max-width: 1360px;
@@ -94,10 +94,7 @@ body {
 	}
 }
 
-#highlighted {
-	background: url("../images/banner.jpg") no-repeat center center;
-	background-size: cover;
-}
+
 
 #footer {
 	background: $primary;

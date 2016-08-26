@@ -25,13 +25,17 @@ a {
     top: -10px;
     z-index: 1; }
 
+.node-type-panopoly-landing-page .radix-sanderson .row:first-child {
+  background: url("../../images/banner.jpg") center center;
+  background-size: cover; }
+
 body {
   margin: 0; }
 
 .header-inner,
+#branding .limiter,
 #page-title,
 #console,
-.l-region--highlighted,
 #content,
 .footer-inner {
   max-width: 1360px;
@@ -117,10 +121,6 @@ body {
     @media (min-width: 1024px) {
       #mini-panel-header .pane-page-slogan {
         font-size: 1.2em; } }
-
-#highlighted {
-  background: url("../images/banner.jpg") no-repeat center center;
-  background-size: cover; }
 
 #footer {
   background: #0f753b; }

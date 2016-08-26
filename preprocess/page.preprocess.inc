@@ -4,6 +4,7 @@
  * Implements hook_preprocess_page().
  */
 function sp123_omega_preprocess_page(&$variables) {
-  // You can use preprocess hooks to modify the variables before they are passed
-  // to the theme function or template file.
+	if ($variables['node']->type == 'panopoly_landing_page') {
+		$variables['title'] = NULL; // Hide the node title before the node is getting rendered.
+	}
 }

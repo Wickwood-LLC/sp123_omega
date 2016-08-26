@@ -25,7 +25,7 @@ a {
     top: -10px;
     z-index: 1; }
 
-.node-type-panopoly-landing-page .radix-sanderson .row:first-child {
+.node-type-panopoly-landing-page .wwm-sanderson .row:first-child {
   background: url("../images/banner.jpg") center center;
   background-size: cover;
   padding: 5em 2em; }
@@ -133,6 +133,7 @@ body {
 #page-title,
 #console,
 #content,
+.row-inner,
 .footer-inner {
   max-width: 1360px;
   margin: 0 auto; }

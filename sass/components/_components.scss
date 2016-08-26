@@ -30,6 +30,10 @@
 		background-size: cover;
 		padding: 5em 2em;
 	}
+
+	.row:nth-child(2) {
+		box-shadow: 0px -1px 80px 1px rgba(0,0,0,0.52);
+	}
 }
 
 .myriad-left-sidebar {

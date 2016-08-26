@@ -32,6 +32,8 @@ a {
   background: url("../images/banner.jpg") center center;
   background-size: cover;
   padding: 5em 2em; }
+.node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(2) {
+  box-shadow: 0px -1px 80px 1px rgba(0, 0, 0, 0.52); }
 
 .myriad-left-sidebar .main-content {
   width: calc(70% - 1em);
@@ -140,6 +142,9 @@ body {
   max-width: 1360px;
   margin: 0 auto; }
 
+#header {
+  box-shadow: 0px 1px 80px 1px rgba(0, 0, 0, 0.52); }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -222,7 +227,9 @@ body {
         font-size: 1.2em; } }
 
 #footer {
-  background: #0f753b; }
+  background: #0f753b;
+  position: relative;
+  z-index: 10; }
 
 #block-panels-mini-footer #mini-panel-footer {
   display: block; }

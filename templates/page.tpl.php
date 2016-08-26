@@ -34,7 +34,7 @@
   <?php elseif (arg(0) == 'user' && arg(1) == 'password') : ?>
     <h1 class="page-title <?php print $page_icon_class ?>"> Reset Your <?php print strip_tags($site_name); ?> Password </h1>
   <?php else : ?>
-    <h1 class='page-title <?php print $page_icon_class ?>'><?php if ($title) print $title ?></h1>
+    <h1 class='page-title <?php print $page_icon_class ?>'><?php print $title ?></h1>
   <?php endif ; ?>
   <?php if ($action_links): ?>
     <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>

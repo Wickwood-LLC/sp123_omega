@@ -188,6 +188,7 @@ div.panel-pane div.node.node-testimonial {
 
 .action-links {
 	list-style: none;
+    font-size: 11px;
 
 	a {
 		border-radius: 5px;
@@ -195,5 +196,6 @@ div.panel-pane div.node.node-testimonial {
 	    padding: 0 5px 0 25px;
 	    background: $primary url('../images/buttons.png') -800px 50% no-repeat;
 	    color: #fff;
+	    line-height: 20px
 	}
 }

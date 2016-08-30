@@ -135,13 +135,15 @@ div.panel-pane div.node.node-testimonial {
     margin-left: 0; }
 
 .action-links {
-  list-style: none; }
+  list-style: none;
+  font-size: 11px; }
   .action-links a {
     border-radius: 5px;
     margin: 0 5px 0 0;
     padding: 0 5px 0 25px;
     background: #0f753b url("../images/buttons.png") -800px 50% no-repeat;
-    color: #fff; }
+    color: #fff;
+    line-height: 20px; }
 
 body {
   margin: 0;

@@ -255,12 +255,19 @@ body {
   height: 30px;
   margin: 15px 0 0;
   border-radius: 5px; }
+  .primary-tabs .tabs--primary {
+    margin-bottom: 0;
+    border-bottom: 0; }
   .primary-tabs li {
     margin-right: 0;
     height: 30px;
     position: relative;
     background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
     margin-bottom: 10px; }
+    .primary-tabs li:first-child {
+      border-radius: 5px 0 0 5px; }
+    .primary-tabs li:last-child {
+      border-radius: 0 5px 5px 0; }
   .primary-tabs a {
     font-size: 13px;
     float: left;
@@ -268,7 +275,9 @@ body {
     min-width: 70px;
     padding: 5px 10px;
     color: #333;
-    text-shadow: #fff 0 1px 0; }
+    text-shadow: #fff 0 1px 0;
+    height: 30px;
+    line-height: 20px; }
 
 .wwm-sanderson .pane-page-title {
   font-size: 1.8em; }

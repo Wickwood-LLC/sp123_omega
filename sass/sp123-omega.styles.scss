@@ -126,15 +126,19 @@ body {
 	    background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
 	    margin-bottom: 10px;
 
-	    &:first-child a {
+	    &:first-child {
 	    	border-radius: 5px 0 0 5px;
 	    }
-	    &:last-child a {
+	    &:last-child {
 	    	border-radius: 0 5px 5px 0;
+	    }
+	    :hover {
+	    	background-color: #f8f8f8;
 	    }
     }
 
     a {
+    	background: transparent;
     	font-size: 13px;
     	float: left;
 	    text-align: center;

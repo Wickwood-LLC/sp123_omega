@@ -126,10 +126,10 @@ body {
 	    background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
 	    margin-bottom: 10px;
 
-	    &:first-child {
+	    &:first-child a {
 	    	border-radius: 5px 0 0 5px;
 	    }
-	    &:last-child {
+	    &:last-child a {
 	    	border-radius: 0 5px 5px 0;
 	    }
     }

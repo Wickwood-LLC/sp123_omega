@@ -264,9 +264,9 @@ body {
     position: relative;
     background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
     margin-bottom: 10px; }
-    .primary-tabs li:first-child {
+    .primary-tabs li:first-child a {
       border-radius: 5px 0 0 5px; }
-    .primary-tabs li:last-child {
+    .primary-tabs li:last-child a {
       border-radius: 0 5px 5px 0; }
   .primary-tabs a {
     font-size: 13px;

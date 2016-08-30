@@ -134,7 +134,8 @@ div.panel-pane div.node.node-testimonial {
     margin-left: 0; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  background: url("../images/main-bg.jpg") repeat; }
 
 .header-inner,
 #branding .limiter,
@@ -346,4 +347,5 @@ body {
       width: 50%;
       position: absolute;
       right: 0; } }
+
 /*# sourceMappingURL=sp123-omega.styles.css.map */

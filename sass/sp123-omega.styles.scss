@@ -135,6 +135,10 @@ body {
 	    :hover {
 	    	background-color: #f8f8f8;
 	    }
+
+	    &.active {
+	    	background-color: $primary;
+	    }
     }
 
     a {
@@ -148,6 +152,11 @@ body {
 	    text-shadow: #fff 0 1px 0;
 	    height: 30px;
     	line-height: 20px;
+
+    	&.active {
+    		background-color: transparent;
+    		color: #fff;
+    	}
     }
 }
 

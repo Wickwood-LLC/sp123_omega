@@ -270,6 +270,8 @@ body {
       border-radius: 0 5px 5px 0; }
     .primary-tabs li :hover {
       background-color: #f8f8f8; }
+    .primary-tabs li.active {
+      background-color: #0f753b; }
   .primary-tabs a {
     background: transparent;
     font-size: 13px;
@@ -281,6 +283,9 @@ body {
     text-shadow: #fff 0 1px 0;
     height: 30px;
     line-height: 20px; }
+    .primary-tabs a.active {
+      background-color: transparent;
+      color: #fff; }
 
 .wwm-sanderson .pane-page-title {
   font-size: 1.8em; }

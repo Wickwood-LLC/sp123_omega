@@ -233,6 +233,9 @@ body {
       #mini-panel-header .pane-page-slogan {
         font-size: 1.2em; } }
 
+#page {
+  background: #f5f5f5; }
+
 #page-title .limiter {
   float: right; }
 

@@ -35,8 +35,6 @@ a {
   background-size: cover; }
   .node-type-panopoly-landing-page .wwm-sanderson .row:first-child .row-inner {
     padding: 5em 2em; }
-.node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(2) {
-  box-shadow: 0px -1px 80px 1px rgba(0, 0, 0, 0.52); }
 .node-type-panopoly-landing-page .wwm-sanderson .row-inner {
   overflow: auto; }
 
@@ -146,11 +144,6 @@ body {
 .footer-inner {
   max-width: 1360px;
   margin: 0 auto; }
-
-#header {
-  box-shadow: 0px 1px 80px 1px rgba(0, 0, 0, 0.52);
-  position: relative;
-  z-index: 10; }
 
 #mini-panel-header {
   display: -webkit-box;
@@ -353,5 +346,4 @@ body {
       width: 50%;
       position: absolute;
       right: 0; } }
-
 /*# sourceMappingURL=sp123-omega.styles.css.map */

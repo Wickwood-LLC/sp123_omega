@@ -16,7 +16,7 @@ body {
 #branding .limiter,
 #page-title,
 #console,
-.row-inner,
+.wwm-sanderson .row,
 .footer-inner {
 	max-width: 1360px;
 	margin: 0 auto;
@@ -98,10 +98,6 @@ body {
 			font-size: 1.2em;
 		}
 	}
-}
-
-.row-inner {
-	display: block;
 }
 
 #footer {

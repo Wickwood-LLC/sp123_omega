@@ -142,7 +142,7 @@ body {
 #branding .limiter,
 #page-title,
 #console,
-.row-inner,
+.wwm-sanderson .row,
 .footer-inner {
   max-width: 1360px;
   margin: 0 auto; }
@@ -232,9 +232,6 @@ body {
     @media (min-width: 1024px) {
       #mini-panel-header .pane-page-slogan {
         font-size: 1.2em; } }
-
-.row-inner {
-  display: block; }
 
 #footer {
   background: #0f753b;

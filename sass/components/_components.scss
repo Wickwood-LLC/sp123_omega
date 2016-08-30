@@ -27,22 +27,19 @@
 .node-type-panopoly-landing-page .wwm-sanderson {
 	.row {
 		margin: 0;
+		padding: 2em;
 	}
 	.row:first-child {
 		background: url("../images/banner.jpg") center center;
 		background-size: cover;
-
-		.row-inner {
-			padding: 5em 2em;
-		}
 	}
 
 	.row:nth-child(2) {
 		background: #f5f5f5;
 	}
 
-	.row-inner {
-		overflow: auto;
+	.row:nth-child(3) {
+		background: #92C134;
 	}
 }
 

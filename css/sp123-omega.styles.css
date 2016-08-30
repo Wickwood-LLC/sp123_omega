@@ -29,16 +29,15 @@ a {
     z-index: 1; }
 
 .node-type-panopoly-landing-page .wwm-sanderson .row {
-  margin: 0; }
+  margin: 0;
+  padding: 2em; }
 .node-type-panopoly-landing-page .wwm-sanderson .row:first-child {
   background: url("../images/banner.jpg") center center;
   background-size: cover; }
-  .node-type-panopoly-landing-page .wwm-sanderson .row:first-child .row-inner {
-    padding: 5em 2em; }
 .node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(2) {
   background: #f5f5f5; }
-.node-type-panopoly-landing-page .wwm-sanderson .row-inner {
-  overflow: auto; }
+.node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(3) {
+  background: #92C134; }
 
 .myriad-left-sidebar .main-content {
   width: calc(70% - 1em);
@@ -150,6 +149,7 @@ body {
 
 #header {
   background: #f5f5f5;
+  box-sizing: border-box;
   padding: 15px; }
 
 #mini-panel-header {

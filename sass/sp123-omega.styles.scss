@@ -105,8 +105,10 @@ body {
 	float: right;
 }
 
-.wwm-sanderson .pane-page-title {
-	font-size: 1.8em;
+.wwm-sanderson {
+	.pane-page-title {
+		font-size: 1.8em;
+	}
 
 	.radix-layouts-column2 .pane-1 {
 		max-height: 205px;

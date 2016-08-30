@@ -622,6 +622,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/buttons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4160,
+		"inputAbbreviatedPath": "\/images\/buttons.png",
+		"outputAbbreviatedPath": "\/images\/buttons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/main-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

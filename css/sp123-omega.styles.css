@@ -134,6 +134,15 @@ div.panel-pane div.node.node-testimonial {
   div.panel-pane div.node.node-testimonial .field-items {
     margin-left: 0; }
 
+.action-links {
+  list-style: none; }
+  .action-links a {
+    border-radius: 5px;
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 25px;
+    background: #0f753b url("../images/buttons.png") -800px 50% no-repeat;
+    color: #fff; }
+
 body {
   margin: 0;
   background: url("../images/main-bg.jpg") repeat; }

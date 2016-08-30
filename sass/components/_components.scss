@@ -185,3 +185,15 @@ div.panel-pane div.node.node-testimonial {
     margin-left: 0;
   }
 }
+
+.action-links {
+	list-style: none;
+
+	a {
+		border-radius: 5px;
+	    margin: 0 5px 0 0;
+	    padding: 0 5px 0 25px;
+	    background: $primary url('../images/buttons.png') -800px 50% no-repeat;
+	    color: #fff;
+	}
+}

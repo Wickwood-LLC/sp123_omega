@@ -107,6 +107,7 @@ body {
 
 .tabs {
 	float: right;
+	margin-top: 10px;
 }
 
 .primary-tabs {
@@ -159,6 +160,16 @@ body {
     		text-shadow: #33aa58 0 1px 0;
     	}
     }
+}
+
+.page-title {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.action-links {
+	display: inline-block;
+    vertical-align: middle;
 }
 
 .wwm-sanderson {

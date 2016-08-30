@@ -249,7 +249,8 @@ body {
   background: #f5f5f5; }
 
 .tabs {
-  float: right; }
+  float: right;
+  margin-top: 10px; }
 
 .primary-tabs {
   height: 30px;
@@ -287,6 +288,14 @@ body {
       background-color: transparent;
       color: #fff;
       text-shadow: #33aa58 0 1px 0; }
+
+.page-title {
+  display: inline-block;
+  vertical-align: middle; }
+
+.action-links {
+  display: inline-block;
+  vertical-align: middle; }
 
 .wwm-sanderson .pane-page-title {
   font-size: 1.8em; }

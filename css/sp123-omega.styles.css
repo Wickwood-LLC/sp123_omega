@@ -285,7 +285,8 @@ body {
     line-height: 20px; }
     .primary-tabs a.active {
       background-color: transparent;
-      color: #fff; }
+      color: #fff;
+      text-shadow: #33aa58 0 1px 0; }
 
 .wwm-sanderson .pane-page-title {
   font-size: 1.8em; }

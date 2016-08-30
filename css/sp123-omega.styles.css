@@ -35,6 +35,8 @@ a {
   background-size: cover; }
   .node-type-panopoly-landing-page .wwm-sanderson .row:first-child .row-inner {
     padding: 5em 2em; }
+.node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(2) {
+  background: #f5f5f5; }
 .node-type-panopoly-landing-page .wwm-sanderson .row-inner {
   overflow: auto; }
 
@@ -137,14 +139,18 @@ body {
   margin: 0;
   background: url("../images/main-bg.jpg") repeat; }
 
-.header-inner,
+#header,
 #branding .limiter,
 #page-title,
 #console,
 #page,
-.footer-inner {
+#footer {
   max-width: 1360px;
   margin: 0 auto; }
+
+#header {
+  background: #f5f5f5;
+  padding: 15px; }
 
 #mini-panel-header {
   display: -webkit-box;

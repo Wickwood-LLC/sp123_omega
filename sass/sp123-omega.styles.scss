@@ -13,14 +13,19 @@ body {
 	background: url('../images/main-bg.jpg') repeat;
 }
 
-.header-inner,
+#header,
 #branding .limiter,
 #page-title,
 #console,
 #page,
-.footer-inner {
+#footer {
 	max-width: 1360px;
 	margin: 0 auto;
+}
+
+#header {
+	background: #f5f5f5;
+	padding: 15px;
 }
 
 #mini-panel-header {

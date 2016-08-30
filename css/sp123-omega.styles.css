@@ -233,6 +233,15 @@ body {
       #mini-panel-header .pane-page-slogan {
         font-size: 1.2em; } }
 
+#page-title .limiter {
+  float: right; }
+
+.wwm-sanderson .pane-page-title {
+  font-size: 1.8em; }
+  .wwm-sanderson .pane-page-title .radix-layouts-column2 .pane-1 {
+    max-height: 205px;
+    overflow-y: scroll; }
+
 #footer {
   background: #0f753b;
   position: relative;

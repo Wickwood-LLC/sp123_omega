@@ -143,6 +143,7 @@ div.panel-pane div.node.node-testimonial {
     padding: 0 5px 0 25px;
     background: #0f753b url("../images/buttons.png") -800px 50% no-repeat;
     color: #fff;
+    float: left;
     line-height: 20px; }
 
 body {

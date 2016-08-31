@@ -394,11 +394,14 @@ body {
   float: right;
   width: 50%; }
   #block-panels-mini-footer .pane-menu-menu-footer-links ul.menu {
-    text-align: center; }
+    text-align: center;
+    margin: 0; }
   #block-panels-mini-footer .pane-menu-menu-footer-links .menu li {
     border-bottom: 0px;
     float: none;
-    margin-left: 0; }
+    margin-left: 0;
+    list-style: none;
+    padding: 0 5px; }
     #block-panels-mini-footer .pane-menu-menu-footer-links .menu li a {
       color: white; }
   @media (min-width: 0px) and (max-width: 767px) and (orientation: landscape) {

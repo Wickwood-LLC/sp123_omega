@@ -210,6 +210,10 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 		background: #9bcb3b;
 		padding: 1em;
 		padding-top: 2em;
+
+		.pane-node-field-author-image img {
+			border-radius: 5px;
+		}
 	}
 
 	.row-two {

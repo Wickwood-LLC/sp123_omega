@@ -153,6 +153,8 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     background: #9bcb3b;
     padding: 1em;
     padding-top: 2em; }
+    div.panel-pane div.node.node-testimonial.node-testimonial-image .row-one .pane-node-field-author-image img {
+      border-radius: 5px; }
   div.panel-pane div.node.node-testimonial.node-testimonial-image .row-two {
     padding: 0 1em 1em 1em; }
 

@@ -297,17 +297,11 @@ body {
   vertical-align: top;
   margin-top: 31px; }
 
-.wwm-sanderson .pane-page-title {
-  font-size: 1.8em; }
-.wwm-sanderson .radix-layouts-column2 .pane-1 {
-  max-height: 275px;
-  overflow-y: scroll; }
-
-.wwm-sanderson .row:first-child .radix-layouts-column2 .panel-inner {
+.wwm-sanderson .row:first-child .radix-layouts-column2 .panel-panel-inner {
   background-color: rgba(245, 245, 245, 0.5);
   padding: 5px;
   border-radius: 9px; }
-  .wwm-sanderson .row:first-child .radix-layouts-column2 .panel-inner .panels-ipe-region {
+  .wwm-sanderson .row:first-child .radix-layouts-column2 .panel-panel-inner .panels-ipe-region {
     padding: 1em;
     border-radius: 5px;
     background-color: #f5f5f5;
@@ -315,6 +309,9 @@ body {
 .wwm-sanderson .row:first-child .radix-layouts-column2 .page-block-title {
   font-size: 1.8em;
   margin: 0; }
+.wwm-sanderson .row:first-child .radix-layouts-column2 .pane-1 {
+  max-height: 275px;
+  overflow-y: scroll; }
 
 #footer {
   background: #0f753b;

@@ -173,20 +173,9 @@ body {
 }
 
 .wwm-sanderson {
-	.pane-page-title {
-		font-size: 1.8em;
-	}
-
-	.radix-layouts-column2 .pane-1 {
-		max-height: 275px;
-    	overflow-y: scroll;
-	}
-}
-
-.wwm-sanderson {
 	.row:first-child {
 		.radix-layouts-column2 {
-			.panel-inner {
+			.panel-panel-inner {
 				background-color: rgba(245,245,245,0.5);
 			    padding: 5px;
 			    border-radius: 9px;
@@ -202,6 +191,11 @@ body {
 			.page-block-title {
 				font-size: 1.8em;
 				margin: 0;
+			}
+
+			.pane-1 {
+				max-height: 275px;
+		    	overflow-y: scroll;
 			}
 		}
 	}

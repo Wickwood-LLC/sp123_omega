@@ -205,6 +205,11 @@ div.panel-pane div.node.node-testimonial {
 	background: #6fae1b;
 	background: linear-gradient(to bottom, #1e5799 0%,#badc68 0%,#6fae1b 98%,#6fae1b 100%);
 
+	.block__content {
+		display: table;
+    	margin: 0 auto;
+	}
+
 	.tb-megamenu {
 		background: #6fae1b;
 		background: linear-gradient(to bottom, #1e5799 0%,#badc68 0%,#6fae1b 98%,#6fae1b 100%);
@@ -215,12 +220,17 @@ div.panel-pane div.node.node-testimonial {
 				font-weight: normal;
 
 				&:hover {
-					background-color: #abba64;
+					background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
+					color: white;
 				}
 			}
 			& > li.active > a {
-				background-color: #abba64;
+				background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
 			}
+		}
+
+		.dropdown-menu {
+			border-bottom: 3px solid #9bcb3b;
 		}
 	}
 }

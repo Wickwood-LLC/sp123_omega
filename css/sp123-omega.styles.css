@@ -50,8 +50,10 @@ a {
   margin-right: 1em; }
 
 div.panel-pane div.node.node-advertisement {
+  background-color: #f5f5f5;
   padding: 1em;
-  border: 1px solid #4cae4c;
+  border-radius: 5px;
+  border: 2px solid #9bcb3b;
   margin-bottom: 2em;
   width: 100%;
   box-sizing: border-box; }
@@ -107,8 +109,10 @@ div.panel-pane div.node.node-advertisement {
     text-decoration: none; }
 
 div.panel-pane div.node.node-testimonial {
+  background-color: #f5f5f5;
   padding: 1em;
-  border: 1px solid #4cae4c;
+  border-radius: 5px;
+  border: 2px solid #9bcb3b;
   margin-bottom: 2em; }
   div.panel-pane div.node.node-testimonial .pane-node-field-video {
     text-align: center; }

@@ -371,6 +371,7 @@ body {
           -ms-flex-align: center;
               align-items: center; } }
 #block-panels-mini-footer .pane-custom.pane-2 {
+  color: white;
   width: 50%;
   float: left;
   text-align: center;

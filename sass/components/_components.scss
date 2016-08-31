@@ -192,12 +192,25 @@ div.panel-pane div.node.node-testimonial {
 
 div.panel-pane div.node.node-testimonial.node-testimonial-video {
 	padding: 0;
-	
+
 	.pane-node-field-video {
 		background: #9bcb3b;
-		padding: 1em 1em 0 1em;
+		padding: 1em;
 	}
 	.row-2 {
+		padding: 0 1em 1em 1em;
+	}
+}
+
+div.panel-pane div.node.node-testimonial.node-testimonial-image {
+	padding: 0;
+
+	.row-one {
+		background: #9bcb3b;
+		padding: 1em;
+	}
+
+	.row-two {
 		padding: 0 1em 1em 1em;
 	}
 }

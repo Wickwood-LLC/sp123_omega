@@ -146,6 +146,21 @@ div.panel-pane div.node.node-testimonial {
     float: left;
     line-height: 20px; }
 
+#block-tb-megamenu-main-menu {
+  background: #6fae1b;
+  background: -webkit-linear-gradient(top, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%);
+  background: linear-gradient(to bottom, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%); }
+  #block-tb-megamenu-main-menu .tb-megamenu {
+    background: #6fae1b;
+    background: -webkit-linear-gradient(top, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%);
+    background: linear-gradient(to bottom, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%); }
+    #block-tb-megamenu-main-menu .tb-megamenu .nav > li > a {
+      border: 0; }
+      #block-tb-megamenu-main-menu .tb-megamenu .nav > li > a:hover {
+        background-color: #abba64; }
+    #block-tb-megamenu-main-menu .tb-megamenu .nav > li.active > a {
+      background-color: #abba64; }
+
 body {
   margin: 0;
   background: url("../images/main-bg.jpg") repeat; }

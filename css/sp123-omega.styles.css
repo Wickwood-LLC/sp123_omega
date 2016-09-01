@@ -1,9 +1,11 @@
 /* No files to import found in abstractions/* */
 html {
-  background-color: #f5f5f5; }
+  background: url("../images/main-bg.jpg") repeat; }
 
 body {
-  font: 16px/1.2 Helvetica, Arial, sans-serif; }
+  font: 16px/1.2 Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5; }
 
 a {
   color: #0f753b;

@@ -213,6 +213,20 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     #block-tb-megamenu-main-menu .tb-megamenu .dropdown-menu {
       border-bottom: 3px solid #9bcb3b; }
 
+/* These are styles for the login and registration pages. */
+.page-user-login .radix-layouts-content {
+  background-color: #f5f5f5;
+  padding: 1em;
+  border-radius: 10px; }
+.page-user-login form.user-login {
+  display: table;
+  margin: 0 auto 1em; }
+  .page-user-login form.user-login .g-recaptcha {
+    display: table;
+    margin: auto; }
+  .page-user-login form.user-login #edit-actions {
+    text-align: center; }
+
 body.maintenance-page {
   height: 100%;
   display: -webkit-box;

@@ -1,0 +1,23 @@
+/* These are styles for the login and registration pages. */
+
+.page-user-login {
+	.radix-layouts-content {
+		background-color: #f5f5f5;
+	  	padding: 1em;
+		border-radius: 10px;
+	}
+
+	form.user-login {
+		display: table;
+    	margin: 0 auto 1em;
+
+    	.g-recaptcha {
+    		display: table;
+    		margin: auto;
+    	}
+
+    	#edit-actions {
+    		text-align: center;
+    	}
+	}
+}

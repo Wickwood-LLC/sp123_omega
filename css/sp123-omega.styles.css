@@ -35,7 +35,6 @@ a {
     position: absolute;
     margin: 0;
     top: -11px;
-    background: white;
     padding: 0 1em;
     display: inline-block !important; }
     .boxed h2.ctools-collapsible-handle, .boxed h3.ctools-collapsible-handle {

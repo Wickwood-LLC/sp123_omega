@@ -383,7 +383,9 @@ body.maintenance-page {
   -webkit-box-flex: 100%;
   -webkit-flex: 100%;
       -ms-flex: 100%;
-          flex: 100%; }
+          flex: 100%;
+  padding: 1em;
+  box-sizing: border-box; }
 
 .tabs {
   float: right;

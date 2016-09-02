@@ -1,6 +1,7 @@
 /* These are styles for the login and registration pages. */
 
-.page-user-login {
+.page-user-login,
+.page-user-password {
 	.radix-layouts-content {
 		padding: 1em;
 		border-radius: 10px;
@@ -23,7 +24,5 @@
     	#edit-actions {
     		text-align: center;
     	}
-
-    	
 	}
 }

@@ -32,9 +32,10 @@ a {
   margin: 1em 0;
   position: relative; }
   .boxed h2, .boxed h3 {
+    background-color: #f5f5f5;
     position: absolute;
     margin: 0;
-    top: -11px;
+    top: -15px;
     padding: 0 1em;
     display: inline-block !important; }
     .boxed h2.ctools-collapsible-handle, .boxed h3.ctools-collapsible-handle {

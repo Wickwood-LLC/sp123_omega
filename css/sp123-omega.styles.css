@@ -218,17 +218,16 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
   padding: 1em;
   border-radius: 10px;
   border: 2px solid #9bcb3b; }
-.page-user-login form.user-login {
-  display: table;
-  margin: 0 auto 1em; }
-  .page-user-login form.user-login .g-recaptcha {
+.page-user-login form#user-login {
+  margin: 0; }
+  .page-user-login form#user-login > div > .form-item {
+    display: table;
+    margin: 0 auto 1em; }
+  .page-user-login form#user-login .g-recaptcha {
     display: table;
     margin: auto; }
-  .page-user-login form.user-login #edit-actions {
+  .page-user-login form#user-login #edit-actions {
     text-align: center; }
-  .page-user-login form.user-login > div > .form-item {
-    display: table;
-    margin: auto; }
 
 body.maintenance-page {
   height: 100%;

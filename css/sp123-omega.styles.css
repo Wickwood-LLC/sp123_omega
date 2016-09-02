@@ -214,24 +214,34 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
       border-bottom: 3px solid #9bcb3b; }
 
 /* These are styles for the login and registration pages. */
-.page-user-login .radix-layouts-content,
+.page-user-login .radix-layouts-content {
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid #9bcb3b; }
+.page-user-login form#user-login {
+  margin: 0; }
+  .page-user-login form#user-login > div > .form-item {
+    display: table;
+    margin: 0 auto 1em; }
+  .page-user-login form#user-login .g-recaptcha {
+    display: table;
+    margin: auto; }
+  .page-user-login form#user-login #edit-actions {
+    text-align: center; }
+
 .page-user-password .radix-layouts-content {
   padding: 1em;
   border-radius: 10px;
   border: 2px solid #9bcb3b; }
-.page-user-login form#user-login,
-.page-user-password form#user-login {
+.page-user-password form#user-pass {
   margin: 0; }
-  .page-user-login form#user-login > div > .form-item,
-  .page-user-password form#user-login > div > .form-item {
+  .page-user-password form#user-pass > div > .form-item {
     display: table;
     margin: 0 auto 1em; }
-  .page-user-login form#user-login .g-recaptcha,
-  .page-user-password form#user-login .g-recaptcha {
+  .page-user-password form#user-pass .g-recaptcha {
     display: table;
     margin: auto; }
-  .page-user-login form#user-login #edit-actions,
-  .page-user-password form#user-login #edit-actions {
+  .page-user-password form#user-pass #edit-actions {
     text-align: center; }
 
 body.maintenance-page {

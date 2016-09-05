@@ -258,6 +258,8 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     background-color: #15a252; }
 .pane-nodequeue-1-panel-pane-1 .views-row-even {
   background-color: #f9f9f9; }
+.pane-nodequeue-1-panel-pane-1 .views-slideshow-cycle-main-frame-row {
+  width: 100%; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .radix-layouts-content {

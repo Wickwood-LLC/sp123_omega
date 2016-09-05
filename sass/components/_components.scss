@@ -5,7 +5,7 @@
 	margin: 1em 0;
 	position: relative;
 
-	h2, h3 {
+	.pane-title {
 		background-color: #f5f5f5;
 		position: absolute;
 		margin: 0;
@@ -287,8 +287,10 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     }
   }
   .ui-accordion-header {
-    border-color: #4cae4c;
+    border: 1px solid #4cae4c;
     margin: 5px 0 !important;
+    width: 100%;
+    box-sizing: border-box;
 
     &:hover {
       background-color: lighten($primary, 10%);

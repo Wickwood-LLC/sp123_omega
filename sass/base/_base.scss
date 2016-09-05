@@ -13,7 +13,9 @@ body {
 	display: flex;
 	flex-flow: column nowrap;
 
-	& > * {
+	&>header,
+	&>main,
+	&>footer {
 		width: 100%;
 	}
 }

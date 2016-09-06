@@ -336,3 +336,13 @@
 .pane-node-title {
 	text-align: center;
 }
+
+.pane-node-field-resources {
+	.field-collection-container {
+		border-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	.field--name-field-resource-documents {
+		margin-bottom: 1em;
+	}
+}

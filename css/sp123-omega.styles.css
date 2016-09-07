@@ -264,34 +264,23 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
   width: 100%; }
 
 /* These are styles for the login and registration pages. */
-.page-user-login .radix-layouts-content {
+.page-user-login .radix-layouts-content, .page-user-password .radix-layouts-content {
   padding: 1em;
   border-radius: 10px;
   border: 2px solid #9bcb3b; }
-.page-user-login form#user-login {
-  margin: 0; }
-  .page-user-login form#user-login > div > .form-item {
-    display: table;
-    margin: 0 auto 1em; }
-  .page-user-login form#user-login .g-recaptcha {
-    display: table;
-    margin: auto; }
-  .page-user-login form#user-login #edit-actions {
-    text-align: center; }
+.page-user-login fieldset.captcha, .page-user-password fieldset.captcha {
+  border-radius: 10px;
+  text-align: center; }
 
-.page-user-password .radix-layouts-content {
-  padding: 1em;
-  border-radius: 10px;
-  border: 2px solid #9bcb3b; }
-.page-user-password form#user-pass {
+form#user-login, form#user-pass {
   margin: 0; }
-  .page-user-password form#user-pass > div > .form-item {
+  form#user-login > div > .form-item, form#user-pass > div > .form-item {
     display: table;
     margin: 0 auto 1em; }
-  .page-user-password form#user-pass .g-recaptcha {
+  form#user-login .g-recaptcha, form#user-pass .g-recaptcha {
     display: table;
     margin: auto; }
-  .page-user-password form#user-pass #edit-actions {
+  form#user-login #edit-actions, form#user-pass #edit-actions {
     text-align: center; }
 
 body.maintenance-page {

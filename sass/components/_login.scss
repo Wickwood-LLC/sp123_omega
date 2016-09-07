@@ -1,53 +1,32 @@
 /* These are styles for the login and registration pages. */
 
-.page-user-login {
+.page-user-login, .page-user-password {
 	.radix-layouts-content {
 		padding: 1em;
 		border-radius: 10px;
 		border: 2px solid #9bcb3b;
 	}
 
-	form#user-login {
-		margin: 0;
-
-		& > div > .form-item {
-    		display: table;
-    		margin: 0 auto 1em;
-    	}    	
-
-    	.g-recaptcha {
-    		display: table;
-    		margin: auto;
-    	}
-
-    	#edit-actions {
-    		text-align: center;
-    	}
-	}
+    fieldset.captcha {
+        border-radius: 10px;
+        text-align: center;
+    }
 }
 
-.page-user-password {
-	.radix-layouts-content {
-		padding: 1em;
-		border-radius: 10px;
-		border: 2px solid #9bcb3b;
-	}
+form#user-login, form#user-pass {
+    margin: 0;
 
-	form#user-pass {
-		margin: 0;
+    & > div > .form-item {
+        display: table;
+        margin: 0 auto 1em;
+    }       
 
-		& > div > .form-item {
-    		display: table;
-    		margin: 0 auto 1em;
-    	}    	
+    .g-recaptcha {
+        display: table;
+        margin: auto;
+    }
 
-    	.g-recaptcha {
-    		display: table;
-    		margin: auto;
-    	}
-
-    	#edit-actions {
-    		text-align: center;
-    	}
-	}
+    #edit-actions {
+        text-align: center;
+    }
 }

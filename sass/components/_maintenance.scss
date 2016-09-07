@@ -21,7 +21,7 @@ body.maintenance-page {
     .site-name {
     	display: inline-block;
     	font-family: 'Italianno', Georgia, "Times New Roman", Times, serif;
-	    font-size: 3em;
+	    font-size: 4em;
 	    font-style: normal;
 	    font-weight: normal;
 	    margin: 0;
@@ -30,6 +30,8 @@ body.maintenance-page {
     .site-slogan {
     	font-size: 1.2em;
     	font-weight: normal;
+        margin: 0 5.5em;
+        font-style: italic;
     }
 
     .l-content {
@@ -37,6 +39,7 @@ body.maintenance-page {
 
     	h1 {
         	margin: 2em;
+            text-transform: capitalize;
         }
     }
 }

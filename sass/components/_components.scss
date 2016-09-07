@@ -173,16 +173,12 @@ div.panel-pane div.node.node-testimonial {
 				display: block;
 				overflow: hidden;
 
-        .field--name-field-amazon-book-listing {
-          display: inline-block;
+        .field--name-field-amazon-book-listing a {
+          color: white;
 
-          a {
-            color: white;
-
-            &:hover {
-              color: #009a43;
-              text-decoration: underline;
-            }
+          &:hover {
+            color: #009a43;
+            text-decoration: underline;
           }
         }
 

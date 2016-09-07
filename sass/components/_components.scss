@@ -166,11 +166,6 @@ div.panel-pane div.node.node-testimonial {
 
 				.pane-title, .field-name-field-amazon-book-listing {
 			  	display: inline-block;
-          float: left;
-
-          &:after {
-            content: '\00a0';
-          }
 				}
 			}
 		}
@@ -188,6 +183,11 @@ div.panel-pane div.node.node-testimonial {
 
       .pane-title, .field-name-field-amazon-book-listing {
         display: inline-block;
+        float: left;
+
+        &:after {
+          content: '\00a0';
+        }
       }
     }
   }

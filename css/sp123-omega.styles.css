@@ -144,10 +144,7 @@ div.panel-pane div.node.node-testimonial {
     display: block;
     overflow: hidden; }
     div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .pane-title, div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .field-name-field-amazon-book-listing {
-      display: inline-block;
-      float: left; }
-      div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .pane-title:after, div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .field-name-field-amazon-book-listing:after {
-        content: '\00a0'; }
+      display: inline-block; }
   div.panel-pane div.node.node-testimonial .row-two .col-1 {
     float: left;
     margin-right: 1em; }
@@ -155,7 +152,10 @@ div.panel-pane div.node.node-testimonial {
     display: block;
     overflow: hidden; }
     div.panel-pane div.node.node-testimonial .row-2 .pane-node-field-amazon-book-listing .pane-title, div.panel-pane div.node.node-testimonial .row-2 .pane-node-field-amazon-book-listing .field-name-field-amazon-book-listing {
-      display: inline-block; }
+      display: inline-block;
+      float: left; }
+      div.panel-pane div.node.node-testimonial .row-2 .pane-node-field-amazon-book-listing .pane-title:after, div.panel-pane div.node.node-testimonial .row-2 .pane-node-field-amazon-book-listing .field-name-field-amazon-book-listing:after {
+        content: '\00a0'; }
   div.panel-pane div.node.node-testimonial .field-items {
     margin-left: 0; }
 

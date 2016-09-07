@@ -119,13 +119,11 @@ div.panel-pane div.node.node-advertisement {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  background-color: #5cb85c;
-  border-color: #4cae4c; }
+  background-color: #e03333; }
   .pane-node-field-call-to-action a {
     color: #fff; }
   .pane-node-field-call-to-action:hover {
-    background-color: #449d44;
-    border-color: #398439;
+    background-color: #ff4242;
     text-decoration: none; }
 
 div.panel-pane div.node.node-testimonial {
@@ -162,6 +160,8 @@ div.panel-pane div.node.node-testimonial.node-testimonial-video {
   padding: 0; }
   div.panel-pane div.node.node-testimonial.node-testimonial-video .pane-node-field-video {
     background: #9bcb3b;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     padding: 1em;
     padding-top: 2em; }
   div.panel-pane div.node.node-testimonial.node-testimonial-video .row-2 {
@@ -171,6 +171,8 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
   padding: 0; }
   div.panel-pane div.node.node-testimonial.node-testimonial-image .row-one {
     background: #9bcb3b;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     color: white;
     padding: 1em;
     padding-top: 2em; }

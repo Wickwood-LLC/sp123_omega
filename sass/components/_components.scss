@@ -165,8 +165,16 @@ div.panel-pane div.node.node-testimonial {
 				overflow: hidden;
 
 				.pane-title, .field-name-field-amazon-book-listing {
-				  	display: inline-block;
+			  	display: inline-block;
 				}
+
+        .field-name-field-amazon-book-listing {
+          float: left;
+
+          &:after {
+            content: '\00a0';
+          }
+        }
 			}
 		}
 	}

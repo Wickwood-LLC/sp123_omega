@@ -50,9 +50,12 @@ a {
   padding: 2em; }
 .node-type-panopoly-landing-page .wwm-sanderson .row:first-child {
   background: url("../images/banner.jpg") center center;
-  background-size: cover; }
+  background-size: cover;
+  border: 2px solid #689a04;
+  border-radius: 10px; }
 .node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(2) {
-  background: #f5f5f5; }
+  background: #f5f5f5;
+  padding-top: 1em; }
 .node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(3) {
   background: #689a04; }
 
@@ -427,6 +430,7 @@ body.maintenance-page {
       -ms-flex: 100%;
           flex: 100%;
   padding: 1em;
+  padding-top: 0;
   box-sizing: border-box; }
 
 .tabs {
@@ -488,7 +492,7 @@ body.maintenance-page {
     background-color: #f5f5f5;
     border: 2px solid #9bcb3b; }
 .wwm-sanderson .row:first-child .radix-layouts-column2 .page-block-title {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 0; }
 .wwm-sanderson .row:first-child .radix-layouts-column2 .pane-1 {
   max-height: 275px;
@@ -633,5 +637,8 @@ body.maintenance-page {
   margin-bottom: 0px; }
 .pane-node-field-resources .field--name-field-resource-documents {
   margin-bottom: 1em; }
+
+.messages {
+  border-radius: 10px; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

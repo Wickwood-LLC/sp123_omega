@@ -145,6 +145,15 @@ div.panel-pane div.node.node-testimonial {
 	border: 2px solid #689a04;
   margin-bottom: 2em;
 
+  .field--name-field-amazon-book-listing a {
+    color: black;
+
+    &:hover {
+      color: #009a43;
+      text-decoration: underline;
+    }
+  }
+
 	.pane-node-field-video {
 		text-align: center;
 	}
@@ -164,8 +173,17 @@ div.panel-pane div.node.node-testimonial {
 				display: block;
 				overflow: hidden;
 
-        .field-name-field-amazon-book-listing {
+        .field--name-field-amazon-book-listing {
           display: inline-block;
+
+          a {
+            color: white;
+
+            &:hover {
+              color: #009a43;
+              text-decoration: underline;
+            }
+          }
         }
 
 				.pane-title {

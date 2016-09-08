@@ -10,10 +10,15 @@
     fieldset.captcha {
         border-radius: 10px;
         text-align: center;
-        max-width: 371px;
+        max-width: 490px;
         margin-left: auto;
         margin-right: auto;
         box-sizing: border-box;
+
+        legend {
+            text-align: left;
+            font-weight: bold;
+        }
     }
 
     #edit-submit {
@@ -44,6 +49,10 @@
 
 form#user-login, form#user-pass {
     margin: 0;
+
+    input {
+        font-size: 1em;
+    }
 
     & > div > .form-item {
         display: table;

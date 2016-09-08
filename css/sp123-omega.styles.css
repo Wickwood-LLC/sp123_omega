@@ -299,10 +299,13 @@ table.fc-border-separate {
 .page-user-login fieldset.captcha, .page-user-password fieldset.captcha {
   border-radius: 10px;
   text-align: center;
-  max-width: 371px;
+  max-width: 490px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box; }
+  .page-user-login fieldset.captcha legend, .page-user-password fieldset.captcha legend {
+    text-align: left;
+    font-weight: bold; }
 .page-user-login #edit-submit, .page-user-password #edit-submit {
   color: #fff;
   display: table;
@@ -331,6 +334,8 @@ table.fc-border-separate {
 
 form#user-login, form#user-pass {
   margin: 0; }
+  form#user-login input, form#user-pass input {
+    font-size: 1em; }
   form#user-login > div > .form-item, form#user-pass > div > .form-item {
     display: table;
     margin: 0 auto 1em; }

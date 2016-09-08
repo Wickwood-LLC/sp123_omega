@@ -150,12 +150,16 @@ div.panel-pane div.node.node-testimonial {
 	border: 2px solid #689a04;
   margin-bottom: 2em;
 
-  .field--name-field-amazon-book-listing a {
-    color: black;
-
-    &:hover {
-      color: #009a43;
-      text-decoration: underline;
+  .field--name-field-amazon-book-listing {
+    margin-bottom: 1em;
+    
+    a {
+      color: black;
+  
+      &:hover {
+        color: #009a43;
+        text-decoration: underline;
+      }
     }
   }
 
@@ -255,7 +259,6 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 		}
 		.pane-node-title h2 {
 			margin: 0;
-      margin-bottom: 1em;
 		}
 	}
 

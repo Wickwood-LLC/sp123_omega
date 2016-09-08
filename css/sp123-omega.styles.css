@@ -303,6 +303,32 @@ table.fc-border-separate {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box; }
+.page-user-login #edit-submit, .page-user-password #edit-submit {
+  display: table;
+  margin: 1em auto;
+  padding: 6px 12px !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #5cb85c; }
+  .page-user-login #edit-submit a, .page-user-password #edit-submit a {
+    color: #fff; }
+  .page-user-login #edit-submit:hover, .page-user-password #edit-submit:hover {
+    background-color: #449d44;
+    text-decoration: none; }
 
 form#user-login, form#user-pass {
   margin: 0; }

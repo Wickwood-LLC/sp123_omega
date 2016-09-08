@@ -304,6 +304,7 @@ table.fc-border-separate {
   margin-right: auto;
   box-sizing: border-box; }
 .page-user-login #edit-submit, .page-user-password #edit-submit {
+  color: #fff;
   display: table;
   margin: 1em auto;
   padding: 6px 12px !important;
@@ -323,11 +324,9 @@ table.fc-border-separate {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  background-color: #5cb85c; }
-  .page-user-login #edit-submit a, .page-user-password #edit-submit a {
-    color: #fff; }
+  background-color: #449d44; }
   .page-user-login #edit-submit:hover, .page-user-password #edit-submit:hover {
-    background-color: #449d44;
+    background-color: #5cb85c;
     text-decoration: none; }
 
 form#user-login, form#user-pass {

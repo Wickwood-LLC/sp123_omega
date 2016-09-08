@@ -17,6 +17,7 @@
     }
 
     #edit-submit {
+        color: #fff;
         display: table;
         margin: 1em auto;
         padding: 6px 12px !important;
@@ -32,14 +33,10 @@
         background-image: none;
         border: 1px solid transparent;
         border-radius: 4px;
-        background-color: #5cb85c;
-
-        a {
-            color: #fff;
-        }
+        background-color: #449d44;
 
         &:hover {
-            background-color: #449d44;
+            background-color: #5cb85c;
             text-decoration: none;
         }
     }

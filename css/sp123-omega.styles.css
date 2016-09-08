@@ -295,6 +295,10 @@ table.fc-border-separate {
 .fc-day.ui-widget-content {
   border: 1px solid #cccccc; }
 
+.row {
+  margin: 0;
+  padding: 0 1em; }
+
 /* These are styles for the login and registration pages. */
 .page-user-login .radix-layouts-content, .page-user-password .radix-layouts-content {
   padding: 2em 1em 1em 1em;

@@ -672,6 +672,7 @@ body.maintenance-page {
         #block-panels-mini-footer .pane-menu-menu-footer-links .menu li:first-child {
           margin-left: 2em; } }
 #block-panels-mini-footer .pane-custom.pane-3 {
+  color: #fff;
   float: left;
   width: 50%;
   text-align: center; }

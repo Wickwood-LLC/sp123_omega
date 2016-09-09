@@ -86,7 +86,8 @@ div.panel-pane div.node.node-advertisement {
   div.panel-pane div.node.node-advertisement .pane-node-title {
     text-align: center; }
     div.panel-pane div.node.node-advertisement .pane-node-title h2 {
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 0.5em; }
   div.panel-pane div.node.node-advertisement .pane-node-field-ad-sub-headline {
     text-align: center; }
   div.panel-pane div.node.node-advertisement .file-image img {

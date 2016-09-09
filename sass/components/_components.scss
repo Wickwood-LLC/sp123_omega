@@ -117,7 +117,7 @@ div.panel-pane div.node.node-advertisement {
 
 .pane-node-field-call-to-action {
   display: table;
-  margin: 1em auto;
+  margin: 1em auto 0;
   padding: 6px 12px !important;
   font-size: 1em;
   font-weight: 400;
@@ -240,6 +240,11 @@ div.panel-pane div.node.node-testimonial.node-testimonial-video {
 	}
 	.row-2 {
 		padding: 0 1em 1em 1em;
+
+    .panel-pane.pane-node-title h2 {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
 	}
 }
 
@@ -263,6 +268,10 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 
 	.row-two {
 		padding: 0 1em 1em 1em;
+
+    .field--name-field-written-testimonial p {
+      margin-bottom: 0;
+    }
 	}
 }
 

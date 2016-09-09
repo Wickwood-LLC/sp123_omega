@@ -104,7 +104,7 @@ div.panel-pane div.node.node-advertisement {
 
 .pane-node-field-call-to-action {
   display: table;
-  margin: 1em auto;
+  margin: 1em auto 0;
   padding: 6px 12px !important;
   font-size: 1em;
   font-weight: 400;
@@ -186,6 +186,9 @@ div.panel-pane div.node.node-testimonial.node-testimonial-video {
     padding: 1em; }
   div.panel-pane div.node.node-testimonial.node-testimonial-video .row-2 {
     padding: 0 1em 1em 1em; }
+    div.panel-pane div.node.node-testimonial.node-testimonial-video .row-2 .panel-pane.pane-node-title h2 {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em; }
 
 div.panel-pane div.node.node-testimonial.node-testimonial-image {
   padding: 0; }
@@ -201,6 +204,8 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
       margin: 0; }
   div.panel-pane div.node.node-testimonial.node-testimonial-image .row-two {
     padding: 0 1em 1em 1em; }
+    div.panel-pane div.node.node-testimonial.node-testimonial-image .row-two .field--name-field-written-testimonial p {
+      margin-bottom: 0; }
 
 .action-links {
   list-style: none;
@@ -726,5 +731,9 @@ body.maintenance-page {
 
 .field--name-field-amazon-book-listing img {
   width: 150px; }
+
+h3.pane-node-field-ad-sub-headline {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

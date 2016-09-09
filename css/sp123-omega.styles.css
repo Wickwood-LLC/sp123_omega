@@ -307,7 +307,7 @@ table.fc-border-separate {
 .page-user-login fieldset.captcha, .page-user-password fieldset.captcha {
   border-radius: 10px;
   text-align: center;
-  max-width: 490px;
+  max-width: 554px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box; }
@@ -380,7 +380,7 @@ body.maintenance-page {
   body.maintenance-page .site-name {
     display: inline-block;
     font-family: 'Italianno', Georgia, "Times New Roman", Times, serif;
-    font-size: 7em;
+    font-size: 5em;
     font-style: normal;
     font-weight: normal;
     margin: 0; }

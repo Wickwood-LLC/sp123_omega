@@ -137,7 +137,7 @@ div.panel-pane div.node.node-testimonial {
   border: 2px solid #689a04;
   margin-bottom: 2em; }
   div.panel-pane div.node.node-testimonial .field--name-field-amazon-book-listing {
-    margin-bottom: 1em; }
+    margin-bottom: 0.1em; }
     div.panel-pane div.node.node-testimonial .field--name-field-amazon-book-listing a {
       color: black; }
       div.panel-pane div.node.node-testimonial .field--name-field-amazon-book-listing a:hover {
@@ -155,9 +155,9 @@ div.panel-pane div.node.node-testimonial {
     display: block;
     overflow: hidden; }
     div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .field--name-field-amazon-book-listing a {
-      color: white; }
+      color: black; }
       div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .field--name-field-amazon-book-listing a:hover {
-        color: #009a43;
+        color: white;
         text-decoration: underline; }
     div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .pane-title {
       display: inline-block;
@@ -197,7 +197,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     background: #9bcb3b;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    color: white;
+    color: black;
     padding: 1em; }
     div.panel-pane div.node.node-testimonial.node-testimonial-image .row-one .pane-node-title h2 {
       margin: 0; }
@@ -733,7 +733,8 @@ body {
   text-align: center; }
 
 .pane-node-title {
-  text-align: center; }
+  text-align: center;
+  line-height: 1; }
 
 .pane-node-field-resources .field-collection-container {
   border-bottom: 0px;
@@ -753,5 +754,8 @@ body {
 h3.pane-node-field-ad-sub-headline {
   margin-top: 0.5em;
   margin-bottom: 0.5em; }
+
+img.testimonial-image {
+  border-radius: 5px; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

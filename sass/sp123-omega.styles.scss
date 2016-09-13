@@ -331,6 +331,7 @@
 
 .pane-node-title {
 	text-align: center;
+	line-height: 1;
 }
 
 .pane-node-field-resources {
@@ -360,4 +361,8 @@
 h3.pane-node-field-ad-sub-headline {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+}
+
+img.testimonial-image {
+	border-radius: 5px;
 }

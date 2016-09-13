@@ -422,7 +422,8 @@ body {
 
 /* For other browsers */
 .jspVerticalBar {
-  width: 12px; }
+  width: 12px;
+  background: transparent; }
 
 .jspTrack {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);

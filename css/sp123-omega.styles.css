@@ -562,7 +562,8 @@ body.maintenance-page {
       text-shadow: #33aa58 0 1px 0; }
 
 .page-title {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 1.8em; }
 
 .action-links {
   display: inline-block;

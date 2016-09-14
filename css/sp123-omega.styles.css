@@ -235,9 +235,11 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
       #block-superfish-1 #superfish-1 li a {
         border: 0px;
         color: white; }
-        #block-superfish-1 #superfish-1 li a:hover {
+        #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a:focus, #block-superfish-1 #superfish-1 li a.active {
           background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
           background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
+  #block-superfish-1 .sf-shadow ul {
+    background: white; }
 
 #block-tb-megamenu-main-menu {
   background: #6fae1b;

@@ -312,11 +312,15 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
         border: 0px;
         color: white;
 
-        &:hover {
+        &:hover, &:focus, &.active {
           background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
         }
       }
     }
+  }
+
+  .sf-shadow ul {
+    background: white;
   }
 
 

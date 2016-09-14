@@ -317,17 +317,18 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
         }
       }
     }
-  }
 
-  .sf-shadow ul {
-    background: white;
+    li.menuparent {
+      ul {
+        background: white;
 
-    a {
-      background: white;
-      color: black;
+        a {
+          background: white;
+          color: black;
+        }
+      }
     }
   }
-
 
 }
 

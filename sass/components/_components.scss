@@ -312,8 +312,12 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
         border: 0px;
         color: white;
 
-        &:hover, &:focus, &.active {
+        &:hover, &.active {
           background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
+        }
+        &:focus {
+          background: white;
+          color: #e54e4b;
         }
       }
     }
@@ -321,10 +325,15 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     li.menuparent {
       ul {
         background: white;
+        border-bottom: 2px solid #6fae1b;
 
         a {
           background: white;
           color: black;
+
+          &:hover{
+            color: #e54e4b;
+          }
         }
       }
     }

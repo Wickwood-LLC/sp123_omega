@@ -60,6 +60,8 @@ a {
 .node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(3) {
   background: #689a04; }
 
+.myriad-left-sidebar .panel-myriad-layout {
+  padding: 0 1em; }
 .myriad-left-sidebar .main-content {
   width: calc(70% - 1em);
   display: inline-block;

@@ -49,6 +49,9 @@
 }
 
 .myriad-left-sidebar {
+  .panel-myriad-layout {
+    padding: 0 1em;
+  }
   .main-content {
     width: calc(70% - 1em);
     display: inline-block;

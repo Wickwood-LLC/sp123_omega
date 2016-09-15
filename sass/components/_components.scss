@@ -12,6 +12,7 @@
 		top: -15px;
 		padding: 0 1em;
 		display: inline-block !important;
+    font-size: 1.15em;
 
 		&.ctools-collapsible-handle {
 		  padding-left: 1em;
@@ -445,6 +446,14 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
   .views-row {
     line-height: 2;
     border-bottom: 1px solid #ddd;
+
+    &:last-child {
+      border-bottom: 0px;
+
+      a {
+        border-radius: 0 0 4px 4px;
+      }
+    }
 
     &:hover {
       background-color: #9bcb3b;

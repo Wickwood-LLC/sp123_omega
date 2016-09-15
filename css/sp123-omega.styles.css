@@ -66,7 +66,7 @@ a {
 .myriad-left-sidebar .panel-myriad-layout {
   padding: 0 1em;
   margin-bottom: 1em; }
-  .myriad-left-sidebar .panel-myriad-layout > div {
+  .myriad-left-sidebar .panel-myriad-layout > div:not([class]) {
     overflow: hidden; }
 .myriad-left-sidebar .main-content {
   width: calc(70% - 1em);
@@ -616,7 +616,8 @@ body {
     color: #333;
     text-shadow: #fff 0 1px 0;
     height: 30px;
-    line-height: 20px; }
+    line-height: 20px;
+    box-sizing: border-box; }
     .primary-tabs a.active {
       background-color: transparent;
       color: #fff;
@@ -802,5 +803,8 @@ img.testimonial-image {
 
 #superfish-2 {
   margin-bottom: 0; }
+
+.view-id-roundtable_sessions {
+  margin-top: 2em; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

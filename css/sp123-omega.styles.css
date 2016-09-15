@@ -66,6 +66,8 @@ a {
 .myriad-left-sidebar .panel-myriad-layout {
   padding: 0 1em;
   margin-bottom: 1em; }
+  .myriad-left-sidebar .panel-myriad-layout > div {
+    overflow: hidden; }
 .myriad-left-sidebar .main-content {
   width: calc(70% - 1em);
   display: inline-block;
@@ -797,5 +799,8 @@ h3.pane-node-field-ad-sub-headline {
 
 img.testimonial-image {
   border-radius: 5px; }
+
+#superfish-2 {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

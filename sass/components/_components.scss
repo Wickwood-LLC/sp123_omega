@@ -60,6 +60,10 @@
   .panel-myriad-layout {
     padding: 0 1em;
     margin-bottom: 1em;
+
+    &>div {
+      overflow: hidden;
+    }
   }
   .main-content {
     width: calc(70% - 1em);

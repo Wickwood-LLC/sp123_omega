@@ -64,7 +64,8 @@ a {
   display: inline-block; }
 
 .myriad-left-sidebar .panel-myriad-layout {
-  padding: 0 1em; }
+  padding: 0 1em;
+  margin-bottom: 1em; }
 .myriad-left-sidebar .main-content {
   width: calc(70% - 1em);
   display: inline-block;
@@ -74,6 +75,9 @@ a {
   width: calc(30% - 1em);
   display: inline-block;
   margin-right: 1em; }
+.myriad-left-sidebar .row-two {
+  border: 1px solid #689a04;
+  padding: 1em; }
 
 div.panel-pane div.node.node-advertisement {
   background-color: #f5f5f5;

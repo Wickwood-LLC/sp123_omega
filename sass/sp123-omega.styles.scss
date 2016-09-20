@@ -365,8 +365,32 @@ img.testimonial-image {
 	border-radius: 5px;
 }
 
+.pane-superfish-2 {
+	overflow: auto;
+	display: flex
+}
+
 #superfish-2 {
-	margin-bottom: 0;
+	margin: 0 auto;
+	display: table;
+
+	li {
+		border-radius: 10px 10px 0 0;
+		background: #eeeeee;
+
+		&.active-trail {
+			background: #0e7239;
+
+			a {
+				color: white;
+			}
+		}
+
+		a {
+			padding: 0.6em 0.3em;
+			color: black;
+		}
+	}
 }
 
 .view-id-roundtable_sessions {

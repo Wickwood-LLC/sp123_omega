@@ -806,8 +806,26 @@ h3.pane-node-field-ad-sub-headline {
 img.testimonial-image {
   border-radius: 5px; }
 
+.pane-superfish-2 {
+  overflow: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 #superfish-2 {
-  margin-bottom: 0; }
+  margin: 0 auto;
+  display: table; }
+  #superfish-2 li {
+    border-radius: 10px 10px 0 0;
+    background: #eeeeee; }
+    #superfish-2 li.active-trail {
+      background: #0e7239; }
+      #superfish-2 li.active-trail a {
+        color: white; }
+    #superfish-2 li a {
+      padding: 0.6em 0.3em;
+      color: black; }
 
 .view-id-roundtable_sessions {
   margin-top: 2em; }

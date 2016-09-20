@@ -818,14 +818,18 @@ img.testimonial-image {
   display: table; }
   #superfish-2 li {
     border-radius: 10px 10px 0 0;
-    background: #eeeeee; }
+    background: #ccc; }
     #superfish-2 li.active-trail {
       background: #0e7239; }
       #superfish-2 li.active-trail a {
         color: white; }
     #superfish-2 li a {
       padding: 0.6em 0.3em;
-      color: black; }
+      color: black;
+      border-top: 0px;
+      border-radius: 10px 10px 0 0; }
+      #superfish-2 li a:hover {
+        background-color: #f8f8f8; }
 
 .view-id-roundtable_sessions {
   margin-top: 2em; }

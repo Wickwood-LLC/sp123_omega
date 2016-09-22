@@ -859,6 +859,9 @@ img.testimonial-image {
         background-color: #dbdcdf; }
 
 .view-id-roundtable_sessions {
-  margin-top: 2em; }
+  text-align: center; }
+
+.pane-node-field-roundtable-session-date {
+  text-align: center; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

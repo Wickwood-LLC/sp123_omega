@@ -1,0 +1,15 @@
+.view-course-tabs .jcarousel-container {
+	height: auto;
+	padding: 0 40px;
+
+	.jcarousel-item-horizontal {
+		height: auto; 
+		width: auto;
+		padding: 0 1em;
+	}
+
+	.jcarousel-next-horizontal,
+	.jcarousel-prev-horizontal {
+		top: -2px;
+	}
+}

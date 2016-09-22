@@ -350,6 +350,17 @@ table.fc-border-separate {
   margin: 0;
   padding: 0 1em; }
 
+.view-course-tabs .jcarousel-container {
+  height: auto;
+  padding: 0 40px; }
+  .view-course-tabs .jcarousel-container .jcarousel-item-horizontal {
+    height: auto;
+    width: auto;
+    padding: 0 1em; }
+  .view-course-tabs .jcarousel-container .jcarousel-next-horizontal,
+  .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal {
+    top: -2px; }
+
 /* These are styles for the login and registration pages. */
 .page-user-login .radix-layouts-content, .page-user-password .radix-layouts-content {
   padding: 2em 1em 1em 1em;

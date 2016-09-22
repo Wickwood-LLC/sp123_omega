@@ -64,6 +64,8 @@
 
     &>div:not([class]) {
       overflow: hidden;
+      position: relative;
+      top: 2px;
     }
   }
   .main-content {
@@ -79,8 +81,9 @@
   }
 
   .row-two {
-    border: 1px solid #689a04;
+    border: 2px solid #689a04;
     padding: 1em;
+    border-radius: 10px;
   }
 }
 

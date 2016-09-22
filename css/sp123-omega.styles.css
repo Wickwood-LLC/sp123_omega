@@ -68,9 +68,7 @@ a {
   padding: 0 1em;
   margin-bottom: 1em; }
   .myriad-left-sidebar .panel-myriad-layout > div:not([class]) {
-    overflow: hidden;
-    position: relative;
-    top: 2px; }
+    overflow: hidden; }
 .myriad-left-sidebar .main-content {
   width: calc(70% - 1em);
   display: inline-block;
@@ -355,9 +353,11 @@ table.fc-border-separate {
 
 .view-course-tabs .jcarousel-container {
   height: auto;
-  padding: 0 40px; }
+  padding: 0 40px;
+  position: relative;
+  top: 2px; }
   .view-course-tabs .jcarousel-container .jcarousel-clip-horizontal {
-    padding: 0 0.1em; }
+    padding: 0 0.3em; }
   .view-course-tabs .jcarousel-container .jcarousel-item-horizontal {
     height: auto;
     width: auto;

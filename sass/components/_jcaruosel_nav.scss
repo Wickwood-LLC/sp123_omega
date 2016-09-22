@@ -1,9 +1,11 @@
 .view-course-tabs .jcarousel-container {
 	height: auto;
 	padding: 0 40px;
+	position: relative;
+    top: 2px;
 
 	.jcarousel-clip-horizontal {
-		padding: 0 0.1em;
+		padding: 0 0.3em;
 	}
 
 	.jcarousel-item-horizontal {

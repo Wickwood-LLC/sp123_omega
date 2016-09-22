@@ -64,8 +64,6 @@
 
     &>div:not([class]) {
       overflow: hidden;
-      position: relative;
-      top: 2px;
     }
   }
   .main-content {

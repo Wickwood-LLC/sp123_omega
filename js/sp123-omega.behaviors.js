@@ -64,4 +64,10 @@
     }
   };
 
+  Drupal.behaviors.jCarouselNav = {
+    attach: function (context, settings) {
+    $('.jcarousel-item a.active').parents('.jcarousel-item').addClass('active');
+    }
+  };
+
 })(jQuery);

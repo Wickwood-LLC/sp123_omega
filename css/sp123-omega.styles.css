@@ -353,13 +353,21 @@ table.fc-border-separate {
 .view-course-tabs .jcarousel-container {
   height: auto;
   padding: 0 40px; }
+  .view-course-tabs .jcarousel-container .jcarousel-clip-horizontal {
+    padding: 0 0.1em; }
   .view-course-tabs .jcarousel-container .jcarousel-item-horizontal {
     height: auto;
     width: auto;
-    padding: 0 1em; }
-  .view-course-tabs .jcarousel-container .jcarousel-next-horizontal,
+    padding: 0.5em 0.5em;
+    border-bottom: 1px solid #689a04;
+    border-radius: 10px 10px 0 0;
+    background-color: #f5f5f5; }
+  .view-course-tabs .jcarousel-container .jcarousel-next-horizontal {
+    right: 5px;
+    top: 6px; }
   .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal {
-    top: -2px; }
+    left: 5px;
+    top: 6px; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .radix-layouts-content, .page-user-password .radix-layouts-content {

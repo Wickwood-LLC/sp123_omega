@@ -1,0 +1,83 @@
+#block-superfish-1 {
+  display: table;
+  margin: 0 auto;
+
+  #superfish-1 {
+    background: #6fae1b;
+    background: linear-gradient(to bottom, #1e5799 0%,#badc68 0%,#6fae1b 98%,#6fae1b 100%);
+    border-radius: 5px;
+
+    li {
+      background: transparent;
+
+      &:first-child a {
+        border-radius: 5px 0 0 5px;
+      }
+
+      &:last-child a {
+        border-radius: 0 5px 5px 0;
+      }
+
+      a {
+        border: 0px;
+        color: white;
+
+        &:hover, &.active {
+          background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
+        }
+        &:focus {
+          background: white;
+          color: #e54e4b;
+        }
+      }
+    }
+
+    li.menuparent {
+      ul {
+        background: white;
+        border-bottom: 2px solid #6fae1b;
+
+        a {
+          background: white;
+          color: black;
+
+          &:hover{
+            color: #e54e4b;
+          }
+        }
+      }
+    }
+
+    #superfish-1-toggle {
+      display: block;
+      text-align: center;
+      background-color: #0F753D;
+      color: white;
+      border-radius: 10px;
+
+      &.sf-expanded {
+        background-color: #2ea328;
+        border-radius: 10px 10px 0 0;
+      }
+    }
+
+    #superfish-1-accordion {
+      li {
+        background-color: white;
+
+        &:last-child {
+          border-radius: 0 0 10px 10px;
+        }
+
+        a {
+          border-top: 1px solid #f5f5f5;
+          color: #0f753b;
+
+          &:hover, &:focus {
+            background-color: #f8fff0;
+          }
+        }
+      }
+    }
+  }
+}

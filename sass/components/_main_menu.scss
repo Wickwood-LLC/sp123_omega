@@ -66,6 +66,14 @@
     li {
       background-color: white;
 
+      &.active-trail {
+        background-color: #0f753b;
+
+        a {
+          color: white;
+        }
+      }
+
       &:last-child {
         border-radius: 0 0 10px 10px;
       }

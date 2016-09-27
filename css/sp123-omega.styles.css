@@ -327,7 +327,11 @@ table.fc-border-separate {
   .view-course-tabs .jcarousel-container .jcarousel-item-horizontal {
     display: inline-block;
     border-bottom: 1px solid #8BBF50;
-    margin-left: -20px; }
+    margin-left: -20px;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: 0px; }
     .view-course-tabs .jcarousel-container .jcarousel-item-horizontal:hover {
       background-color: #fff; }
     .view-course-tabs .jcarousel-container .jcarousel-item-horizontal.active {

@@ -69,13 +69,20 @@
       &.active-trail {
         background-color: #0f753b;
 
-        a {
+        &>a {
           color: white;
         }
       }
 
       &:last-child {
         border-radius: 0 0 10px 10px;
+      }
+
+      &:hover {
+        a:hover {
+          background-color: #f8fff0;
+          color: #0f753b;
+        }
       }
 
       a {

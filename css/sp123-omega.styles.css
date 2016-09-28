@@ -323,7 +323,7 @@ table.fc-border-separate {
   position: relative;
   top: 2px; }
   .view-course-tabs .jcarousel-container .jcarousel-clip-horizontal {
-    padding: 0 0.3em; }
+    box-sizing: border-box; }
   .view-course-tabs .jcarousel-container .jcarousel-item-horizontal {
     height: auto;
     width: auto;

@@ -345,6 +345,10 @@ table.fc-border-separate {
         z-index: 1; }
       .view-course-tabs .jcarousel-container .jcarousel-item-horizontal.active a {
         color: black; }
+    .view-course-tabs .jcarousel-container .jcarousel-item-horizontal:first-child {
+      margin-left: 23px; }
+    .view-course-tabs .jcarousel-container .jcarousel-item-horizontal:last-child {
+      padding-right: 2em; }
     .view-course-tabs .jcarousel-container .jcarousel-item-horizontal:before, .view-course-tabs .jcarousel-container .jcarousel-item-horizontal:after {
       content: " ";
       position: absolute;

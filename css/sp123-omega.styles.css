@@ -323,11 +323,10 @@ table.fc-border-separate {
   display: flex;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-.front .wwm-sanderson .row:first-child div[class*="col-"],
-.front .wwm-sanderson .row:last-child div[class*="col-"] {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 450px;
-          flex: 1 450px; }
+  .front .wwm-sanderson .row div[class*="col-"] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 400px;
+            flex: 1 400px; }
 
 .view-course-tabs .jcarousel-container {
   height: auto;

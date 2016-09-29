@@ -2,18 +2,9 @@
 	.row {
 		display: flex;
 		flex-flow: row wrap;
-	}
-	.row:first-child,
-	.row:last-child {
+
 		div[class*="col-"] {
-			flex: 1 450px;
+			flex: 1 400px;
 		}	
-	}
-
-	@include breakpoint (768px) {
-		.row:first-child,
-		.row:last-child {
-
-		}
-	}
+	}	
 }

@@ -846,7 +846,8 @@ body {
       position: absolute;
       right: 0; } }
 #block-panels-mini-footer .pane-custom.pane-4 {
-  color: white; }
+  color: white;
+  text-align: center; }
 
 .wwm-sanderson .row:first-child .radix-layouts-column2 .pane-1 {
   width: 100%; }

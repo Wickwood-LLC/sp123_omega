@@ -326,7 +326,9 @@ table.fc-border-separate {
   .front .wwm-sanderson .row div[class*="col-"] {
     -webkit-box-flex: 1;
         -ms-flex: 1 400px;
-            flex: 1 400px; }
+            flex: 1 400px;
+    padding: 15px;
+    width: 0; }
 
 .view-course-tabs .jcarousel-container {
   height: auto;

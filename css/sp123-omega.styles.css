@@ -361,7 +361,8 @@ table.fc-border-separate {
       left: -13px;
       border-radius: 12px 0 0 0;
       -webkit-transform: skew(-24deg);
-              transform: skew(-24deg); }
+              transform: skew(-24deg);
+      border-left: 1px solid #cccccc; }
     .view-course-tabs .jcarousel-container .jcarousel-item-horizontal:after {
       border-radius: 0 12px 0 0;
       -webkit-transform: skew(24deg);

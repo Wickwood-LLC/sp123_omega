@@ -317,8 +317,10 @@ table.fc-border-separate {
   margin: 0;
   padding: 0 1em; }
 
-.front .wwm-sanderson .row div[class*="col-"] {
-  width: 100%; }
+.front .wwm-sanderson .row:first-child div[class*="col-"],
+.front .wwm-sanderson .row:last-child div[class*="col-"] {
+  width: 50%;
+  min-width: 450px; }
 
 .view-course-tabs .jcarousel-container {
   height: auto;

@@ -1,5 +1,16 @@
 .front .wwm-sanderson {
-	.row div[class*="col-"] {
-		width: 100%;
+	.row:first-child,
+	.row:last-child {
+		div[class*="col-"] {
+			width: 50%;
+			min-width: 450px;
+		}	
+	}
+
+	@include breakpoint (768px) {
+		.row:first-child,
+		.row:last-child {
+
+		}
 	}
 }

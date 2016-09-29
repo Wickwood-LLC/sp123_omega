@@ -836,6 +836,9 @@ body {
       position: absolute;
       right: 0; } }
 
+.jspScrollable {
+  width: 100%; }
+
 #panels-ipe-control-container {
   left: 0; }
 

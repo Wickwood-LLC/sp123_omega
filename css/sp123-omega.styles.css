@@ -317,6 +317,9 @@ table.fc-border-separate {
   margin: 0;
   padding: 0 1em; }
 
+.front .wwm-sanderson .row div[class*="col-"] {
+  width: 100%; }
+
 .view-course-tabs .jcarousel-container {
   height: auto;
   padding: 0 40px;

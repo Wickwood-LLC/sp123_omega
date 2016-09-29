@@ -1,9 +1,12 @@
 .front .wwm-sanderson {
+	.row {
+		display: flex;
+		flex-flow: row wrap;
+	}
 	.row:first-child,
 	.row:last-child {
 		div[class*="col-"] {
-			width: 50%;
-			min-width: 450px;
+			flex: 1 450px;
 		}	
 	}
 

@@ -408,7 +408,10 @@ table.fc-border-separate {
     border-radius: 10px 10px 0 0;
     background-color: #8bbf50;
     border-bottom: 2px solid #689a04;
-    background-position: 15px -26px; }
+    background-position: 1px 7px;
+    z-index: 1; }
+    .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal:hover {
+      background-position: -31px 7px; }
   .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal:before,
   .view-course-tabs .jcarousel-container .jcarousel-next-horizontal:before {
     content: " ";

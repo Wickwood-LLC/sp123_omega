@@ -16,7 +16,13 @@
 		}	
 	}
 
-	@include breakpoint(940px 1280px) {
+	@include breakpoint(640px) {
+		.row:nth-child(2) > div[class*="col-"] {
+			flex: 1 0 50%;
+		}
+	}
+
+	@include breakpoint(940px 1279px) {
 		.row:first-child {
 			float: left;
 			width: 60%;
@@ -30,6 +36,16 @@
 			float: left;
 			width: 60%;
 			margin-top: 1em;
+		}
+	}
+
+	@include breakpoint(1280px) {
+		.row > div[class*="col-"] {
+			font-size: 18px;
+
+			img {
+				width: 150px;
+			}
 		}
 	}
 }

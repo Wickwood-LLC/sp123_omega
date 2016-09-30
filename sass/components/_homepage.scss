@@ -27,7 +27,7 @@
 		}
 	}
 
-	@include breakpoint(940px) {
+	@include breakpoint(940px 1279px) {
 		.row:first-child {
 			float: left;
 			width: 60%;
@@ -49,12 +49,17 @@
 	}
 
 	@include breakpoint(1280px) {
-		.row > div[class*="col-"] {
-			font-size: 18px;
-			flex: 1 0 300px;
+		.row {
+			float: none;
+			width: 100%;
 
-			img {
-				width: 150px;
+			> div[class*="col-"] {
+				font-size: 18px;
+				flex: 1 0 300px;
+
+				img {
+					width: 150px;
+				}
 			}
 		}
 	}

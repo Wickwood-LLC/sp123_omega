@@ -343,7 +343,7 @@ table.fc-border-separate {
           -ms-flex: 0 0 100%;
               flex: 0 0 100%;
       max-width: 400px; } }
-@media (min-width: 940px) {
+@media (min-width: 940px) and (max-width: 1279px) {
   .front .wwm-sanderson .row:first-child {
     float: left;
     width: 60%;
@@ -360,13 +360,16 @@ table.fc-border-separate {
     width: 60%;
     margin-top: 1em; } }
 @media (min-width: 1280px) {
-  .front .wwm-sanderson .row > div[class*="col-"] {
-    font-size: 18px;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 300px;
-            flex: 1 0 300px; }
-    .front .wwm-sanderson .row > div[class*="col-"] img {
-      width: 150px; } }
+  .front .wwm-sanderson .row {
+    float: none;
+    width: 100%; }
+    .front .wwm-sanderson .row > div[class*="col-"] {
+      font-size: 18px;
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 300px;
+              flex: 1 0 300px; }
+      .front .wwm-sanderson .row > div[class*="col-"] img {
+        width: 150px; } }
 
 .view-course-tabs .jcarousel-container {
   height: auto;

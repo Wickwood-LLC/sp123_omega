@@ -51,7 +51,6 @@
 	@include breakpoint(1280px) {
 		.row {
 			float: none;
-			width: 100%;
 
 			> div[class*="col-"] {
 				font-size: 18px;

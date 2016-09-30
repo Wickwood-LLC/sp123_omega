@@ -95,4 +95,8 @@
       }
     }
   }
+
+  @include breakpoint(605px 890px) {
+    font-size: 12px;
+  }
 }

@@ -586,6 +586,9 @@ form#user-login, form#user-pass {
       color: #0f753b; }
       #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
         background-color: #f8fff0; }
+  @media (min-width: 605px) and (max-width: 890px) {
+    #block-superfish-1 {
+      font-size: 12px; } }
 
 body.maintenance-page {
   height: 100%;

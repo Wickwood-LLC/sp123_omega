@@ -329,7 +329,7 @@ table.fc-border-separate {
             flex: 1 0 3500px;
     padding: 15px;
     width: 0; }
-@media (min-width: 1098px) and (max-width: 1360px) {
+@media (min-width: 768px) and (max-width: 1063px) {
   .front .wwm-sanderson .row:first-child {
     float: left;
     width: 60%;

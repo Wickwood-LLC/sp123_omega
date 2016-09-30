@@ -8,5 +8,22 @@
 			padding: 15px;
 			width: 0;
 		}	
-	}	
+	}
+
+	@include breakpoint(768px 1063px) {
+		.row:first-child {
+			float: left;
+			width: 60%;
+			margin: 0;
+		}
+		.row:nth-child(2) {
+			float: right;
+			width: 40%;
+		}
+		.row:last-child {
+			float: left;
+			width: 60%;
+			margin-top: 1em;
+		}
+	}
 }

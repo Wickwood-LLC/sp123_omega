@@ -329,6 +329,18 @@ table.fc-border-separate {
             flex: 1 0 400px;
     padding: 15px;
     width: 0; }
+@media (min-width: 768px) and (max-width: 1063px) {
+  .front .wwm-sanderson .row:first-child {
+    float: left;
+    width: 60%;
+    margin: 0; }
+  .front .wwm-sanderson .row:nth-child(2) {
+    float: right;
+    width: 40%; }
+  .front .wwm-sanderson .row:last-child {
+    float: left;
+    width: 60%;
+    margin-top: 1em; } }
 
 .view-course-tabs .jcarousel-container {
   height: auto;

@@ -1,0 +1,12 @@
+.front .wwm-sanderson {
+	.row {
+		display: flex;
+		flex-flow: row wrap;
+
+		> div[class*="col-"] {
+			flex: 1 0 400px;
+			padding: 15px;
+			width: 0;
+		}	
+	}	
+}

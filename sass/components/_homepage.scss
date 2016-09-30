@@ -16,7 +16,7 @@
 		}	
 	}
 
-	@include breakpoint(625px 1280px) {
+	@include breakpoint(940px 1280px) {
 		.row:first-child {
 			float: left;
 			width: 60%;

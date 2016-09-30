@@ -4,7 +4,7 @@
 		flex-flow: row wrap;
 
 		> div[class*="col-"] {
-			flex: 1 0 100%;
+			flex: 1 0 300px;
 			padding: 15px;
 			width: 0;
 			min-width: 300px;
@@ -16,7 +16,7 @@
 		}	
 	}
 
-	@include breakpoint(1098px 1280px) {
+	@include breakpoint(625px 1280px) {
 		.row:first-child {
 			float: left;
 			width: 60%;

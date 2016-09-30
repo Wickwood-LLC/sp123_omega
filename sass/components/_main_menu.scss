@@ -96,7 +96,10 @@
     }
   }
 
-  @include breakpoint(605px 890px) {
+  @include breakpoint(605px 660px) {
+    font-size: 12px;
+  }
+  @include breakpoint(661px 890px) {
     font-size: 12px;
   }
 }

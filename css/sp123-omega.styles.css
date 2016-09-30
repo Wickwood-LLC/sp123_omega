@@ -386,11 +386,55 @@ table.fc-border-separate {
     .view-course-tabs .jcarousel-container .jcarousel-item-horizontal a {
       color: white; }
   .view-course-tabs .jcarousel-container .jcarousel-next-horizontal {
-    right: -5px;
-    top: 6px; }
+    right: 0px;
+    top: 0px;
+    width: 48px;
+    height: 100%;
+    border-top: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    background-color: #8bbf50;
+    border-bottom: 2px solid #689a04;
+    background-position: 15px -26px; }
+    .view-course-tabs .jcarousel-container .jcarousel-next-horizontal:hover {
+      background-position: -49px -26px; }
   .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal {
-    left: -5px;
-    top: 6px; }
+    left: 0px;
+    top: 0px;
+    width: 48px;
+    height: 100%;
+    border-top: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    background-color: #8bbf50;
+    border-bottom: 2px solid #689a04;
+    background-position: 15px -26px; }
+  .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal:before,
+  .view-course-tabs .jcarousel-container .jcarousel-next-horizontal:before {
+    content: " ";
+    position: absolute;
+    background-color: inherit;
+    display: block;
+    width: 23px;
+    height: 100%;
+    left: -13px;
+    -webkit-transform: skew(-24deg);
+            transform: skew(-24deg);
+    border-radius: 12px 0 0 0;
+    border-left: 1px solid #628E2F; }
+  .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal:after,
+  .view-course-tabs .jcarousel-container .jcarousel-next-horizontal:after {
+    content: " ";
+    position: absolute;
+    background-color: inherit;
+    display: block;
+    width: 23px;
+    height: 100%;
+    right: -13px;
+    -webkit-transform: skew(24deg);
+            transform: skew(24deg);
+    border-radius: 0 12px 0 0;
+    border-right: 1px solid #628E2F; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login .radix-layouts-content, .page-user-password .radix-layouts-content {

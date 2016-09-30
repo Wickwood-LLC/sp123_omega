@@ -75,11 +75,59 @@
 	}
 
 	.jcarousel-next-horizontal {
-		right: -5px;
-		top: 6px;
+		right: 0px;
+	    top: 0px;
+	    width: 48px;
+	    height: 100%;
+	    border-top: 1px solid #cccccc;
+	    box-sizing: border-box;
+	    border-radius: 10px 10px 0 0;
+	    background-color: #8bbf50;
+	    border-bottom: 2px solid #689a04;
+	    background-position: 15px -26px;
+
+	    &:hover {
+	    	background-position: -49px -26px;
+	    }
 	}
 	.jcarousel-prev-horizontal {
-		left: -5px;
-		top: 6px;
+		left: 0px;
+		top: 0px;
+		width: 48px;
+	    height: 100%;
+	    border-top: 1px solid #cccccc;
+	    box-sizing: border-box;
+	    border-radius: 10px 10px 0 0;
+	    background-color: #8bbf50;
+	    border-bottom: 2px solid #689a04;
+	    background-position: 15px -26px;
+	}
+
+	.jcarousel-prev-horizontal,
+	.jcarousel-next-horizontal {
+		&:before {
+	    	content: " ";
+		    position: absolute;
+		    background-color: inherit;
+		    display: block;
+		    width: 23px;
+		    height: 100%;
+		    left: -13px;
+		    transform: skew(-24deg);
+		    border-radius: 12px 0 0 0;
+		    border-left: 1px solid #628E2F;
+	    }
+	    &:after {
+	    	content: " ";
+		    position: absolute;
+		    background-color: inherit;
+		    display: block;
+		    width: 23px;
+		    height: 100%;
+		    right: -13px;
+		    transform: skew(24deg);
+		    border-radius: 0 12px 0 0;
+		    border-right: 1px solid #628E2F;
+	    }
 	}
 }

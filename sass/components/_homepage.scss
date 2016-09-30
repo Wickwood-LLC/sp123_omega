@@ -18,11 +18,11 @@
 
 	@include breakpoint(640px) {
 		.row:nth-child(2) > div[class*="col-"] {
-			flex: 1 0 50%;
+			flex: 0 0 50%;
 		}
 	}
 
-	@include breakpoint(940px 1279px) {
+	@include breakpoint(940px) {
 		.row:first-child {
 			float: left;
 			width: 60%;
@@ -31,6 +31,10 @@
 		.row:nth-child(2) {
 			float: right;
 			width: 40%;
+
+			> div[class*="col-"] {
+				flex: 1 0 300px;
+			}
 		}
 		.row:last-child {
 			float: left;
@@ -42,6 +46,7 @@
 	@include breakpoint(1280px) {
 		.row > div[class*="col-"] {
 			font-size: 18px;
+			flex: 1 0 300px;
 
 			img {
 				width: 150px;

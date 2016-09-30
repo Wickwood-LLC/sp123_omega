@@ -17,9 +17,13 @@
 	}
 
 	@include breakpoint(648px) {
-		.row:nth-child(2) > div[class*="col-"] {
-			flex: 0 0 100%;
-			max-width: 400px;
+		.row:nth-child(2) {
+			justify-content: center;
+			> div[class*="col-"] {
+				flex: 0 0 100%;
+				max-width: 400px;
+			}
+
 		}
 	}
 

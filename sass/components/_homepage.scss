@@ -25,7 +25,7 @@
 		}	
 	}
 
-	@include breakpoint(648px) {
+	@include breakpoint(648px 939px) {
 		.row:first-child {			
 			> div[class*="col-"] {
 				min-width: 400px;

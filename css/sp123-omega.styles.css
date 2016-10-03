@@ -364,7 +364,8 @@ table.fc-border-separate {
     .front .wwm-sanderson .row:nth-child(2) > div[class*="col-"] {
       -webkit-box-flex: 1;
           -ms-flex: 1 0 300px;
-              flex: 1 0 300px; }
+              flex: 1 0 300px;
+      max-width: auto; }
       .front .wwm-sanderson .row:nth-child(2) > div[class*="col-"]:first-child {
         padding-top: 0; }
   .front .wwm-sanderson .row:last-child {

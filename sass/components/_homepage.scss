@@ -58,6 +58,7 @@
 
 			> div[class*="col-"] {
 				flex: 1 0 300px;
+				max-width: auto;
 
 				&:first-child {
 					padding-top: 0;

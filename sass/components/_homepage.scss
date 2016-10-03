@@ -13,6 +13,14 @@
 			img {
 				width: 100px;
 			}
+		}
+
+		&:first-child {
+			padding: 1em;
+			
+			> div[class*="col-"] {
+				min-width: 400px;
+			}
 		}	
 	}
 

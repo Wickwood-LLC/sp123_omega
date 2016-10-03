@@ -92,6 +92,7 @@
 
 		.row:nth-child(2) > div[class*="col-"] {
 			max-width: initial;
+			flex: 1 0 300px;
 		}
 	}
 }

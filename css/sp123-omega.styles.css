@@ -385,7 +385,10 @@ table.fc-border-separate {
       .front .wwm-sanderson .row > div[class*="col-"] img {
         width: 150px; }
   .front .wwm-sanderson .row:nth-child(2) > div[class*="col-"] {
-    max-width: initial; } }
+    max-width: initial;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 300px;
+            flex: 1 0 300px; } }
 
 .view-course-tabs .jcarousel-container {
   height: auto;

@@ -33,11 +33,15 @@
 		}
 		.row:nth-child(2) {
 			justify-content: center;
+
 			> div[class*="col-"] {
 				flex: 0 0 100%;
 				max-width: 400px;
 			}
+		}
 
+		.row:last-child {
+			min-width: 350px;	
 		}
 	}
 

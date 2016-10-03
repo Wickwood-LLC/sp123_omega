@@ -349,7 +349,9 @@ table.fc-border-separate {
       -webkit-box-flex: 0;
           -ms-flex: 0 0 100%;
               flex: 0 0 100%;
-      max-width: 400px; } }
+      max-width: 400px; }
+  .front .wwm-sanderson .row:last-child {
+    min-width: 350px; } }
 @media (min-width: 940px) and (max-width: 1279px) {
   .front .wwm-sanderson .row:first-child {
     float: left;

@@ -350,7 +350,7 @@ table.fc-border-separate {
           -ms-flex: 0 0 100%;
               flex: 0 0 100%;
       max-width: 400px; }
-  .front .wwm-sanderson .row:last-child {
+  .front .wwm-sanderson .row:last-child > div[class*="col-"] {
     min-width: 350px; } }
 @media (min-width: 940px) and (max-width: 1279px) {
   .front .wwm-sanderson .row:first-child {

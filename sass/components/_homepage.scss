@@ -41,7 +41,9 @@
 		}
 
 		.row:last-child {
-			min-width: 350px;	
+			> div[class*="col-"] {
+				min-width: 350px;	
+			}
 		}
 	}
 

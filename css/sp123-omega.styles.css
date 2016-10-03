@@ -380,7 +380,8 @@ table.fc-border-separate {
       font-size: 18px;
       -webkit-box-flex: 1;
           -ms-flex: 1 0 300px;
-              flex: 1 0 300px; }
+              flex: 1 0 300px;
+      max-width: initial; }
       .front .wwm-sanderson .row > div[class*="col-"] img {
         width: 150px; } }
 

@@ -28,7 +28,7 @@
 	@include breakpoint(648px ) {
 		.row:first-child {			
 			> div[class*="col-"] {
-				min-width: 400px;
+				min-width: 450px;
 			}
 		}
 		.row:nth-child(2) {

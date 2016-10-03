@@ -99,7 +99,10 @@
   @include breakpoint(605px 660px) {
     font-size: 12px;
   }
-  @include breakpoint(661px 890px) {
-    font-size: 12px;
+  @include breakpoint(661px 7890px) {
+    font-size: 14px;
+  }
+  @include breakpoint(790px 890px) {
+    font-size: 16px;
   }
 }

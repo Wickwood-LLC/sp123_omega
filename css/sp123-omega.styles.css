@@ -615,9 +615,12 @@ form#user-login, form#user-pass {
   @media (min-width: 605px) and (max-width: 660px) {
     #block-superfish-1 {
       font-size: 12px; } }
-  @media (min-width: 661px) and (max-width: 890px) {
+  @media (min-width: 661px) and (max-width: 7890px) {
     #block-superfish-1 {
-      font-size: 12px; } }
+      font-size: 14px; } }
+  @media (min-width: 790px) and (max-width: 890px) {
+    #block-superfish-1 {
+      font-size: 16px; } }
 
 body.maintenance-page {
   height: 100%;

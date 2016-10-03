@@ -25,7 +25,7 @@
 		}	
 	}
 
-	@include breakpoint(648px) {
+	@include breakpoint(648px ) {
 		.row:first-child {			
 			> div[class*="col-"] {
 				min-width: 400px;
@@ -88,6 +88,10 @@
 					width: 150px;
 				}
 			}
+		}
+
+		.row:nth-child(2) > div[class*="col-"] {
+			max-width: initial;
 		}
 	}
 }

@@ -29,10 +29,6 @@
 		.row:first-child {			
 			> div[class*="col-"] {
 				min-width: 400px;
-
-				&:first-child {
-					padding-top: 0;
-				}
 			}
 		}
 		.row:nth-child(2) {
@@ -58,6 +54,10 @@
 
 			> div[class*="col-"] {
 				flex: 1 0 300px;
+
+				&:first-child {
+					padding-top: 0;
+				}
 			}
 		}
 		.row:last-child {

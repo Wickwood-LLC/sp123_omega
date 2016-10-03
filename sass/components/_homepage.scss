@@ -50,17 +50,17 @@
 	@include breakpoint(940px 1279px) {
 		.row:first-child {
 			float: left;
-			width: calc(60% - 1em);
+			width: calc(70% - 1em);
 			margin: 0 0 0 1em;
 		}
 		.row:nth-child(2) {
 			float: right;
-			width: 40%;
+			width: 30%;
 			padding: 0;
 
 			> div[class*="col-"] {
 				flex: 1 0 300px;
-				max-width: auto;
+				max-width: initial;
 
 				&:first-child {
 					padding-top: 0;
@@ -69,7 +69,7 @@
 		}
 		.row:last-child {
 			float: left;
-			width: calc(60% - 1em);
+			width: calc(70% - 1em);
 			margin-top: 1em;
 			margin-left: 1em;
 		}

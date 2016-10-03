@@ -333,11 +333,15 @@ table.fc-border-separate {
     font-size: 16px; }
     .front .wwm-sanderson .row > div[class*="col-"] img {
       width: 100px; }
+    .front .wwm-sanderson .row > div[class*="col-"] div.node.node-testimonial {
+      margin-bottom: 0; }
   .front .wwm-sanderson .row:first-child {
     padding: 1em; }
 @media (min-width: 648px) {
   .front .wwm-sanderson .row:first-child > div[class*="col-"] {
     min-width: 400px; }
+    .front .wwm-sanderson .row:first-child > div[class*="col-"]:first-child {
+      padding-top: 0; }
   .front .wwm-sanderson .row:nth-child(2) {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -350,7 +354,7 @@ table.fc-border-separate {
 @media (min-width: 940px) and (max-width: 1279px) {
   .front .wwm-sanderson .row:first-child {
     float: left;
-    width: 60%;
+    width: calc(60% - 1em);
     margin: 0 0 0 1em; }
   .front .wwm-sanderson .row:nth-child(2) {
     float: right;
@@ -362,7 +366,7 @@ table.fc-border-separate {
               flex: 1 0 300px; }
   .front .wwm-sanderson .row:last-child {
     float: left;
-    width: 60%;
+    width: calc(60% - 1em);
     margin-top: 1em;
     margin-left: 1em; } }
 @media (min-width: 1280px) {

@@ -40,11 +40,12 @@
 		.row:first-child {
 			float: left;
 			width: 60%;
-			margin: 0;
+			margin: 0 0 0 1em;
 		}
 		.row:nth-child(2) {
 			float: right;
 			width: 40%;
+			padding: 0;
 
 			> div[class*="col-"] {
 				flex: 1 0 300px;
@@ -54,6 +55,7 @@
 			float: left;
 			width: 60%;
 			margin-top: 1em;
+			margin-left: 1em;
 		}
 	}
 

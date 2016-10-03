@@ -17,14 +17,15 @@
 
 		&:first-child {
 			padding: 1em;
-			
-			> div[class*="col-"] {
-				min-width: 400px;
-			}
 		}	
 	}
 
 	@include breakpoint(648px) {
+		&:first-child {			
+			> div[class*="col-"] {
+				min-width: 400px;
+			}
+		}
 		.row:nth-child(2) {
 			justify-content: center;
 			> div[class*="col-"] {

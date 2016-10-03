@@ -335,9 +335,9 @@ table.fc-border-separate {
       width: 100px; }
   .front .wwm-sanderson .row:first-child {
     padding: 1em; }
-    .front .wwm-sanderson .row:first-child > div[class*="col-"] {
-      min-width: 400px; }
 @media (min-width: 648px) {
+  .front .wwm-sanderson:first-child > div[class*="col-"] {
+    min-width: 400px; }
   .front .wwm-sanderson .row:nth-child(2) {
     -webkit-box-pack: center;
         -ms-flex-pack: center;

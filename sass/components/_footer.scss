@@ -1,6 +1,7 @@
 #block-panels-mini-footer {
   #mini-panel-footer {
     display: flex;
+    flex-flow: row wrap;
     font-size: 14px;
 
     >div {
@@ -31,6 +32,10 @@
     ul.menu {
       text-align: center;
       margin: 0;
+      display: flex;
+      padding: 0;
+      flex-flow: row wrap;
+      justify-content: center;
     }
 
     .menu li {

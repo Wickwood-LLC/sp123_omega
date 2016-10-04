@@ -321,6 +321,8 @@ table.fc-border-separate {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
   font-size: 14px; }
   #block-panels-mini-footer #mini-panel-footer > div {
     -webkit-box-flex: 1;
@@ -352,7 +354,16 @@ table.fc-border-separate {
   width: 50%; }
   #block-panels-mini-footer .pane-menu-menu-footer-links ul.menu {
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
   #block-panels-mini-footer .pane-menu-menu-footer-links .menu li {
     border-bottom: 0px;
     float: none;

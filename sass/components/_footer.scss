@@ -8,8 +8,9 @@
   }
 
   .pane-menu-menu-footer-links {
-    float: right;
-    width: 50%;
+    float: left;
+    clear: left;
+    width: calc(100% - 150px);
 
     ul.menu {
       text-align: center;
@@ -44,5 +45,9 @@
   	position: absolute;
     right: 10px;
     top: 5px;
+
+    p {
+      margin-top: 0;
+    }
   }
 }

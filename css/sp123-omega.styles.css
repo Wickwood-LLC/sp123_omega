@@ -327,8 +327,9 @@ table.fc-border-separate {
   display: inline-block;
   width: 100%; }
 #block-panels-mini-footer .pane-menu-menu-footer-links {
-  float: right;
-  width: 50%; }
+  float: left;
+  clear: left;
+  width: calc(100% - 150px); }
   #block-panels-mini-footer .pane-menu-menu-footer-links ul.menu {
     text-align: center;
     margin: 0;
@@ -358,6 +359,8 @@ table.fc-border-separate {
   position: absolute;
   right: 10px;
   top: 5px; }
+  #block-panels-mini-footer .pane-custom.pane-5 p {
+    margin-top: 0; }
 
 #mini-panel-header {
   display: -webkit-box;

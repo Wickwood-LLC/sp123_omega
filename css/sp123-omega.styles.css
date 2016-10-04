@@ -449,6 +449,8 @@ table.fc-border-separate {
     @media (min-width: 768px) {
       #mini-panel-header .pane-page-slogan {
         font-size: 18px; } }
+  #mini-panel-header .pane-2 {
+    text-align: center; }
   #mini-panel-header .pane-3 {
     -webkit-box-flex: 0;
         -ms-flex: 0 auto;

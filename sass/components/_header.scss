@@ -56,16 +56,15 @@
 		}
 	}
 	.pane-page-slogan {
-		font-size: 1em;
+		font-size: 16px;
 		line-height: 1.5;
 		text-align: center;
 		flex: 1 1 100%;
+		margin: 0 1em;
+		min-width: 250px;
 
-		@include breakpoint(568px) {
-			flex: 5;
-		}
-		@include breakpoint(1024px) {
-			font-size: 1.2em;
+		@include breakpoint(768px) {
+			font-size: 18px;
 		}
 	}
 }

@@ -394,7 +394,7 @@ table.fc-border-separate {
   #mini-panel-header #site-title {
     display: inline-block;
     line-height: 1;
-    text-align: right;
+    text-align: center;
     margin: 0;
     vertical-align: middle; }
   #mini-panel-header .site-title-1 {
@@ -403,8 +403,12 @@ table.fc-border-separate {
     color: #9bcb3c;
     display: block;
     font-size: 2.8em;
-    margin-right: 0.8em;
-    margin-top: -28px; }
+    margin-top: -28px;
+    text-align: center; }
+    @media (min-width: 448px) {
+      #mini-panel-header .site-title-2 {
+        text-align: right;
+        margin-right: 0.8em; } }
   #mini-panel-header #logo img {
     height: 80px;
     width: auto; }

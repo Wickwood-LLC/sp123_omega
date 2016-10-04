@@ -1,0 +1,88 @@
+#block-panels-mini-footer {
+  #mini-panel-footer {
+    display: flex;
+    font-size: 14px;
+
+    >div {
+      flex: 1 100%;
+    }
+
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      display: flex;
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      display: block;
+    }
+    
+    @include breakpoint(768px (orientation landscape)) {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .pane-menu-menu-footer-links {
+    float: right;
+    width: 50%;
+
+    ul.menu {
+      text-align: center;
+      margin: 0;
+    }
+
+    .menu li {
+      border-bottom: 0px;
+      float: none;
+      margin-left: 0;
+      list-style: none;
+      padding: 0 5px;
+
+      a {
+        color: white;
+      }
+    }
+
+    @include breakpoint(0px (max-width 767px) (orientation landscape)) {
+      width: auto;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
+
+    @include breakpoint(768px (max-width 1024px) (orientation portrait)) {
+      width: 50%;
+      float: left;
+      clear: left;
+
+      ul.menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+      }
+    }
+    
+    @include breakpoint(768px (orientation landscape)) {
+      flex: 0 auto;
+      width: auto;
+
+      .menu li {
+        float: left;
+      }
+    }
+  }
+
+  .pane-custom.pane-4 {
+  	color: white;
+  	text-align: center;
+  }
+
+  .pane-custom.pane-5 {
+  	text-align: center;
+  }
+}

@@ -355,7 +355,9 @@ table.fc-border-separate {
       color: white; }
   @media (min-width: 1064px) {
     #block-panels-mini-footer .pane-menu-menu-footer-links {
-      width: 100%; } }
+      width: auto;
+      float: none;
+      display: inline-block; } }
 #block-panels-mini-footer .pane-custom.pane-4 {
   color: white;
   text-align: center;
@@ -363,7 +365,10 @@ table.fc-border-separate {
   width: calc(100% - 150px); }
   @media (min-width: 1064px) {
     #block-panels-mini-footer .pane-custom.pane-4 {
-      width: 100%; } }
+      width: auto;
+      float: none;
+      display: inline-block;
+      margin-right: 2em; } }
 #block-panels-mini-footer .pane-custom.pane-5 {
   position: absolute;
   right: 10px;

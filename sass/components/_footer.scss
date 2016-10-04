@@ -38,7 +38,9 @@
     }
 
     @include breakpoint(1064px) {
-      width: 100%;
+      width: auto;
+      float: none;
+      display: inline-block;
     }
   }
 
@@ -49,7 +51,10 @@
     width: calc(100% - 150px);
 
     @include breakpoint(1064px) {
-      width: 100%;
+      width: auto;
+      float: none;
+      display: inline-block;
+      margin-right: 2em;
     }
   }
 

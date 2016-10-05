@@ -110,7 +110,7 @@ div.panel-pane div.node.node-advertisement {
     margin-left: 0; }
 
 .pane-node-field-amazon-book-listing {
-  display: table; }
+  display: block; }
   .pane-node-field-amazon-book-listing .field-name-field-amazon-book-listing {
     border: 0px; }
 
@@ -163,8 +163,7 @@ div.panel-pane div.node.node-testimonial {
     float: left;
     margin-right: 1em; }
   div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing {
-    display: block;
-    overflow: hidden; }
+    display: block; }
     div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .field--name-field-amazon-book-listing a {
       color: black; }
       div.panel-pane div.node.node-testimonial .row-one .col-2 .pane-node-field-amazon-book-listing .field--name-field-amazon-book-listing a:hover {

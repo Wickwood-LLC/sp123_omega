@@ -132,7 +132,7 @@ div.panel-pane div.node.node-advertisement {
 }
 
 .pane-node-field-amazon-book-listing {
-  display: table;
+  display: block;
 
   .field-name-field-amazon-book-listing {
     border: 0px;
@@ -204,7 +204,6 @@ div.panel-pane div.node.node-testimonial {
 		.col-2 {
 			.pane-node-field-amazon-book-listing {
 				display: block;
-				overflow: hidden;
 
         .field--name-field-amazon-book-listing a {
           color: black;

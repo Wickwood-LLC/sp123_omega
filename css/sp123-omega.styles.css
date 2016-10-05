@@ -358,22 +358,22 @@ table.fc-border-separate {
       width: auto;
       float: none;
       display: inline-block; } }
-#block-panels-mini-footer .pane-custom.pane-4 {
+#block-panels-mini-footer .copyright {
   color: white;
   text-align: center;
   float: left;
   width: calc(100% - 150px); }
   @media (min-width: 1064px) {
-    #block-panels-mini-footer .pane-custom.pane-4 {
+    #block-panels-mini-footer .copyright {
       width: auto;
       float: none;
       display: inline-block;
       margin-right: 2em; } }
-#block-panels-mini-footer .pane-custom.pane-5 {
+#block-panels-mini-footer .iec-logo {
   position: absolute;
   right: 10px;
   top: 5px; }
-  #block-panels-mini-footer .pane-custom.pane-5 p {
+  #block-panels-mini-footer .iec-logo p {
     margin-top: 0; }
 
 #mini-panel-header {

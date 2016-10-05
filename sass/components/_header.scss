@@ -17,8 +17,14 @@
 		align-items: center;
 
 		.certificate img {
-			width: 207px;
+			width: 152px;
+			height: auto;
+			margin-right: 10px;
 		}
+	}
+
+	.site-title-logo {
+		min-width: 584px;
 	}
 
 	#site-title {

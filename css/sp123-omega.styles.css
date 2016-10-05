@@ -408,7 +408,11 @@ table.fc-border-separate {
         -ms-flex-align: center;
             align-items: center; }
     #mini-panel-header .certificates .certificate img {
-      width: 207px; }
+      width: 152px;
+      height: auto;
+      margin-right: 10px; }
+  #mini-panel-header .site-title-logo {
+    min-width: 584px; }
   #mini-panel-header #site-title {
     display: inline-block;
     line-height: 1;

@@ -6,6 +6,20 @@
 	align-items: center;
 	justify-content: center;
 
+	.brand {
+		flex: 1 50%;
+	}
+
+	.certificates {
+		display: flex;
+		flex: 1 50%;
+		justify-content: center;
+		align-items: center;
+	}
+	.certificate img {
+		width: 207px;
+	}
+
 	#site-title {
 		display: inline-block;
 		line-height: 1;

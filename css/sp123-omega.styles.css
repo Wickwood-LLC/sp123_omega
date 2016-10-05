@@ -390,6 +390,25 @@ table.fc-border-separate {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  #mini-panel-header .brand {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 50%;
+            flex: 1 50%; }
+  #mini-panel-header .certificates {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 50%;
+            flex: 1 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  #mini-panel-header .certificate img {
+    width: 207px; }
   #mini-panel-header #site-title {
     display: inline-block;
     line-height: 1;

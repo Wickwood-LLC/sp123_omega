@@ -393,10 +393,8 @@ table.fc-border-separate {
   #mini-panel-header #site-title {
     display: inline-block;
     line-height: 1;
-    text-align: center;
     margin: 0;
-    vertical-align: middle;
-    font-size: 3em; }
+    font-size: 5em; }
   #mini-panel-header .site-title-2 .blue {
     color: #4285F4; }
   #mini-panel-header .site-title-2 .yellow {

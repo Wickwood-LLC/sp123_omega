@@ -472,6 +472,8 @@ table.fc-border-separate {
     font-size: 16px; }
     .front .wwm-sanderson .row > div[class*="col-"] img {
       width: 100px; }
+    .front .wwm-sanderson .row > div[class*="col-"] img.ad-image-landscape {
+      width: auto; }
     .front .wwm-sanderson .row > div[class*="col-"] div.node.node-testimonial,
     .front .wwm-sanderson .row > div[class*="col-"] div.node.node-advertisement {
       margin-bottom: 0; }

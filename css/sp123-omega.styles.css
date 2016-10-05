@@ -842,6 +842,9 @@ body {
   background: rgba(1, 148, 1, 0.8);
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
 
+.jspScrollable, .jspContainer {
+  width: 100% !important; }
+
 .jspPane {
   width: calc(100% - 14px) !important; }
 
@@ -934,9 +937,6 @@ body {
   background: #0f753b;
   position: relative;
   z-index: 10; }
-
-.wwm-sanderson .row:first-child .radix-layouts-column2 .pane-1 {
-  width: 100%; }
 
 #panels-ipe-control-container {
   left: 0; }

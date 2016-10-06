@@ -419,7 +419,7 @@ table.fc-border-separate {
     @media (min-width: 435px) {
       #mini-panel-header #site-title {
         font-size: 4em; } }
-    @media (min-width: 435px) {
+    @media (min-width: 640px) {
       #mini-panel-header #site-title {
         font-size: 5em; } }
   #mini-panel-header .site-title-1 {

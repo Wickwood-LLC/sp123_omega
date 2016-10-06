@@ -352,7 +352,7 @@ table.fc-border-separate {
 @media (min-width: 768px) {
   #block-panels-mini-footer .pane-menu-menu-footer-links {
     width: calc(100% - 140px);
-    float: none;
+    float: left;
     display: inline-block; } }
 #block-panels-mini-footer .copyright {
   color: white;
@@ -360,9 +360,8 @@ table.fc-border-separate {
   @media (min-width: 768px) {
     #block-panels-mini-footer .copyright {
       width: calc(100% - 140px);
-      float: none;
-      display: inline-block;
-      margin-right: 2em; } }
+      float: left;
+      display: inline-block; } }
 #block-panels-mini-footer .iec-logo {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;

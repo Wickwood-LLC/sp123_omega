@@ -416,17 +416,31 @@ table.fc-border-separate {
     line-height: 1;
     margin: 0;
     font-size: 5em; }
-  #mini-panel-header .site-title-2 .blue {
-    color: #4285F4; }
-  #mini-panel-header .site-title-2 .yellow {
-    color: #F3B500; }
-  #mini-panel-header .site-title-2 .red {
-    color: #EA4335; }
+  #mini-panel-header .site-title-1 {
+    white-space: nowrap;
+    float: right;
+    clear: both; }
+  #mini-panel-header .site-title-2 {
+    white-space: nowrap;
+    float: right;
+    clear: both;
+    margin-right: 0.9em;
+    margin-top: -0.5em; }
+    #mini-panel-header .site-title-2 .blue {
+      color: #4285F4; }
+    #mini-panel-header .site-title-2 .yellow {
+      color: #F3B500; }
+    #mini-panel-header .site-title-2 .red {
+      color: #EA4335; }
   #mini-panel-header #logo img {
     height: 80px;
     width: auto; }
   #mini-panel-header .logo-container {
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: -13px;
+    right: 20px; }
   #mini-panel-header .pane-page-logo {
     -webkit-box-flex: 0;
         -ms-flex: 0;

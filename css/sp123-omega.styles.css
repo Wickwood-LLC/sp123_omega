@@ -416,7 +416,7 @@ table.fc-border-separate {
     line-height: 1;
     margin: 0;
     font-size: 3em; }
-    @media (min-width: 421px) {
+    @media (min-width: 435px) {
       #mini-panel-header #site-title {
         font-size: 4em; } }
   #mini-panel-header .site-title-1 {
@@ -438,7 +438,7 @@ table.fc-border-separate {
   #mini-panel-header #logo img {
     height: 61px;
     width: auto; }
-    @media (min-width: 421px) {
+    @media (min-width: 435px) {
       #mini-panel-header #logo img {
         height: 100px; } }
   #mini-panel-header .logo-container {
@@ -447,7 +447,7 @@ table.fc-border-separate {
     top: -13px;
     right: 20px;
     margin: 0; }
-    @media (min-width: 421px) {
+    @media (min-width: 435px) {
       #mini-panel-header .logo-container {
         position: relative; } }
   #mini-panel-header .pane-page-logo {

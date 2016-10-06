@@ -61,6 +61,9 @@
   .panel-myriad-layout {
     padding: 0 1em;
     margin-bottom: 1em;
+    display: flex;
+    flex-flow: row wrap;
+
 
     &>div:not([class]) {
       overflow: hidden;
@@ -71,8 +74,9 @@
     width: 100%;
 
     @include breakpoint(768px) {
-      width: calc(70% - 1em);
       margin-left: 1em;
+      flex: 1 0;
+      order: 1;
     }
   }
   .sidebar {
@@ -81,9 +85,8 @@
     min-width: 275px;
 
     @include breakpoint(768px) {
-      float: left;
-      width: calc(30% - 1em);
       margin-right: 1em;
+      flex: 0 300px;
     }
   }
 

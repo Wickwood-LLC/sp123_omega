@@ -64,7 +64,12 @@ a {
 
 .myriad-left-sidebar .panel-myriad-layout {
   padding: 0 1em;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
   .myriad-left-sidebar .panel-myriad-layout > div:not([class]) {
     overflow: hidden; }
 .myriad-left-sidebar .main-content {
@@ -72,17 +77,23 @@ a {
   width: 100%; }
   @media (min-width: 768px) {
     .myriad-left-sidebar .main-content {
-      width: calc(70% - 1em);
-      margin-left: 1em; } }
+      margin-left: 1em;
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0;
+              flex: 1 0;
+      -webkit-box-ordinal-group: 2;
+          -ms-flex-order: 1;
+              order: 1; } }
 .myriad-left-sidebar .sidebar {
   display: inline-block;
   width: 100%;
   min-width: 275px; }
   @media (min-width: 768px) {
     .myriad-left-sidebar .sidebar {
-      float: left;
-      width: calc(30% - 1em);
-      margin-right: 1em; } }
+      margin-right: 1em;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 300px;
+              flex: 0 300px; } }
 .myriad-left-sidebar .row-two {
   border: 2px solid #689a04;
   padding: 1em;

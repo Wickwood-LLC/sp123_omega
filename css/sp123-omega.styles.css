@@ -76,7 +76,8 @@ a {
       margin-left: 1em; } }
 .myriad-left-sidebar .sidebar {
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+  min-width: 275px; }
   @media (min-width: 768px) {
     .myriad-left-sidebar .sidebar {
       float: left;
@@ -310,6 +311,9 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 
 .views-slideshow-cycle-main-frame-row {
   width: 100%; }
+
+#views_slideshow_cycle_teaser_section_ad_cycles-ad_random {
+  width: 100% !important; }
 
 table.fc-border-separate {
   border-collapse: collapse;

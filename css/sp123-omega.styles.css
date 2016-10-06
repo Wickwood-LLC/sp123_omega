@@ -415,7 +415,7 @@ table.fc-border-separate {
     display: inline-block;
     line-height: 1;
     margin: 0;
-    font-size: 5em; }
+    font-size: 3em; }
   #mini-panel-header .site-title-1 {
     white-space: nowrap;
     float: right;
@@ -438,9 +438,11 @@ table.fc-border-separate {
   #mini-panel-header .logo-container {
     display: inline-block;
     vertical-align: top;
-    position: relative;
     top: -13px;
     right: 20px; }
+    @media (min-width: 421px) {
+      #mini-panel-header .logo-container {
+        position: relative; } }
   #mini-panel-header .pane-page-logo {
     -webkit-box-flex: 0;
         -ms-flex: 0;

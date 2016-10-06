@@ -418,7 +418,10 @@ table.fc-border-separate {
     font-size: 4em; }
   #mini-panel-header .site-title-2 {
     margin-right: 0.9em;
-    margin-top: -0.5em; }
+    margin-top: -0.5em;
+    float: right;
+    clear: both;
+    white-space: nowrap; }
     #mini-panel-header .site-title-2 .blue {
       color: #4285F4; }
     #mini-panel-header .site-title-2 .yellow {

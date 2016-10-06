@@ -37,6 +37,9 @@
 	.site-title-2 {
 		margin-right: 0.9em;
     	margin-top: -0.5em;
+    	float: right;
+    	clear: both;
+    	white-space: nowrap;
 
 		.blue {
 			color: #4285F4;

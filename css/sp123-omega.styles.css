@@ -419,16 +419,26 @@ table.fc-border-separate {
     @media (min-width: 435px) {
       #mini-panel-header #site-title {
         font-size: 4em; } }
+    @media (min-width: 435px) {
+      #mini-panel-header #site-title {
+        font-size: 5em; } }
   #mini-panel-header .site-title-1 {
     white-space: nowrap;
     float: right;
     clear: both; }
+    @media (min-width: 640px) {
+      #mini-panel-header .site-title-1 {
+        float: none; } }
   #mini-panel-header .site-title-2 {
     white-space: nowrap;
     float: right;
     clear: both;
     margin-right: 0.9em;
     margin-top: -0.5em; }
+    @media (min-width: 640px) {
+      #mini-panel-header .site-title-2 {
+        float: none;
+        margin: 0; } }
     #mini-panel-header .site-title-2 .blue {
       color: #4285F4; }
     #mini-panel-header .site-title-2 .yellow {
@@ -450,6 +460,10 @@ table.fc-border-separate {
     @media (min-width: 435px) {
       #mini-panel-header .logo-container {
         position: relative; } }
+    @media (min-width: 640px) {
+      #mini-panel-header .logo-container {
+        position: initial;
+        vertical-align: initial; } }
   #mini-panel-header .pane-page-logo {
     -webkit-box-flex: 0;
         -ms-flex: 0;

@@ -36,12 +36,19 @@
 		@include breakpoint(435px) {
 	    	font-size: 4em;
 	    }
+	    @include breakpoint(435px) {
+	    	font-size: 5em;
+	    }
 	}
 
 	.site-title-1 {
 		white-space: nowrap;
 	    float: right;
 	    clear: both;
+
+	    @include breakpoint(640px) {
+	    	float: none;
+	    }
 	}
 
 	.site-title-2 {
@@ -50,6 +57,11 @@
 	    clear: both;
 	    margin-right: 0.9em;
     	margin-top: -0.5em;
+
+    	@include breakpoint(640px) {
+	    	float: none;
+	    	margin: 0;
+	    }
 
 		.blue {
 			color: #4285F4;
@@ -80,6 +92,10 @@
 
 	    @include breakpoint(435px) {
 	    	position: relative;
+	    }
+	    @include breakpoint(640px) {
+	    	position: initial;
+	    	vertical-align: initial;
 	    }
 	}
 

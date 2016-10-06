@@ -69,15 +69,21 @@
   .main-content {
     display: inline-block;
     width: 100%;
-    // width: calc(70% - 1em);
-    // margin-left: 1em;
+
+    @include breakpoint(768px) {
+      width: calc(70% - 1em);
+      margin-left: 1em;
+    }
   }
   .sidebar {
     display: inline-block;
     width: 100%;
-    // float: left;
-    // width: calc(30% - 1em);
-    // margin-right: 1em;
+
+    @include breakpoint(768px) {
+      float: left;
+      width: calc(30% - 1em);
+      margin-right: 1em;
+    }
   }
 
   .row-two {

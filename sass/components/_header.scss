@@ -17,24 +17,27 @@
 		align-items: center;
 
 		.certificate img {
-			width: 152px;
-			height: auto;
+			width: auto;
+			height: 180px;
 			margin-right: 10px;
 		}
 	}
 
 	.site-title-logo {
-		min-width: 584px;
+		
 	}
 
 	#site-title {
 		display: inline-block;
 		line-height: 1;
 		margin: 0;
-		font-size: 5em;
+		font-size: 4em;
 	}
 
 	.site-title-2 {
+		margin-right: 0.9em;
+    	margin-top: -0.5em;
+
 		.blue {
 			color: #4285F4;
 		}

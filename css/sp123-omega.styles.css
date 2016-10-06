@@ -408,22 +408,23 @@ table.fc-border-separate {
         -ms-flex-align: center;
             align-items: center; }
     #mini-panel-header .certificates .certificate img {
-      width: 152px;
-      height: auto;
+      width: auto;
+      height: 180px;
       margin-right: 10px; }
-  #mini-panel-header .site-title-logo {
-    min-width: 584px; }
   #mini-panel-header #site-title {
     display: inline-block;
     line-height: 1;
     margin: 0;
-    font-size: 5em; }
-  #mini-panel-header .site-title-2 .blue {
-    color: #4285F4; }
-  #mini-panel-header .site-title-2 .yellow {
-    color: #F3B500; }
-  #mini-panel-header .site-title-2 .red {
-    color: #EA4335; }
+    font-size: 4em; }
+  #mini-panel-header .site-title-2 {
+    margin-right: 0.9em;
+    margin-top: -0.5em; }
+    #mini-panel-header .site-title-2 .blue {
+      color: #4285F4; }
+    #mini-panel-header .site-title-2 .yellow {
+      color: #F3B500; }
+    #mini-panel-header .site-title-2 .red {
+      color: #EA4335; }
   #mini-panel-header #logo img {
     height: 80px;
     width: auto; }

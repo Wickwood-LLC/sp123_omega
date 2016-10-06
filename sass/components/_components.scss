@@ -90,11 +90,37 @@
       flex: 0 300px;
     }
   }
+}
 
-  .row-two {
-    border: 2px solid #689a04;
-    padding: 1em;
-    border-radius: 10px;
+.tabbed-course {
+  .panel-myriad-layout {
+    .row-two {
+      border: 2px solid #689a04;
+      padding: 1em;
+      border-radius: 10px;
+
+      .main-content {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 2em;
+
+        @include breakpoint(768px) {
+          margin-left: 1em;
+          flex: 1 0;
+          order: 1;
+        }
+      }
+      .sidebar {
+        display: inline-block;
+        width: 100%;
+        min-width: 275px;
+
+        @include breakpoint(768px) {
+          margin-right: 1em;
+          flex: 0 300px;
+        }
+      }
+    }
   }
 }
 

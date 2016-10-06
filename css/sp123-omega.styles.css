@@ -392,15 +392,15 @@ table.fc-border-separate {
           justify-content: center; }
   #mini-panel-header .brand {
     -webkit-box-flex: 1;
-        -ms-flex: 1 50%;
-            flex: 1 50%; }
+        -ms-flex: 1 0 640px;
+            flex: 1 0 640px; }
   #mini-panel-header .certificates {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 50%;
-            flex: 1 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;

@@ -96,38 +96,41 @@ a {
           -ms-flex: 0 300px;
               flex: 0 300px; } }
 
-.tabbed-course .panel-myriad-layout .row-two {
-  border: 2px solid #689a04;
-  padding: 1em;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-  .tabbed-course .panel-myriad-layout .row-two .main-content {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 2em; }
-    @media (min-width: 768px) {
-      .tabbed-course .panel-myriad-layout .row-two .main-content {
-        margin-left: 1em;
-        -webkit-box-flex: 1;
-            -ms-flex: 1 0;
-                flex: 1 0;
-        -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1; } }
-  .tabbed-course .panel-myriad-layout .row-two .sidebar {
-    display: inline-block;
-    width: 100%;
-    min-width: 275px; }
-    @media (min-width: 768px) {
-      .tabbed-course .panel-myriad-layout .row-two .sidebar {
-        margin-right: 1em;
-        -webkit-box-flex: 0;
-            -ms-flex: 0 300px;
-                flex: 0 300px; } }
+.tabbed-course .panel-myriad-layout {
+  padding: 0 1em;
+  margin-bottom: 1em; }
+  .tabbed-course .panel-myriad-layout .row-two {
+    border: 2px solid #689a04;
+    padding: 1em;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+    .tabbed-course .panel-myriad-layout .row-two .main-content {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 2em; }
+      @media (min-width: 768px) {
+        .tabbed-course .panel-myriad-layout .row-two .main-content {
+          margin-left: 1em;
+          -webkit-box-flex: 1;
+              -ms-flex: 1 0;
+                  flex: 1 0;
+          -webkit-box-ordinal-group: 2;
+              -ms-flex-order: 1;
+                  order: 1; } }
+    .tabbed-course .panel-myriad-layout .row-two .sidebar {
+      display: inline-block;
+      width: 100%;
+      min-width: 275px; }
+      @media (min-width: 768px) {
+        .tabbed-course .panel-myriad-layout .row-two .sidebar {
+          margin-right: 1em;
+          -webkit-box-flex: 0;
+              -ms-flex: 0 300px;
+                  flex: 0 300px; } }
 
 .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
   margin-top: 1em; }

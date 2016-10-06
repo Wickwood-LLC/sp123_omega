@@ -68,14 +68,11 @@ a {
   .myriad-left-sidebar .panel-myriad-layout > div:not([class]) {
     overflow: hidden; }
 .myriad-left-sidebar .main-content {
-  width: calc(70% - 1em);
   display: inline-block;
-  margin-left: 1em; }
+  width: 100%; }
 .myriad-left-sidebar .sidebar {
-  float: left;
-  width: calc(30% - 1em);
   display: inline-block;
-  margin-right: 1em; }
+  width: 100%; }
 .myriad-left-sidebar .row-two {
   border: 2px solid #689a04;
   padding: 1em;

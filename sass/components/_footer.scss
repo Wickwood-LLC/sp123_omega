@@ -68,4 +68,17 @@
       margin-top: 0;
     }
   }
+
+  .certificates {
+    display: flex;
+    flex: 0;
+    justify-content: center;
+    align-items: center;
+
+    .certificate img {
+      width: auto;
+      height: 180px;
+      margin-right: 10px;
+    }
+  }
 }

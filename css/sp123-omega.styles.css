@@ -74,7 +74,8 @@ a {
     overflow: hidden; }
 .myriad-left-sidebar .main-content {
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2em; }
   @media (min-width: 768px) {
     .myriad-left-sidebar .main-content {
       margin-left: 1em;
@@ -98,6 +99,15 @@ a {
   border: 2px solid #689a04;
   padding: 1em;
   border-radius: 10px; }
+
+.pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
+  margin-top: 1em; }
+  @media (min-width: 398px) {
+    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
+      margin-top: 0; } }
+  @media (min-width: 768px) {
+    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
+      margin-top: 1em; } }
 
 div.panel-pane div.node.node-advertisement {
   background-color: #f5f5f5;

@@ -72,6 +72,7 @@
   .main-content {
     display: inline-block;
     width: 100%;
+    margin-bottom: 2em;
 
     @include breakpoint(768px) {
       margin-left: 1em;
@@ -94,6 +95,17 @@
     border: 2px solid #689a04;
     padding: 1em;
     border-radius: 10px;
+  }
+}
+
+.pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
+  margin-top: 1em;
+
+  @include breakpoint(398px) {
+    margin-top: 0;
+  }
+  @include breakpoint(768px) {
+    margin-top: 1em;
   }
 }
 

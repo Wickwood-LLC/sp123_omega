@@ -32,6 +32,10 @@
 		line-height: 1;
 		margin: 0;
 		font-size: 3em;
+
+		@include breakpoint(421px) {
+	    	font-size: 4em;
+	    }
 	}
 
 	.site-title-1 {
@@ -61,6 +65,10 @@
 	#logo img {
 		height: 61px;
 		width: auto;
+
+		@include breakpoint(421px) {
+	    	height: 100px;
+	    }
 	}
 
 	.logo-container {

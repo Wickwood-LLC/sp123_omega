@@ -59,7 +59,7 @@
 	}
 
 	#logo img {
-		height: 80px;
+		height: 61px;
 		width: auto;
 	}
 
@@ -68,6 +68,7 @@
 		vertical-align: top;
 	    top: -13px;
 	    right: 20px;
+	    margin: 0;
 
 	    @include breakpoint(421px) {
 	    	position: relative;

@@ -433,13 +433,14 @@ table.fc-border-separate {
     #mini-panel-header .site-title-2 .red {
       color: #EA4335; }
   #mini-panel-header #logo img {
-    height: 80px;
+    height: 61px;
     width: auto; }
   #mini-panel-header .logo-container {
     display: inline-block;
     vertical-align: top;
     top: -13px;
-    right: 20px; }
+    right: 20px;
+    margin: 0; }
     @media (min-width: 421px) {
       #mini-panel-header .logo-container {
         position: relative; } }

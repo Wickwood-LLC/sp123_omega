@@ -6,6 +6,7 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    margin-bottom: 0;
 
     @include breakpoint(768px) {
       font-size: 16px;
@@ -36,8 +37,7 @@
     }
 
     @include breakpoint(768px) {
-      width: calc(100% - 140px);
-      float: left;
+      width: auto;
       display: inline-block;
     }
   }
@@ -47,8 +47,7 @@
   	text-align: center;
 
     @include breakpoint(768px) {
-      width: calc(100% - 140px);
-      float: left;
+      width: auto;
       display: inline-block;
     }
   }

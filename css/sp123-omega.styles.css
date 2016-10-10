@@ -389,7 +389,8 @@ table.fc-border-separate {
   display: inline-block;
   width: 100%;
   text-align: center;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  box-sizing: border-box; }
   @media (min-width: 768px) {
     #block-panels-mini-footer #mini-panel-footer {
       font-size: 16px; } }

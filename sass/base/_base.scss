@@ -23,4 +23,9 @@ body {
 a {
 	color: $primary;
 	text-decoration: none;
+
+	&:hover {
+		color: #4285F4;
+		text-decoration: underline;
+	}
 }

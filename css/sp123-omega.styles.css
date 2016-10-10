@@ -112,7 +112,7 @@ a {
       display: inline-block;
       width: 100%;
       margin-bottom: 2em; }
-      @media (min-width: 768px) {
+      @media (min-width: 950px) {
         .tabbed-course .panel-myriad-layout .row-two .main-content {
           margin-left: 1em;
           -webkit-box-flex: 1;
@@ -125,7 +125,7 @@ a {
       display: inline-block;
       width: 100%;
       min-width: 275px; }
-      @media (min-width: 768px) {
+      @media (min-width: 950px) {
         .tabbed-course .panel-myriad-layout .row-two .sidebar {
           margin-right: 1em;
           -webkit-box-flex: 0;

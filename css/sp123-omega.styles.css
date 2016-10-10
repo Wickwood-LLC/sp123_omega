@@ -389,6 +389,10 @@ table.fc-border-separate {
   @media (min-width: 768px) {
     #block-panels-mini-footer #mini-panel-footer {
       font-size: 16px; } }
+  @media (min-width: 1064px) {
+    #block-panels-mini-footer #mini-panel-footer {
+      padding-right: 144px;
+      height: 77px; } }
 #block-panels-mini-footer .pane-menu-menu-footer-links ul.menu {
   text-align: center;
   margin: 0;
@@ -413,14 +417,20 @@ table.fc-border-separate {
   #block-panels-mini-footer .pane-menu-menu-footer-links {
     width: auto;
     display: inline-block; } }
+@media (min-width: 1064px) {
+  #block-panels-mini-footer .pane-menu-menu-footer-links {
+    line-height: 45px; } }
 #block-panels-mini-footer .copyright {
   color: white;
-  text-align: center;
-  margin-right: 2em; }
+  text-align: center; }
   @media (min-width: 768px) {
     #block-panels-mini-footer .copyright {
       width: auto;
-      display: inline-block; } }
+      display: inline-block;
+      margin-right: 2em; } }
+  @media (min-width: 1064px) {
+    #block-panels-mini-footer .copyright {
+      line-height: 45px; } }
 #block-panels-mini-footer .iec-logo {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;

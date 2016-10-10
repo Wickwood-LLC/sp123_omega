@@ -10,6 +10,10 @@
     @include breakpoint(768px) {
       font-size: 16px;
     }
+    @include breakpoint(1064px) {
+      padding-right: 144px;
+      height: 77px;
+    }
   }
 
   .pane-menu-menu-footer-links {
@@ -39,16 +43,22 @@
       width: auto;
       display: inline-block;
     }
+    @include breakpoint(1064px) {
+      line-height: 45px;
+    }
   }
 
   .copyright {
   	color: white;
   	text-align: center;
-    margin-right: 2em;
 
     @include breakpoint(768px) {
       width: auto;
       display: inline-block;
+      margin-right: 2em;
+    }
+    @include breakpoint(1064px) {
+      line-height: 45px;
     }
   }
 

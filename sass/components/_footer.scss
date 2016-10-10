@@ -51,6 +51,7 @@
   .copyright {
   	color: white;
   	text-align: center;
+    width: 100%;
 
     @include breakpoint(768px) {
       display: inline-block;

@@ -422,7 +422,8 @@ table.fc-border-separate {
     line-height: 45px; } }
 #block-panels-mini-footer .copyright {
   color: white;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
   @media (min-width: 768px) {
     #block-panels-mini-footer .copyright {
       display: inline-block; } }

@@ -5,9 +5,11 @@
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: center;
+	box-sizing: border-box;
 
 	.brand {
 		flex: 1;
+		text-align: center;
 
 		@include breakpoint(768px) {
 			flex: 1 0 640px;
@@ -28,7 +30,7 @@
 	}
 
 	.site-title-logo {
-		
+		text-align: center;	
 	}
 
 	#site-title {
@@ -125,6 +127,7 @@
 		}
 	}
 	.pane-page-slogan {
+		display: inline-block;
 		font-size: 16px;
 		font-weight: bold;
 		line-height: 1.5;
@@ -135,14 +138,7 @@
 
 		@include breakpoint(768px) {
 			font-size: 18px;
+			max-width: 590px;
 		}
-	}
-
-	.pane-2 {
-		text-align: center;
-	}
-
-	.pane-3 {
-		flex: 0 auto;
 	}
 }

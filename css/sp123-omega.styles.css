@@ -958,16 +958,14 @@ body.maintenance-page {
       margin: 2em;
       text-transform: capitalize; }
 
-.media-youtube-video,
-.media-vimeo-video {
+.file-video {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
   max-width: 100%; }
-  .media-youtube-video iframe,
-  .media-vimeo-video iframe {
+  .file-video iframe {
     position: absolute;
     top: 0;
     left: 0;

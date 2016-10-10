@@ -131,7 +131,7 @@ a {
           -webkit-box-flex: 0;
               -ms-flex: 0 300px;
                   flex: 0 300px; } }
-  .tabbed-course .panel-myriad-layout .pane-node-title h2:not[class] {
+  .tabbed-course .panel-myriad-layout .pane-node-title h2:not([class]) {
     margin-top: 0.5em; }
   .tabbed-course .panel-myriad-layout .pane-node-title h2.pane-title {
     margin-bottom: 0.5em; }

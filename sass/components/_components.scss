@@ -128,7 +128,7 @@
     }
 
     .pane-node-title {
-      h2:not[class] {
+      h2:not([class]) {
         margin-top: 0.5em;
       }
       h2.pane-title {

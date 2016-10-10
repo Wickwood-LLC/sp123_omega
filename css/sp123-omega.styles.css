@@ -393,6 +393,9 @@ table.fc-border-separate {
     #block-panels-mini-footer #mini-panel-footer {
       padding-right: 144px;
       height: 77px; } }
+  @media (min-width: 1360px) {
+    #block-panels-mini-footer #mini-panel-footer {
+      padding: 0 1em; } }
 #block-panels-mini-footer .pane-menu-menu-footer-links ul.menu {
   text-align: center;
   margin: 0;

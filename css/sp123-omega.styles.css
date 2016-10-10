@@ -425,10 +425,10 @@ table.fc-border-separate {
   text-align: center; }
   @media (min-width: 768px) {
     #block-panels-mini-footer .copyright {
-      width: auto;
       display: inline-block; } }
   @media (min-width: 890px) {
     #block-panels-mini-footer .copyright {
+      width: auto;
       margin-right: 2em; } }
   @media (min-width: 1064px) {
     #block-panels-mini-footer .copyright {

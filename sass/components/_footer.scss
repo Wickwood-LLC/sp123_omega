@@ -53,10 +53,10 @@
   	text-align: center;
 
     @include breakpoint(768px) {
-      width: auto;
       display: inline-block;
     }
     @include breakpoint(890px) {
+      width: auto;
       margin-right: 2em;
     }
     @include breakpoint(1064px) {

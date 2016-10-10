@@ -380,11 +380,6 @@ table.fc-border-separate {
   padding: 0 1em; }
 
 #block-panels-mini-footer #mini-panel-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
   font-size: 14px;
   display: inline-block;
   width: 100%;
@@ -420,7 +415,8 @@ table.fc-border-separate {
     display: inline-block; } }
 #block-panels-mini-footer .copyright {
   color: white;
-  text-align: center; }
+  text-align: center;
+  margin-right: 2em; }
   @media (min-width: 768px) {
     #block-panels-mini-footer .copyright {
       width: auto;
@@ -447,7 +443,7 @@ table.fc-border-separate {
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-  @media (min-width: 768px) {
+  @media (min-width: 1064px) {
     #block-panels-mini-footer .certificates {
       position: absolute;
       right: 10px;

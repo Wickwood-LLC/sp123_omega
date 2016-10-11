@@ -532,6 +532,11 @@ table.fc-border-separate {
     li {
       list-style: none;
       font-size: 14px;
+      display: inline-block;
+    }
+
+    .course-nav-prev::before {
+      content: "\f053";
     }
   }
 }

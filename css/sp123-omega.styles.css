@@ -399,7 +399,10 @@ table.fc-border-separate {
   padding: 0; }
   .pane-course-outline-and-navigation #course-nav li {
     list-style: none;
-    font-size: 14px; }
+    font-size: 14px;
+    display: inline-block; }
+  .pane-course-outline-and-navigation #course-nav .course-nav-prev::before {
+    content: "\f053"; }
 
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;

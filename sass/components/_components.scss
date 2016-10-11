@@ -153,6 +153,11 @@
   div.panel-pane div.node.node-advertisement {
     &.node-ad-image-portrait,
     &.node-ad-amazon-book {
+      .panel-display {
+        padding: 0;
+        margin: 0;
+      }
+
       .col-1 {
         float: none;
         margin: 0;

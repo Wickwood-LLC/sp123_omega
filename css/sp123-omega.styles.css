@@ -864,6 +864,8 @@ form#user-login, form#user-pass {
 #block-superfish-1 {
   display: table;
   margin: 0 auto; }
+  #block-superfish-1 a:hover {
+    text-decoration: none; }
   #block-superfish-1 #superfish-1 {
     background: #6fae1b;
     background: -webkit-linear-gradient(top, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%);

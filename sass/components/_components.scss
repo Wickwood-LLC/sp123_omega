@@ -74,7 +74,7 @@
     width: 100%;
     margin-bottom: 2em;
 
-    @include breakpoint(768px) {
+    @include breakpoint(950px) {
       margin-left: 1em;
       flex: 1 0;
       order: 1;
@@ -85,7 +85,7 @@
     width: 100%;
     min-width: 275px;
 
-    @include breakpoint(768px) {
+    @include breakpoint(950px) {
       margin-right: 1em;
       flex: 0 300px;
     }

@@ -10,7 +10,7 @@
     @include breakpoint(768px) {
       font-size: 16px;
     }
-    @include breakpoint(1064px) {
+    @include breakpoint(1150px) {
       padding-right: 144px;
       height: 77px;
     }
@@ -46,7 +46,7 @@
       width: auto;
       display: inline-block;
     }
-    @include breakpoint(1064px) {
+    @include breakpoint(1150px) {
       line-height: 45px;
     }
   }
@@ -63,7 +63,7 @@
       width: auto;
       margin-right: 2em;
     }
-    @include breakpoint(1064px) {
+    @include breakpoint(1150px) {
       line-height: 45px;
     }
   }
@@ -85,7 +85,7 @@
     align-items: center;
     flex-flow: row wrap;
 
-    @include breakpoint(1064px) {
+    @include breakpoint(1150px) {
       position: absolute;
       right: 10px;
       top: 8px;

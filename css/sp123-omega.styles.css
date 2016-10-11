@@ -396,7 +396,7 @@ table.fc-border-separate {
   @media (min-width: 768px) {
     #block-panels-mini-footer #mini-panel-footer {
       font-size: 16px; } }
-  @media (min-width: 1064px) {
+  @media (min-width: 1150px) {
     #block-panels-mini-footer #mini-panel-footer {
       padding-right: 144px;
       height: 77px; } }
@@ -427,7 +427,7 @@ table.fc-border-separate {
   #block-panels-mini-footer .pane-menu-menu-footer-links {
     width: auto;
     display: inline-block; } }
-@media (min-width: 1064px) {
+@media (min-width: 1150px) {
   #block-panels-mini-footer .pane-menu-menu-footer-links {
     line-height: 45px; } }
 #block-panels-mini-footer .copyright {
@@ -441,7 +441,7 @@ table.fc-border-separate {
     #block-panels-mini-footer .copyright {
       width: auto;
       margin-right: 2em; } }
-  @media (min-width: 1064px) {
+  @media (min-width: 1150px) {
     #block-panels-mini-footer .copyright {
       line-height: 45px; } }
 #block-panels-mini-footer .iec-logo {
@@ -466,7 +466,7 @@ table.fc-border-separate {
           align-items: center;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-  @media (min-width: 1064px) {
+  @media (min-width: 1150px) {
     #block-panels-mini-footer .certificates {
       position: absolute;
       right: 10px;

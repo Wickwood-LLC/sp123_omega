@@ -533,11 +533,45 @@ table.fc-border-separate {
       list-style: none;
       font-size: 14px;
       display: inline-block;
+      background-color: #0d7339;
+      padding: 3px 5px;
+      border-radius: 5px;
+
+      &::before {
+        margin-right: 3px;
+        color: white;
+      }
     }
 
-    .course-nav-prev::before {
-      content: "\f053";
-      font-family: "FontAwesome";
+    a {
+      color: white;
+    }
+
+    .course-nav-prev{
+      margin-right: 5px;
+
+      &::before {
+        content: "\f0a8";
+        font-family: "FontAwesome";
+      }
+    }
+
+    .course-nav-back {
+      margin-right: 5px;
+
+      &::before {
+        content: "\f0aa";
+        font-family: "FontAwesome";
+      }
+    }
+
+    .course-nav-next {
+      margin-right: 5px;
+
+      &::before {
+        content: "\f0a9";
+        font-family: "FontAwesome";
+      }
     }
   }
 }

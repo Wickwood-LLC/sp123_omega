@@ -400,10 +400,30 @@ table.fc-border-separate {
   .pane-course-outline-and-navigation #course-nav li {
     list-style: none;
     font-size: 14px;
-    display: inline-block; }
-  .pane-course-outline-and-navigation #course-nav .course-nav-prev::before {
-    content: "\f053";
-    font-family: "FontAwesome"; }
+    display: inline-block;
+    background-color: #0d7339;
+    padding: 3px 5px;
+    border-radius: 5px; }
+    .pane-course-outline-and-navigation #course-nav li::before {
+      margin-right: 3px;
+      color: white; }
+  .pane-course-outline-and-navigation #course-nav a {
+    color: white; }
+  .pane-course-outline-and-navigation #course-nav .course-nav-prev {
+    margin-right: 5px; }
+    .pane-course-outline-and-navigation #course-nav .course-nav-prev::before {
+      content: "\f0a8";
+      font-family: "FontAwesome"; }
+  .pane-course-outline-and-navigation #course-nav .course-nav-back {
+    margin-right: 5px; }
+    .pane-course-outline-and-navigation #course-nav .course-nav-back::before {
+      content: "\f0aa";
+      font-family: "FontAwesome"; }
+  .pane-course-outline-and-navigation #course-nav .course-nav-next {
+    margin-right: 5px; }
+    .pane-course-outline-and-navigation #course-nav .course-nav-next::before {
+      content: "\f0a9";
+      font-family: "FontAwesome"; }
 
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;

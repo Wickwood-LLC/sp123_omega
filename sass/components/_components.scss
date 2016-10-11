@@ -149,6 +149,19 @@
   }
 }
 
+.sidebar {
+  div.panel-pane div.node.node-advertisement {
+    &.node-ad-image-portrait,
+    &.node-ad-amazon-book {
+      .col-1 {
+        float: none;
+        margin: 0;
+        text-align: center;
+      }
+    }
+  } 
+}
+
 div.panel-pane div.node.node-advertisement {
  	background-color: #f5f5f5;
   padding: 1em;

@@ -386,6 +386,16 @@ table.fc-border-separate {
   margin: 0;
   padding: 0 1em; }
 
+.pane-course-outline-and-navigation .course-title {
+  margin: 0; }
+.pane-course-outline-and-navigation ul {
+  margin-top: 0;
+  padding-left: 1em; }
+  .pane-course-outline-and-navigation ul li.active a {
+    color: #EA4335; }
+.pane-course-outline-and-navigation #course-nav {
+  margin-bottom: 0; }
+
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;
   display: inline-block;

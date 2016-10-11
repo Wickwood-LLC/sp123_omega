@@ -509,3 +509,22 @@ table.fc-border-separate {
   margin: 0;
   padding: 0 1em;
 }
+
+.pane-course-outline-and-navigation {
+  .course-title {
+    margin: 0;
+  }
+
+  ul {
+    margin-top: 0;
+    padding-left: 1em;
+
+    li.active a {
+      color: #EA4335;
+    }
+  }
+
+  #course-nav {
+    margin-bottom: 0;
+  }
+}

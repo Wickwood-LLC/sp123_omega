@@ -413,21 +413,15 @@ table.fc-border-separate {
     color: white; }
     .pane-course-outline-and-navigation #course-nav a:hover {
       text-decoration: none; }
-  .pane-course-outline-and-navigation #course-nav .course-nav-prev {
-    margin-right: 5px; }
-    .pane-course-outline-and-navigation #course-nav .course-nav-prev::before {
-      content: "\f0a8";
-      font-family: "FontAwesome"; }
-  .pane-course-outline-and-navigation #course-nav .course-nav-back {
-    margin-right: 5px; }
-    .pane-course-outline-and-navigation #course-nav .course-nav-back::before {
-      content: "\f0aa";
-      font-family: "FontAwesome"; }
-  .pane-course-outline-and-navigation #course-nav .course-nav-next {
-    margin-right: 5px; }
-    .pane-course-outline-and-navigation #course-nav .course-nav-next::before {
-      content: "\f0a9";
-      font-family: "FontAwesome"; }
+  .pane-course-outline-and-navigation #course-nav .course-nav-prev::before {
+    content: "\f0a8";
+    font-family: "FontAwesome"; }
+  .pane-course-outline-and-navigation #course-nav .course-nav-back::before {
+    content: "\f0aa";
+    font-family: "FontAwesome"; }
+  .pane-course-outline-and-navigation #course-nav .course-nav-next::before {
+    content: "\f0a9";
+    font-family: "FontAwesome"; }
 
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;

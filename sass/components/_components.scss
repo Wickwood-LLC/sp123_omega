@@ -556,8 +556,6 @@ table.fc-border-separate {
     }
 
     .course-nav-prev{
-      margin-right: 5px;
-
       &::before {
         content: "\f0a8";
         font-family: "FontAwesome";
@@ -565,8 +563,6 @@ table.fc-border-separate {
     }
 
     .course-nav-back {
-      margin-right: 5px;
-
       &::before {
         content: "\f0aa";
         font-family: "FontAwesome";
@@ -574,8 +570,6 @@ table.fc-border-separate {
     }
 
     .course-nav-next {
-      margin-right: 5px;
-
       &::before {
         content: "\f0a9";
         font-family: "FontAwesome";

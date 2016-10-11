@@ -534,8 +534,12 @@ table.fc-border-separate {
       font-size: 14px;
       display: inline-block;
       background-color: #0d7339;
-      padding: 3px 5px;
+      padding: 3px 4px;
       border-radius: 5px;
+
+      &:hover {
+        background-color: #8bbf50;
+      }
 
       &::before {
         margin-right: 3px;
@@ -545,6 +549,10 @@ table.fc-border-separate {
 
     a {
       color: white;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
 
     .course-nav-prev{

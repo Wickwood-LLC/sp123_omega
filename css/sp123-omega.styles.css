@@ -402,13 +402,17 @@ table.fc-border-separate {
     font-size: 14px;
     display: inline-block;
     background-color: #0d7339;
-    padding: 3px 5px;
+    padding: 3px 4px;
     border-radius: 5px; }
+    .pane-course-outline-and-navigation #course-nav li:hover {
+      background-color: #8bbf50; }
     .pane-course-outline-and-navigation #course-nav li::before {
       margin-right: 3px;
       color: white; }
   .pane-course-outline-and-navigation #course-nav a {
     color: white; }
+    .pane-course-outline-and-navigation #course-nav a:hover {
+      text-decoration: none; }
   .pane-course-outline-and-navigation #course-nav .course-nav-prev {
     margin-right: 5px; }
     .pane-course-outline-and-navigation #course-nav .course-nav-prev::before {

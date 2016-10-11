@@ -394,7 +394,12 @@ table.fc-border-separate {
   .pane-course-outline-and-navigation ul li.active a {
     color: #EA4335; }
 .pane-course-outline-and-navigation #course-nav {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  text-align: center;
+  padding: 0; }
+  .pane-course-outline-and-navigation #course-nav li {
+    list-style: none;
+    font-size: 14px; }
 
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;

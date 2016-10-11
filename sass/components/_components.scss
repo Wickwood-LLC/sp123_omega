@@ -526,5 +526,12 @@ table.fc-border-separate {
 
   #course-nav {
     margin-bottom: 0;
+    text-align: center;
+    padding: 0;
+
+    li {
+      list-style: none;
+      font-size: 14px;
+    }
   }
 }

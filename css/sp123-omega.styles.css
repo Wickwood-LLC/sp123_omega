@@ -1091,6 +1091,8 @@ body {
       background-color: transparent;
       color: #fff;
       text-shadow: #33aa58 0 1px 0; }
+    .primary-tabs a:hover {
+      text-decoration: none; }
 
 .page-title {
   display: inline-block;

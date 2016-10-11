@@ -4,6 +4,10 @@
 	position: relative;
     top: 2px;
 
+    a:hover {
+    	text-decoration: none;
+    }
+
 	.jcarousel-clip-horizontal {
 		box-sizing: border-box;
 	}

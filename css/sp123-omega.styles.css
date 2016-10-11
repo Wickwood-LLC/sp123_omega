@@ -698,6 +698,8 @@ table.fc-border-separate {
   padding: 0 40px;
   position: relative;
   top: 2px; }
+  .view-course-tabs .jcarousel-container a:hover {
+    text-decoration: none; }
   .view-course-tabs .jcarousel-container .jcarousel-clip-horizontal {
     box-sizing: border-box; }
   .view-course-tabs .jcarousel-container .jcarousel-item-horizontal {

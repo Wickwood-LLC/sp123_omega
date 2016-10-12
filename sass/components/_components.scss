@@ -528,6 +528,7 @@ table.fc-border-separate {
   padding: 0 1em;
 }
 
+.pane-course-outline,
 .pane-course-outline-and-navigation {
   .course-title {
     margin: 0;
@@ -535,7 +536,20 @@ table.fc-border-separate {
 
   ul {
     margin-top: 0;
-    padding-left: 1em;
+    padding-left: 0;
+
+    li {
+      list-style: none;
+      border-bottom: 1px solid #ddd;
+
+      &:nth-child(odd) {
+        background-color: white;
+      }
+
+      &:nth-child(even) {
+        background-color: #e6e6e6;
+      }
+    }
 
     li.active a {
       color: #EA4335;

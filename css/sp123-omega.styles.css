@@ -394,17 +394,32 @@ table.fc-border-separate {
   margin: 0;
   padding: 0 1em; }
 
+.pane-course-outline .course-title,
 .pane-course-outline-and-navigation .course-title {
   margin: 0; }
+.pane-course-outline ul,
 .pane-course-outline-and-navigation ul {
   margin-top: 0;
-  padding-left: 1em; }
+  padding-left: 0; }
+  .pane-course-outline ul li,
+  .pane-course-outline-and-navigation ul li {
+    list-style: none;
+    border-bottom: 1px solid #ddd; }
+    .pane-course-outline ul li:nth-child(odd),
+    .pane-course-outline-and-navigation ul li:nth-child(odd) {
+      background-color: white; }
+    .pane-course-outline ul li:nth-child(even),
+    .pane-course-outline-and-navigation ul li:nth-child(even) {
+      background-color: #e6e6e6; }
+  .pane-course-outline ul li.active a,
   .pane-course-outline-and-navigation ul li.active a {
     color: #EA4335; }
+.pane-course-outline #course-nav,
 .pane-course-outline-and-navigation #course-nav {
   margin-bottom: 0;
   text-align: center;
   padding: 0; }
+  .pane-course-outline #course-nav li,
   .pane-course-outline-and-navigation #course-nav li {
     list-style: none;
     font-size: 14px;
@@ -412,21 +427,28 @@ table.fc-border-separate {
     background-color: #0d7339;
     padding: 3px 4px;
     border-radius: 5px; }
+    .pane-course-outline #course-nav li:hover,
     .pane-course-outline-and-navigation #course-nav li:hover {
       background-color: #8bbf50; }
+    .pane-course-outline #course-nav li::before,
     .pane-course-outline-and-navigation #course-nav li::before {
       margin-right: 3px;
       color: white; }
+  .pane-course-outline #course-nav a,
   .pane-course-outline-and-navigation #course-nav a {
     color: white; }
+    .pane-course-outline #course-nav a:hover,
     .pane-course-outline-and-navigation #course-nav a:hover {
       text-decoration: none; }
+  .pane-course-outline #course-nav .course-nav-prev::before,
   .pane-course-outline-and-navigation #course-nav .course-nav-prev::before {
     content: "\f0a8";
     font-family: "FontAwesome"; }
+  .pane-course-outline #course-nav .course-nav-back::before,
   .pane-course-outline-and-navigation #course-nav .course-nav-back::before {
     content: "\f0aa";
     font-family: "FontAwesome"; }
+  .pane-course-outline #course-nav .course-nav-next::before,
   .pane-course-outline-and-navigation #course-nav .course-nav-next::before {
     content: "\f0a9";
     font-family: "FontAwesome"; }
@@ -571,7 +593,7 @@ table.fc-border-separate {
     margin: 0;
     font-size: 3em; }
     #mini-panel-header #site-title a:hover {
-      color: inherit;
+      color: #0f753b;
       text-decoration: none; }
     @media (min-width: 435px) {
       #mini-panel-header #site-title {
@@ -654,7 +676,7 @@ table.fc-border-separate {
         -ms-flex: 1;
             flex: 1;
     margin: 0 1em;
-    min-width: 250px; }
+    min-width: 625px; }
     @media (min-width: 768px) {
       #mini-panel-header .pane-page-slogan {
         font-size: 18px;

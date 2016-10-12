@@ -40,7 +40,7 @@
 		font-size: 3em;
 
 		a:hover {
-			color: inherit;
+			color: #0f753b;
 			text-decoration: none;
 		}
 
@@ -139,7 +139,7 @@
 		text-align: center;
 		flex: 1;
 		margin: 0 1em;
-		min-width: 250px;
+		min-width: 625px;
 
 		@include breakpoint(768px) {
 			font-size: 18px;

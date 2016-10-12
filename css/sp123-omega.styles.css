@@ -465,6 +465,11 @@ table.fc-border-separate {
       content: "\f0a9";
       font-family: "FontAwesome"; }
 
+.page-node-course-outline .course-outline-overview-form {
+  padding: 0 1em; }
+.page-node-course-outline #course-objects {
+  width: 100%; }
+
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;
   display: inline-block;

@@ -530,8 +530,16 @@ table.fc-border-separate {
 
 .pane-course-outline,
 .pane-course-outline-and-navigation {
+  padding: 1em 0;
+
+  .pane-title {
+    margin-left: 1em;
+  }
+
   .course-title {
     margin: 0;
+    text-align: center;
+    margin-bottom: 0.5em;
   }
 
   ul {
@@ -556,8 +564,6 @@ table.fc-border-separate {
       }
 
       &.active {
-        background-color: #15a252;
-
         a {
           color: #EA4335;
         }

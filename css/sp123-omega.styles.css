@@ -404,16 +404,23 @@ table.fc-border-separate {
   .pane-course-outline ul li,
   .pane-course-outline-and-navigation ul li {
     list-style: none;
-    border-bottom: 1px solid #ddd; }
+    border-bottom: 1px solid #ddd;
+    padding: 0 1em; }
     .pane-course-outline ul li:nth-child(odd),
     .pane-course-outline-and-navigation ul li:nth-child(odd) {
       background-color: white; }
     .pane-course-outline ul li:nth-child(even),
     .pane-course-outline-and-navigation ul li:nth-child(even) {
       background-color: #e6e6e6; }
-  .pane-course-outline ul li.active a,
-  .pane-course-outline-and-navigation ul li.active a {
-    color: #EA4335; }
+    .pane-course-outline ul li:hover,
+    .pane-course-outline-and-navigation ul li:hover {
+      background-color: #9bcb3b; }
+    .pane-course-outline ul li.active,
+    .pane-course-outline-and-navigation ul li.active {
+      background-color: #15a252; }
+      .pane-course-outline ul li.active a,
+      .pane-course-outline-and-navigation ul li.active a {
+        color: #EA4335; }
 .pane-course-outline #course-nav,
 .pane-course-outline-and-navigation #course-nav {
   margin-bottom: 0;

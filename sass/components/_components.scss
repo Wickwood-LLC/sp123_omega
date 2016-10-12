@@ -541,6 +541,7 @@ table.fc-border-separate {
     li {
       list-style: none;
       border-bottom: 1px solid #ddd;
+      padding: 0 1em;
 
       &:nth-child(odd) {
         background-color: white;
@@ -549,10 +550,18 @@ table.fc-border-separate {
       &:nth-child(even) {
         background-color: #e6e6e6;
       }
-    }
 
-    li.active a {
-      color: #EA4335;
+      &:hover {
+        background-color: #9bcb3b;
+      }
+
+      &.active {
+        background-color: #15a252;
+
+        a {
+          color: #EA4335;
+        }
+      }
     }
   }
 

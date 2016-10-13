@@ -134,16 +134,17 @@
 	}
 	.pane-page-slogan {
 		display: inline-block;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: bold;
 		line-height: 1.5;
 		text-align: center;
 		flex: 1;
 		margin: 0 1em;
-		max-width: 200px;
+		max-width: 255px;
 
 		@include breakpoint(442px) {
 			max-width: 368px;
+			font-style: 16px;
 		}
 
 		@include breakpoint(628px) {

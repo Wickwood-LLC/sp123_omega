@@ -745,7 +745,7 @@ table.fc-border-separate {
         font-size: 2.5em; } }
   #mini-panel-header .pane-page-slogan {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
@@ -753,10 +753,11 @@ table.fc-border-separate {
         -ms-flex: 1;
             flex: 1;
     margin: 0 1em;
-    max-width: 200px; }
+    max-width: 255px; }
     @media (min-width: 442px) {
       #mini-panel-header .pane-page-slogan {
-        max-width: 368px; } }
+        max-width: 368px;
+        font-style: 16px; } }
     @media (min-width: 628px) {
       #mini-panel-header .pane-page-slogan {
         max-width: 554px; } }

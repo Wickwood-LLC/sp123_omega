@@ -426,6 +426,10 @@ table.fc-border-separate {
       .pane-course-outline ul li:hover,
       .pane-course-outline-and-navigation ul li:hover {
         background-color: #9bcb3b; }
+        .pane-course-outline ul li:hover a,
+        .pane-course-outline-and-navigation ul li:hover a {
+          text-decoration: none;
+          color: white; }
       .pane-course-outline ul li.active a,
       .pane-course-outline-and-navigation ul li.active a {
         color: #EA4335; }

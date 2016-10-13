@@ -92,8 +92,10 @@
       display: inline-block;
       margin-right: 1em;
       flex: 0 300px;
+    }
 
-      .panel-pane {
+    > .panel-pane {
+      @include breakpoint(0px 949px) {
         flex: 1 300px;
         min-width: 300px;
         display: inline-block;

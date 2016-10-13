@@ -98,6 +98,7 @@
       @include breakpoint(0px 949px) {
         flex: 1 300px;
         min-width: 300px;
+        max-width: 50%;
         display: inline-block;
         margin: 0.5em;
       }
@@ -129,13 +130,27 @@
         }
       }
       .sidebar {
-        display: inline-block;
         width: 100%;
         min-width: 275px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: center;
 
         @include breakpoint(950px) {
+          display: inline-block;
           margin-right: 1em;
           flex: 0 300px;
+        }
+
+        > .panel-pane {
+          @include breakpoint(0px 949px) {
+            flex: 1 300px;
+            min-width: 300px;
+            max-width: 50%;
+            display: inline-block;
+            margin: 0.5em;
+          }
         }
       }
     }
@@ -175,6 +190,7 @@
         float: none;
         margin: 0;
         text-align: center;
+        width: 100%;
       }
     }
   } 

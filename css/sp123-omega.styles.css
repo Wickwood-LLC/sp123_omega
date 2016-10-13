@@ -113,6 +113,7 @@ a {
           -ms-flex: 1 300px;
               flex: 1 300px;
       min-width: 300px;
+      max-width: 50%;
       display: inline-block;
       margin: 0.5em; } }
 
@@ -142,15 +143,33 @@ a {
               -ms-flex-order: 1;
                   order: 1; } }
     .tabbed-course .panel-myriad-layout .row-two .sidebar {
-      display: inline-block;
       width: 100%;
-      min-width: 275px; }
+      min-width: 275px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -ms-flex-line-pack: center;
+          align-content: center; }
       @media (min-width: 950px) {
         .tabbed-course .panel-myriad-layout .row-two .sidebar {
+          display: inline-block;
           margin-right: 1em;
           -webkit-box-flex: 0;
               -ms-flex: 0 300px;
                   flex: 0 300px; } }
+      @media (min-width: 0px) and (max-width: 949px) {
+        .tabbed-course .panel-myriad-layout .row-two .sidebar > .panel-pane {
+          -webkit-box-flex: 1;
+              -ms-flex: 1 300px;
+                  flex: 1 300px;
+          min-width: 300px;
+          max-width: 50%;
+          display: inline-block;
+          margin: 0.5em; } }
   .tabbed-course .panel-myriad-layout .pane-node-title h2:not([class]) {
     margin-top: 0.5em; }
   .tabbed-course .panel-myriad-layout .pane-node-title h2.pane-title {
@@ -171,7 +190,8 @@ a {
 .sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-1, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-1 {
   float: none;
   margin: 0;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 div.panel-pane div.node.node-advertisement {
   background-color: #f5f5f5;

@@ -140,10 +140,19 @@
 		text-align: center;
 		flex: 1;
 		margin: 0 1em;
-		max-width: 625px;
+		max-width: 200px;
 
-		@include breakpoint(768px) {
+		@include breakpoint(442px) {
+			max-width: 368px;
+		}
+
+		@include breakpoint(628px) {
+			max-width: 554px;
+		}
+
+		@include breakpoint(701px) {
 			font-size: 18px;
+			max-width: 625px;
 		}
 	}
 }

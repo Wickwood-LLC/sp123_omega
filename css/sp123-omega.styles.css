@@ -753,10 +753,17 @@ table.fc-border-separate {
         -ms-flex: 1;
             flex: 1;
     margin: 0 1em;
-    max-width: 625px; }
-    @media (min-width: 768px) {
+    max-width: 200px; }
+    @media (min-width: 442px) {
       #mini-panel-header .pane-page-slogan {
-        font-size: 18px; } }
+        max-width: 368px; } }
+    @media (min-width: 628px) {
+      #mini-panel-header .pane-page-slogan {
+        max-width: 554px; } }
+    @media (min-width: 701px) {
+      #mini-panel-header .pane-page-slogan {
+        font-size: 18px;
+        max-width: 625px; } }
 
 .front .wwm-sanderson .row {
   display: -webkit-box;

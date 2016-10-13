@@ -81,13 +81,24 @@
     }
   }
   .sidebar {
-    display: inline-block;
     width: 100%;
     min-width: 275px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
 
     @include breakpoint(950px) {
+      display: inline-block;
       margin-right: 1em;
       flex: 0 300px;
+    }
+
+    .panel-pane {
+      flex: 1 300px;
+      min-width: 300px;
+      display: inline-block;
+      margin: 0.5em;
     }
   }
 }

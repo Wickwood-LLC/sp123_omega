@@ -113,7 +113,6 @@ a {
           -ms-flex: 1 300px;
               flex: 1 300px;
       min-width: 300px;
-      max-width: 50%;
       display: inline-block;
       margin: 0.5em; } }
 
@@ -167,7 +166,6 @@ a {
               -ms-flex: 1 300px;
                   flex: 1 300px;
           min-width: 300px;
-          max-width: 50%;
           display: inline-block;
           margin: 0.5em; } }
   .tabbed-course .panel-myriad-layout .pane-node-title h2:not([class]) {

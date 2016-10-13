@@ -429,6 +429,13 @@ table.fc-border-separate {
       .pane-course-outline ul li.active a,
       .pane-course-outline-and-navigation ul li.active a {
         color: #EA4335; }
+      .pane-course-outline ul li > div,
+      .pane-course-outline-and-navigation ul li > div {
+        display: inline-block;
+        text-transform: capitalize; }
+        .pane-course-outline ul li > div:before,
+        .pane-course-outline-and-navigation ul li > div:before {
+          content: "\00a0 - "; }
   .pane-course-outline #course-nav,
   .pane-course-outline-and-navigation #course-nav {
     margin-bottom: 0;
@@ -696,7 +703,7 @@ table.fc-border-separate {
         -ms-flex: 1;
             flex: 1;
     margin: 0 1em;
-    min-width: 625px; }
+    max-width: 625px; }
     @media (min-width: 768px) {
       #mini-panel-header .pane-page-slogan {
         font-size: 18px;

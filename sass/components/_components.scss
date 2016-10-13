@@ -92,13 +92,13 @@
       display: inline-block;
       margin-right: 1em;
       flex: 0 300px;
-    }
 
-    .panel-pane {
-      flex: 1 300px;
-      min-width: 300px;
-      display: inline-block;
-      margin: 0.5em;
+      .panel-pane {
+        flex: 1 300px;
+        min-width: 300px;
+        display: inline-block;
+        margin: 0.5em;
+      }
     }
   }
 }

@@ -966,6 +966,13 @@ table.fc-border-separate {
       border-right: 1px solid #628E2F; }
 
 /* These are styles for the login and registration pages. */
+.page-user-login #content .row, .page-user-password #content .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 .page-user-login .col-md-3, .page-user-password .col-md-3 {
   display: none; }
 .page-user-login .col-md-6, .page-user-password .col-md-6 {

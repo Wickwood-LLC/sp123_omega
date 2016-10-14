@@ -1,6 +1,10 @@
 /* These are styles for the login and registration pages. */
 
 .page-user-login, .page-user-password {
+    #content .row {
+        display: flex;
+        justify-content: center;
+    }
     .col-md-3 {
         display: none;
     }

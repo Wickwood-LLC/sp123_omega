@@ -966,6 +966,11 @@ table.fc-border-separate {
       border-right: 1px solid #628E2F; }
 
 /* These are styles for the login and registration pages. */
+.page-user-login .col-md-3, .page-user-password .col-md-3 {
+  display: none; }
+.page-user-login .col-md-6, .page-user-password .col-md-6 {
+  width: 100%;
+  max-width: 600px; }
 .page-user-login .radix-layouts-content, .page-user-password .radix-layouts-content {
   padding: 2em 1em 1em 1em;
   border-radius: 10px;
@@ -1009,11 +1014,6 @@ table.fc-border-separate {
 
 form#user-login, form#user-pass {
   margin: 0; }
-  form#user-login .col-md-3, form#user-pass .col-md-3 {
-    display: none; }
-  form#user-login .col-md-6, form#user-pass .col-md-6 {
-    width: 100%;
-    max-width: 600px; }
   form#user-login input, form#user-pass input {
     font-size: 1em;
     width: 100%; }

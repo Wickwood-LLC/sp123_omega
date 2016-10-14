@@ -689,7 +689,11 @@ table.fc-border-separate {
 
     ul {
       margin: 0.5em 0;
-      column-count: 3;
+      padding-left: 1em;
+
+      @include breakpoint(590px) {
+        column-count: 3;
+      }
     }
   }
 }

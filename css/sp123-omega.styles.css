@@ -525,9 +525,12 @@ table.fc-border-separate {
     font-weight: bold; }
   .page-node-course-outline #course-objects ul {
     margin: 0.5em 0;
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3; }
+    padding-left: 1em; }
+    @media (min-width: 590px) {
+      .page-node-course-outline #course-objects ul {
+        -webkit-column-count: 3;
+           -moz-column-count: 3;
+                column-count: 3; } }
 
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;
@@ -745,7 +748,7 @@ table.fc-border-separate {
         font-size: 2.5em; } }
   #mini-panel-header .pane-page-slogan {
     display: inline-block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
@@ -756,8 +759,7 @@ table.fc-border-separate {
     max-width: 255px; }
     @media (min-width: 442px) {
       #mini-panel-header .pane-page-slogan {
-        max-width: 368px;
-        font-style: 16px; } }
+        max-width: 368px; } }
     @media (min-width: 628px) {
       #mini-panel-header .pane-page-slogan {
         max-width: 554px; } }

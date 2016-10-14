@@ -134,7 +134,7 @@
 	}
 	.pane-page-slogan {
 		display: inline-block;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: bold;
 		line-height: 1.5;
 		text-align: center;
@@ -144,7 +144,6 @@
 
 		@include breakpoint(442px) {
 			max-width: 368px;
-			font-style: 16px;
 		}
 
 		@include breakpoint(628px) {

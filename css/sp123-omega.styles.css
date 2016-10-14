@@ -1010,9 +1010,10 @@ table.fc-border-separate {
 form#user-login, form#user-pass {
   margin: 0; }
   form#user-login input, form#user-pass input {
-    font-size: 1em; }
+    font-size: 1em;
+    width: 100%; }
   form#user-login > div > .form-item, form#user-pass > div > .form-item {
-    display: table;
+    display: block;
     margin: 0 auto 1em; }
   form#user-login .g-recaptcha, form#user-pass .g-recaptcha {
     display: table;

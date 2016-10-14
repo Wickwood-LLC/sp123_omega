@@ -53,10 +53,11 @@ form#user-login, form#user-pass {
 
     input {
         font-size: 1em;
+        width: 100%;
     }
 
     & > div > .form-item {
-        display: table;
+        display: block;
         margin: 0 auto 1em;
     }       
 

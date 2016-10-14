@@ -682,14 +682,14 @@ table.fc-border-separate {
 
   #course-objects {
     width: 100%;
-  }
 
-  td div[id*="title"] {
-    font-weight: bold;
-  }
+    td div[id*="title"] {
+      font-weight: bold;
+    }
 
-  ul {
-    margin: 0.5em 0;
-    column-count: 3;
+    ul {
+      margin: 0.5em 0;
+      column-count: 3;
+    }
   }
 }

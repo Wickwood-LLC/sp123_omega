@@ -454,7 +454,10 @@ table.fc-border-separate {
     .pane-course-outline-and-navigation ul li {
       list-style: none;
       border-bottom: 1px solid #ddd;
-      padding: 0 1em; }
+      padding: 0 1em;
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box; }
       .pane-course-outline ul li:nth-child(odd),
       .pane-course-outline-and-navigation ul li:nth-child(odd) {
         background-color: white; }

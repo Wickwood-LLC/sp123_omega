@@ -586,6 +586,9 @@ table.fc-border-separate {
       list-style: none;
       border-bottom: 1px solid #ddd;
       padding: 0 1em;
+      display: inline-block;
+      width: 100%;
+      box-sizing: border-box;
 
       &:nth-child(odd) {
         background-color: white;

@@ -477,7 +477,8 @@ table.fc-border-separate {
       .pane-course-outline ul li > div,
       .pane-course-outline-and-navigation ul li > div {
         display: inline-block;
-        text-transform: capitalize; }
+        text-transform: capitalize;
+        float: right; }
         .pane-course-outline ul li > div:before,
         .pane-course-outline-and-navigation ul li > div:before {
           content: "\00a0 - "; }

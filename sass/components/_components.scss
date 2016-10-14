@@ -616,6 +616,7 @@ table.fc-border-separate {
       > div {
         display: inline-block;
         text-transform: capitalize;
+        float: right;
 
         &:before {
           content: "\00a0 - ";

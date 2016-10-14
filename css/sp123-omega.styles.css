@@ -1009,6 +1009,11 @@ table.fc-border-separate {
 
 form#user-login, form#user-pass {
   margin: 0; }
+  form#user-login .col-md-3, form#user-pass .col-md-3 {
+    display: none; }
+  form#user-login .col-md-6, form#user-pass .col-md-6 {
+    width: 100%;
+    max-width: 600px; }
   form#user-login input, form#user-pass input {
     font-size: 1em;
     width: 100%; }

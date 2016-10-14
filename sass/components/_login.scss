@@ -51,6 +51,14 @@
 form#user-login, form#user-pass {
     margin: 0;
 
+    .col-md-3 {
+        display: none;
+    }
+    .col-md-6 {
+        width: 100%;
+        max-width: 600px;
+    }
+
     input {
         font-size: 1em;
         width: 100%;

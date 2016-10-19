@@ -1367,7 +1367,7 @@ img.testimonial-image {
   margin: 0; }
 
 .top-box {
-  width: auto;
+  width: 100% !important;
   border-style: solid;
   border-color: #4285f4;
   border-top-left-radius: 10px;
@@ -1389,5 +1389,10 @@ img.testimonial-image {
   border-bottom-right-radius: 10px;
   background-color: #ecf2ce;
   border-top-width: 2px; }
+
+.top-box h2, .middle-box h2, .bottom-box h2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

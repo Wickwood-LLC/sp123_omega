@@ -1283,10 +1283,7 @@ body {
   border: 2px solid #9bcb3b; }
 .wwm-sanderson .row:first-child .radix-layouts-column2 .page-block-title {
   font-size: 1.4em;
-  margin: 0; }
-.wwm-sanderson .row:first-child .radix-layouts-column2 .pane-1 {
-  max-height: 275px;
-  overflow-y: scroll; }
+  margin: 0.2em; }
 
 #footer {
   background: #0f753b;
@@ -1394,5 +1391,7 @@ img.testimonial-image {
   font-size: 20px;
   text-align: center;
   margin: 5px; }
+.top-box p, .middle-box p, .bottom-box p {
+  margin: 0 0.5em; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

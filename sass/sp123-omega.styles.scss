@@ -118,12 +118,7 @@
 
 			.page-block-title {
 				font-size: 1.4em;
-				margin: 0;
-			}
-
-			.pane-1 {
-				max-height: 275px;
-		    	overflow-y: scroll;
+				margin: 0.2em;
 			}
 		}
 	}
@@ -268,5 +263,8 @@ img.testimonial-image {
 		font-size: 20px;
 	    text-align: center;
 	    margin: 5px;
+	}
+	p {
+		margin: 0 0.5em;
 	}
 }

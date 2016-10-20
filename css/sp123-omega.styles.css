@@ -1201,6 +1201,10 @@ body {
 .jspPane {
   width: calc(100% - 14px) !important; }
 
+.scroll-pane {
+  max-height: 275px;
+  overflow-y: scroll; }
+
 #header,
 #branding .limiter,
 #page-title,

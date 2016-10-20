@@ -1094,7 +1094,12 @@ form#user-login, form#user-pass {
           color: #e54e4b; }
     #block-superfish-1 #superfish-1 li.menuparent ul {
       background: white;
-      border-bottom: 2px solid #6fae1b; }
+      border-bottom: 2px solid #6fae1b;
+      border-right: 1px solid #6fae1b;
+      border-left: 1px solid #6fae1b;
+      border-radius: 0;
+      min-width: 12em !important;
+      width: auto !important; }
       #block-superfish-1 #superfish-1 li.menuparent ul a {
         background: white;
         color: black; }

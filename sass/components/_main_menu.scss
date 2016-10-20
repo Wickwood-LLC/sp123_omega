@@ -28,7 +28,7 @@
         padding: 12px;
 
         &.sf-with-ul {
-          padding-right: 2.25em;
+          padding-right: 28px;
         }
 
         &:hover, &.active {
@@ -110,16 +110,16 @@
     }
   }
 
-  @include breakpoint(605px 660px) {
+  @include breakpoint(884px 941px) {
     font-size: 12px;
   }
-  @include breakpoint(661px 698px) {
+  @include breakpoint(942px 999px) {
     font-size: 13px;
   }
-  @include breakpoint(699px 789px) {
+  @include breakpoint(1000px 1116px) {
     font-size: 14px;
   }
-  @include breakpoint(790px 890px) {
+  @include breakpoint(1117px 1232px) {
     font-size: 16px;
   }
 }

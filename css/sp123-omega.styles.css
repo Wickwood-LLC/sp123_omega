@@ -78,6 +78,16 @@ a {
               flex: 1 30%;
       min-width: 300px;
       margin: 0.5em; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row h2 {
+        margin: 0.5em 0 0 0;
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row h3 {
+        margin: 0 0 0.5em 0;
+        text-align: center; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-1, .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .col-2 {
+        width: 100%; }
+      .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row .pane-node-field-ad-image {
+        text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .main-display .view-content {
     display: -webkit-box;
     display: -ms-flexbox;

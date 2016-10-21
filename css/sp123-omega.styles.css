@@ -44,6 +44,23 @@ a {
             flex: 1 1 0;
     min-width: 300px;
     margin-left: 1em; }
+  .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: url(../images/banner.jpg) center center;
+    background-size: cover; }
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
+      width: 50%;
+      display: inline-block;
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0;
+              flex: 1 0;
+      min-width: 300px; }
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:first-child {
+        padding-right: 0.5em; }
+      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:last-child {
+        padding-right: 0.5em; }
 
 .boxed {
   border-radius: 10px;

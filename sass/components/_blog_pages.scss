@@ -14,5 +14,26 @@
 		    min-width: 300px;
 		    margin-left: 1em;
 		}
+
+		.featured-display .view-content {
+			display: flex;
+		    background: url(../images/banner.jpg) center center;
+		    background-size: cover;
+
+		    .views-row {
+		    	width: 50%;
+			    display: inline-block;
+			    flex: 1 0;
+			    min-width: 300px;
+
+			    &:first-child {
+			    	padding-right: 0.5em;
+			    }
+
+			    &:last-child {
+			    	padding-right: 0.5em;
+			    }
+		    }
+		}
 	}
 }

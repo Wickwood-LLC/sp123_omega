@@ -1216,16 +1216,16 @@ form#user-login, form#user-pass {
       color: #0f753b; }
       #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
         background-color: #f8fff0; }
-  @media (min-width: 884px) and (max-width: 941px) {
+  @media (min-width: 718px) and (max-width: 756px) {
     #block-superfish-1 {
       font-size: 12px; } }
-  @media (min-width: 942px) and (max-width: 999px) {
+  @media (min-width: 757px) and (max-width: 795px) {
     #block-superfish-1 {
       font-size: 13px; } }
-  @media (min-width: 1000px) and (max-width: 1116px) {
+  @media (min-width: 796px) and (max-width: 873px) {
     #block-superfish-1 {
       font-size: 14px; } }
-  @media (min-width: 1117px) and (max-width: 1232px) {
+  @media (min-width: 874px) and (max-width: 951px) {
     #block-superfish-1 {
       font-size: 16px; } }
 

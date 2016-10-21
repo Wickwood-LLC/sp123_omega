@@ -110,16 +110,16 @@
     }
   }
 
-  @include breakpoint(884px 941px) {
+  @include breakpoint(718px 756px) {
     font-size: 12px;
   }
-  @include breakpoint(942px 999px) {
+  @include breakpoint(757px 795px) {
     font-size: 13px;
   }
-  @include breakpoint(1000px 1116px) {
+  @include breakpoint(796px 873px) {
     font-size: 14px;
   }
-  @include breakpoint(1117px 1232px) {
+  @include breakpoint(874px 951px) {
     font-size: 16px;
   }
 }

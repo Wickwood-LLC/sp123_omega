@@ -22,10 +22,10 @@
 
 		.featured-display .view-content {
 			display: flex;
+			flex-flow: row wrap;
 
 		    .views-row {
 		    	width: 50%;
-			    display: inline-block;
 			    flex: 1 0;
 			    min-width: 300px;
 
@@ -34,7 +34,7 @@
 			    }
 
 			    &:last-child {
-			    	padding-right: 0.5em;
+			    	padding-left: 0.5em;
 			    }
 
 			    .featured-image img {

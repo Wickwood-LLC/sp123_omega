@@ -44,7 +44,8 @@ a {
             flex: 1 1 0;
     min-width: 300px;
     margin-left: 1em; }
-  .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6 {
+  .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
+  .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6 {
     background: url(../images/banner.jpg) center center;
     background-size: cover; }
   .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {

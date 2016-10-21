@@ -43,5 +43,15 @@
 			    }
 		    }
 		}
+
+		.main-display {
+			display: flex;
+			flex-flow: row wrap;
+
+			.views-row {
+				flex: 1 33%;
+				min-width: 300px;
+			}
+		}
 	}
 }

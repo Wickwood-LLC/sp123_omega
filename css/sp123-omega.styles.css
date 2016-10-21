@@ -26,6 +26,25 @@ a {
     color: #4285F4;
     text-decoration: underline; }
 
+.blog-type-page #main-content .panel-myriad-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  padding: 1em; }
+  .blog-type-page #main-content .panel-myriad-layout .main-content {
+    -webkit-box-flex: 3;
+        -ms-flex: 3 0 0;
+            flex: 3 0 0;
+    min-width: 560px; }
+  .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0;
+            flex: 1 1 0;
+    min-width: 300px;
+    margin-left: 1em; }
+
 .boxed {
   border-radius: 10px;
   border: 2px solid #689a04;

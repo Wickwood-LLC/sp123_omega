@@ -15,10 +15,13 @@
 		    margin-left: 1em;
 		}
 
+		.pane-articles-test-panel-pane-6 {
+			background: url(../images/banner.jpg) center center;
+		    background-size: cover;
+		}
+
 		.featured-display .view-content {
 			display: flex;
-		    background: url(../images/banner.jpg) center center;
-		    background-size: cover;
 
 		    .views-row {
 		    	width: 50%;
@@ -32,6 +35,11 @@
 
 			    &:last-child {
 			    	padding-right: 0.5em;
+			    }
+
+			    .featured-image img {
+			    	width: 100%;
+			    	height: auto;
 			    }
 		    }
 		}

@@ -44,13 +44,19 @@
 		    }
 		}
 
-		.main-display {
+		.main-display .view-content {
 			display: flex;
 			flex-flow: row wrap;
 
 			.views-row {
-				flex: 1 33%;
+				flex: 1 30%;
 				min-width: 300px;
+				margin: 0.5em;
+
+				.views-field-field-featured-image,
+				.views-field-title {
+					text-align: center;
+				}
 			}
 		}
 	}

@@ -44,6 +44,17 @@
 		    }
 		}
 
+		.pane-ad-cycles-ad-blog .view-content {
+			display: flex;
+			flex-flow: row wrap;
+
+			.views-row {
+				flex: 1 30%;
+				min-width: 300px;
+				margin: 0.5em;
+			}
+		}
+
 		.main-display .view-content {
 			display: flex;
 			flex-flow: row wrap;

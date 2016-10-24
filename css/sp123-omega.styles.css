@@ -1217,11 +1217,11 @@ form#user-login, form#user-pass {
   #block-superfish-1 #superfish-1-accordion li {
     background-color: white;
     border-bottom: 1px solid #ddd; }
-    #block-superfish-1 #superfish-1-accordion li.active-trail {
+    #block-superfish-1 #superfish-1-accordion li.active-trail, #block-superfish-1 #superfish-1-accordion li:active {
       background-color: #0f753b; }
-      #block-superfish-1 #superfish-1-accordion li.active-trail > a {
+      #block-superfish-1 #superfish-1-accordion li.active-trail > a, #block-superfish-1 #superfish-1-accordion li:active > a {
         color: white; }
-        #block-superfish-1 #superfish-1-accordion li.active-trail > a:hover {
+        #block-superfish-1 #superfish-1-accordion li.active-trail > a:hover, #block-superfish-1 #superfish-1-accordion li:active > a:hover {
           background-color: #0f753b; }
     #block-superfish-1 #superfish-1-accordion li.menuparent > a.menuparent:before {
       content: "\f0da";

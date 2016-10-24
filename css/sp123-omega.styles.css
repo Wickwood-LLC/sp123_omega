@@ -1217,7 +1217,7 @@ form#user-login, form#user-pass {
   #block-superfish-1 #superfish-1-accordion li {
     background-color: white;
     border-bottom: 1px solid #ddd;
-    padding-left: 34px; }
+    padding-left: 17px; }
     #block-superfish-1 #superfish-1-accordion li.active-trail {
       background-color: #0f753b; }
       #block-superfish-1 #superfish-1-accordion li.active-trail > a {
@@ -1234,7 +1234,7 @@ form#user-login, form#user-pass {
       font-family: "FontAwesome";
       margin-right: 10px;
       margin-left: -17px; }
-    #block-superfish-1 #superfish-1-accordion li.menuparent > li:last-child a {
+    #block-superfish-1 #superfish-1-accordion li.menuparent > ul > li:last-child a {
       border-radius: 0px; }
     #block-superfish-1 #superfish-1-accordion li:nth-child(even) {
       background-color: #e6e6e6; }
@@ -1244,7 +1244,8 @@ form#user-login, form#user-pass {
         border-radius: 0 0 10px 10px; }
     #block-superfish-1 #superfish-1-accordion li a {
       border: 0px;
-      color: black; }
+      color: black;
+      padding-left: 34px; }
       #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
         background-color: #e9efcc; }
 @media (min-width: 718px) and (max-width: 756px) {

@@ -44,6 +44,11 @@
 			    	height: auto;
 			    }
 		    }
+
+		    .scroll-pane {
+		    	height: 500px;
+    			overflow: auto;
+		    }
 		}
 
 		.pane-ad-cycles-ad-blog .view-content {

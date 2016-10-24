@@ -68,6 +68,9 @@ a {
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
         width: 100%;
         height: auto; }
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
+      height: 500px;
+      overflow: auto; }
   .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content {
     display: -webkit-box;
     display: -ms-flexbox;

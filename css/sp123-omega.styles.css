@@ -1201,6 +1201,14 @@ form#user-login, form#user-pass {
   #block-superfish-1 #superfish-1-toggle.sf-expanded {
     background-color: #2ea328;
     border-radius: 10px 10px 0 0; }
+    #block-superfish-1 #superfish-1-toggle.sf-expanded span:after {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      margin-left: 10px; }
+  #block-superfish-1 #superfish-1-toggle span:after {
+    content: "\f0da";
+    font-family: "FontAwesome";
+    margin-left: 10px; }
 #block-superfish-1 #superfish-1-accordion li {
   background-color: white; }
   #block-superfish-1 #superfish-1-accordion li.active-trail {
@@ -1209,14 +1217,11 @@ form#user-login, form#user-pass {
       color: white; }
   #block-superfish-1 #superfish-1-accordion li:last-child {
     border-radius: 0 0 10px 10px; }
-  #block-superfish-1 #superfish-1-accordion li:hover a:hover {
-    background-color: #f8fff0;
-    color: #0f753b; }
   #block-superfish-1 #superfish-1-accordion li a {
     border-top: 1px solid #f5f5f5;
     color: #0f753b; }
     #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
-      background-color: #f8fff0; }
+      background-color: #e9efcc; }
 @media (min-width: 718px) and (max-width: 756px) {
   #block-superfish-1 {
     font-size: 12px; } }

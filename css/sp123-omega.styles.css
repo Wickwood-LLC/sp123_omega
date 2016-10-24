@@ -1202,14 +1202,14 @@ form#user-login, form#user-pass {
   #block-superfish-1 #superfish-1-toggle.sf-expanded {
     background-color: #2ea328;
     border-radius: 10px 10px 0 0; }
-    #block-superfish-1 #superfish-1-toggle.sf-expanded span:after {
+    #block-superfish-1 #superfish-1-toggle.sf-expanded span:before {
       content: "\f0d7";
       font-family: "FontAwesome";
-      margin-left: 10px; }
-  #block-superfish-1 #superfish-1-toggle span:after {
+      margin-right: 10px; }
+  #block-superfish-1 #superfish-1-toggle span:before {
     content: "\f0da";
     font-family: "FontAwesome";
-    margin-left: 10px; }
+    margin-right: 10px; }
 #block-superfish-1 #superfish-1-accordion {
   border: 1px solid #689a04;
   border-top: 0px;
@@ -1229,19 +1229,19 @@ form#user-login, form#user-pass {
       border-radius: 0 0 10px 10px; }
       #block-superfish-1 #superfish-1-accordion li:last-child a {
         border-radius: 0 0 10px 10px; }
-    #block-superfish-1 #superfish-1-accordion li.sf-expanded > a.menuparent:after {
+    #block-superfish-1 #superfish-1-accordion li.sf-expanded > a.menuparent:before {
       content: "\f0d7";
       font-family: "FontAwesome";
-      margin-left: 10px; }
+      margin-right: 10px; }
     #block-superfish-1 #superfish-1-accordion li a {
       border: 0px;
       color: black; }
       #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
         background-color: #e9efcc; }
-      #block-superfish-1 #superfish-1-accordion li a.menuparent:after {
+      #block-superfish-1 #superfish-1-accordion li a.menuparent:before {
         content: "\f0da";
         font-family: "FontAwesome";
-        margin-left: 10px; }
+        margin-right: 10px; }
 @media (min-width: 718px) and (max-width: 756px) {
   #block-superfish-1 {
     font-size: 12px; } }

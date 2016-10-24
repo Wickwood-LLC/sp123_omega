@@ -121,8 +121,11 @@
 
 .node-type-article-post,
 .node-type-panopoly-news-article {
-	.field--name-field-featured-image .field__item {
+	.field--name-field-featured-image {
 		text-align: center;
-    	display: inline-block;
+
+		.field__item {
+	    	display: inline-block;
+		}
 	}
 }

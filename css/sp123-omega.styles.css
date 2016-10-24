@@ -124,10 +124,12 @@ a {
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-title {
         text-align: center; }
 
-.node-type-article-post .field--name-field-featured-image .field__item,
-.node-type-panopoly-news-article .field--name-field-featured-image .field__item {
-  text-align: center;
-  display: inline-block; }
+.node-type-article-post .field--name-field-featured-image,
+.node-type-panopoly-news-article .field--name-field-featured-image {
+  text-align: center; }
+  .node-type-article-post .field--name-field-featured-image .field__item,
+  .node-type-panopoly-news-article .field--name-field-featured-image .field__item {
+    display: inline-block; }
 
 .boxed {
   border-radius: 10px;

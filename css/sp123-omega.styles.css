@@ -1223,25 +1223,27 @@ form#user-login, form#user-pass {
         color: white; }
         #block-superfish-1 #superfish-1-accordion li.active-trail > a:hover {
           background-color: #0f753b; }
+    #block-superfish-1 #superfish-1-accordion li.sf-expanded > a.menuparent:before {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      margin-right: 10px; }
+    #block-superfish-1 #superfish-1-accordion li.menuparent > a.menuparent:before {
+      content: "\f0da";
+      font-family: "FontAwesome";
+      margin-right: 10px; }
+    #block-superfish-1 #superfish-1-accordion li.sf-no-children > a {
+      padding-left: 34px; }
     #block-superfish-1 #superfish-1-accordion li:nth-child(even) {
       background-color: #e6e6e6; }
     #block-superfish-1 #superfish-1-accordion li:last-child {
       border-radius: 0 0 10px 10px; }
       #block-superfish-1 #superfish-1-accordion li:last-child a {
         border-radius: 0 0 10px 10px; }
-    #block-superfish-1 #superfish-1-accordion li.sf-expanded > a.menuparent:before {
-      content: "\f0d7";
-      font-family: "FontAwesome";
-      margin-right: 10px; }
     #block-superfish-1 #superfish-1-accordion li a {
       border: 0px;
       color: black; }
       #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
         background-color: #e9efcc; }
-      #block-superfish-1 #superfish-1-accordion li a.menuparent:before {
-        content: "\f0da";
-        font-family: "FontAwesome";
-        margin-right: 10px; }
 @media (min-width: 718px) and (max-width: 756px) {
   #block-superfish-1 {
     font-size: 12px; } }

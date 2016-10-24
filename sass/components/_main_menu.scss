@@ -113,6 +113,22 @@
         }
       }
 
+      &.sf-expanded>a.menuparent:before {
+        content: "\f0d7";
+        font-family: "FontAwesome";
+        margin-right: 10px;
+      }
+
+      &.menuparent>a.menuparent:before {
+        content: "\f0da";
+        font-family: "FontAwesome";
+        margin-right: 10px;
+      }
+
+      &.sf-no-children>a {
+        padding-left: 34px;
+      }
+
       &:nth-child(even) {
         background-color: #e6e6e6;
       }
@@ -125,24 +141,12 @@
         }
       }
 
-      &.sf-expanded>a.menuparent:before {
-        content: "\f0d7";
-        font-family: "FontAwesome";
-        margin-right: 10px;
-      }
-
       a {
         border: 0px;
         color: black;
 
         &:hover, &:focus {
           background-color: #e9efcc;
-        }
-
-        &.menuparent:before {
-          content: "\f0da";
-          font-family: "FontAwesome";
-          margin-right: 10px;
         }
       }
     }

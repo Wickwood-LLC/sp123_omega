@@ -1223,13 +1223,13 @@ form#user-login, form#user-pass {
         color: white; }
         #block-superfish-1 #superfish-1-accordion li.active-trail > a:hover {
           background-color: #0f753b; }
-    #block-superfish-1 #superfish-1-accordion li.sf-expanded > a.menuparent:before {
-      content: "\f0d7";
+    #block-superfish-1 #superfish-1-accordion li.menuparent > a.menuparent:before {
+      content: "\f0da";
       font-family: "FontAwesome";
       margin-right: 10px;
       margin-left: -17px; }
-    #block-superfish-1 #superfish-1-accordion li.menuparent > a.menuparent:before {
-      content: "\f0da";
+    #block-superfish-1 #superfish-1-accordion li.menuparent.sf-expanded > a.menuparent:before {
+      content: "\f0d7";
       font-family: "FontAwesome";
       margin-right: 10px;
       margin-left: -17px; }

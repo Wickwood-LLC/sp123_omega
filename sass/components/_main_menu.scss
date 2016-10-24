@@ -101,7 +101,7 @@
       background-color: white;
       border-bottom: 1px solid #ddd;
 
-      &.active-trail, &:active {
+      &.active-trail, &.active-trail:nth-child(even) {
         background-color: #0f753b;
 
         > a {

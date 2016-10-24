@@ -1150,84 +1150,85 @@ form#user-login, form#user-pass {
   form#user-login #edit-actions, form#user-pass #edit-actions {
     text-align: center; }
 
-#block-superfish-1 {
-  display: table;
-  margin: 0 auto; }
-  #block-superfish-1 a:hover {
-    text-decoration: none; }
-  #block-superfish-1 #superfish-1 {
-    background: #6fae1b;
-    background: -webkit-linear-gradient(top, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%);
-    background: linear-gradient(to bottom, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%);
-    border-radius: 5px; }
-    #block-superfish-1 #superfish-1 li {
-      background: transparent; }
-      #block-superfish-1 #superfish-1 li:first-child a {
-        border-radius: 5px 0 0 5px; }
-      #block-superfish-1 #superfish-1 li:last-child a {
-        border-radius: 0 5px 5px 0; }
-      #block-superfish-1 #superfish-1 li a {
-        border: 0px;
-        color: white;
-        padding: 12px; }
-        #block-superfish-1 #superfish-1 li a.sf-with-ul {
-          padding-right: 28px; }
-        #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a.active {
-          background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
-          background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
-        #block-superfish-1 #superfish-1 li a:focus {
-          background: white;
-          color: #e54e4b; }
-    #block-superfish-1 #superfish-1 li.menuparent ul {
-      background: white;
-      border-bottom: 2px solid #6fae1b;
-      border-right: 1px solid #6fae1b;
-      border-left: 1px solid #6fae1b;
-      border-radius: 0;
-      min-width: 12em !important;
-      width: auto !important; }
-      #block-superfish-1 #superfish-1 li.menuparent ul a {
+@media (min-width: 718px) {
+  #block-superfish-1 {
+    display: table;
+    margin: 0 auto; } }
+#block-superfish-1 a:hover {
+  text-decoration: none; }
+#block-superfish-1 #superfish-1 {
+  background: #6fae1b;
+  background: -webkit-linear-gradient(top, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%);
+  background: linear-gradient(to bottom, #1e5799 0%, #badc68 0%, #6fae1b 98%, #6fae1b 100%);
+  border-radius: 5px; }
+  #block-superfish-1 #superfish-1 li {
+    background: transparent; }
+    #block-superfish-1 #superfish-1 li:first-child a {
+      border-radius: 5px 0 0 5px; }
+    #block-superfish-1 #superfish-1 li:last-child a {
+      border-radius: 0 5px 5px 0; }
+    #block-superfish-1 #superfish-1 li a {
+      border: 0px;
+      color: white;
+      padding: 12px; }
+      #block-superfish-1 #superfish-1 li a.sf-with-ul {
+        padding-right: 28px; }
+      #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a.active {
+        background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
+        background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
+      #block-superfish-1 #superfish-1 li a:focus {
         background: white;
-        color: black; }
-        #block-superfish-1 #superfish-1 li.menuparent ul a:hover {
-          color: #e54e4b; }
-  #block-superfish-1 #superfish-1-toggle {
-    display: block;
-    text-align: center;
-    background-color: #0F753D;
-    color: white;
-    border-radius: 10px; }
-    #block-superfish-1 #superfish-1-toggle.sf-expanded {
-      background-color: #2ea328;
-      border-radius: 10px 10px 0 0; }
-  #block-superfish-1 #superfish-1-accordion li {
-    background-color: white; }
-    #block-superfish-1 #superfish-1-accordion li.active-trail {
-      background-color: #0f753b; }
-      #block-superfish-1 #superfish-1-accordion li.active-trail > a {
-        color: white; }
-    #block-superfish-1 #superfish-1-accordion li:last-child {
-      border-radius: 0 0 10px 10px; }
-    #block-superfish-1 #superfish-1-accordion li:hover a:hover {
-      background-color: #f8fff0;
-      color: #0f753b; }
-    #block-superfish-1 #superfish-1-accordion li a {
-      border-top: 1px solid #f5f5f5;
-      color: #0f753b; }
-      #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
-        background-color: #f8fff0; }
-  @media (min-width: 718px) and (max-width: 756px) {
-    #block-superfish-1 {
-      font-size: 12px; } }
-  @media (min-width: 757px) and (max-width: 795px) {
-    #block-superfish-1 {
-      font-size: 13px; } }
-  @media (min-width: 796px) and (max-width: 873px) {
-    #block-superfish-1 {
-      font-size: 14px; } }
-  @media (min-width: 874px) and (max-width: 951px) {
-    #block-superfish-1 {
-      font-size: 16px; } }
+        color: #e54e4b; }
+  #block-superfish-1 #superfish-1 li.menuparent ul {
+    background: white;
+    border-bottom: 2px solid #6fae1b;
+    border-right: 1px solid #6fae1b;
+    border-left: 1px solid #6fae1b;
+    border-radius: 0;
+    min-width: 12em !important;
+    width: auto !important; }
+    #block-superfish-1 #superfish-1 li.menuparent ul a {
+      background: white;
+      color: black; }
+      #block-superfish-1 #superfish-1 li.menuparent ul a:hover {
+        color: #e54e4b; }
+#block-superfish-1 #superfish-1-toggle {
+  display: block;
+  text-align: center;
+  background-color: #0F753D;
+  color: white;
+  border-radius: 10px; }
+  #block-superfish-1 #superfish-1-toggle.sf-expanded {
+    background-color: #2ea328;
+    border-radius: 10px 10px 0 0; }
+#block-superfish-1 #superfish-1-accordion li {
+  background-color: white; }
+  #block-superfish-1 #superfish-1-accordion li.active-trail {
+    background-color: #0f753b; }
+    #block-superfish-1 #superfish-1-accordion li.active-trail > a {
+      color: white; }
+  #block-superfish-1 #superfish-1-accordion li:last-child {
+    border-radius: 0 0 10px 10px; }
+  #block-superfish-1 #superfish-1-accordion li:hover a:hover {
+    background-color: #f8fff0;
+    color: #0f753b; }
+  #block-superfish-1 #superfish-1-accordion li a {
+    border-top: 1px solid #f5f5f5;
+    color: #0f753b; }
+    #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
+      background-color: #f8fff0; }
+@media (min-width: 718px) and (max-width: 756px) {
+  #block-superfish-1 {
+    font-size: 12px; } }
+@media (min-width: 757px) and (max-width: 795px) {
+  #block-superfish-1 {
+    font-size: 13px; } }
+@media (min-width: 796px) and (max-width: 873px) {
+  #block-superfish-1 {
+    font-size: 14px; } }
+@media (min-width: 874px) and (max-width: 951px) {
+  #block-superfish-1 {
+    font-size: 16px; } }
 
 body.maintenance-page {
   height: 100%;

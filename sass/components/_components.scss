@@ -593,7 +593,7 @@ table.fc-border-separate {
 
 .pane-course-outline,
 .pane-course-outline-and-navigation {
-  padding: 1em 0;
+  padding-top: 1em;
 
   .pane-title {
     margin-left: 1em;
@@ -610,6 +610,7 @@ table.fc-border-separate {
 
   ul {
     margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
 
     li {
@@ -623,9 +624,11 @@ table.fc-border-separate {
       &:nth-child(odd) {
         background-color: white;
       }
-
       &:nth-child(even) {
         background-color: #e6e6e6;
+      }
+      &:last-child {
+        border-radius: 0 0 10px 10px;
       }
 
       &:hover {

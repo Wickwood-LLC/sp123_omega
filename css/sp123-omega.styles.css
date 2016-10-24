@@ -533,7 +533,7 @@ table.fc-border-separate {
 
 .pane-course-outline,
 .pane-course-outline-and-navigation {
-  padding: 1em 0; }
+  padding-top: 1em; }
   .pane-course-outline .pane-title,
   .pane-course-outline-and-navigation .pane-title {
     margin-left: 1em; }
@@ -548,6 +548,7 @@ table.fc-border-separate {
   .pane-course-outline ul,
   .pane-course-outline-and-navigation ul {
     margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0; }
     .pane-course-outline ul li,
     .pane-course-outline-and-navigation ul li {
@@ -563,6 +564,9 @@ table.fc-border-separate {
       .pane-course-outline ul li:nth-child(even),
       .pane-course-outline-and-navigation ul li:nth-child(even) {
         background-color: #e6e6e6; }
+      .pane-course-outline ul li:last-child,
+      .pane-course-outline-and-navigation ul li:last-child {
+        border-radius: 0 0 10px 10px; }
       .pane-course-outline ul li:hover,
       .pane-course-outline-and-navigation ul li:hover {
         background-color: #e9efcc; }

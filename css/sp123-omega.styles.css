@@ -593,7 +593,8 @@ table.fc-border-separate {
       display: inline-block;
       background-color: #0d7339;
       padding: 3px 4px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      width: auto; }
       .pane-course-outline #course-nav li:hover,
       .pane-course-outline-and-navigation #course-nav li:hover {
         background-color: #8bbf50; }

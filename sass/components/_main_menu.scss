@@ -125,7 +125,7 @@
         }
       }
 
-      &.sf-expanded a.menuparent:after {
+      &.sf-expanded>a.menuparent:after {
         content: "\f0d7";
         font-family: "FontAwesome";
         margin-left: 10px;

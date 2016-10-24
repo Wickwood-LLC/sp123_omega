@@ -1229,7 +1229,7 @@ form#user-login, form#user-pass {
       border-radius: 0 0 10px 10px; }
       #block-superfish-1 #superfish-1-accordion li:last-child a {
         border-radius: 0 0 10px 10px; }
-    #block-superfish-1 #superfish-1-accordion li.sf-expanded a.menuparent:after {
+    #block-superfish-1 #superfish-1-accordion li.sf-expanded > a.menuparent:after {
       content: "\f0d7";
       font-family: "FontAwesome";
       margin-left: 10px; }

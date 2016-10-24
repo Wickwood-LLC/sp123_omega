@@ -100,7 +100,6 @@
     li {
       background-color: white;
       border-bottom: 1px solid #ddd;
-      padding-left: 17px;
 
       &.active-trail {
         background-color: #0f753b;
@@ -128,8 +127,16 @@
         margin-left: -17px;
       }
 
-      &.menuparent>ul>li:last-child a {
-        border-radius: 0px;
+      &.menuparent>ul{
+        padding-left: 10px;
+
+        >li:last-child {
+          border-radius: 0px;
+          
+          a {
+            border-radius: 0px;
+          }
+        }
       }
 
       &:nth-child(even) {

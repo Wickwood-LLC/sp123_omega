@@ -1210,15 +1210,17 @@ form#user-login, form#user-pass {
     font-family: "FontAwesome";
     margin-left: 10px; }
 #block-superfish-1 #superfish-1-accordion li {
-  background-color: white; }
+  background-color: white;
+  border-bottom: 1px solid #ddd; }
   #block-superfish-1 #superfish-1-accordion li.active-trail {
     background-color: #0f753b; }
     #block-superfish-1 #superfish-1-accordion li.active-trail > a {
       color: white; }
+  #block-superfish-1 #superfish-1-accordion li:nth-child(even) {
+    background-color: #e6e6e6; }
   #block-superfish-1 #superfish-1-accordion li:last-child {
     border-radius: 0 0 10px 10px; }
   #block-superfish-1 #superfish-1-accordion li a {
-    border-top: 1px solid #f5f5f5;
     color: #0f753b; }
     #block-superfish-1 #superfish-1-accordion li a:hover, #block-superfish-1 #superfish-1-accordion li a:focus {
       background-color: #e9efcc; }

@@ -156,8 +156,11 @@
         color: black;
         padding-left: 34px;
 
-        &:hover, &:focus {
+        &:hover {
           background-color: #e9efcc;
+        }
+        &:focus {
+          background-color: inherit;
         }
       }
     }

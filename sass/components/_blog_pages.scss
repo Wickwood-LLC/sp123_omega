@@ -48,6 +48,10 @@
 		    .scroll-pane {
 		    	height: 500px;
     			overflow: auto;
+
+    			.jspContainer {
+    				height: 500px !important;
+    			}
 		    }
 		}
 

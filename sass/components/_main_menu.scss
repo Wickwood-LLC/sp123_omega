@@ -129,6 +129,7 @@
 
       &.menuparent>ul{
         padding-left: 10px;
+        box-sizing: border-box;
 
         >li:last-child {
           border-radius: 0px;

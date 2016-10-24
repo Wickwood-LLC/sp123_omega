@@ -1252,7 +1252,7 @@ form#user-login, form#user-pass {
       #block-superfish-1 #superfish-1-accordion li a:hover {
         background-color: #e9efcc; }
       #block-superfish-1 #superfish-1-accordion li a:focus {
-        background-color: inherit; }
+        background-color: initial; }
 @media (min-width: 718px) and (max-width: 756px) {
   #block-superfish-1 {
     font-size: 12px; } }

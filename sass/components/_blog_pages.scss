@@ -59,6 +59,7 @@
 				flex: 1 30%;
 				min-width: 300px;
 				margin: 0.5em;
+				padding: 0;
 
 				h2 {
 					margin: 0.5em 0 0 0;
@@ -71,6 +72,13 @@
 
 				.col-1, .col-2 {
 					width: 100%;
+				}
+				.col-1 {
+					background-color: #9bcb3b;
+    				padding: 1em;
+				}
+				.col-2 {
+					padding: 0 1em 1em 1em;
 				}
 
 				.pane-node-field-ad-image {

@@ -69,7 +69,7 @@ a {
         width: 100%;
         height: auto; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
-      height: 500px;
+      height: 500px !important;
       overflow: auto; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane .jspContainer {
         height: 500px !important; }

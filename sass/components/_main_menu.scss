@@ -72,6 +72,7 @@
     background-color: #0F753D;
     color: white;
     border-radius: 10px;
+    border-left: 0px;
 
     &.sf-expanded {
       background-color: #2ea328;
@@ -92,6 +93,9 @@
   }
 
   #superfish-1-accordion {
+    border: 1px solid #689a04;
+    border-radius: 0 0 10px 10px;
+
     li {
       background-color: white;
       border-bottom: 1px solid #ddd;
@@ -99,7 +103,7 @@
       &.active-trail {
         background-color: #0f753b;
 
-        &>a {
+        > a {
           color: white;
         }
       }
@@ -110,16 +114,14 @@
 
       &:last-child {
         border-radius: 0 0 10px 10px;
+
+        a {
+          border-radius: 0 0 10px 10px;
+        }
       }
 
-      // &:hover {
-      //   a:hover {
-      //     background-color: #e9efcc;
-      //     color: #0f753b;
-      //   }
-      // }
-
       a {
+        border: 0px;
         color: #0f753b;
 
         &:hover, &:focus {

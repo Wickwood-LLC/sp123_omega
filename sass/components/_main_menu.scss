@@ -125,12 +125,24 @@
         }
       }
 
+      &.sf-expanded a.menuparent:after {
+        content: "\f0d7";
+        font-family: "FontAwesome";
+        margin-left: 10px;
+      }
+
       a {
         border: 0px;
         color: black;
 
         &:hover, &:focus {
           background-color: #e9efcc;
+        }
+
+        &.menuparent:after {
+          content: "\f0da";
+          font-family: "FontAwesome";
+          margin-left: 10px;
         }
       }
     }

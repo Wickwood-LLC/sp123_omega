@@ -499,7 +499,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     .pane-nodequeue-1-panel-pane-1 .views-row:last-child a {
       border-radius: 0 0 4px 4px; }
   .pane-nodequeue-1-panel-pane-1 .views-row:hover {
-    background-color: #9bcb3b; }
+    background-color: #e9efcc; }
   .pane-nodequeue-1-panel-pane-1 .views-row .field-content {
     display: block; }
     .pane-nodequeue-1-panel-pane-1 .views-row .field-content a {
@@ -541,7 +541,10 @@ table.fc-border-separate {
   .pane-course-outline-and-navigation .course-title {
     margin: 0;
     text-align: center;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    background-color: #0F753D;
+    border-radius: 5px 5px 0 0;
+    color: white; }
   .pane-course-outline ul,
   .pane-course-outline-and-navigation ul {
     margin-top: 0;
@@ -562,7 +565,7 @@ table.fc-border-separate {
         background-color: #e6e6e6; }
       .pane-course-outline ul li:hover,
       .pane-course-outline-and-navigation ul li:hover {
-        background-color: #9bcb3b; }
+        background-color: #e9efcc; }
         .pane-course-outline ul li:hover a,
         .pane-course-outline-and-navigation ul li:hover a {
           text-decoration: none;

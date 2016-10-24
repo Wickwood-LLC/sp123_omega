@@ -543,7 +543,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     }
 
     &:hover {
-      background-color: #9bcb3b;
+      background-color: #e9efcc;
     }
 
     .field-content {
@@ -603,6 +603,9 @@ table.fc-border-separate {
     margin: 0;
     text-align: center;
     margin-bottom: 0.5em;
+    background-color: #0F753D;
+    border-radius: 5px 5px 0 0;
+    color: white;
   }
 
   ul {
@@ -626,7 +629,7 @@ table.fc-border-separate {
       }
 
       &:hover {
-        background-color: #9bcb3b;
+        background-color: #e9efcc;
 
         a {
           text-decoration: none;

@@ -1280,7 +1280,7 @@ form#user-login, form#user-pass {
       background-color: #e6e6e6; }
     #block-superfish-1 #superfish-1-accordion li:last-child {
       border-radius: 0 0 10px 10px; }
-      #block-superfish-1 #superfish-1-accordion li:last-child a {
+      #block-superfish-1 #superfish-1-accordion li:last-child a:last-child {
         border-radius: 0 0 10px 10px; }
     #block-superfish-1 #superfish-1-accordion li a {
       border: 0px;

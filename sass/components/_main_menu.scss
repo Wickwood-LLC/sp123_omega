@@ -91,7 +91,7 @@
             }
           }
 
-          &.sfHover {
+          &:hover {
             > a {
               background-color: #e9efcc;
               color: black;
@@ -99,9 +99,9 @@
           }
 
           &.menuparent.sfHover:last-child {
-            border-bottom-right: 0;
+            border-bottom-right-radius: 0;
             > a {
-              border-bottom-right: 0;
+              border-bottom-right-radius: 0;
             }
           }
 

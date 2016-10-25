@@ -22,13 +22,6 @@
         border-radius: 5px 0 0 5px;
       }
 
-      &:last-child {
-        border-radius: 0 5px 5px 0;
-        a {
-          border-radius: 0 5px 5px 0;
-        }
-      }
-
       &.sfHover {
         ul {
           top: 42px;
@@ -79,10 +72,16 @@
         padding: 0 !important;
 
         >li:hover {
-          background-color: #e9efcc;
-
           a {
+            background-color: #e9efcc;
             color: black;
+          }
+        }
+
+        >li:last-child {
+          border-radius: 0 5px 5px 0;
+          a {
+            border-radius: 0 5px 5px 0;
           }
         }
 

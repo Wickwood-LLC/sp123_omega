@@ -1230,7 +1230,9 @@ form#user-login, form#user-pass {
   background-color: #0F753D;
   color: white;
   border-radius: 10px;
-  border-left: 0px; }
+  border-left: 0px;
+  padding: 0.5em;
+  font-size: 1.2em; }
   #block-superfish-1 #superfish-1-toggle.sf-expanded {
     background-color: #2ea328;
     border-radius: 10px 10px 0 0; }

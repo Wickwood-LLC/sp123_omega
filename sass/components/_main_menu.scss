@@ -73,7 +73,7 @@
         border-bottom: 2px solid #6fae1b;
         border-right: 1px solid #6fae1b;
         border-left: 1px solid #6fae1b;
-        border-radius: 0;
+        border-radius: 0 0 5px 5px;
         min-width: 12em !important;
         width: auto !important;
         padding: 0 !important;
@@ -99,6 +99,12 @@
         a {
           background: white;
           color: black;
+        }
+      }
+
+      &.sfHover {
+        ul {
+          border-radius: 0 0 0 5px;
         }
       }
     }

@@ -92,7 +92,7 @@
           }
 
           &.sfHover {
-            a {
+            > a {
               background-color: #e9efcc;
               color: black;
             }
@@ -100,14 +100,14 @@
 
           &.menuparent.sfHover:last-child {
             border-bottom-right: 0;
-            a {
+            > a {
               border-bottom-right: 0;
             }
           }
 
           &.menuparent ul li.firstandlast {
             border-bottom-left-radius: 0px;
-            a {
+            > a {
               border-bottom-left-radius: 0px;
             }
           }

@@ -1252,16 +1252,16 @@ form#user-login, form#user-pass {
         border-bottom: 2px solid #6fae1b; }
         #block-superfish-1 #superfish-1 li.menuparent ul > li:last-child a {
           border-radius: 0 0 5px 5px; }
-      #block-superfish-1 #superfish-1 li.menuparent ul > li.sfHover a {
+      #block-superfish-1 #superfish-1 li.menuparent ul > li.sfHover > a {
         background-color: #e9efcc;
         color: black; }
       #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child {
         border-bottom-right: 0; }
-        #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child a {
+        #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child > a {
           border-bottom-right: 0; }
       #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li.firstandlast {
         border-bottom-left-radius: 0px; }
-        #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li.firstandlast a {
+        #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li.firstandlast > a {
           border-bottom-left-radius: 0px; }
     #block-superfish-1 #superfish-1 li.menuparent ul a {
       background: white;

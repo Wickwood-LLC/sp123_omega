@@ -18,7 +18,7 @@
     >li:first-child a:hover {
       border-radius: 5px 0 0 5px;
     }
-    >li:last-child a :hover {
+    >li:last-child a:hover {
       border-radius: 0 5px 5px 0;
     }
 
@@ -63,6 +63,10 @@
       }
     }
 
+    li li.sfHover > ul {
+      top: 0;
+    }
+
     li.menuparent {
       ul {
         background: white;
@@ -74,6 +78,10 @@
         width: auto !important;
         padding: 0 !important;
 
+        .sf-sub-indicator {
+          filter: invert(0.75);
+        }
+
         >li:hover {
           a {
             background-color: #e9efcc;
@@ -82,9 +90,9 @@
         }
 
         >li:last-child {
-          border-radius: 0 5px 5px 0;
+          border-radius: 0 0 5px 5px;
           a {
-            border-radius: 0 5px 5px 0;
+            border-radius: 0 0 5px 5px;
           }
         }
 

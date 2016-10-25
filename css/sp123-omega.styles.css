@@ -1259,9 +1259,9 @@ form#user-login, form#user-pass {
         border-bottom-right-radius: 0; }
         #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child > a {
           border-bottom-right-radius: 0; }
-      #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li.firstandlast {
+      #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li:last-child {
         border-bottom-left-radius: 0px; }
-        #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li.firstandlast > a {
+        #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li:last-child > a {
           border-bottom-left-radius: 0px; }
     #block-superfish-1 #superfish-1 li.menuparent ul a {
       background: white;

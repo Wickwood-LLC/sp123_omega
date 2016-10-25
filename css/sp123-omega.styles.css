@@ -228,7 +228,7 @@ a {
   .tabbed-course .panel-myriad-layout .row-two {
     border: 2px solid #689a04;
     padding: 1em;
-    border-radius: 10px;
+    border-radius: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

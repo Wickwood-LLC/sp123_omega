@@ -593,7 +593,7 @@ table.fc-border-separate {
 
 .pane-course-outline,
 .pane-course-outline-and-navigation {
-  padding: 1em 0 0 0;
+  padding: 0;
 
   .pane-title {
     margin-left: 1em;
@@ -606,6 +606,10 @@ table.fc-border-separate {
     background-color: #0F753D;
     border-radius: 5px 5px 0 0;
     color: white;
+
+    &:after {
+      content: "\00a0Outline";
+    }
   }
 
   ul {

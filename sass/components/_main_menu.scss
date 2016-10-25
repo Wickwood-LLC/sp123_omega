@@ -18,10 +18,6 @@
     li {
       background: transparent;
 
-      &:first-child a {
-        border-radius: 5px 0 0 5px;
-      }
-
       &.sfHover {
         ul {
           top: 42px;

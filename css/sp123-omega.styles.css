@@ -1204,8 +1204,6 @@ form#user-login, form#user-pass {
   box-sizing: border-box; }
   #block-superfish-1 #superfish-1 li {
     background: transparent; }
-    #block-superfish-1 #superfish-1 li:first-child a {
-      border-radius: 5px 0 0 5px; }
     #block-superfish-1 #superfish-1 li.sfHover ul {
       top: 42px; }
       @media (min-width: 718px) and (max-width: 756px) {

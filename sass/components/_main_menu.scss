@@ -13,6 +13,7 @@
     background: #6fae1b;
     background: linear-gradient(to bottom, #1e5799 0%,#badc68 0%,#6fae1b 98%,#6fae1b 100%);
     border-radius: 5px;
+    box-sizing: border-box;
 
     li {
       background: transparent;
@@ -99,7 +100,8 @@
 
     li {
       background-color: white;
-      border-bottom: 1px solid #ddd;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
 
       &.active-trail, &.active-trail:nth-child(even) {
         background-color: #0f753b;
@@ -120,11 +122,17 @@
         margin-left: -17px;
       }
 
-      &.menuparent.sf-expanded>a.menuparent:before {
-        content: "\f0d7";
-        font-family: "FontAwesome";
-        margin-right: 10px;
-        margin-left: -17px;
+      &.menuparent.sf-expanded{
+        >a.menuparent{
+          font-weight: normal;
+          
+          &:before {
+            content: "\f0d7";
+            font-family: "FontAwesome";
+            margin-right: 10px;
+            margin-left: -17px;
+          }
+        }
       }
 
       &.menuparent>ul{

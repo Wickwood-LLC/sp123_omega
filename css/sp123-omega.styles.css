@@ -1208,7 +1208,7 @@ form#user-login, form#user-pass {
       border-radius: 5px 0 0 5px; }
     #block-superfish-1 #superfish-1 li:last-child a {
       border-radius: 0 5px 5px 0; }
-    #block-superfish-1 #superfish-1 li.sfHover {
+    #block-superfish-1 #superfish-1 li.sfHover ul {
       top: 42px; }
     #block-superfish-1 #superfish-1 li a {
       border: 0px;

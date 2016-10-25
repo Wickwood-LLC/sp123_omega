@@ -44,6 +44,7 @@
         }
       }
 
+            }
       a {
         border: 0px;
         color: white;
@@ -99,11 +100,16 @@
           }
 
           &.menuparent.sfHover:last-child {
-            border-radius: 0 0 0 5px;
+            border-bottom-right: 0;
+            a {
+              border-bottom-right: 0;
           }
 
           &.menuparent ul li.firstandlast {
             border-bottom-left-radius: 0px;
+            a {
+              border-bottom-left-radius: 0px;
+            }
           }
         }
 

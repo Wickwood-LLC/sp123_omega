@@ -1222,44 +1222,48 @@ form#user-login, form#user-pass {
       @media (min-width: 874px) and (max-width: 951px) {
         #block-superfish-1 #superfish-1 li.sfHover ul {
           top: 40px; } }
-    #block-superfish-1 #superfish-1 li a {
-      border: 0px;
-      color: white;
-      padding: 12px; }
-      #block-superfish-1 #superfish-1 li a.sf-with-ul {
-        padding-right: 28px; }
-      #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a.active {
-        background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
-        background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
-      #block-superfish-1 #superfish-1 li a:focus {
-        background: white;
-        color: #e54e4b; }
-  #block-superfish-1 #superfish-1 li li.sfHover > ul {
-    top: 0; }
-  #block-superfish-1 #superfish-1 li.menuparent ul {
-    background: white;
-    min-width: 12em !important;
-    width: auto !important;
-    padding: 0 !important; }
-    #block-superfish-1 #superfish-1 li.menuparent ul .sf-sub-indicator {
-      -webkit-filter: invert(0.75);
-              filter: invert(0.75); }
-    #block-superfish-1 #superfish-1 li.menuparent ul > li {
-      border-right: 1px solid #6fae1b;
-      border-left: 1px solid #6fae1b; }
-      #block-superfish-1 #superfish-1 li.menuparent ul > li:last-child {
-        border-radius: 0 0 5px 5px;
-        border-bottom: 2px solid #6fae1b; }
-        #block-superfish-1 #superfish-1 li.menuparent ul > li:last-child a {
-          border-radius: 0 0 5px 5px; }
-      #block-superfish-1 #superfish-1 li.menuparent ul > li.sfHover a {
-        background-color: #e9efcc;
-        color: black; }
-      #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child {
-        border-radius: 0 0 0 5px; }
-      #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent ul li.firstandlast {
+  #block-superfish-1 #superfish-1 a {
+    border: 0px;
+    color: white;
+    padding: 12px; }
+    #block-superfish-1 #superfish-1 a.sf-with-ul {
+      padding-right: 28px; }
+    #block-superfish-1 #superfish-1 a:hover, #block-superfish-1 #superfish-1 a.active {
+      background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
+      background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
+    #block-superfish-1 #superfish-1 a:focus {
+      background: white;
+      color: #e54e4b; }
+#block-superfish-1 li li.sfHover > ul {
+  top: 0; }
+#block-superfish-1 li.menuparent ul {
+  background: white;
+  min-width: 12em !important;
+  width: auto !important;
+  padding: 0 !important; }
+  #block-superfish-1 li.menuparent ul .sf-sub-indicator {
+    -webkit-filter: invert(0.75);
+            filter: invert(0.75); }
+  #block-superfish-1 li.menuparent ul > li {
+    border-right: 1px solid #6fae1b;
+    border-left: 1px solid #6fae1b; }
+    #block-superfish-1 li.menuparent ul > li:last-child {
+      border-radius: 0 0 5px 5px;
+      border-bottom: 2px solid #6fae1b; }
+      #block-superfish-1 li.menuparent ul > li:last-child a {
+        border-radius: 0 0 5px 5px; }
+    #block-superfish-1 li.menuparent ul > li.sfHover a {
+      background-color: #e9efcc;
+      color: black; }
+    #block-superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child {
+      border-bottom-right: 0; }
+      #block-superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child a {
+        border-bottom-right: 0; }
+      #block-superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child.menuparent ul li.firstandlast {
         border-bottom-left-radius: 0px; }
-    #block-superfish-1 #superfish-1 li.menuparent ul a {
+        #block-superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child.menuparent ul li.firstandlast a {
+          border-bottom-left-radius: 0px; }
+    #block-superfish-1 li.menuparent ul > li a {
       background: white;
       color: black; }
 #block-superfish-1 #superfish-1-toggle {

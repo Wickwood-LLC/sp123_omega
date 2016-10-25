@@ -257,8 +257,9 @@ a {
           flex-flow: row wrap;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-      -ms-flex-line-pack: center;
-          align-content: center; }
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
       @media (min-width: 950px) {
         .tabbed-course .panel-myriad-layout .row-two .sidebar {
           display: inline-block;
@@ -304,6 +305,8 @@ a {
   margin-bottom: 0; }
   .sidebar .pane-ad-cycles-ad-random .panel-display .col-1, .sidebar .pane-ad-cycles-ad-random .panel-display .col-2 {
     width: 100%; }
+.sidebar .pane-ad-cycles-ad-random .field--name-field-amazon-book-listing .field__item {
+  text-align: center; }
 .sidebar .pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row h2 {
   margin: 0.5em 0 0 0;
   text-align: center; }
@@ -566,11 +569,11 @@ table.fc-border-separate {
     text-align: center;
     line-height: 2;
     background-color: #0F753D;
-    border-radius: 5px 5px 0 0;
+    border-radius: 8px 8px 0 0;
     color: white; }
     .pane-course-outline .course-title:after,
     .pane-course-outline-and-navigation .course-title:after {
-      content: "\00a0Outline"; }
+      content: " Outline"; }
   .pane-course-outline ul,
   .pane-course-outline-and-navigation ul {
     margin-top: 0;

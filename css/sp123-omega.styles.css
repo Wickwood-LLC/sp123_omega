@@ -1206,10 +1206,24 @@ form#user-login, form#user-pass {
     background: transparent; }
     #block-superfish-1 #superfish-1 li:first-child a {
       border-radius: 5px 0 0 5px; }
-    #block-superfish-1 #superfish-1 li:last-child a {
+    #block-superfish-1 #superfish-1 li:last-child {
       border-radius: 0 5px 5px 0; }
+      #block-superfish-1 #superfish-1 li:last-child a {
+        border-radius: 0 5px 5px 0; }
     #block-superfish-1 #superfish-1 li.sfHover ul {
       top: 42px; }
+      @media (min-width: 718px) and (max-width: 756px) {
+        #block-superfish-1 #superfish-1 li.sfHover ul {
+          top: 36px; } }
+      @media (min-width: 757px) and (max-width: 795px) {
+        #block-superfish-1 #superfish-1 li.sfHover ul {
+          top: 37px; } }
+      @media (min-width: 796px) and (max-width: 873px) {
+        #block-superfish-1 #superfish-1 li.sfHover ul {
+          top: 38px; } }
+      @media (min-width: 874px) and (max-width: 951px) {
+        #block-superfish-1 #superfish-1 li.sfHover ul {
+          top: 40px; } }
     #block-superfish-1 #superfish-1 li a {
       border: 0px;
       color: white;
@@ -1231,11 +1245,13 @@ form#user-login, form#user-pass {
     min-width: 12em !important;
     width: auto !important;
     padding: 0 !important; }
+    #block-superfish-1 #superfish-1 li.menuparent ul > li:hover {
+      background-color: #e9efcc; }
+      #block-superfish-1 #superfish-1 li.menuparent ul > li:hover a {
+        color: black; }
     #block-superfish-1 #superfish-1 li.menuparent ul a {
       background: white;
       color: black; }
-      #block-superfish-1 #superfish-1 li.menuparent ul a:hover {
-        color: #e54e4b; }
 #block-superfish-1 #superfish-1-toggle {
   display: block;
   text-align: center;

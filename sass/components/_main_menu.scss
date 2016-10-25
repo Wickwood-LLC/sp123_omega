@@ -22,12 +22,30 @@
         border-radius: 5px 0 0 5px;
       }
 
-      &:last-child a {
+      &:last-child {
         border-radius: 0 5px 5px 0;
+        a {
+          border-radius: 0 5px 5px 0;
+        }
       }
 
-      &.sfHover ul {
-        top: 42px;
+      &.sfHover {
+        ul {
+          top: 42px;
+          
+          @include breakpoint(718px 756px) {
+            top: 36px;
+          }
+          @include breakpoint(757px 795px) {
+            top: 37px;
+          }
+          @include breakpoint(796px 873px) {
+            top: 38px;
+          }
+          @include breakpoint(874px 951px) {
+            top: 40px;
+          }
+        }
       }
 
       a {
@@ -60,13 +78,17 @@
         width: auto !important;
         padding: 0 !important;
 
+        >li:hover {
+          background-color: #e9efcc;
+
+          a {
+            color: black;
+          }
+        }
+
         a {
           background: white;
           color: black;
-
-          &:hover{
-            color: #e54e4b;
-          }
         }
       }
     }

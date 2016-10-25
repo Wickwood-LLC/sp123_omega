@@ -529,6 +529,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
       display: block;
       padding: 0 2.2em; }
       .pane-nodequeue-1-panel-pane-1 .views-row .field-content a:hover {
+        color: black;
         text-decoration: none; }
   .pane-nodequeue-1-panel-pane-1 .views-row a.active {
     color: white;

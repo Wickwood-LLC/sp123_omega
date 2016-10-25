@@ -1255,6 +1255,8 @@ form#user-login, form#user-pass {
       #block-superfish-1 #superfish-1 li.menuparent ul > li:hover a {
         background-color: #e9efcc;
         color: black; }
+      #block-superfish-1 #superfish-1 li.menuparent ul > li.menuparent.sfHover:last-child {
+        border-radius: 0 0 0 5px; }
     #block-superfish-1 #superfish-1 li.menuparent ul a {
       background: white;
       color: black; }

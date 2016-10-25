@@ -85,7 +85,7 @@
           &:last-child {
             border-radius: 0 0 5px 5px;
             border-bottom: 2px solid #6fae1b;
-            
+
             a {
               border-radius: 0 0 5px 5px;
             }
@@ -96,6 +96,10 @@
               background-color: #e9efcc;
               color: black;
             }
+          }
+
+          &.menuparent.sfHover:last-child {
+            border-radius: 0 0 0 5px;
           }
         }
 

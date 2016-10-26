@@ -78,6 +78,8 @@ a {
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-title h2 {
       text-align: center;
       margin: 0; }
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-published-at {
+      text-align: center; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-name {
       display: block;
       text-align: center;

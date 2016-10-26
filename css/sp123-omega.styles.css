@@ -43,7 +43,8 @@ a {
     -webkit-box-flex: 3;
         -ms-flex: 3 0 0;
             flex: 3 0 0;
-    min-width: 560px; }
+    min-width: 560px;
+    padding: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .sidebar-content {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 0;

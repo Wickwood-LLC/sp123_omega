@@ -615,6 +615,8 @@ table.fc-border-separate {
     background-color: #0F753D;
     border-radius: 8px 8px 0 0;
     color: white;
+    font-weight: normal;
+    font-size: 1.2em;
 
     &:after {
       content: " Outline";

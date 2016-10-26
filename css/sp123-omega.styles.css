@@ -573,7 +573,9 @@ table.fc-border-separate {
     line-height: 2;
     background-color: #0F753D;
     border-radius: 8px 8px 0 0;
-    color: white; }
+    color: white;
+    font-weight: normal;
+    font-size: 1.2em; }
     .pane-course-outline .course-title:after,
     .pane-course-outline-and-navigation .course-title:after {
       content: " Outline"; }
@@ -1276,7 +1278,8 @@ form#user-login, form#user-pass {
   font-size: 1.2em; }
   #block-superfish-1 #superfish-1-toggle.sf-expanded {
     background-color: #2ea328;
-    border-radius: 10px 10px 0 0; }
+    border-radius: 10px 10px 0 0;
+    font-weight: normal; }
     #block-superfish-1 #superfish-1-toggle.sf-expanded span:before {
       content: "\f0d7";
       font-family: "FontAwesome";

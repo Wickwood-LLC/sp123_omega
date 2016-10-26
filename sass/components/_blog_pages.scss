@@ -139,7 +139,10 @@
 				.views-field-field-featured-image,
 				.views-field-title {
 					text-align: center;
-					margin-bottom: 0;
+					
+					h3 {
+						margin-bottom: 0;
+					}
 				}
 				.views-field-name,
 				.views-field-published-at {

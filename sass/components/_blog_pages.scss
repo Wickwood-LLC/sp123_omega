@@ -148,10 +148,7 @@
 .node-type-article-post,
 .node-type-panopoly-news-article {
 	.field--name-field-featured-image {
-		text-align: center;
-
-		.field__item {
-	    	display: inline-block;
-		}
+		float: left;
+    	margin-right: 1em;
 	}
 }

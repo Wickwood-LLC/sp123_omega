@@ -150,10 +150,8 @@ a {
 
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {
-  text-align: center; }
-  .node-type-article-post .field--name-field-featured-image .field__item,
-  .node-type-panopoly-news-article .field--name-field-featured-image .field__item {
-    display: inline-block; }
+  float: left;
+  margin-right: 1em; }
 
 .boxed {
   border-radius: 10px;

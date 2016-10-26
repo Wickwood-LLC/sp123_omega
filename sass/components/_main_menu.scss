@@ -71,6 +71,8 @@
         min-width: 12em !important;
         width: auto !important;
         padding: 0 !important;
+        overflow: visible !important;
+        border-radius: 0;
 
         .sf-sub-indicator {
           filter: invert(0.75);

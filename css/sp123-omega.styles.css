@@ -1237,7 +1237,9 @@ form#user-login, form#user-pass {
     background: white;
     min-width: 12em !important;
     width: auto !important;
-    padding: 0 !important; }
+    padding: 0 !important;
+    overflow: visible !important;
+    border-radius: 0; }
     #block-superfish-1 #superfish-1 li.menuparent ul .sf-sub-indicator {
       -webkit-filter: invert(0.75);
               filter: invert(0.75); }

@@ -22,11 +22,13 @@
 		    margin: 0.5em;
 		}
 
-		.view-display-id-panel_pane_1 {
+		.view-display-id-panel_pane_1 .view-content {
 			padding: 0.5em;
 		}
 
-		.view-display-id-panel_pane_6 {
+		.pane-articles-test-panel-pane-6,
+		.pane-news-test-panel-pane-6,
+		.pane-press-releases-test-panel-pane-6 {
 			background: url(../images/banner.jpg) center center;
 		    background-size: cover;
 		}

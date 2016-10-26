@@ -15,8 +15,10 @@
     border-radius: 5px;
     box-sizing: border-box;
 
-    >li:first-child a:hover {
-      border-radius: 5px 0 0 5px;
+    >li:first-child {
+      a, a:hover, a.active {
+        border-radius: 5px 0 0 5px;
+      }
     }
     >li:last-child a:hover {
       border-radius: 0 5px 5px 0;
@@ -53,17 +55,13 @@
           padding-right: 28px;
         }
 
-        &:hover, &.active {
+        &:hover, &.active, &:focus {
           background: linear-gradient(to bottom, #1e5799 0%,#a7c45d 0%,#538014 99%,#538014 100%);
-        }
-        &:focus {
-          background: white;
-          color: #e54e4b;
         }
       }
     }
 
-        li li.sfHover > ul {
+    li li.sfHover > ul {
       top: 0;
     }
 

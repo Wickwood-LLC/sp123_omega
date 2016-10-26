@@ -1202,7 +1202,7 @@ form#user-login, form#user-pass {
   background: linear-gradient(to bottom, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%);
   border-radius: 5px;
   box-sizing: border-box; }
-  #block-superfish-1 #superfish-1 > li:first-child a:hover {
+  #block-superfish-1 #superfish-1 > li:first-child a, #block-superfish-1 #superfish-1 > li:first-child a:hover, #block-superfish-1 #superfish-1 > li:first-child a.active {
     border-radius: 5px 0 0 5px; }
   #block-superfish-1 #superfish-1 > li:last-child a:hover {
     border-radius: 0 5px 5px 0; }
@@ -1228,12 +1228,9 @@ form#user-login, form#user-pass {
       padding: 12px; }
       #block-superfish-1 #superfish-1 li a.sf-with-ul {
         padding-right: 28px; }
-      #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a.active {
+      #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a.active, #block-superfish-1 #superfish-1 li a:focus {
         background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
         background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
-      #block-superfish-1 #superfish-1 li a:focus {
-        background: white;
-        color: #e54e4b; }
   #block-superfish-1 #superfish-1 li li.sfHover > ul {
     top: 0; }
   #block-superfish-1 #superfish-1 li.menuparent ul {

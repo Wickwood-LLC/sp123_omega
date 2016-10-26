@@ -33,6 +33,12 @@ a {
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
   padding: 1em; }
+  .blog-type-page #main-content .panel-myriad-layout .row-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
   .blog-type-page #main-content .panel-myriad-layout .main-content {
     -webkit-box-flex: 3;
         -ms-flex: 3 0 0;
@@ -43,7 +49,7 @@ a {
         -ms-flex: 1 1 0;
             flex: 1 1 0;
     min-width: 300px;
-    margin-left: 1em; }
+    margin: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-press-releases-test-panel-pane-6 {
@@ -62,13 +68,10 @@ a {
               flex: 1 0;
       min-width: 300px;
       padding: 0.5em;
+      margin: 0.5em;
       border: 2px solid #689a04;
       border-radius: 5px;
       background-color: #f5f5f5; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:first-child {
-        margin-right: 0.5em; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row:last-child {
-        margin-left: 0.5em; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row .featured-image img {
         width: 100%;
         height: auto; }

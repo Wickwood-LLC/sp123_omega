@@ -144,7 +144,10 @@
         }
 
         > .panel-pane {
-          @include breakpoint(0px 949px) {
+          flex: 1 200px;
+          min-width: 200px;
+
+          @include breakpoint(375px 949px) {
             flex: 1 300px;
             min-width: 300px;
             display: inline-block;

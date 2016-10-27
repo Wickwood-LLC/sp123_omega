@@ -211,11 +211,11 @@
     }
   }
 
-  .field-name-field-pr-about {
+  .field--name-field-pr-about {
     margin: 2em 0;
   }
 
-  .field-name-field-full-contact-details {
+  .field--name-field-full-contact-details {
     margin: 2em 0;
     text-align: center;
 
@@ -229,12 +229,12 @@
     }
   }
 
-  .field-name-field-upload-document {
+  .field--name-field-upload-document {
     display: flex;
     justify-content: center;
   }
 
-  .field-name-field-featured-image {
+  .field--name-field-featured-image {
     width: 100%;
 
     @include breakpoint(481px){

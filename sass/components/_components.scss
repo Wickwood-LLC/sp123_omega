@@ -96,11 +96,12 @@
     }
 
     > .panel-pane {
-      @include breakpoint(0px 949px) {
-        flex: 1 300px;
+      flex: 1 300px;
+      display: inline-block;
+      margin: 0.5em;
+
+      @include breakpoint(375px 949px) {
         min-width: 300px;
-        display: inline-block;
-        margin: 0.5em;
       }
     }
   }

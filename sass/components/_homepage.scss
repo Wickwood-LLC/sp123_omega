@@ -31,9 +31,7 @@
 		}
 
 		&:first-child {
-			@include breakpoint(375px) {
-				padding: 1em;
-			}
+			padding: 1em;
 		}	
 	}
 

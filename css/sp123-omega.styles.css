@@ -71,7 +71,7 @@ a {
         background-color: #8bbf50; }
         .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li:hover a {
           color: white; }
-      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li:empty {
+      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li.empty {
         display: none; }
   .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,

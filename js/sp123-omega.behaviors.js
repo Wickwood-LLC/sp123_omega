@@ -82,4 +82,12 @@
     }
   };
 
+  Drupal.behaviors.archiveNav = {
+    attach: function (context, settings) {
+      if ( $.trim( $('.blog-type-page .view-display-id-panel_pane_2 .pager li').text() ).length == 0 ) {
+        $(this).addClass('empty');
+      }
+    }
+  };
+
 })(jQuery);

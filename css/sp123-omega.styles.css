@@ -314,7 +314,7 @@ a {
             flex: 1 300px;
     display: inline-block;
     margin: 0.5em; }
-    @media (min-width: 375px) and (max-width: 949px) {
+    @media (min-width: 375px) {
       .myriad-left-sidebar .sidebar > .panel-pane {
         min-width: 300px; } }
 

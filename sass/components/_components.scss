@@ -100,7 +100,7 @@
       display: inline-block;
       margin: 0.5em;
 
-      @include breakpoint(375px 949px) {
+      @include breakpoint(375px) {
         min-width: 300px;
       }
     }

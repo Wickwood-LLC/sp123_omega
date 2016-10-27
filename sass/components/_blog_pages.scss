@@ -26,6 +26,39 @@
 			padding: 0.5em;
 		}
 
+		.view-display-id-panel_pane_2 {
+			.pager {
+				margin-bottom: 0;
+
+				li {
+					list-style: none;
+				    font-size: 14px;
+				    display: inline-block;
+				    background-color: #0d7339;
+				    padding: 3px 4px;
+				    border-radius: 5px;
+				    width: auto;
+				    color: white;
+
+				    a {
+				    	color: white;
+				    }
+
+				    &:hover {
+				    	background-color: #8bbf50;
+
+				    	a {
+					    	color: white;
+					    }
+				    }
+
+				    &:empty {
+				    	display: none;
+				    }
+				}
+			}
+		}
+
 		.pane-articles-test-panel-pane-6,
 		.pane-news-test-panel-pane-6,
 		.pane-press-releases-test-panel-pane-6 {

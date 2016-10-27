@@ -54,6 +54,25 @@ a {
     margin: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
+  .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
+    margin-bottom: 0; }
+    .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li {
+      list-style: none;
+      font-size: 14px;
+      display: inline-block;
+      background-color: #0d7339;
+      padding: 3px 4px;
+      border-radius: 5px;
+      width: auto;
+      color: white; }
+      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li a {
+        color: white; }
+      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li:hover {
+        background-color: #8bbf50; }
+        .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li:hover a {
+          color: white; }
+      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li:empty {
+        display: none; }
   .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-press-releases-test-panel-pane-6 {
@@ -650,7 +669,7 @@ table.fc-border-separate {
           content: "\00a0 - "; }
   .pane-course-outline #course-nav,
   .pane-course-outline-and-navigation #course-nav {
-    margin-bottom: 0;
+    margin: 0.5em 0;
     text-align: center;
     padding: 0; }
     .pane-course-outline #course-nav li,

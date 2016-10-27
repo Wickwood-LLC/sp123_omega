@@ -599,12 +599,12 @@ table.fc-border-separate {
   .pane-course-outline-and-navigation .course-title {
     margin: 0;
     text-align: center;
-    line-height: 2;
+    line-height: 1.6;
     background-color: #0F753D;
     border-radius: 8px 8px 0 0;
     color: white;
     font-weight: normal;
-    font-size: 1.2em; }
+    font-size: 1.1em; }
     .pane-course-outline .course-title:after,
     .pane-course-outline-and-navigation .course-title:after {
       content: " Outline"; }
@@ -1262,6 +1262,8 @@ form#user-login, form#user-pass {
       #block-superfish-1 #superfish-1 li a:hover, #block-superfish-1 #superfish-1 li a.active, #block-superfish-1 #superfish-1 li a:focus {
         background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
         background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
+      #block-superfish-1 #superfish-1 li a:focus {
+        color: #F3B500; }
   #block-superfish-1 #superfish-1 li li.sfHover > ul {
     top: 0; }
   #block-superfish-1 #superfish-1 li.menuparent ul {

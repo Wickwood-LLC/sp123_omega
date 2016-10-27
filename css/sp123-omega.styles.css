@@ -344,7 +344,6 @@ a {
                   order: 1; } }
     .tabbed-course .panel-myriad-layout .row-two .sidebar {
       width: 100%;
-      min-width: 275px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -474,7 +473,8 @@ div.panel-pane div.node.node-advertisement {
   border-radius: 4px;
   background-color: #e03333; }
   .pane-node-field-call-to-action a {
-    color: #fff; }
+    color: #fff;
+    white-space: normal; }
   .pane-node-field-call-to-action:hover {
     background-color: #ff4242;
     text-decoration: none; }

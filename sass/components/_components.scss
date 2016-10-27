@@ -131,7 +131,6 @@
       }
       .sidebar {
         width: 100%;
-        min-width: 275px;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -311,6 +310,7 @@ div.panel-pane div.node.node-advertisement {
 
   a {
     color: #fff;
+    white-space: normal;
   }
 
   &:hover {

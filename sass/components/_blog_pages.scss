@@ -11,11 +11,12 @@
 		}
 
 		.main-content {
-			flex: 3 0 0;
+			flex: 1 100%;
     		padding: 0.5em;
 
     		@include breakpoint(626px) {
     			min-width: 560px;
+    			flex: 3 0 0;
     		}
 		}
 

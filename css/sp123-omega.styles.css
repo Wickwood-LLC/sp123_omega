@@ -1021,6 +1021,13 @@ table.fc-border-separate {
     width: 0;
     min-width: 200px;
     font-size: 16px; }
+    @media (min-width: 375px) {
+      .front .wwm-sanderson .row > div[class*="col-"],
+      .panopoly-landing-page .row > div[class*="col-"] {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 300px;
+                flex: 1 0 300px;
+        min-width: 300px; } }
     .front .wwm-sanderson .row > div[class*="col-"] img,
     .panopoly-landing-page .row > div[class*="col-"] img {
       width: 100px; }

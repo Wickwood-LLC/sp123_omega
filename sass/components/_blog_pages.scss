@@ -251,5 +251,9 @@
 
   .pane-node-links {
     text-align: center;
+
+    .links {
+    	display: inline-block;
+    }
   }
 }

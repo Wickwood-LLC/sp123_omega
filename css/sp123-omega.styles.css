@@ -223,6 +223,8 @@ a {
   text-align: center; }
 .node-type-press-release.panelized-node .pane-node-links {
   text-align: center; }
+  .node-type-press-release.panelized-node .pane-node-links .links {
+    display: inline-block; }
 
 .boxed {
   border-radius: 10px;

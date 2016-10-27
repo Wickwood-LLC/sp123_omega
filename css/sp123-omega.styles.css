@@ -1244,6 +1244,12 @@ table.fc-border-separate {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box; }
+  @media (min-width: 0px) and (max-width: 423px) {
+    .page-user-login fieldset.captcha, .page-user-password fieldset.captcha {
+      -webkit-transform: scale(0.75);
+              transform: scale(0.75);
+      -webkit-transform-origin: 0 0;
+              transform-origin: 0 0; } }
   .page-user-login fieldset.captcha legend, .page-user-password fieldset.captcha legend {
     text-align: left;
     font-weight: bold; }

@@ -27,6 +27,11 @@
         margin-right: auto;
         box-sizing: border-box;
 
+        @include breakpoint(0px 423px) {
+            transform: scale(0.75);
+            transform-origin: 0 0;
+        }
+
         legend {
             text-align: left;
             font-weight: bold;

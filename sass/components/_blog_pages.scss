@@ -38,23 +38,6 @@
 				    padding: 3px 4px;
 				    border-radius: 5px;
 				    width: auto;
-				    color: white;
-
-				    a {
-				    	color: white;
-				    }
-
-				    &:hover {
-				    	background-color: #8bbf50;
-
-				    	a {
-					    	color: white;
-					    }
-				    }
-
-				    &.empty {
-				    	display: none;
-				    }
 				}
 			}
 		}

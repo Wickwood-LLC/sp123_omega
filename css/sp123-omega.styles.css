@@ -63,16 +63,7 @@ a {
       background-color: #0d7339;
       padding: 3px 4px;
       border-radius: 5px;
-      width: auto;
-      color: white; }
-      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li a {
-        color: white; }
-      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li:hover {
-        background-color: #8bbf50; }
-        .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li:hover a {
-          color: white; }
-      .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager li.empty {
-        display: none; }
+      width: auto; }
   .blog-type-page #main-content .panel-myriad-layout .pane-articles-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-news-test-panel-pane-6,
   .blog-type-page #main-content .panel-myriad-layout .pane-press-releases-test-panel-pane-6 {

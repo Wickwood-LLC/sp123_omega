@@ -183,6 +183,8 @@ a {
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at {
         display: block;
         text-align: center; }
+  .blog-type-page #main-content .panel-myriad-layout .views-more-link:hover {
+    color: #EA4335; }
 
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {

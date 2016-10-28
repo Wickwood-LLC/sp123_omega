@@ -188,10 +188,15 @@
 			}
 		}
 
-		.views-more-link:hover {
-			color: #EA4335;
-			text-decoration: underline;
-			font-weight: bold;
+		.views-more-link{
+		    float: right;
+		    text-transform: capitalize;
+
+			&:hover {
+				color: #EA4335;
+				text-decoration: underline;
+				font-weight: bold;
+			}
 		}
 	}
 }

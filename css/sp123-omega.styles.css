@@ -184,7 +184,9 @@ a {
         display: block;
         text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .views-more-link:hover {
-    color: #EA4335; }
+    color: #EA4335;
+    text-decoration: underline;
+    font-weight: bold; }
 
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {

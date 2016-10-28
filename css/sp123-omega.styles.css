@@ -1372,7 +1372,7 @@ form#user-login, form#user-pass {
         background: -webkit-linear-gradient(top, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%);
         background: linear-gradient(to bottom, #1e5799 0%, #a7c45d 0%, #538014 99%, #538014 100%); }
       #block-superfish-1 #superfish-1 li a:focus {
-        color: #F3B500; }
+        color: #f3e408; }
   #block-superfish-1 #superfish-1 li li.sfHover > ul {
     top: 0; }
   #block-superfish-1 #superfish-1 li.menuparent ul {

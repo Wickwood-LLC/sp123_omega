@@ -197,11 +197,14 @@
 		.views-more-link{
 		    float: right;
 		    text-transform: capitalize;
+		    color: #EA4335;
+			font-weight: bold;
 
 			&:hover {
-				color: #EA4335;
 				text-decoration: underline;
-				font-weight: bold;
+			}
+			&:focus {
+				color: #0f753b;
 			}
 		}
 	}

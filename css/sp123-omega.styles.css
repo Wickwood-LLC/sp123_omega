@@ -191,11 +191,13 @@ a {
         text-align: center; }
   .blog-type-page #main-content .panel-myriad-layout .views-more-link {
     float: right;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    color: #EA4335;
+    font-weight: bold; }
     .blog-type-page #main-content .panel-myriad-layout .views-more-link:hover {
-      color: #EA4335;
-      text-decoration: underline;
-      font-weight: bold; }
+      text-decoration: underline; }
+    .blog-type-page #main-content .panel-myriad-layout .views-more-link:focus {
+      color: #0f753b; }
 
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {

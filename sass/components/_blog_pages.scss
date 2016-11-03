@@ -165,9 +165,10 @@
 			display: flex;
 			flex-flow: row wrap;
 			background-color: #689a04;
+			justify-content: center;
 
 			.views-row {
-				flex: 1 30%;
+				flex: 0 30%;
 				margin: 0.5em;
 				background-color: white;
 				font-size: 14px;

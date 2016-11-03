@@ -189,14 +189,14 @@ a {
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-published-at {
         display: block;
         text-align: center; }
-  .blog-type-page #main-content .panel-myriad-layout .views-field-view-node {
+  .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a {
     float: right;
     text-transform: capitalize;
     color: #EA4335;
     font-weight: bold; }
-    .blog-type-page #main-content .panel-myriad-layout .views-field-view-node:hover {
+    .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:hover {
       text-decoration: underline; }
-    .blog-type-page #main-content .panel-myriad-layout .views-field-view-node:focus {
+    .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
 
 .node-type-article-post .field--name-field-featured-image,

@@ -57,6 +57,7 @@
 
 		.row:last-child {
 			> div[class*="col-"] {
+				flex: 1 1 350px;
 				min-width: 350px;	
 			}
 		}

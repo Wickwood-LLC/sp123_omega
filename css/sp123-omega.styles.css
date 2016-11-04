@@ -284,7 +284,7 @@ a {
     position: absolute;
     margin: 0;
     top: -15px;
-    padding: 0 1em;
+    padding: 0 0.5em;
     display: inline-block !important;
     font-size: 1.15em; }
     .boxed .pane-title.ctools-collapsible-handle {
@@ -427,13 +427,19 @@ a {
     margin-bottom: 0.5em; }
 
 .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-  margin-top: 1em; }
-  @media (min-width: 398px) {
+  margin-top: 1.5em; }
+  @media (min-width: 397px) {
     .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
       margin-top: 0; } }
-  @media (min-width: 768px) {
+  @media (min-width: 685px) {
     .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-      margin-top: 1em; } }
+      margin-top: 1.5em; } }
+  @media (min-width: 743px) {
+    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
+      margin-top: 0; } }
+  @media (min-width: 950px) {
+    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
+      margin-top: 1.5em; } }
 
 .sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .panel-display, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .panel-display {
   padding: 0;

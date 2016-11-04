@@ -42,6 +42,7 @@
 	@include breakpoint(648px ) {
 		.row:first-child {			
 			> div[class*="col-"] {
+				flex: 1 1 450px;
 				min-width: 450px;
 			}
 		}

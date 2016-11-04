@@ -1107,6 +1107,9 @@ table.fc-border-separate {
 @media (min-width: 648px) {
   .front .wwm-sanderson .row:first-child > div[class*="col-"],
   .panopoly-landing-page .row:first-child > div[class*="col-"] {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 450px;
+            flex: 1 1 450px;
     min-width: 450px; }
   .front .wwm-sanderson .row:nth-child(2),
   .panopoly-landing-page .row:nth-child(2) {

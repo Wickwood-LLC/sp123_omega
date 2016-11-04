@@ -28,7 +28,9 @@ a {
 
 .blog-type-page h1.page-title {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0;
+  display: block; }
 .blog-type-page #main-content .panel-myriad-layout {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -169,9 +171,9 @@ a {
         -ms-flex-pack: center;
             justify-content: center; }
     .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row {
-      -webkit-box-flex: 0;
-          -ms-flex: 0 30%;
-              flex: 0 30%;
+      -webkit-box-flex: 1;
+          -ms-flex: 1 30%;
+              flex: 1 30%;
       margin: 0.5em;
       background-color: white;
       font-size: 14px; }

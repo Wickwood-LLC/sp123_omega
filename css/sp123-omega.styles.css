@@ -832,8 +832,6 @@ table.fc-border-separate {
            -moz-column-count: 3;
                 column-count: 3; } }
 
-.page-faq .panel-panel, .node-type-panopoly-faq .panel-panel {
-  padding: 15px 0; }
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -841,15 +839,25 @@ table.fc-border-separate {
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
 .page-faq .radix-layouts-content, .node-type-panopoly-faq .radix-layouts-content {
-  min-width: 550px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 550px;
-          flex: 1 550px; }
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
+  padding-right: 0; }
+  @media (min-width: 848px) {
+    .page-faq .radix-layouts-content, .node-type-panopoly-faq .radix-layouts-content {
+      min-width: 500px;
+      padding-right: 15px; } }
 .page-faq .radix-layouts-sidebar, .node-type-panopoly-faq .radix-layouts-sidebar {
-  min-width: 300px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 300px;
-          flex: 1 300px; }
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 0; }
+  @media (min-width: 848px) {
+    .page-faq .radix-layouts-sidebar, .node-type-panopoly-faq .radix-layouts-sidebar {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 300px;
+              flex: 0 300px;
+      padding-left: 15px; } }
 
 #block-panels-mini-footer #mini-panel-footer {
   font-size: 14px;

@@ -1,20 +1,26 @@
 .page-faq, .node-type-panopoly-faq {
-	.panel-panel {
-    	padding: 15px 0;
-	}
-
 	.row {
 		display: flex;
 		flex-flow: row wrap;
 	}
 
 	.radix-layouts-content {
-		min-width: 550px;
-		flex: 1 550px;
+		flex: 1 1 500px;
+		padding-right: 0;
+
+		@include breakpoint(848px) {
+			min-width: 500px;
+			padding-right: 15px;
+		}
 	}
 
 	.radix-layouts-sidebar {
-		min-width: 300px;
-    	flex: 1 300px;
+		flex: 1;
+		padding-left: 0;
+
+		@include breakpoint(848px) {
+			flex: 0 300px;
+			padding-left: 15px;
+		}
 	}
 }

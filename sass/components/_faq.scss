@@ -1,7 +1,16 @@
 .page-faq, .node-type-panopoly-faq {
-	.pnel-panel {
-		width: 100%;
+	.panel-panel {
     	padding: 15px 0;
+	}
+
+	.row {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.radix-layouts-content {
+		min-width: 550px;
+		flex: 1 550px;
 	}
 
 	.radix-layouts-sidebar {

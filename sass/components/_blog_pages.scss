@@ -10,6 +10,7 @@
 		display: flex;
 		flex-flow: row wrap;
 		padding: 1em;
+		padding-top: 0px;
 
 		.row-one {
 			display: flex;
@@ -60,6 +61,7 @@
 		.pane-press-releases-test-panel-pane-6 {
 			background: url(../images/banner.jpg) center center;
 		    background-size: cover;
+		    margin: 0 0 1em 0;
 		}
 
 		.featured-display .view-content {

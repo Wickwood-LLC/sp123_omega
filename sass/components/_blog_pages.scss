@@ -24,7 +24,7 @@
 
     		@include breakpoint(626px) {
     			min-width: 560px;
-    			flex: 3 0 0;
+    			flex: 3 0 560px;
     		}
 		}
 
@@ -34,6 +34,7 @@
 
 		    @include breakpoint(375px) {
 				min-width: 300px;
+				flex: 1 1 300px;
 			}
 		}
 
@@ -81,7 +82,7 @@
 			    flex-flow: column nowrap;
 
 			    @include breakpoint(420px) {
-			    	flex: 1 0;
+			    	flex: 1 1 300px;
 			    	font-size: 18px;
 			    	min-width: 300px;
 			    }
@@ -131,6 +132,7 @@
 
 				@include breakpoint(375px) {
 					min-width: 300px;
+					flex: 1 1 300px;
 				}
 
 				.panel-display {
@@ -187,6 +189,7 @@
 
 				@include breakpoint(375px) {
 					min-width: 300px;
+					flex: 1 300px;
 					font-size: 18px;
 				}
 

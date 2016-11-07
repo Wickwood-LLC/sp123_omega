@@ -849,8 +849,9 @@ table.fc-border-separate {
       padding-right: 15px; } }
 .page-faq .radix-layouts-sidebar, .node-type-panopoly-faq .radix-layouts-sidebar {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex: 1 300px;
+          flex: 1 300px;
+  min-width: 300px;
   padding-left: 0; }
   @media (min-width: 848px) {
     .page-faq .radix-layouts-sidebar, .node-type-panopoly-faq .radix-layouts-sidebar {

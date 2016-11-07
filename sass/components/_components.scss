@@ -168,23 +168,6 @@
   }
 }
 
-.pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-  margin-top: 1.5em;
-
-  @include breakpoint(397px) {
-    margin-top: 0;
-  }
-  @include breakpoint(685px) {
-    margin-top: 1.5em;
-  }
-  @include breakpoint(743px) {
-    margin-top: 0;
-  }
-  @include breakpoint(950px) {
-    margin-top: 1.5em;
-  }
-}
-
 .sidebar {
   div.panel-pane div.node.node-advertisement {
     &.node-ad-image-portrait,

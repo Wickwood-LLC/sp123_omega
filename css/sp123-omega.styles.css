@@ -426,21 +426,6 @@ a {
   .tabbed-course .panel-myriad-layout .pane-node-title h2.pane-title {
     margin-bottom: 0.5em; }
 
-.pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-  margin-top: 1.5em; }
-  @media (min-width: 397px) {
-    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-      margin-top: 0; } }
-  @media (min-width: 685px) {
-    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-      margin-top: 1.5em; } }
-  @media (min-width: 743px) {
-    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-      margin-top: 0; } }
-  @media (min-width: 950px) {
-    .pane-roundtable-sessions-jump-menu .view-display-id-jump_menu {
-      margin-top: 1.5em; } }
-
 .sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .panel-display, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .panel-display {
   padding: 0;
   margin: 0; }

@@ -1,6 +1,8 @@
 /* These are styles for the login and registration pages. */
 
-.page-user-login, .page-user-password {
+.page-user-login,
+.not-logged-in.page-user,
+.page-user-password {
     #content .row {
         display: flex;
         justify-content: center;

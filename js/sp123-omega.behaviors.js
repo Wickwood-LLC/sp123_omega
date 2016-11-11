@@ -64,22 +64,22 @@
     }
   };
 
-  Drupal.behaviors.jCarouselNav = {
-    attach: function (context, settings) {
-    $('.jcarousel-item a.active').parents('.jcarousel-item').addClass('active');
+  // Drupal.behaviors.jCarouselNav = {
+  //   attach: function (context, settings) {
+  //   $('.jcarousel-item a.active').parents('.jcarousel-item').addClass('active');
 
-    // $('.jcarousel').jcarousel('scroll', $('.jcarousel li.active'));
+  //   // $('.jcarousel').jcarousel('scroll', $('.jcarousel li.active'));
 
-    $('.jcarousel')
-    .on('jcarousel:createend', function() {
-        // Arguments:
-        // 1. The method to call
-        // 2. The index of the item (note that indexes are 0-based)
-        // 3. A flag telling jCarousel jumping to the index without animation
-        $(this).jcarousel('scroll', $('.jcarousel li.active'), false);
-    })
-    .jcarousel();
-    }
-  };
+  //   $('.jcarousel')
+  //   .on('jcarousel:createend', function() {
+  //       // Arguments:
+  //       // 1. The method to call
+  //       // 2. The index of the item (note that indexes are 0-based)
+  //       // 3. A flag telling jCarousel jumping to the index without animation
+  //       $(this).jcarousel('scroll', $('.jcarousel li.active'), false);
+  //   })
+  //   .jcarousel();
+  //   }
+  // };
 
 })(jQuery);

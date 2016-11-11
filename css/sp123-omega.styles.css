@@ -982,6 +982,13 @@ table.fc-border-separate {
     height: 180px;
     margin-right: 10px; }
 
+.form-item {
+  font-size: 16px; }
+
+html.js fieldset.collapsed {
+  border-width: 1px;
+  height: 2em; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;

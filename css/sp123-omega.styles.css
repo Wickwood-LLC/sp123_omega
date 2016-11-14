@@ -1065,6 +1065,10 @@ html.js fieldset.collapsed {
       -ms-flex: 1 1 calc(100% - 178px);
           flex: 1 1 calc(100% - 178px);
   min-width: 100px; }
+.page-user-edit .pane-user-group-full-name .description {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
 
 #mini-panel-header {
   display: -webkit-box;

@@ -79,6 +79,10 @@ html.js fieldset.collapsed {
 
 	.pane-user-group-full-name {
 		@include flexifields(178px);
+
+		.description {
+			flex: 100%;
+		}
 	}
 }
 

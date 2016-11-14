@@ -52,6 +52,14 @@ html.js fieldset.collapsed {
 				}
 			}
 		}
+
+		.form-item-roles .form-checkboxes {
+			column-count: 2;
+
+			.form-type-checkbox label {
+				width: auto;
+			}
+		}
 	}
 }
 

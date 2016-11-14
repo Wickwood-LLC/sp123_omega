@@ -1014,6 +1014,12 @@ html.js fieldset.collapsed {
     display: inline-block; }
     .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio label {
       width: auto; }
+.page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2; }
+  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox label {
+    width: auto; }
 
 #mini-panel-header {
   display: -webkit-box;

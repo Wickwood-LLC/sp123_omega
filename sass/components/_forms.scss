@@ -59,9 +59,7 @@ html.js fieldset.collapsed {
 			column-count: 2;
 
 			.form-type-checkbox {
-				input, label {
-					width: auto;
-				}
+				display: block;
 			}
 		}
 	}

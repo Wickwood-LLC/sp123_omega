@@ -1041,8 +1041,8 @@ html.js fieldset.collapsed {
   -webkit-column-count: 2;
      -moz-column-count: 2;
           column-count: 2; }
-  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox input, .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox label {
-    width: auto; }
+  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
+    display: block; }
 
 #mini-panel-header {
   display: -webkit-box;

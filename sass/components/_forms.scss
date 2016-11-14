@@ -70,12 +70,15 @@ html.js fieldset.collapsed {
 
 			.form-type-checkbox {
 				display: block;
-				display: block;
 			    width: 50%;
 			    float: left;
 			    min-width: 200px;
 			}
 		}
+	}
+
+	.pane-user-group-full-name {
+		@include flexifields(178px);
 	}
 }
 

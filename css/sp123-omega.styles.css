@@ -1034,6 +1034,8 @@ html.js fieldset.collapsed {
     display: inline-block;
     background-color: #0f753b;
     color: white; }
+    .form-actions #edit-submit:hover {
+      background-color: #7fb739; }
   .form-actions #edit-cancel {
     display: inline-block;
     margin-left: 10px; }

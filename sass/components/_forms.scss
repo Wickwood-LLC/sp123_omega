@@ -63,6 +63,10 @@ html.js fieldset.collapsed {
 		display: inline-block;
 		background-color: #0f753b;
 		color: white;
+
+		&:hover {
+			background-color: #7fb739;
+		}
 	}
 	#edit-cancel {
 		display: inline-block;

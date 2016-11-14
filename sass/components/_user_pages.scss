@@ -112,6 +112,7 @@
 	tr.draggable td:not([class]) {
 		flex: 100%;
     	display: block;
+    	position: relative;
 	}
 
 	td.field-multiple-drag {
@@ -120,6 +121,5 @@
 	    display: block;
 	    width: 30px;
     	padding-right: 0;
-    	position: relative;
 	}
 }

@@ -1,6 +1,17 @@
 .form-item {
 	font-size: 16px;
+
+	label {
+		display: inline-block;
+	}
+
+	input, keygen, select {
+		display: inline-block;
+	}
 	
+	input, textarea, keygen, select, button {
+		font-size: 16px;
+	}
 }
 
 html.js fieldset.collapsed {

@@ -984,6 +984,12 @@ table.fc-border-separate {
 
 .form-item {
   font-size: 16px; }
+  .form-item label {
+    display: inline-block; }
+  .form-item input, .form-item keygen, .form-item select {
+    display: inline-block; }
+  .form-item input, .form-item textarea, .form-item keygen, .form-item select, .form-item button {
+    font-size: 16px; }
 
 html.js fieldset.collapsed {
   border-width: 1px;

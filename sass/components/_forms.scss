@@ -84,5 +84,21 @@ html.js fieldset.collapsed {
 			flex: 100%;
 		}
 	}
+
+	.field-name-field-phone {
+		@include flexifields(120px);
+
+		.description {
+			flex: 100%;
+		}
+	}
+
+	.field-name-field-mailing-address {
+		@include flexifields(114px);
+
+		.description {
+			flex: 100%;
+		}
+	}
 }
 

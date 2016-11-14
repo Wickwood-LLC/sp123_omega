@@ -1069,6 +1069,52 @@ html.js fieldset.collapsed {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
+.page-user-edit .field-name-field-phone .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .field-name-field-phone label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 120px;
+          flex: 0 0 120px; }
+.page-user-edit .field-name-field-phone input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 120px);
+          flex: 1 1 calc(100% - 120px);
+  min-width: 100px; }
+.page-user-edit .field-name-field-phone .description {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
+.page-user-edit .field-name-field-mailing-address .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .field-name-field-mailing-address label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 114px;
+          flex: 0 0 114px; }
+.page-user-edit .field-name-field-mailing-address input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 114px);
+          flex: 1 1 calc(100% - 114px);
+  min-width: 100px; }
+.page-user-edit .field-name-field-mailing-address .description {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
 
 #mini-panel-header {
   display: -webkit-box;

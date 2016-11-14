@@ -1003,25 +1003,11 @@ html.js fieldset.collapsed {
 .page-user-edit .password-confirm {
   float: none;
   margin: 0 auto 1em; }
-.page-user-edit .pane-user-form-account .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
 .page-user-edit .pane-user-form-account label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 150px;
-          flex: 0 0 150px; }
-.page-user-edit .pane-user-form-account input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 150px);
-          flex: 1 1 calc(100% - 150px);
-  min-width: 100px; }
+  width: 150px; }
+.page-user-edit .pane-user-form-account input.form-text {
+  width: calc(100% - 155px);
+  min-width: 150px; }
 .page-user-edit .pane-user-form-account .form-item-status .form-radios {
   display: inline-block; }
   .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio {

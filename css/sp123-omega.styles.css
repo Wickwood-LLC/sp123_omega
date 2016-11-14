@@ -998,7 +998,6 @@ table.fc-border-separate {
 
 input[type="submit"] {
   display: table;
-  margin: 1em auto 0;
   padding: 6px 12px !important;
   font-size: 1em;
   font-weight: 400;
@@ -1778,7 +1777,7 @@ body {
   position: absolute;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  right: -50px;
+  right: -72px;
   top: 50%; }
 .page-user-edit .password-strength {
   float: none;
@@ -1917,7 +1916,8 @@ body {
           order: 1;
   box-sizing: border-box;
   display: block;
-  width: 30px;
+  width: 50px;
+  padding: 10px;
   padding-right: 0; }
 
 #header,

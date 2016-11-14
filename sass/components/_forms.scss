@@ -38,9 +38,19 @@ html.js fieldset.collapsed {
 	    	margin-bottom: 0;
 	    }
 	}
+	.password-suggestions {
+		margin: 0.7em auto;
+	}
 
 	.pane-user-form-account {
-		@include flexifields(150px);
+		// @include flexifields(150px);
+		label {
+			width: 150px;
+		}
+		input.form-text {
+			width: calc(100% - 155px);
+			min-width: 150px;
+		}
 
 		.form-item-status .form-radios {
 			display: inline-block;

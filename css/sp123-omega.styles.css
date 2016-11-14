@@ -996,6 +996,19 @@ table.fc-border-separate {
   .form-item tr.even {
     background-color: white; }
 
+input[type="submit"] {
+  cursor: pointer;
+  padding: 3px 10px;
+  color: #333;
+  font-size: 13px;
+  text-align: center;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd #ddd #ccc;
+  box-shadow: #ddd 0 1px 1px;
+  border-radius: 3px; }
+
 .form-type-radio input {
   width: auto; }
 

@@ -66,10 +66,14 @@ html.js fieldset.collapsed {
 		}
 
 		.form-item-roles .form-checkboxes {
-			column-count: 2;
+			display: inline-block;
 
 			.form-type-checkbox {
 				display: block;
+				display: block;
+			    width: 50%;
+			    float: left;
+			    min-width: 200px;
 			}
 		}
 	}

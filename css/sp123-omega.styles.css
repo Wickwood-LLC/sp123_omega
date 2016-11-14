@@ -1026,11 +1026,13 @@ html.js fieldset.collapsed {
     .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio label {
       width: auto; }
 .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2; }
+  display: inline-block; }
   .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
-    display: block; }
+    display: block;
+    display: block;
+    width: 50%;
+    float: left;
+    min-width: 200px; }
 
 #mini-panel-header {
   display: -webkit-box;

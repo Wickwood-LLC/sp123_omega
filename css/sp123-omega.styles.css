@@ -997,125 +997,6 @@ html.js fieldset.collapsed {
   border-width: 1px;
   height: 2em; }
 
-.page-user-edit .password-strength {
-  float: none;
-  margin: 0 auto 1em;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 100%;
-          flex: 1 100%; }
-.page-user-edit .password-confirm {
-  float: none;
-  margin: 0 auto 1em;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 100%;
-          flex: 1 100%; }
-  .page-user-edit .password-confirm.form-text {
-    margin-bottom: 0; }
-.page-user-edit .password-suggestions {
-  margin: 0.7em auto; }
-.page-user-edit .pane-user-form-account .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .pane-user-form-account label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 150px;
-          flex: 0 0 150px; }
-.page-user-edit .pane-user-form-account input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 150px);
-          flex: 1 1 calc(100% - 150px);
-  min-width: 100px; }
-.page-user-edit .pane-user-form-account .form-item-status .form-radios {
-  display: inline-block; }
-  .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio {
-    display: inline-block;
-    width: auto; }
-    .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio label {
-      width: auto; }
-.page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes {
-  display: inline-block; }
-  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
-    display: block;
-    width: 50%;
-    float: left;
-    min-width: 200px; }
-.page-user-edit .pane-user-group-full-name .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .pane-user-group-full-name label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 178px;
-          flex: 0 0 178px; }
-.page-user-edit .pane-user-group-full-name input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 178px);
-          flex: 1 1 calc(100% - 178px);
-  min-width: 100px; }
-.page-user-edit .pane-user-group-full-name .description {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-.page-user-edit .field-name-field-phone .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .field-name-field-phone label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 120px;
-          flex: 0 0 120px; }
-.page-user-edit .field-name-field-phone input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 120px);
-          flex: 1 1 calc(100% - 120px);
-  min-width: 100px; }
-.page-user-edit .field-name-field-phone .description {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-.page-user-edit .field-name-field-mailing-address .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .field-name-field-mailing-address label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 114px;
-          flex: 0 0 114px; }
-.page-user-edit .field-name-field-mailing-address input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 114px);
-          flex: 1 1 calc(100% - 114px);
-  min-width: 100px; }
-.page-user-edit .field-name-field-mailing-address .description {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%; }
-
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1856,6 +1737,128 @@ body {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 30%;
             flex: 1 1 30%; }
+
+@media (min-width: 1250px) {
+  .page-user-edit .top-1, .page-user-edit .top-2, .page-user-edit .top-3, .page-user-edit .top-4 {
+    max-width: 33%; } }
+.page-user-edit .password-strength {
+  float: none;
+  margin: 0 auto 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%; }
+.page-user-edit .password-confirm {
+  float: none;
+  margin: 0 auto 1em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 100%;
+          flex: 1 100%; }
+  .page-user-edit .password-confirm.form-text {
+    margin-bottom: 0; }
+.page-user-edit .password-suggestions {
+  margin: 0.7em auto; }
+.page-user-edit .pane-user-form-account .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .pane-user-form-account label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 150px;
+          flex: 0 0 150px; }
+.page-user-edit .pane-user-form-account input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 150px);
+          flex: 1 1 calc(100% - 150px);
+  min-width: 100px; }
+.page-user-edit .pane-user-form-account .form-item-status .form-radios {
+  display: inline-block; }
+  .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio {
+    display: inline-block;
+    width: auto; }
+    .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio label {
+      width: auto; }
+.page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes {
+  display: inline-block; }
+  .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
+    display: block;
+    width: 50%;
+    float: left;
+    min-width: 200px; }
+.page-user-edit .pane-user-group-full-name .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .pane-user-group-full-name label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 178px;
+          flex: 0 0 178px; }
+.page-user-edit .pane-user-group-full-name input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 178px);
+          flex: 1 1 calc(100% - 178px);
+  min-width: 100px; }
+.page-user-edit .pane-user-group-full-name .description {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
+.page-user-edit .field-name-field-phone .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .field-name-field-phone label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 120px;
+          flex: 0 0 120px; }
+.page-user-edit .field-name-field-phone input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 120px);
+          flex: 1 1 calc(100% - 120px);
+  min-width: 100px; }
+.page-user-edit .field-name-field-phone .description {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
+.page-user-edit .field-name-field-mailing-address .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .field-name-field-mailing-address label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 114px;
+          flex: 0 0 114px; }
+.page-user-edit .field-name-field-mailing-address input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 114px);
+          flex: 1 1 calc(100% - 114px);
+  min-width: 100px; }
+.page-user-edit .field-name-field-mailing-address .description {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
 
 #header,
 #branding .limiter,

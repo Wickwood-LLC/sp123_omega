@@ -7,3 +7,81 @@
 		flex: 1 1 30%;
 	}
 }
+
+.page-user-edit {
+	@include breakpoint(1250px) {	
+		.top-1,	.top-2,	.top-3,	.top-4 {
+			max-width: 33%;
+		}
+	}
+
+	.password-strength {
+		float: none;
+	    margin: 0 auto 1em;
+	    flex: 1 100%;
+	}
+	.password-confirm {
+		float: none;
+	    margin: 0 auto 1em;
+	    flex: 1 100%;
+
+	    &.form-text {
+	    	margin-bottom: 0;
+	    }
+	}
+	.password-suggestions {
+		margin: 0.7em auto;
+	}
+
+	.pane-user-form-account {
+		@include flexifields(150px);
+
+		.form-item-status .form-radios {
+			display: inline-block;
+
+			.form-type-radio {
+				display: inline-block;
+				width: auto;
+
+				label {
+					width: auto;
+				}
+			}
+		}
+
+		.form-item-roles .form-checkboxes {
+			display: inline-block;
+
+			.form-type-checkbox {
+				display: block;
+			    width: 50%;
+			    float: left;
+			    min-width: 200px;
+			}
+		}
+	}
+
+	.pane-user-group-full-name {
+		@include flexifields(178px);
+
+		.description {
+			flex: 100%;
+		}
+	}
+
+	.field-name-field-phone {
+		@include flexifields(120px);
+
+		.description {
+			flex: 100%;
+		}
+	}
+
+	.field-name-field-mailing-address {
+		@include flexifields(114px);
+
+		.description {
+			flex: 100%;
+		}
+	}
+}

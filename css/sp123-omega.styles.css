@@ -995,6 +995,17 @@ html.js fieldset.collapsed {
   border-width: 1px;
   height: 2em; }
 
+.page-user-edit .password-strength {
+  float: none;
+  margin: 0 auto 1em; }
+.page-user-edit .password-confirm {
+  float: none;
+  margin: 0 auto 1em; }
+.page-user-edit .pane-user-form-account label {
+  width: 150px; }
+.page-user-edit .pane-user-form-account input {
+  width: calc(100% - 150px); }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -18,3 +18,24 @@ html.js fieldset.collapsed {
 	border-width: 1px;
 	height: 2em;
 }
+
+.page-user-edit {
+	.password-strength {
+		float: none;
+	    margin: 0 auto 1em;
+	}
+	.password-confirm {
+		float: none;
+	    margin: 0 auto 1em;
+	}
+
+	.pane-user-form-account {
+		label {
+			width: 150px;
+		}
+		input {
+			width: calc(100% - 150px);
+		}
+	}
+}
+

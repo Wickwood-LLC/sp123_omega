@@ -1006,7 +1006,7 @@ html.js fieldset.collapsed {
   margin: 0 auto 1em; }
 .page-user-edit .pane-user-form-account label {
   width: 150px; }
-.page-user-edit .pane-user-form-account input {
+.page-user-edit .pane-user-form-account input.form-text {
   width: calc(100% - 155px); }
 
 #mini-panel-header {

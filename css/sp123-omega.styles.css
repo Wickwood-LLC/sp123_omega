@@ -1023,6 +1023,19 @@ html.js fieldset.collapsed {
   border-width: 1px;
   height: 2em; }
 
+.form-actions {
+  text-align: center;
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: 9px;
+  margin-top: 10px;
+  margin-bottom: 0; }
+  .form-actions #edit-submit {
+    display: inline-block; }
+  .form-actions #edit-cancel {
+    display: inline-block;
+    margin-left: 10px; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;

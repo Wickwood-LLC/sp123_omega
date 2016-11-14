@@ -9,9 +9,11 @@
 }
 
 .page-user-edit {
-	@include breakpoint(1250px) {	
-		.top-1,	.top-2,	.top-3,	.top-4 {
-			max-width: 33%;
+	#wwm-special-2 .top-columns {
+		@include breakpoint(1250px) {	
+			.top-1,	.top-2,	.top-3,	.top-4 {
+				max-width: 33%;
+			}
 		}
 	}
 

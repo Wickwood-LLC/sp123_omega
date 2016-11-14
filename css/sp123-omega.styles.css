@@ -989,6 +989,12 @@ table.fc-border-separate {
     display: inline-block; }
   .form-item input, .form-item textarea, .form-item keygen, .form-item select, .form-item button {
     font-size: 16px; }
+  .form-item th {
+    background-color: initial; }
+  .form-item tr.odd {
+    background-color: white; }
+  .form-item tr.even {
+    background-color: #FAFAF8; }
 
 .form-type-radio input {
   width: auto; }

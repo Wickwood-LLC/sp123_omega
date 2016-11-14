@@ -991,6 +991,9 @@ table.fc-border-separate {
   .form-item input, .form-item textarea, .form-item keygen, .form-item select, .form-item button {
     font-size: 16px; }
 
+.form-type-radio input {
+  width: auto; }
+
 html.js fieldset.collapsed {
   border-width: 1px;
   height: 2em; }
@@ -1004,7 +1007,7 @@ html.js fieldset.collapsed {
 .page-user-edit .pane-user-form-account label {
   width: 150px; }
 .page-user-edit .pane-user-form-account input {
-  width: calc(100% - 150px); }
+  width: calc(100% - 155px); }
 
 #mini-panel-header {
   display: -webkit-box;

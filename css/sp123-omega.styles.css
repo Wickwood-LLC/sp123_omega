@@ -1016,11 +1016,16 @@ input[type="submit"] {
   border: 1px solid transparent;
   border-radius: 4px; }
 
+fieldset {
+  margin-bottom: 1em;
+  border: 2px solid #689a04;
+  border-radius: 10px; }
+
 .form-type-radio input {
   width: auto; }
 
 html.js fieldset.collapsed {
-  border-width: 1px;
+  border-width: 2px;
   height: 2em; }
 
 .form-actions {
@@ -1936,6 +1941,8 @@ body {
   width: 50px;
   padding: 10px;
   padding-right: 0; }
+.page-user-edit #edit-masquerade-users {
+  width: 100%; }
 
 #header,
 #branding .limiter,

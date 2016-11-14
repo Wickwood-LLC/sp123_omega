@@ -85,5 +85,10 @@
 		.description {
 			flex: 100%;
 		}
+
+		select.country,
+		select.state {
+			width: calc(100% - 114px);
+		}
 	}
 }

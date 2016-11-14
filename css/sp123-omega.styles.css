@@ -992,9 +992,9 @@ table.fc-border-separate {
   .form-item th {
     background-color: initial; }
   .form-item tr.odd {
-    background-color: white; }
-  .form-item tr.even {
     background-color: #FAFAF8; }
+  .form-item tr.even {
+    background-color: white; }
 
 .form-type-radio input {
   width: auto; }
@@ -1865,6 +1865,9 @@ body {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
+.page-user-edit .field-name-field-mailing-address select.country,
+.page-user-edit .field-name-field-mailing-address select.state {
+  width: calc(100% - 114px); }
 
 #header,
 #branding .limiter,

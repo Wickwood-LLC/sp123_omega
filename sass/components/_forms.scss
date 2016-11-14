@@ -40,6 +40,18 @@ html.js fieldset.collapsed {
 		input.form-text {
 			width: calc(100% - 155px);
 		}
+
+		.form-item-status .form-radios {
+			display: inline-block;
+
+			.form-type-radio {
+				display: inline-block;
+
+				label {
+					width: auto;
+				}
+			}
+		}
 	}
 }
 

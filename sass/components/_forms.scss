@@ -34,12 +34,7 @@ html.js fieldset.collapsed {
 	}
 
 	.pane-user-form-account {
-		label {
-			width: 150px;
-		}
-		input.form-text {
-			width: calc(100% - 155px);
-		}
+		@include flexifields(150px);
 
 		.form-item-status .form-radios {
 			display: inline-block;

@@ -932,6 +932,19 @@
 		"oAP": "\/sass\/.sass-cache\/efb18b4a81b591677f1988431a8a7edbdcca00c5\/_triple.scssc",
 		"oF": 0
 		},
+	"\/sass\/abstractions\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/abstractions\/README.md": {
 		"cS": 0,
 		"eF": 1,

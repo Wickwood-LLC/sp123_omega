@@ -127,5 +127,7 @@ function sp123_omega_form_element_label($variables) {
 	else {
 	  return ' <label' . drupal_attributes($attributes) . '>' . $t('!title !required', array('!title' => $title, '!required' => $required)) . "</label>\n";
 	}
+
+	dpm($variables['rendered_element']);
 }
 

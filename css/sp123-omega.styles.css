@@ -1788,7 +1788,7 @@ body {
 
 @media (min-width: 1250px) {
   .page-user-edit #wwm-special-2 .top-columns .top-1, .page-user-edit #wwm-special-2 .top-columns .top-2, .page-user-edit #wwm-special-2 .top-columns .top-3, .page-user-edit #wwm-special-2 .top-columns .top-4 {
-    max-width: 33%; } }
+    max-width: calc(100% / 3); } }
 .page-user-edit .form-item .clearfix {
   width: 100%; }
 .page-user-edit input.field-add-more-submit {
@@ -1800,7 +1800,12 @@ body {
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
   right: -72px;
-  top: 50%; }
+  top: 50%;
+  background-color: #6fae1b;
+  color: white; }
+.page-user-edit .field-add-more-submit {
+  background-color: #6fae1b;
+  color: white; }
 .page-user-edit .password-strength {
   float: none;
   margin: 0 auto 1em;

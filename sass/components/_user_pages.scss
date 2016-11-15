@@ -76,13 +76,13 @@
 		}
 
 		.form-item-roles .form-checkboxes {
-			display: inline-block;
+			display: flex;
+    		flex-flow: row wrap;
 
 			.form-type-checkbox {
 				display: block;
-			    width: 50%;
-			    float: left;
 			    min-width: 200px;
+			    flex: 1 1 50%;
 			}
 		}
 	}

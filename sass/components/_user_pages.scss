@@ -75,14 +75,18 @@
 			}
 		}
 
-		.form-item-roles .form-checkboxes {
-			display: flex;
-    		flex-flow: row wrap;
+		.form-item-roles {
+			margin-bottom: 0;
 
-			.form-type-checkbox {
-				display: block;
-			    min-width: 200px;
-			    flex: 1 1 50%;
+			.form-checkboxes {
+				display: flex;
+	    		flex-flow: row wrap;
+	
+				.form-type-checkbox {
+					display: block;
+				    min-width: 200px;
+				    flex: 1 1 50%;
+				}
 			}
 		}
 	}
@@ -101,6 +105,18 @@
 		.description {
 			flex: 100%;
 		}
+
+		>div>.form-item {
+			margin-bottom: 0;
+		}
+	}
+
+	.field-name-field-name-suffix .form-item {
+		margin-bottom: 0;
+	}
+
+	.field-name-field-book-types .form-item {
+		margin-bottom: 0;
 	}
 
 	.field-name-field-mailing-address {
@@ -113,6 +129,10 @@
 		select.country,
 		select.state {
 			width: calc(100% - 114px);
+		}
+
+		>div>.form-item {
+			margin-bottom: 0;
 		}
 	}
 

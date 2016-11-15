@@ -1016,7 +1016,7 @@ input[type="submit"] {
   border: 1px solid transparent;
   border-radius: 4px; }
 
-label.checkbox {
+.form-type-checkbox label {
   font-weight: normal;
   padding-left: 27px;
   text-indent: -27px;
@@ -2161,5 +2161,8 @@ img.testimonial-image {
   margin: 5px; }
 .top-box p, .middle-box p, .bottom-box p {
   margin: 0 0.5em; }
+
+#overlay-content #page-title .limiter {
+  width: auto; }
 
 /*# sourceMappingURL=sp123-omega.styles.css.map */

@@ -1016,10 +1016,15 @@ input[type="submit"] {
   border: 1px solid transparent;
   border-radius: 4px; }
 
-.form-type-checkbox label {
+input.form-radio,
+input.form-chekbox {
+  display: block;
+  float: left; }
+
+label.option {
+  display: block;
+  margin-left: 25px;
   font-weight: normal;
-  padding-left: 27px;
-  text-indent: -27px;
   text-align: left; }
 
 fieldset {

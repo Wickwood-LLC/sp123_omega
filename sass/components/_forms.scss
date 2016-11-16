@@ -42,11 +42,17 @@ input[type="submit"]{
     border-radius: 4px;
 }
 
-.form-type-checkbox label {
-	font-weight: normal;
-	padding-left: 27px;
-    text-indent: -27px;
-    text-align: left;
+input.form-radio,
+input.form-chekbox {
+	display: block;
+    float: left;
+}
+
+label.option {
+	display: block;
+    margin-left: 25px;
+    font-weight: normal;
+	text-align: left;
 }
 
 fieldset {

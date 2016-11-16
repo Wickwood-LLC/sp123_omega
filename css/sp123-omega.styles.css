@@ -1017,7 +1017,7 @@ input[type="submit"] {
   border-radius: 4px; }
 
 input.form-radio,
-input.form-chekbox {
+input.form-checkbox {
   display: block;
   float: left; }
 

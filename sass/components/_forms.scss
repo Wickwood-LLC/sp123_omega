@@ -57,6 +57,10 @@ label.option {
 
 #module-filter-show-wrapper .form-item {
     display: inline-block;
+
+    label {
+    	margin-left: 0;
+    }
 }
 
 fieldset {

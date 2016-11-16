@@ -1029,6 +1029,8 @@ label.option {
 
 #module-filter-show-wrapper .form-item {
   display: inline-block; }
+  #module-filter-show-wrapper .form-item label {
+    margin-left: 0; }
 
 fieldset {
   margin-bottom: 1em;

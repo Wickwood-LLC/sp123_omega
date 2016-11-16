@@ -1974,6 +1974,8 @@ body {
   padding-right: 0; }
 .page-user-edit #edit-masquerade-users {
   width: 100%; }
+.page-user-edit footer {
+  padding: 0 1%; }
 
 #header,
 #branding .limiter,

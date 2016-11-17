@@ -58,9 +58,11 @@
 
 	    &:first-child {
 	    	border-radius: 5px 0 0 5px;
+	    	a {border-radius: 5px 0 0 5px;}
 	    }
 	    &:last-child {
 	    	border-radius: 0 5px 5px 0;
+	    	a {border-radius: 5px 0 0 5px;}
 	    }
 	    :hover {
 	    	background-color: #e9efcc;

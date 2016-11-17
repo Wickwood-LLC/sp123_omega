@@ -115,8 +115,11 @@
 		margin-bottom: 0;
 	}
 
-	.field-name-field-book-types .form-item {
+	.field-name-field-book-types .form-item.form-type-radio {
 		margin-bottom: 0;
+		width: auto;
+	    display: inline-block;
+	    margin-right: 8px;
 	}
 
 	.field-name-field-mailing-address {

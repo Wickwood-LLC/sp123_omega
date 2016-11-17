@@ -1061,6 +1061,10 @@ html.js fieldset.collapsed {
     display: inline-block;
     margin-left: 10px; }
 
+#addressfield-wrapper .form-item,
+#field-phone-values .form-item {
+  margin-bottom: 0.5em; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;

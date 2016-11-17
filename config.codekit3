@@ -541,6 +541,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/sp123-omega.reset.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/sp123-omega.reset.css.map",
+		"oF": 0
+		},
 	"\/css\/sp123-omega.styles.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1231,12 +1237,12 @@
 		"uCM": 0
 		},
 	"\/sass\/sp123-omega.reset.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/sp123-omega.reset.css",
 		"oF": 0,

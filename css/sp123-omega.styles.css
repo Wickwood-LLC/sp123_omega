@@ -995,6 +995,15 @@ table.fc-border-separate {
     background-color: #FAFAF8; }
   .form-item tr.even {
     background-color: white; }
+  .form-item input.form-radio,
+  .form-item input.form-checkbox {
+    display: block;
+    float: left; }
+  .form-item label.option {
+    display: block;
+    margin-left: 25px;
+    font-weight: normal;
+    text-align: left; }
 
 input[type="submit"] {
   display: table;
@@ -1015,17 +1024,6 @@ input[type="submit"] {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px; }
-
-input.form-radio,
-input.form-checkbox {
-  display: block;
-  float: left; }
-
-label.option {
-  display: block;
-  margin-left: 25px;
-  font-weight: normal;
-  text-align: left; }
 
 #module-filter-show-wrapper .form-item {
   display: inline-block; }

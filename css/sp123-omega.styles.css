@@ -2028,7 +2028,7 @@ body {
     .primary-tabs li:last-child {
       border-radius: 0 5px 5px 0; }
       .primary-tabs li:last-child a {
-        border-radius: 5px 5px 0; }
+        border-radius: 0 5px 5px 0; }
     .primary-tabs li :hover {
       background-color: #e9efcc; }
     .primary-tabs li.active {

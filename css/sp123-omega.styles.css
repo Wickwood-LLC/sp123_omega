@@ -1893,6 +1893,8 @@ body {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 50%;
               flex: 1 1 50%; }
+.page-user-edit .field-type-field-collection th.field-label {
+  display: none; }
 .page-user-edit .pane-user-group-full-name .form-item {
   display: -webkit-box;
   display: -ms-flexbox;

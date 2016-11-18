@@ -91,6 +91,12 @@
 		}
 	}
 
+	.field-type-field-collection {
+		th.field-label {
+			display: none;
+		}
+	}
+
 	.pane-user-group-full-name {
 		@include flexifields(178px);
 

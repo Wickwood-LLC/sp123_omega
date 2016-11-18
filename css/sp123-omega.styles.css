@@ -2003,7 +2003,8 @@ body {
   padding: 0 1%; }
 
 #admin-menu {
-  max-width: 100% !important; }
+  max-width: 100% !important;
+  clip: initial !important; }
 
 #header,
 #branding .limiter,

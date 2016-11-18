@@ -2023,6 +2023,11 @@ body {
   .primary-tabs .tabs--primary {
     margin-bottom: 0;
     border-bottom: 0; }
+  .primary-tabs .tabs--secondary {
+    clear: right; }
+    .primary-tabs .tabs--secondary li a {
+      line-height: 1;
+      height: auto; }
   .primary-tabs li {
     margin-right: 0;
     height: 30px;

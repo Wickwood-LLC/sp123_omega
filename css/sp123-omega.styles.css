@@ -2029,6 +2029,9 @@ body {
   padding: 0em;
   box-sizing: border-box; }
 
+.page-admin #content {
+  padding: 0 1em; }
+
 .tabs {
   float: right;
   margin-top: 5.5px; }

@@ -9,6 +9,9 @@
 @import "base/*";
 @import "components/*";
 
+.admin-menu {
+  max-width: 100% !important;
+}
 
 #header,
 #branding .limiter,

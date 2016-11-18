@@ -1061,6 +1061,14 @@ html.js fieldset.collapsed {
     display: inline-block;
     margin-left: 10px; }
 
+.page-manager-save-page-form {
+  text-align: center; }
+  .page-manager-save-page-form .changed-notification {
+    text-align: left; }
+  .page-manager-save-page-form [type="submit"] {
+    display: inline-block;
+    margin-left: 10px; }
+
 #addressfield-wrapper .form-item,
 #field-phone-values .form-item {
   margin-bottom: 0.5em; }

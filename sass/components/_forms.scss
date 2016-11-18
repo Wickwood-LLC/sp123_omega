@@ -107,6 +107,19 @@ html.js fieldset.collapsed {
 	}
 }
 
+.page-manager-save-page-form {
+	text-align: center;
+
+	.changed-notification {
+		text-align: left;
+	}
+
+	[type="submit"] {
+		display: inline-block;
+    	margin-left: 10px;
+	}
+}
+
 #addressfield-wrapper,
 #field-phone-values {
 	.form-item {

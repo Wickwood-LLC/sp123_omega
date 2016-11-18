@@ -101,8 +101,7 @@ html.js fieldset.collapsed {
 			background-color: #7fb739;
 		}
 	}
-	#edit-cancel,
-	#edit-delete {
+	[type="submit"] {
 		display: inline-block;
     	margin-left: 10px;
 	}

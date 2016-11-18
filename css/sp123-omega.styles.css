@@ -1067,7 +1067,7 @@ html.js fieldset.collapsed {
     text-align: left; }
   .page-manager-save-page-form [type="submit"] {
     display: inline-block;
-    margin-left: 10px; }
+    margin: 10px; }
 
 #addressfield-wrapper .form-item,
 #field-phone-values .form-item {

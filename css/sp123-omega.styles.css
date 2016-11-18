@@ -2089,6 +2089,8 @@ body {
 
 .action-links {
   display: inline-block; }
+  .action-links li {
+    display: inline-block; }
 
 .wwm-sanderson .row:first-child .radix-layouts-column2 .panel-panel-inner {
   padding: 0.5em;

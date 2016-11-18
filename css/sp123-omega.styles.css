@@ -2088,9 +2088,7 @@ body {
   font-size: 1.8em; }
 
 .action-links {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 31px; }
+  display: inline-block; }
 
 .wwm-sanderson .row:first-child .radix-layouts-column2 .panel-panel-inner {
   padding: 0.5em;

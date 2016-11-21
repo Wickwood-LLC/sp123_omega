@@ -1933,16 +1933,15 @@ body {
   width: auto;
   display: inline-block;
   margin-right: 10px; }
-.page-user-edit .field-name-field-note .field-name-field-staff-user input {
+.page-user-edit .field-name-field-user-notes .field-name-field-staff-user input {
   width: 100%; }
-.page-user-edit .field-name-field-note fieldset {
+.page-user-edit .field-name-field-user-notes fieldset {
   min-width: 0; }
-.page-user-edit .field-name-field-note .filter-help a {
-  display: inline-block;
+.page-user-edit .field-name-field-user-notes .filter-help a {
+  display: inline-block; }
+.page-user-edit .field-name-field-user-notes .filter-guidelines {
   padding: 0; }
-.page-user-edit .field-name-field-note .filter-guidelines {
-  padding: 0; }
-.page-user-edit .field-name-field-note .filter-guidelines-item {
+.page-user-edit .field-name-field-user-notes .filter-guidelines-item {
   word-break: break-all; }
 .page-user-edit .field-name-field-phone .form-item {
   display: -webkit-box;

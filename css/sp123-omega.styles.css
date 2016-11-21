@@ -1921,6 +1921,12 @@ body {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
+.page-user-edit .pane-user-group-full-name .form-type-radio,
+.page-user-edit .pane-user-group-full-name .form-type-checkbox {
+  display: block; }
+  .page-user-edit .pane-user-group-full-name .form-type-radio input,
+  .page-user-edit .pane-user-group-full-name .form-type-checkbox input {
+    width: auto; }
 .page-user-edit .field-name-field-phone .form-item {
   display: -webkit-box;
   display: -ms-flexbox;

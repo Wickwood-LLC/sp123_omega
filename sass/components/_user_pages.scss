@@ -103,6 +103,15 @@
 		.description {
 			flex: 100%;
 		}
+
+		.form-type-radio,
+		.form-type-checkbox {
+			display: block;
+			
+			input {
+				width: auto;
+			}
+		}
 	}
 
 	.field-name-field-phone {

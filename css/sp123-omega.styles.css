@@ -1933,6 +1933,17 @@ body {
   width: auto;
   display: inline-block;
   margin-right: 10px; }
+.page-user-edit .field-name-field-note .field-name-field-staff-user input {
+  width: 100%; }
+.page-user-edit .field-name-field-note fieldset {
+  min-width: 0; }
+.page-user-edit .field-name-field-note .filter-help a {
+  display: inline-block;
+  padding: 0; }
+.page-user-edit .field-name-field-note .filter-guidelines {
+  padding: 0; }
+.page-user-edit .field-name-field-note .filter-guidelines-item {
+  word-break: break-all; }
 .page-user-edit .field-name-field-phone .form-item {
   display: -webkit-box;
   display: -ms-flexbox;

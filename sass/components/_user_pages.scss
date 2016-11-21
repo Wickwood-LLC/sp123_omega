@@ -126,6 +126,27 @@
 		}
 	}
 
+	.field-name-field-note {
+		.field-name-field-staff-user input {
+			width: 100%;
+		}
+
+		fieldset {
+			min-width: 0;
+		}
+
+		.filter-help a {
+			display: inline-block;
+			padding: 0;
+		}
+		.filter-guidelines {
+			padding: 0;
+		}
+		.filter-guidelines-item {
+			word-break: break-all;
+		}
+	}
+
 	.field-name-field-phone {
 		@include flexifields(120px);
 

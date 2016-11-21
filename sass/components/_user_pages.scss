@@ -219,3 +219,23 @@
 		padding: 0 1%;
 	}
 }
+
+.page-user {
+	.pane-basic-user-info-for-user-account {
+		.field {
+			display: flex;
+			flex-flow: row wrap;
+
+			.field__label {
+				flex: 0 0 120px;
+			}
+
+			.field__items {
+				flex: 1 1 calc(100% - 120px)
+			}
+		}
+	}
+	.field--name-field-publishing-stage {
+		margin-bottom: 1em;
+	}
+}

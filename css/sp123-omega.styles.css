@@ -2032,6 +2032,23 @@ body {
 .page-user-edit footer {
   padding: 0 1%; }
 
+.page-user .pane-basic-user-info-for-user-account .field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  .page-user .pane-basic-user-info-for-user-account .field .field__label {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 120px;
+            flex: 0 0 120px; }
+  .page-user .pane-basic-user-info-for-user-account .field .field__items {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(100% - 120px);
+            flex: 1 1 calc(100% - 120px); }
+.page-user .field--name-field-publishing-stage {
+  margin-bottom: 1em; }
+
 #admin-menu {
   max-width: 100% !important;
   clip: initial !important; }

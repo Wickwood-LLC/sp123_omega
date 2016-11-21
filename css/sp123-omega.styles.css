@@ -1005,6 +1005,8 @@ table.fc-border-separate {
     margin-left: 25px;
     font-weight: normal;
     text-align: left; }
+  .form-item .container-inline-date {
+    margin: 0; }
 
 input[type="submit"] {
   display: table;
@@ -1037,8 +1039,12 @@ fieldset {
   border-radius: 10px;
   padding: 0.5em 1em; }
 
-.form-type-radio input {
-  width: auto; }
+.form-type-radio,
+.form-type-checkbox {
+  display: block; }
+  .form-type-radio input,
+  .form-type-checkbox input {
+    width: auto; }
 
 html.js fieldset.collapsed {
   border-width: 2px;
@@ -1975,6 +1981,8 @@ body {
   width: calc(100% - 114px); }
 .page-user-edit .field-name-field-mailing-address > div > .form-item {
   margin-bottom: 0; }
+.page-user-edit .field-name-field-websites input {
+  width: 100%; }
 .page-user-edit tr.draggable {
   display: -webkit-box;
   display: -ms-flexbox;

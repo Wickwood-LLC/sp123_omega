@@ -37,6 +37,10 @@
 	    font-weight: normal;
 		text-align: left;
 	}
+
+	.container-inline-date {
+		margin: 0;
+	}
 }
 
 input[type="submit"]{
@@ -75,8 +79,13 @@ fieldset {
     // }
 }
 
-.form-type-radio input {
-	width: auto;
+.form-type-radio,
+.form-type-checkbox {
+	display: block;
+	
+	input {
+		width: auto;
+	}
 }
 
 html.js fieldset.collapsed {

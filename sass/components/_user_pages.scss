@@ -114,6 +114,18 @@
 		}
 	}
 
+	.field-name-field-gender {
+		.form-radios {
+			width: 100%;
+		}
+
+		.form-type-radio {
+			width: auto;
+		    display: inline-block;
+		    margin-right: 10px;
+		}
+	}
+
 	.field-name-field-phone {
 		@include flexifields(120px);
 

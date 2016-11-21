@@ -1927,6 +1927,12 @@ body {
   .page-user-edit .pane-user-group-full-name .form-type-radio input,
   .page-user-edit .pane-user-group-full-name .form-type-checkbox input {
     width: auto; }
+.page-user-edit .field-name-field-gender .form-radios {
+  width: 100%; }
+.page-user-edit .field-name-field-gender .form-type-radio {
+  width: auto;
+  display: inline-block;
+  margin-right: 10px; }
 .page-user-edit .field-name-field-phone .form-item {
   display: -webkit-box;
   display: -ms-flexbox;

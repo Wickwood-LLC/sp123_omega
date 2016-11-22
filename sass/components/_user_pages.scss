@@ -159,6 +159,14 @@
 			width: 100%;
 		}
 
+		.field-name-field-date .form-type-date-combo>label {
+			display: none;
+		}
+
+		fieldset {
+			border: 1px solid #CCCCCC;
+		}
+
 		fieldset {
 			min-width: 0;
 		}

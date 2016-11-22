@@ -92,8 +92,15 @@
 	}
 
 	.field-multiple-table {
+		width: 100%;
+    	display: flex;
+
 		th.field-label {
 			display: none;
+		}
+
+		tbody {
+			width: 100%;
 		}
 	}
 

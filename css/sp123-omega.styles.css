@@ -1896,8 +1896,15 @@ body {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 50%;
               flex: 1 1 50%; }
-.page-user-edit .field-multiple-table th.field-label {
-  display: none; }
+.page-user-edit .field-multiple-table {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-user-edit .field-multiple-table th.field-label {
+    display: none; }
+  .page-user-edit .field-multiple-table tbody {
+    width: 100%; }
 .page-user-edit .pane-user-group-full-name .form-item {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1897,6 +1897,29 @@ body {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 50%;
               flex: 1 1 50%; }
+.page-user-edit .pane-user-group-personla-info .form-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-user-edit .pane-user-group-personla-info .form-item label {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 85px;
+            flex: 0 0 85px; }
+  .page-user-edit .pane-user-group-personla-info .form-item input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(100% - 95px);
+            flex: 1 1 calc(100% - 95px); }
+  .page-user-edit .pane-user-group-personla-info .form-item.form-type-textfield {
+    margin-bottom: 10px; }
+.page-user-edit .pane-user-group-personla-info .date-form-element-content,
+.page-user-edit .pane-user-group-personla-info .date-padding {
+  width: 100%; }
 .page-user-edit .field-multiple-table {
   width: 100%;
   display: -webkit-box;
@@ -2008,7 +2031,10 @@ body {
           flex: 100%; }
 .page-user-edit .field-name-field-mailing-address select.country,
 .page-user-edit .field-name-field-mailing-address select.state {
-  width: calc(100% - 114px); }
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 114px);
+          flex: 1 1 calc(100% - 114px);
+  min-width: 100px; }
 .page-user-edit .field-name-field-mailing-address > div > .form-item {
   margin-bottom: 0; }
 .page-user-edit .field-name-field-websites input[type="text"] {

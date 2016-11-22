@@ -9,12 +9,8 @@
 }
 
 .page-user-edit {
-	#wwm-special-2 .top-columns {
-		@include breakpoint(1250px) {	
-			.top-1,	.top-2,	.top-3,	.top-4 {
-				max-width: calc(100% / 3);
-			}
-		}
+	#wwm-special-1{
+		padding: 0 1em;
 	}
 
 	.form-item .clearfix {

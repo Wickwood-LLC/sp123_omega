@@ -159,8 +159,13 @@
 			width: 100%;
 		}
 
-		.field-name-field-date .form-type-date-combo>label {
-			display: none;
+		.field-name-field-date {
+			.form-type-date-combo>label {
+				display: none;
+			}
+			.form-item.form-type-textfield {
+				margin-right: 10px;
+			}
 		}
 
 		fieldset {

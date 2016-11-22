@@ -1967,6 +1967,8 @@ body {
   width: 100%; }
 .page-user-edit .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
   display: none; }
+.page-user-edit .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield {
+  margin-right: 10px; }
 .page-user-edit .field-name-field-user-notes fieldset {
   border: 1px solid #CCCCCC; }
 .page-user-edit .field-name-field-user-notes fieldset {

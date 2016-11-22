@@ -2026,7 +2026,8 @@ body {
       -ms-flex: 100%;
           flex: 100%;
   display: block;
-  position: relative; }
+  position: relative;
+  width: calc(100% - 38px); }
 .page-user-edit td.field-multiple-drag {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;

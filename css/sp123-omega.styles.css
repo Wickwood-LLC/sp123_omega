@@ -2012,7 +2012,12 @@ body {
 .page-user-edit .field-name-field-mailing-address > div > .form-item {
   margin-bottom: 0; }
 .page-user-edit .field-name-field-websites input[type="text"] {
+  width: calc(100% - 38px); }
+.page-user-edit .field-name-field-websites .link-field-title,
+.page-user-edit .field-name-field-websites .link-field-url {
   width: 100%; }
+.page-user-edit .field-name-field-websites .description {
+  white-space: normal; }
 .page-user-edit tr.draggable {
   display: -webkit-box;
   display: -ms-flexbox;

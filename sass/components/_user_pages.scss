@@ -193,8 +193,19 @@
 		}
 	}
 
-	.field-name-field-websites input[type="text"] {
-		width: 100%;
+	.field-name-field-websites {
+		input[type="text"] {
+			width: calc(100% - 38px);
+		}
+
+		.link-field-title,
+		.link-field-url {
+			width: 100%;
+		}
+
+		.description {
+			white-space: normal;
+		}
 	}
 
 	tr.draggable {

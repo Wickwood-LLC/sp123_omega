@@ -152,8 +152,12 @@
 	}
 
 	.field-name-field-user-notes {
-		.field-name-field-staff-user input {
-			width: 100%;
+		.field-name-field-staff-user {
+			@include flexifields(40px);
+
+			input {
+				width: 100%;
+			}
 		}
 
 		.field-name-field-date {
@@ -286,14 +290,15 @@
 		fieldset {
 			border: 0;
 			margin: 0;
-
-			.fieldset-content {
-			  padding: 0;
-			}
+			padding: 0;
 		}
 		legend,
 		label {
 			display: none;
+		}
+		select {
+			width: 100%;
+			min-width: 0;
 		}
 
 		.form-item-timezone {

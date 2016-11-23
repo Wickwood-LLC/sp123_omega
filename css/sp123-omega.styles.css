@@ -1974,6 +1974,25 @@ body {
   width: auto;
   display: inline-block;
   margin-right: 10px; }
+.page-user-edit .field-name-field-user-notes .field-name-field-staff-user .form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .field-name-field-user-notes .field-name-field-staff-user label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40px;
+          flex: 0 0 40px; }
+.page-user-edit .field-name-field-user-notes .field-name-field-staff-user input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 40px);
+          flex: 1 1 calc(100% - 40px);
+  min-width: 100px; }
 .page-user-edit .field-name-field-user-notes .field-name-field-staff-user input {
   width: 100%; }
 .page-user-edit .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
@@ -2096,12 +2115,14 @@ body {
   padding-right: 0; }
 .page-user-edit .pane-user-form-timezone fieldset {
   border: 0;
-  margin: 0; }
-  .page-user-edit .pane-user-form-timezone fieldset .fieldset-content {
-    padding: 0; }
+  margin: 0;
+  padding: 0; }
 .page-user-edit .pane-user-form-timezone legend,
 .page-user-edit .pane-user-form-timezone label {
   display: none; }
+.page-user-edit .pane-user-form-timezone select {
+  width: 100%;
+  min-width: 0; }
 .page-user-edit .pane-user-form-timezone .form-item-timezone {
   margin: 0; }
 .page-user-edit .tabledrag-toggle-weight-wrapper {

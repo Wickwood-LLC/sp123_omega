@@ -1902,25 +1902,24 @@ body {
           -ms-flex: 1 1 50%;
               flex: 1 1 50%; }
 .page-user-edit .pane-user-group-personla-info .form-item {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
-  .page-user-edit .pane-user-group-personla-info .form-item label {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 85px;
-            flex: 0 0 85px; }
-  .page-user-edit .pane-user-group-personla-info .form-item input {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 calc(100% - 95px);
-            flex: 1 1 calc(100% - 95px); }
-  .page-user-edit .pane-user-group-personla-info .form-item.form-type-textfield {
-    margin-bottom: 10px; }
+          align-items: center;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+.page-user-edit .pane-user-group-personla-info label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px; }
+.page-user-edit .pane-user-group-personla-info input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 100px);
+          flex: 1 1 calc(100% - 100px);
+  min-width: 100px; }
 .page-user-edit .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit .pane-user-group-personla-info .date-padding {
   width: 100%; }

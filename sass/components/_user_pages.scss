@@ -94,23 +94,7 @@
 	}
 
 	.pane-user-group-personla-info {
-		.form-item {
-			width: 100%;
-			display: flex;
-			flex-flow: row wrap;
-			align-items: center;
-
-			label {
-				flex: 0 0 85px;
-			}
-			input {
-				flex: 1 1 calc(100% - 95px);
-			}
-
-			&.form-type-textfield {
-				margin-bottom: 10px;
-			}
-		}
+		@include flexifields(100px);
 
 		.date-form-element-content,
 		.date-padding {

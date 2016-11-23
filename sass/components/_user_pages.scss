@@ -100,6 +100,13 @@
 		.date-padding {
 			width: 100%;
 		}
+
+		.field-name-field-gender {
+			.form-radios {
+				flex: 1 1 calc(100% - 95px);
+    			display: flex;
+			}
+		}
     }
 
 	.field-multiple-table {
@@ -186,6 +193,10 @@
 
 		>div>.form-item {
 			margin-bottom: 0;
+		}
+
+		.field-name-field-accept-text-messages .form-item {
+			display: block;
 		}
 	}
 

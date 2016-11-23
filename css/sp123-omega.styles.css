@@ -1923,6 +1923,13 @@ body {
 .page-user-edit .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit .pane-user-group-personla-info .date-padding {
   width: 100%; }
+.page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-radios {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 calc(100% - 95px);
+          flex: 1 1 calc(100% - 95px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 .page-user-edit .field-multiple-table {
   width: 100%;
   display: -webkit-box;
@@ -2008,6 +2015,8 @@ body {
           flex: 100%; }
 .page-user-edit .field-name-field-phone > div > .form-item {
   margin-bottom: 0; }
+.page-user-edit .field-name-field-phone .field-name-field-accept-text-messages .form-item {
+  display: block; }
 .page-user-edit .field-name-field-name-suffix .form-item {
   margin-bottom: 0; }
 .page-user-edit .field-name-field-book-types .form-item.form-type-radio {

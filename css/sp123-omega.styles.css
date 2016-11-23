@@ -982,7 +982,8 @@ table.fc-border-separate {
     margin-right: 10px; }
 
 .form-item {
-  font-size: 16px; }
+  font-size: 16px;
+  margin-bottom: 10px; }
   .form-item label {
     display: inline-block; }
   .form-item input, .form-item keygen, .form-item select {
@@ -1868,13 +1869,17 @@ body {
       flex-flow: row wrap; }
 .page-user-edit .pane-user-form-account label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 150px;
-          flex: 0 0 150px; }
+      -ms-flex: 0 0 130px;
+          flex: 0 0 130px; }
 .page-user-edit .pane-user-form-account input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 150px);
-          flex: 1 1 calc(100% - 150px);
+      -ms-flex: 1 1 calc(100% - 130px);
+          flex: 1 1 calc(100% - 130px);
   min-width: 100px; }
+.page-user-edit .pane-user-form-account .form-type-password-confirm label, .page-user-edit .pane-user-form-account .form-type-password-confirm input {
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%; }
 .page-user-edit .pane-user-form-account .form-item-status .form-radios {
   display: inline-block; }
   .page-user-edit .pane-user-form-account .form-item-status .form-radios .form-type-radio {
@@ -1940,12 +1945,12 @@ body {
       flex-flow: row wrap; }
 .page-user-edit .pane-user-group-full-name label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 178px;
-          flex: 0 0 178px; }
+      -ms-flex: 0 0 110px;
+          flex: 0 0 110px; }
 .page-user-edit .pane-user-group-full-name input {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 178px);
-          flex: 1 1 calc(100% - 178px);
+      -ms-flex: 1 1 calc(100% - 110px);
+          flex: 1 1 calc(100% - 110px);
   min-width: 100px; }
 .page-user-edit .pane-user-group-full-name .description {
   -webkit-box-flex: 100%;

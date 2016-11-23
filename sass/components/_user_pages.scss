@@ -56,7 +56,13 @@
 	}
 
 	.pane-user-form-account {
-		@include flexifields(150px);
+		@include flexifields(130px);
+
+		.form-type-password-confirm {
+			label, input {
+				flex: 100%;
+			}
+		}
 
 		.form-item-status .form-radios {
 			display: inline-block;
@@ -126,7 +132,7 @@
 	}
 
 	.pane-user-group-full-name {
-		@include flexifields(178px);
+		@include flexifields(110px);
 
 		.description {
 			flex: 100%;

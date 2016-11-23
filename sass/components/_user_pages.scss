@@ -227,6 +227,15 @@
 		>div>.form-item {
 			margin-bottom: 0;
 		}
+
+		.field-type-addressfield {
+			fieldset {
+				border: 0px;
+			}
+			legend {
+				display: none;
+			}
+		}
 	}
 
 	.field-name-field-websites {
@@ -237,6 +246,7 @@
 		.link-field-title,
 		.link-field-url {
 			width: 100%;
+			margin-bottom: 10px;
 		}
 
 		.description {
@@ -265,6 +275,10 @@
 	    width: 50px;
 	    padding: 10px;
 	    padding-right: 0;
+	}
+
+	.tabledrag-toggle-weight-wrapper {
+		display: none;
 	}
 
 	#edit-masquerade-users {

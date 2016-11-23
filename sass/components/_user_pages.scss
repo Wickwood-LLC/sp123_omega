@@ -247,11 +247,15 @@
 		.link-field-title,
 		.link-field-url {
 			width: 100%;
-			margin-bottom: 10px;
+			margin: 12px 0px;
 		}
 
 		.description {
 			white-space: normal;
+		}
+
+		#field-websites-add-more-wrapper > .form-item {
+			margin-bottom: 0;
 		}
 	}
 
@@ -277,6 +281,25 @@
 	    padding: 10px;
 	    padding-right: 0;
 	}
+
+	.pane-user-form-timezone {
+		fieldset {
+			border: 0;
+			margin: 0;
+
+			.fieldset-content {
+			  padding: 0;
+			}
+		}
+		legend,
+		label {
+			display: none;
+		}
+
+		.form-item-timezone {
+			margin: 0;
+		}
+    }
 
 	.tabledrag-toggle-weight-wrapper {
 		display: none;

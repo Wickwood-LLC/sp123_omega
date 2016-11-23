@@ -2065,9 +2065,11 @@ body {
 .page-user-edit .field-name-field-websites .link-field-title,
 .page-user-edit .field-name-field-websites .link-field-url {
   width: 100%;
-  margin-bottom: 10px; }
+  margin: 12px 0px; }
 .page-user-edit .field-name-field-websites .description {
   white-space: normal; }
+.page-user-edit .field-name-field-websites #field-websites-add-more-wrapper > .form-item {
+  margin-bottom: 0; }
 .page-user-edit tr.draggable {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2092,6 +2094,16 @@ body {
   width: 50px;
   padding: 10px;
   padding-right: 0; }
+.page-user-edit .pane-user-form-timezone fieldset {
+  border: 0;
+  margin: 0; }
+  .page-user-edit .pane-user-form-timezone fieldset .fieldset-content {
+    padding: 0; }
+.page-user-edit .pane-user-form-timezone legend,
+.page-user-edit .pane-user-form-timezone label {
+  display: none; }
+.page-user-edit .pane-user-form-timezone .form-item-timezone {
+  margin: 0; }
 .page-user-edit .tabledrag-toggle-weight-wrapper {
   display: none; }
 .page-user-edit #edit-masquerade-users {

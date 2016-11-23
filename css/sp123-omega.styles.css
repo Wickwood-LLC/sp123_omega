@@ -1999,6 +1999,8 @@ body {
   display: none; }
 .page-user-edit .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield {
   margin-right: 10px; }
+.page-user-edit .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item {
+  margin-bottom: 0px; }
 .page-user-edit .field-name-field-user-notes fieldset {
   border: 1px solid #CCCCCC; }
 .page-user-edit .field-name-field-user-notes fieldset {

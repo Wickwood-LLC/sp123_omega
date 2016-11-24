@@ -2137,24 +2137,24 @@ body {
   .page-user .pane-user-field-phone .pane-title,
   .page-user .pane-user-field-mailing-address .pane-title {
     margin-left: 1em; }
-  .page-user .pane-user-field-phone .field__item,
-  .page-user .pane-user-field-mailing-address .field__item {
+  .page-user .pane-user-field-phone .field__items > .field__item,
+  .page-user .pane-user-field-mailing-address .field__items > .field__item {
     padding: 0 1em; }
-    .page-user .pane-user-field-phone .field__item:first-child,
-    .page-user .pane-user-field-mailing-address .field__item:first-child {
+    .page-user .pane-user-field-phone .field__items > .field__item:first-child,
+    .page-user .pane-user-field-mailing-address .field__items > .field__item:first-child {
       padding-top: 1em; }
-    .page-user .pane-user-field-phone .field__item.odd,
-    .page-user .pane-user-field-mailing-address .field__item.odd {
+    .page-user .pane-user-field-phone .field__items > .field__item.odd,
+    .page-user .pane-user-field-mailing-address .field__items > .field__item.odd {
       background-color: #FAFAF8; }
 .page-user .field--name-field-publishing-stage {
   margin-bottom: 1em; }
 .page-user .field-collection-container {
   margin-bottom: 0; }
+  .page-user .field-collection-container ul.action-links-field-collection-add {
+    margin: 5px 0 0 0; }
 .page-user .field-collection-view {
   padding: 0;
   margin: 0; }
-.page-user .action-links-field-collection-add {
-  margin: 5px 0 0 0; }
 
 #admin-menu {
   max-width: 100% !important;

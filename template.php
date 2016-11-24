@@ -17,117 +17,76 @@ function sp123_omega_preprocess_html(&$vars) {
   drupal_add_html_head($viewport, 'viewport');
 }
 
-/* Moving checkbox inputs inside their labels */
-// function sp123_omega_form_element($variables) {
-//   $element = &$variables['element'];
+/*******	Moving field descriptions before the field 	*******/
+function sp123_omega_field_multiple_value_form($variables) {
+  $element = $variables['element'];
+  $output = '';
 
-//   // This function is invoked as theme wrapper, but the rendered form element
-//   // may not necessarily have been processed by form_builder().
-//   $element += array(
-//     '#title_display' => 'before',
-//   );
+  if ($element['#cardinality'] > 1 || $element['#cardinality'] == FIELD_CARDINALITY_UNLIMITED) {
+    $table_id = drupal_html_id($element['#field_name'] . '_values');
+    $order_class = $element['#field_name'] . '-delta-order';
+    $required = !empty($element['#required']) ? theme('form_required_marker', $variables) : '';
 
-//   // Add element #id for #type 'item'.
-//   if (isset($element['#markup']) && !empty($element['#id'])) {
-//     $attributes['id'] = $element['#id'];
-//   }
-//   // Add element's #type and #name as class to aid with JS/CSS selectors.
-//   $attributes['class'] = array('form-item');
-//   if (!empty($element['#type'])) {
-//     $attributes['class'][] = 'form-type-' . strtr($element['#type'], '_', '-');
-//   }
-//   if (!empty($element['#name'])) {
-//     $attributes['class'][] = 'form-item-' . strtr($element['#name'], array(' ' => '-', '_' => '-', '[' => '-', ']' => ''));
-//   }
-//   // Add a class for disabled elements to facilitate cross-browser styling.
-//   if (!empty($element['#attributes']['disabled'])) {
-//     $attributes['class'][] = 'form-disabled';
-//   }
-//   $output = '<div' . drupal_attributes($attributes) . '>' . "\n";
+    $header = array(
+      array(
+        'data' => '<label>' . t('!title !required', array('!title' => $element['#title'], '!required' => $required)) . "</label>",
+        'colspan' => 2,
+        'class' => array('field-label'),
+      ),
+      t('Order'),
+    );
+    $rows = array();
 
-//   // If #title is not set, we don't display any label or required marker.
-//   if (!isset($element['#title'])) {
-//     $element['#title_display'] = 'none';
-//   }
-//   $prefix = isset($element['#field_prefix']) ? '<span class="field-prefix">' . $element['#field_prefix'] . '</span> ' : '';
-//   $suffix = isset($element['#field_suffix']) ? ' <span class="field-suffix">' . $element['#field_suffix'] . '</span>' : '';
+    // Sort items according to '_weight' (needed when the form comes back after
+    // preview or failed validation)
+    $items = array();
+    foreach (element_children($element) as $key) {
+      if ($key === 'add_more') {
+        $add_more_button = &$element[$key];
+      }
+      else {
+        $items[] = &$element[$key];
+      }
+    }
+    usort($items, '_field_sort_items_value_helper');
 
-//   if ($element['#type'] == 'checkbox') {
-// 	  $variables['rendered_element'] = ' ' . $prefix . $element['#children'] . $suffix . "\n";
-// 	  $output .= theme('form_element_label', $variables);
-// 	}
-// 	else {
-// 	  switch ($element['#title_display']) {
-// 	    case 'before':
-// 	    case 'invisible':
-// 	      $output .= ' ' . theme('form_element_label', $variables);
-// 	      $output .= ' ' . $prefix . $element['#children'] . $suffix . "\n";
-// 	      break;
+    // Add the items as table rows.
+    foreach ($items as $key => $item) {
+      $item['_weight']['#attributes']['class'] = array($order_class);
+      $delta_element = drupal_render($item['_weight']);
+      $cells = array(
+        array('data' => '', 'class' => array('field-multiple-drag')),
+        drupal_render($item),
+        array('data' => $delta_element, 'class' => array('delta-order')),
+      );
+      $rows[] = array(
+        'data' => $cells,
+        'class' => array('draggable'),
+      );
+    }
 
-// 	    case 'after':
-// 	      $output .= ' ' . $prefix . $element['#children'] . $suffix;
-// 	      $output .= ' ' . theme('form_element_label', $variables) . "\n";
-// 	      break;
+    if ($element['#field_name'] == 'field_mailing_address') {
+    	$output = '<div class="form-item">';
+	    $output .= $element['#description'] ? '<div class="description">' . $element['#description'] . '</div>' : '';
+	    $output .= theme('table', array('header' => $header, 'rows' => $rows, 'attributes' => array('id' => $table_id, 'class' => array('field-multiple-table'))));
+	    $output .= '<div class="clearfix">' . drupal_render($add_more_button) . '</div>';
+	    $output .= '</div>';
+    }
+    else {
+    	$output = '<div class="form-item">';
+	    $output .= theme('table', array('header' => $header, 'rows' => $rows, 'attributes' => array('id' => $table_id, 'class' => array('field-multiple-table'))));
+	    $output .= $element['#description'] ? '<div class="description">' . $element['#description'] . '</div>' : '';
+	    $output .= '<div class="clearfix">' . drupal_render($add_more_button) . '</div>';
+	    $output .= '</div>';
+    }
 
-// 	    case 'none':
-// 	    case 'attribute':
-// 	      // Output no label and no required marker, only the children.
-// 	      $output .= ' ' . $prefix . $element['#children'] . $suffix . "\n";
-// 	      break;
-// 	  }
-// 	}
+    drupal_add_tabledrag($table_id, 'order', 'sibling', $order_class);
+  }
+  else {
+    foreach (element_children($element) as $key) {
+      $output .= drupal_render($element[$key]);
+    }
+  }
 
-
-//   if (!empty($element['#description'])) {
-//     $output .= '<div class="description">' . $element['#description'] . "</div>\n";
-//   }
-
-//   $output .= "</div>\n";
-
-//   return $output;
-// }
-
-// function sp123_omega_form_element_label($variables) {
-//   $element = $variables['element'];
-//   // This is also used in the installer, pre-database setup.
-//   $t = get_t();
-
-//   // If title and required marker are both empty, output no label.
-//   if ((!isset($element['#title']) || $element['#title'] === '') && empty($element['#required'])) {
-//     return '';
-//   }
-
-//   // If the element is required, a required marker is appended to the label.
-//   $required = !empty($element['#required']) ? theme('form_required_marker', array('element' => $element)) : '';
-
-//   $title = filter_xss_admin($element['#title']);
-
-//   $attributes = array();
-//   // Style the label as class option to display inline with the element.
-//   if ($element['#title_display'] == 'after') {
-//     $attributes['class'] = 'option';
-//   }
-//   // Show label only to screen readers to avoid disruption in visual flows.
-//   elseif ($element['#title_display'] == 'invisible') {
-//     $attributes['class'] = 'element-invisible';
-//   }
-
-//   if (!empty($element['#id'])) {
-//     $attributes['for'] = $element['#id'];
-//   }
-
-//   if ($element['#type'] == 'checkbox') {
-// 	  $attributes['class'] = 'checkbox';
-// 	}
-
-// 	// The leading whitespace helps visually separate fields from inline labels.
-// 	if (!empty($variables['rendered_element'])) {
-// 	  return ' <label' . drupal_attributes($attributes) . '>' . $variables['rendered_element'] . $t('!title !required', array('!title' => $title, '!required' => $required)) . "</label>\n";
-// 	}
-// 	else {
-// 	  return ' <label' . drupal_attributes($attributes) . '>' . $t('!title !required', array('!title' => $title, '!required' => $required)) . "</label>\n";
-// 	}
-
-// 	dpm($variables);
-// }
-
+  return $output;
+}

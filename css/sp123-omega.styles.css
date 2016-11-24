@@ -1973,31 +1973,16 @@ body {
   .page-user-edit .pane-user-group-full-name .form-type-radio input,
   .page-user-edit .pane-user-group-full-name .form-type-checkbox input {
     width: auto; }
-.page-user-edit .field-name-field-user-notes .field-name-field-staff-user .form-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-.page-user-edit .field-name-field-user-notes .field-name-field-staff-user label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 80px;
-          flex: 0 0 80px; }
-.page-user-edit .field-name-field-user-notes .field-name-field-staff-user input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 80px);
-          flex: 1 1 calc(100% - 80px);
-  min-width: 100px; }
-.page-user-edit .field-name-field-user-notes .field-name-field-staff-user input {
-  width: 100%; }
-.page-user-edit .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
-  display: none; }
-.page-user-edit .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield {
-  margin-right: 10px; }
+.page-user-edit .field-name-field-user-notes .field-name-field-staff-user {
+  display: inline-block; }
+  .page-user-edit .field-name-field-user-notes .field-name-field-staff-user input {
+    width: 10em; }
+.page-user-edit .field-name-field-user-notes .field-name-field-date {
+  display: inline-block; }
+  .page-user-edit .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {
+    display: none; }
+  .page-user-edit .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield {
+    margin-right: 10px; }
 .page-user-edit .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item {
   margin-bottom: 0px; }
 .page-user-edit .field-name-field-user-notes fieldset {

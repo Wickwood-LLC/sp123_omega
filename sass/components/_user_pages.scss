@@ -152,14 +152,16 @@
 
 	.field-name-field-user-notes {
 		.field-name-field-staff-user {
-			@include flexifields(80px);
+			display: inline-block;
 
 			input {
-				width: 100%;
+				width: 10em;
 			}
 		}
 
 		.field-name-field-date {
+			display: inline-block;
+			
 			.form-type-date-combo>label {
 				display: none;
 			}

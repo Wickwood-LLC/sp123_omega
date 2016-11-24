@@ -2117,56 +2117,56 @@ body {
 .page-user-edit #edit-masquerade-users {
   width: 100%; }
 
-.page-user .pane-basic-user-info-for-user-account .field {
+.page-user.section-users .pane-basic-user-info-for-user-account .field {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
-  .page-user .pane-basic-user-info-for-user-account .field .field__label {
+  .page-user.section-users .pane-basic-user-info-for-user-account .field .field__label {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 120px;
             flex: 0 0 120px; }
-  .page-user .pane-basic-user-info-for-user-account .field .field__items {
+  .page-user.section-users .pane-basic-user-info-for-user-account .field .field__items {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 calc(100% - 120px);
             flex: 1 1 calc(100% - 120px); }
-.page-user .pane-user-field-phone,
-.page-user .pane-user-field-mailing-address,
-.page-user .pane-user-field-user-notes {
+.page-user.section-users .pane-user-field-phone,
+.page-user.section-users .pane-user-field-mailing-address,
+.page-user.section-users .pane-user-field-user-notes {
   padding: 0; }
-  .page-user .pane-user-field-phone .pane-title,
-  .page-user .pane-user-field-mailing-address .pane-title,
-  .page-user .pane-user-field-user-notes .pane-title {
+  .page-user.section-users .pane-user-field-phone .pane-title,
+  .page-user.section-users .pane-user-field-mailing-address .pane-title,
+  .page-user.section-users .pane-user-field-user-notes .pane-title {
     margin-left: 1em; }
-  .page-user .pane-user-field-phone .field-collection-container,
-  .page-user .pane-user-field-mailing-address .field-collection-container,
-  .page-user .pane-user-field-user-notes .field-collection-container {
+  .page-user.section-users .pane-user-field-phone .field-collection-container,
+  .page-user.section-users .pane-user-field-mailing-address .field-collection-container,
+  .page-user.section-users .pane-user-field-user-notes .field-collection-container {
     border: 0; }
-    .page-user .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item,
-    .page-user .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item,
-    .page-user .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item {
+    .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item,
+    .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item,
+    .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item {
       padding: 0 1em; }
-      .page-user .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item:first-child,
-      .page-user .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item:first-child,
-      .page-user .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item:first-child {
+      .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item:first-child,
+      .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item:first-child,
+      .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item:first-child {
         padding-top: 1em; }
-      .page-user .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item.odd,
-      .page-user .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item.odd,
-      .page-user .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item.odd {
+      .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item.odd,
+      .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item.odd,
+      .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item.odd {
         background-color: #FAFAF8; }
-.page-user .field--name-field-publishing-stage {
+.page-user.section-users .field--name-field-publishing-stage {
   margin-bottom: 1em; }
-.page-user .field--name-field-date {
+.page-user.section-users .field--name-field-date {
   display: inline-block;
   margin-right: 1em; }
-.page-user .field--name-field-staff-user {
+.page-user.section-users .field--name-field-staff-user {
   display: inline-block; }
-.page-user .field-collection-container {
+.page-user.section-users .field-collection-container {
   margin-bottom: 0; }
-  .page-user .field-collection-container ul.action-links-field-collection-add {
+  .page-user.section-users .field-collection-container ul.action-links-field-collection-add {
     margin: 5px 0 0 0; }
-.page-user .field-collection-view {
+.page-user.section-users .field-collection-view {
   padding: 0;
   margin: 0; }
 

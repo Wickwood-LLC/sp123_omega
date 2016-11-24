@@ -336,7 +336,42 @@
 			}
 		}
 	}
+
+	.pane-user-field-phone,
+	.pane-user-field-mailing-address {
+		padding: 0;
+
+		.pane-title {
+			margin-left: 1em;
+		}
+
+		.field__item {
+			padding: 0 1em;
+
+			&:first-child {
+				padding-top: 1em;
+			}
+
+			&.odd {
+				background-color: #FAFAF8;
+			}
+		}
+	}
+
 	.field--name-field-publishing-stage {
 		margin-bottom: 1em;
+	}
+
+	.field-collection-container {
+		margin-bottom: 0;
+	}
+
+	.field-collection-view {
+		padding: 0;
+    	margin: 0;
+	}
+
+	.action-links-field-collection-add {
+		margin: 5px 0 0 0;
 	}
 }

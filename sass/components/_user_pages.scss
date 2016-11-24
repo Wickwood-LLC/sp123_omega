@@ -102,9 +102,20 @@
 		}
 
 		.field-name-field-gender {
+			.form-type-radios > label {
+				flex: 0 0 97px;
+			}
 			.form-radios {
-				flex: 1 1 calc(100% - 95px);
-    			display: flex;
+				display: inline-block;
+			}
+			.form-type-radio {
+				width: auto;
+			    display: inline-block;
+			    margin-right: 10px;
+
+			    input {
+			    	width: auto;
+				}
 			}
 		}
     }
@@ -135,24 +146,6 @@
 			
 			input {
 				width: auto;
-			}
-		}
-	}
-
-	.field-name-field-gender {
-		.form-type-radios > label {
-			flex: 0 0 97px;
-		}
-		.form-radios {
-			display: inline-block;
-		}
-		.form-type-radio {
-			width: auto;
-		    display: inline-block;
-		    margin-right: 10px;
-
-		    input {
-		    	width: auto;
 			}
 		}
 	}

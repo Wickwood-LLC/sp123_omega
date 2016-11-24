@@ -1923,13 +1923,18 @@ body {
 .page-user-edit .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit .pane-user-group-personla-info .date-padding {
   width: 100%; }
+.page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 97px;
+          flex: 0 0 97px; }
 .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-radios {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 calc(100% - 95px);
-          flex: 1 1 calc(100% - 95px);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  display: inline-block; }
+.page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radio {
+  width: auto;
+  display: inline-block;
+  margin-right: 10px; }
+  .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radio input {
+    width: auto; }
 .page-user-edit .field-multiple-table {
   width: 100%;
   display: -webkit-box;
@@ -1967,18 +1972,6 @@ body {
   display: block; }
   .page-user-edit .pane-user-group-full-name .form-type-radio input,
   .page-user-edit .pane-user-group-full-name .form-type-checkbox input {
-    width: auto; }
-.page-user-edit .field-name-field-gender .form-type-radios > label {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 97px;
-          flex: 0 0 97px; }
-.page-user-edit .field-name-field-gender .form-radios {
-  display: inline-block; }
-.page-user-edit .field-name-field-gender .form-type-radio {
-  width: auto;
-  display: inline-block;
-  margin-right: 10px; }
-  .page-user-edit .field-name-field-gender .form-type-radio input {
     width: auto; }
 .page-user-edit .field-name-field-user-notes .field-name-field-staff-user .form-item {
   display: -webkit-box;

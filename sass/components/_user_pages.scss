@@ -187,9 +187,10 @@
 		}
 		.filter-guidelines {
 			padding: 0;
+			clear: both;
 		}
 		.filter-guidelines-item {
-			word-break: break-all;
+			word-break: break-word;
 		}
 	}
 

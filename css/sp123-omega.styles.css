@@ -1992,9 +1992,10 @@ body {
 .page-user-edit .field-name-field-user-notes .filter-help a {
   display: inline-block; }
 .page-user-edit .field-name-field-user-notes .filter-guidelines {
-  padding: 0; }
+  padding: 0;
+  clear: both; }
 .page-user-edit .field-name-field-user-notes .filter-guidelines-item {
-  word-break: break-all; }
+  word-break: break-word; }
 .page-user-edit .field-name-field-phone .form-item {
   display: -webkit-box;
   display: -ms-flexbox;

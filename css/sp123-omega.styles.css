@@ -1968,11 +1968,11 @@ body {
   .page-user-edit .pane-user-group-full-name .form-type-radio input,
   .page-user-edit .pane-user-group-full-name .form-type-checkbox input {
     width: auto; }
-.page-user-edit .field-name-field-gender .form-radios {
-  width: 100%; }
-.page-user-edit .field-name-field-gender .form-type-radio {
+.page-user-edit .field-name-field-gender .form-type-radios {
   width: auto;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-right: 10px; }
 .page-user-edit .field-name-field-user-notes .field-name-field-staff-user .form-item {
   display: -webkit-box;

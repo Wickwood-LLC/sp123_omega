@@ -140,13 +140,9 @@
 	}
 
 	.field-name-field-gender {
-		.form-radios {
-			width: 100%;
-		}
-
-		.form-type-radio {
+		.form-type-radios {
 			width: auto;
-		    display: inline-block;
+		    display: inline-flex;
 		    margin-right: 10px;
 		}
 	}

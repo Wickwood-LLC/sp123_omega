@@ -2115,8 +2115,6 @@ body {
   display: none; }
 .page-user-edit #edit-masquerade-users {
   width: 100%; }
-.page-user-edit footer {
-  padding: 0 1%; }
 
 .page-user .pane-basic-user-info-for-user-account .field {
   display: -webkit-box;

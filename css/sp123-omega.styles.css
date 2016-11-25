@@ -1923,6 +1923,12 @@ body {
 .page-user-edit .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit .pane-user-group-personla-info .date-padding {
   width: 100%; }
+.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate input,
+.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-right: 1em; }
 .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 97px;
@@ -2053,6 +2059,8 @@ body {
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
           flex: 100%; }
+.page-user-edit .field-name-field-mailing-address .field-name-field-address-type {
+  margin-bottom: 10px; }
 .page-user-edit .field-name-field-mailing-address select.country,
 .page-user-edit .field-name-field-mailing-address select.state {
   -webkit-box-flex: 1;
@@ -2063,7 +2071,8 @@ body {
   margin-bottom: 0; }
 .page-user-edit .field-name-field-mailing-address .field-type-addressfield fieldset {
   border: 0px;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 0; }
 .page-user-edit .field-name-field-mailing-address .field-type-addressfield legend {
   display: none; }
 .page-user-edit .field-name-field-websites input[type="text"] {

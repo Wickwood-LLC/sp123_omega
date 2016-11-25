@@ -101,6 +101,14 @@
 			width: 100%;
 		}
 
+		.field-name-field-birthdate,
+		.field-name-field-anniversary {
+			input {
+			    flex: 0 0 auto;
+				margin-right: 1em;
+			}
+		}
+
 		.field-name-field-gender {
 			.form-type-radios > label {
 				flex: 0 0 97px;
@@ -228,6 +236,10 @@
 			flex: 100%;
 		}
 
+		.field-name-field-address-type {
+			margin-bottom: 10px;
+		}
+
 		select.country,
 		select.state {
 			flex: 1 1 calc(100% - 114px);
@@ -242,6 +254,7 @@
 			fieldset {
 				border: 0px;
 				padding: 0;
+				margin-bottom: 0;
 			}
 			legend {
 				display: none;

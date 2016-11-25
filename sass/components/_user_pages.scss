@@ -159,11 +159,20 @@
 	}
 
 	.field-name-field-user-notes {
-		.field-name-field-staff-user {
-			display: inline-block;
+		#field-user-notes-values {
+			td:not([class]) {
+				display: flex;
+    			flex-flow: row wrap;
 
-			input {
-				width: 10em;
+    			.field-name-field-staff-user {
+					flex: 1 1 calc(100% - 271px);
+    				display: inline-flex;
+
+					input {
+						width: calc(100% - 40px);
+    					min-width: 150px;
+					}
+				}
 			}
 		}
 

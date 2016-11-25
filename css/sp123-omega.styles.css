@@ -1979,10 +1979,22 @@ body {
   .page-user-edit .pane-user-group-full-name .form-type-radio input,
   .page-user-edit .pane-user-group-full-name .form-type-checkbox input {
     width: auto; }
-.page-user-edit .field-name-field-user-notes .field-name-field-staff-user {
-  display: inline-block; }
-  .page-user-edit .field-name-field-user-notes .field-name-field-staff-user input {
-    width: 10em; }
+.page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  .page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(100% - 271px);
+            flex: 1 1 calc(100% - 271px);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
+    .page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user input {
+      width: calc(100% - 40px);
+      min-width: 150px; }
 .page-user-edit .field-name-field-user-notes .field-name-field-date {
   display: inline-block; }
   .page-user-edit .field-name-field-user-notes .field-name-field-date .form-type-date-combo > label {

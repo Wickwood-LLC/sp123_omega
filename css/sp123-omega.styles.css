@@ -2200,7 +2200,12 @@ body {
       .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item.odd,
       .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item.odd,
       .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item.odd {
-        background-color: #FAFAF8; }
+        background-color: #E6E6E6;
+        border-bottom: 1px solid #D3D7D9; }
+      .page-user.section-users .pane-user-field-phone .field-collection-container > .field > .field__items > .field__item.even,
+      .page-user.section-users .pane-user-field-mailing-address .field-collection-container > .field > .field__items > .field__item.even,
+      .page-user.section-users .pane-user-field-user-notes .field-collection-container > .field > .field__items > .field__item.even {
+        border-bottom: 1px solid #D3D7D9; }
 .page-user.section-users .field--name-field-publishing-stage {
   margin-bottom: 1em; }
 .page-user.section-users .field--name-field-date {

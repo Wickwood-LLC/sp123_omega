@@ -389,7 +389,11 @@
 				}
 	
 				&.odd {
-					background-color: #FAFAF8;
+					background-color: #E6E6E6;
+					border-bottom: 1px solid #D3D7D9;
+				}
+				&.even {
+					border-bottom: 1px solid #D3D7D9;
 				}
 			}
 		}

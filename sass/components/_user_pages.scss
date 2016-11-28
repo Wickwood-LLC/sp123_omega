@@ -31,7 +31,7 @@
 	    top: 50%;
 	    background-color: #6fae1b;
 	    color: white;
-	    min-width: auto;
+	    min-width: auto !important;
 	}
 	.field-add-more-submit {
 		background-color: #6fae1b;
@@ -104,9 +104,8 @@
 
 		.field-name-field-birthdate,
 		.field-name-field-anniversary {
-			input {
-			    flex: 0 0 auto;
-			}
+			@include flexifields(100px);
+			max-width: 173px;
 
 			.description {
 				display: none;

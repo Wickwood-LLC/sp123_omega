@@ -1838,7 +1838,7 @@ body {
   top: 50%;
   background-color: #6fae1b;
   color: white;
-  min-width: auto; }
+  min-width: auto !important; }
 .page-user-edit .field-add-more-submit {
   background-color: #6fae1b;
   color: white; }
@@ -1924,14 +1924,34 @@ body {
 .page-user-edit .pane-user-group-personla-info .date-form-element-content,
 .page-user-edit .pane-user-group-personla-info .date-padding {
   width: 100%; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate input,
-.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary input {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto; }
-.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate .description,
-.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary .description {
-  display: none; }
+.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate,
+.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary {
+  max-width: 173px; }
+  .page-user-edit .pane-user-group-personla-info .field-name-field-birthdate .form-item,
+  .page-user-edit .pane-user-group-personla-info .field-name-field-anniversary .form-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+  .page-user-edit .pane-user-group-personla-info .field-name-field-birthdate label,
+  .page-user-edit .pane-user-group-personla-info .field-name-field-anniversary label {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100px;
+            flex: 0 0 100px; }
+  .page-user-edit .pane-user-group-personla-info .field-name-field-birthdate input,
+  .page-user-edit .pane-user-group-personla-info .field-name-field-anniversary input {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 calc(100% - 100px);
+            flex: 1 1 calc(100% - 100px);
+    min-width: 150px; }
+  .page-user-edit .pane-user-group-personla-info .field-name-field-birthdate .description,
+  .page-user-edit .pane-user-group-personla-info .field-name-field-anniversary .description {
+    display: none; }
 .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 65px;

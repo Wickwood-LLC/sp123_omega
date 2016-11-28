@@ -1837,7 +1837,8 @@ body {
   right: -72px;
   top: 50%;
   background-color: #6fae1b;
-  color: white; }
+  color: white;
+  min-width: auto; }
 .page-user-edit .field-add-more-submit {
   background-color: #6fae1b;
   color: white; }

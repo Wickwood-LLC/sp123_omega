@@ -1929,10 +1929,13 @@ body {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   margin-right: 1em; }
+.page-user-edit .pane-user-group-personla-info .field-name-field-birthdate .description,
+.page-user-edit .pane-user-group-personla-info .field-name-field-anniversary .description {
+  display: none; }
 .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radios > label {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 97px;
-          flex: 0 0 97px; }
+      -ms-flex: 0 0 65px;
+          flex: 0 0 65px; }
 .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-radios {
   display: inline-block; }
 .page-user-edit .pane-user-group-personla-info .field-name-field-gender .form-type-radio {
@@ -2001,6 +2004,8 @@ body {
     display: none; }
   .page-user-edit .field-name-field-user-notes .field-name-field-date .form-item.form-type-textfield {
     margin-right: 10px; }
+  .page-user-edit .field-name-field-user-notes .field-name-field-date .description {
+    display: none; }
 .page-user-edit .field-name-field-user-notes #field-user-notes-add-more-wrapper > .form-item {
   margin-bottom: 0px; }
 .page-user-edit .field-name-field-user-notes fieldset {

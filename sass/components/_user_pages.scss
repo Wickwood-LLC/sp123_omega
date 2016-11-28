@@ -105,7 +105,10 @@
 		.field-name-field-birthdate,
 		.field-name-field-anniversary {
 			@include flexifields(100px);
-			max-width: 173px;
+
+			input {
+				max-width: 173px;
+			}
 
 			.description {
 				display: none;

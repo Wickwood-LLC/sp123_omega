@@ -743,3 +743,22 @@ table.fc-border-separate {
     }
   }
 }
+
+.views-field-edit-node  a,
+a[id*="edit-fields"]:not([title="Change widget type."]),
+a[title="Export instance"] {
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  color: #fff;
+  background-color: #0f753b;
+  text-shadow: none;
+}
+
+.vertical-tabs {
+  .fieldset-content, fieldset.titled .fieldset-content {
+    border: 0;
+    padding: 10px;
+  }
+}

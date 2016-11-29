@@ -1549,6 +1549,7 @@ form#user-login, form#user-pass {
     margin: auto; }
   form#user-login #edit-actions, form#user-pass #edit-actions {
     text-align: center;
+    background: none;
     border: 0;
     padding: 0;
     margin: 0; }
@@ -2271,7 +2272,6 @@ body {
 
 .primary-tabs {
   height: 30px;
-  margin: 15px 0 0;
   border-radius: 5px; }
   .primary-tabs .tabs--primary {
     margin-bottom: 0;

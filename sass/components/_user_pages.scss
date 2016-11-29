@@ -372,7 +372,9 @@
 	.pane-user-field-phone,
 	.pane-user-field-mailing-address,
 	.pane-user-field-user-notes {
-		padding: 0;
+		> .field__items > .field__item {
+			padding: 1em;
+		}
 
 		.pane-title {
 			margin-left: 1em;

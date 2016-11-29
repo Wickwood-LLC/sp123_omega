@@ -1018,6 +1018,19 @@
 		"oAP": "\/sass\/components\/.sass-cache\/.gitignore",
 		"oF": 0
 		},
+	"\/sass\/components\/_admin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/css\/_admin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/components\/_blog_pages.scss": {
 		"aP": 0,
 		"bl": 0,

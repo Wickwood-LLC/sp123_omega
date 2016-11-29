@@ -30,6 +30,22 @@ table {
   table td, table th {
     padding: 5px; }
 
+.compact-link {
+  font-size: 11px;
+  height: 20px;
+  margin: 0 0 10px; }
+
+.admin .right, .admin .left {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0; }
+.admin .left {
+  padding-right: 5px;
+  float: left; }
+.admin .right {
+  padding-left: 5px;
+  float: right; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;

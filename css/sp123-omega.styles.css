@@ -2221,6 +2221,9 @@ body {
   padding: 0;
   margin: 0;
   border: 0; }
+.page-user.section-users #masquerade-block-1 .form-item-masquerade-user-field,
+.page-user.section-users #masquerade-block-1 #edit-submit {
+  display: inline-block; }
 
 #admin-menu {
   max-width: 100% !important;

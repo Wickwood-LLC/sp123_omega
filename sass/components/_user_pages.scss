@@ -425,4 +425,11 @@
     	margin: 0;
     	border: 0;
 	}
+
+	#masquerade-block-1 {
+		.form-item-masquerade-user-field,
+		#edit-submit {
+			display: inline-block;
+		}
+	}
 }

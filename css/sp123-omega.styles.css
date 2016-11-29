@@ -98,6 +98,9 @@ table {
       float: none;
       display: inline-block; }
 
+.page-admin-modules #module-filter-wrapper thead {
+  display: table-header-group; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;
@@ -1101,15 +1104,6 @@ td .description {
     background-color: #FAFAF8; }
   .form-item tr.even {
     background-color: #E6E6E6; }
-  .form-item input.form-radio,
-  .form-item input.form-checkbox {
-    display: block;
-    float: left; }
-  .form-item label.option {
-    display: block;
-    margin-left: 25px;
-    font-weight: normal;
-    text-align: left; }
   .form-item .container-inline-date .form-item input {
     margin: 0; }
 
@@ -1144,13 +1138,6 @@ fieldset {
   border-radius: 10px;
   padding: 0.5em 1em;
   min-width: 0; }
-
-.form-type-radio,
-.form-type-checkbox {
-  display: block; }
-  .form-type-radio input,
-  .form-type-checkbox input {
-    width: auto; }
 
 html.js fieldset.collapsed {
   border-width: 2px;
@@ -1937,6 +1924,21 @@ body {
   padding: 0 1em; }
 .page-user-edit .form-item .clearfix {
   width: 100%; }
+.page-user-edit .form-type-radio,
+.page-user-edit .form-type-checkbox {
+  display: block; }
+  .page-user-edit .form-type-radio input,
+  .page-user-edit .form-type-checkbox input {
+    width: auto; }
+.page-user-edit input.form-radio,
+.page-user-edit input.form-checkbox {
+  display: block;
+  float: left; }
+.page-user-edit label.option {
+  display: block;
+  margin-left: 25px;
+  font-weight: normal;
+  text-align: left; }
 .page-user-edit input.field-add-more-submit {
   text-transform: capitalize;
   margin: .5em auto 0;

@@ -17,6 +17,28 @@
 		width: 100%;
 	}
 
+	.form-type-radio,
+	.form-type-checkbox {
+		display: block;
+		
+		input {
+			width: auto;
+		}
+	}
+
+	input.form-radio,
+	input.form-checkbox {
+		display: block;
+	    float: left;
+	}
+
+	label.option {
+		display: block;
+	    margin-left: 25px;
+	    font-weight: normal;
+		text-align: left;
+	}
+
 	input.field-add-more-submit {
 	    text-transform: capitalize;
 	    margin: .5em auto 0;

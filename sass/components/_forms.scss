@@ -26,19 +26,6 @@
 		background-color: #E6E6E6;
 	}
 
-	input.form-radio,
-	input.form-checkbox {
-		display: block;
-	    float: left;
-	}
-
-	label.option {
-		display: block;
-	    margin-left: 25px;
-	    font-weight: normal;
-		text-align: left;
-	}
-
 	.container-inline-date .form-item input {
 		margin: 0;
 	}
@@ -75,15 +62,6 @@ fieldset {
     border-radius: 10px;
     padding: 0.5em 1em;
     min-width: 0;
-}
-
-.form-type-radio,
-.form-type-checkbox {
-	display: block;
-	
-	input {
-		width: auto;
-	}
 }
 
 html.js fieldset.collapsed {

@@ -1548,7 +1548,13 @@ form#user-login, form#user-pass {
     display: table;
     margin: auto; }
   form#user-login #edit-actions, form#user-pass #edit-actions {
-    text-align: center; }
+    text-align: center;
+    border: 0;
+    padding: 0;
+    margin: 0; }
+    form#user-login #edit-actions input, form#user-pass #edit-actions input {
+      margin: 0 auto;
+      width: auto; }
 
 @media (min-width: 718px) {
   #block-superfish-1 {

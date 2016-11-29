@@ -86,5 +86,13 @@ form#user-login, form#user-pass {
 
     #edit-actions {
         text-align: center;
+        border: 0;
+        padding: 0;
+        margin: 0;
+
+        input {
+            margin: 0 auto;
+            width: auto;
+        }
     }
 }

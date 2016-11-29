@@ -27,6 +27,8 @@ a {
 
 table {
   width: 100%; }
+  table td, table th {
+    padding: 5px; }
 
 .blog-type-page h1.page-title {
   width: 100%;

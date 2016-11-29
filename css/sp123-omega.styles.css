@@ -946,6 +946,10 @@ a[title="Export instance"] {
   background-color: #0f753b;
   border-color: #0f743a; }
 
+td .description {
+  font-size: 14px;
+  margin-left: 1em; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;

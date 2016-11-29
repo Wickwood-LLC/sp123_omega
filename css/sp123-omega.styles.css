@@ -94,7 +94,7 @@ table {
     width: 100%; }
   .page-admin-people-permissions td.checkbox {
     vertical-align: middle; }
-    .page-admin-people-permissions td.checkbox input.form-checkbox {
+    .page-admin-people-permissions td.checkbox .form-item input.form-checkbox {
       float: none;
       display: inline-block; }
 

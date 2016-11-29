@@ -81,6 +81,18 @@ table {
       border-bottom: 1px solid #e8e8e8;
       font-size: 14px; }
 
+.page-admin-people-permissions {
+  max-width: 100%; }
+  .page-admin-people-permissions #header,
+  .page-admin-people-permissions #branding .limiter,
+  .page-admin-people-permissions #page-title,
+  .page-admin-people-permissions #console,
+  .page-admin-people-permissions #page,
+  .page-admin-people-permissions #footer {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;

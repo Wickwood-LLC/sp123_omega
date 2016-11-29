@@ -66,3 +66,18 @@
   	}
   }
 }
+
+.page-admin-people-permissions {
+	max-width: 100%;
+
+	#header,
+	#branding .limiter,
+	#page-title,
+	#console,
+	#page,
+	#footer {
+		max-width: 100%;
+		margin: 0 auto;
+		width: 100%;
+	}
+}

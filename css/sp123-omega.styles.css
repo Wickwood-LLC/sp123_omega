@@ -879,8 +879,7 @@ a[title="Export instance"] {
   background-color: #0f753b;
   text-shadow: none; }
 
-.vertical-tabs .fieldset-content, .vertical-tabs fieldset.titled .fieldset-content {
-  border: 0;
+.vertical-tabs fieldset.vertical-tabs-pane {
   padding: 10px; }
 
 .page-faq .row, .node-type-panopoly-faq .row {

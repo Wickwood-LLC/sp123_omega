@@ -757,8 +757,7 @@ a[title="Export instance"] {
 }
 
 .vertical-tabs {
-  .fieldset-content, fieldset.titled .fieldset-content {
-    border: 0;
+  fieldset.vertical-tabs-pane {
     padding: 10px;
   }
 }

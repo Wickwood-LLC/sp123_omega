@@ -880,7 +880,20 @@ a[title="Export instance"] {
   text-shadow: none; }
 
 .vertical-tabs fieldset.vertical-tabs-pane {
-  padding: 10px; }
+  padding: 1em; }
+
+#field-display-overview .field-formatter-settings-edit {
+  cursor: pointer;
+  padding: 3px 10px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  background-color: #0f753b;
+  border-color: #0f743a; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;

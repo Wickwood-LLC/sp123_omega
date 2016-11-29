@@ -68,13 +68,15 @@ table {
     border-bottom: 1px solid #e8e8e8;
     background: #f4f4f4;
     line-height: 30px; }
+  .admin-panel .admin-panel__body {
+    padding: 0; }
   .admin-panel .admin-list {
     margin-bottom: 0; }
     .admin-panel .admin-list dt {
-      position: relative;
-      padding: 10px 5px 9px 50px;
-      margin: 0;
-      min-height: 30px;
+      padding: 10px 5px 0 5px;
+      margin: 0; }
+    .admin-panel .admin-list dd {
+      padding: 0 5px 9px 5px;
       border-bottom: 1px solid #e8e8e8; }
 
 .blog-type-page h1.page-title {

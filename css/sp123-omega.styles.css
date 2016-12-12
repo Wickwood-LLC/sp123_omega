@@ -436,6 +436,11 @@ table {
 .node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(3) {
   background: #689a04; }
 
+.node-type-training-roundtable .page-title {
+  font-weight: bold; }
+  .node-type-training-roundtable .page-title:before {
+    content: '';
+    background: url("/files/media/roundtable_logo.2.png"); }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-title, .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-content {
   display: inline-block; }
 

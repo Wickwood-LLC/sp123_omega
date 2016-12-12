@@ -51,6 +51,15 @@
 }
 
 .node-type-training-roundtable {
+  .page-title {
+    font-weight: bold;
+
+    &:before { 
+      content: '';
+      background: url('/files/media/roundtable_logo.2.png')
+    }
+  }
+
   .pane-node-field-roundtable-session-date {
     .pane-title, .pane-content {
       display: inline-block;

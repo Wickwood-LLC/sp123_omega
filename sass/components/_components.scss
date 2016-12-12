@@ -56,13 +56,29 @@
 
     &:before { 
       content: '';
-      background: url('/files/media/roundtable_logo.2.png')
+      background: url(/files/media/roundtable_logo.2.png) no-repeat;
+      background-size: contain;
+      height: 45px;
+      width: 83px;
+      display: inline-block;
+      margin-right: 10px;
+      float: left;
     }
   }
 
   .pane-node-field-roundtable-session-date {
+    font-size: 1.6em;
+    font-weight: bold;
+
     .pane-title, .pane-content {
       display: inline-block;
+    }
+  }
+
+  .pane-node-field-resources {
+    .field-collection-view {
+      margin: 0;
+      padding: 0;
     }
   }
 }

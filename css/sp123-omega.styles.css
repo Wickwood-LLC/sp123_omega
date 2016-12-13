@@ -2377,7 +2377,7 @@ body {
   background: white;
   box-sizing: border-box;
   padding: 0 15px;
-  margin-bottom: 1em; }
+  margin: 1em 0; }
 
 #page {
   background: white;

@@ -1188,9 +1188,6 @@ html.js fieldset.collapsed {
 .field-type-addressfield .form-item,
 [id="field-phone-values"] .form-item {
   margin-bottom: 0.5em; }
-  .field-type-addressfield .form-item:last-child,
-  [id="field-phone-values"] .form-item:last-child {
-    margin-bottom: 0; }
 
 #mini-panel-header {
   display: -webkit-box;

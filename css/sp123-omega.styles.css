@@ -2389,12 +2389,20 @@ body {
 .page-admin #content {
   padding: 0 1em; }
 
-.tabs {
-  float: right;
-  margin-top: 5.5px; }
+.secondary-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .primary-tabs {
-  height: 30px;
   border-radius: 5px; }
   .primary-tabs .tabs--primary {
     margin-bottom: 0;
@@ -2408,8 +2416,7 @@ body {
     margin-right: 0;
     height: 30px;
     position: relative;
-    background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
-    margin-bottom: 10px; }
+    background: #eee url(../images/bleeds.png) 50% 0 no-repeat; }
     .primary-tabs li:first-child {
       border-radius: 5px 0 0 5px; }
       .primary-tabs li:first-child a {

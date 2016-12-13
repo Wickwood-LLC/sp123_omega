@@ -42,13 +42,14 @@
 	padding: 0 1em;
 }
 
-.tabs {
-	float: right;
-	margin-top: 5.5px;
+.secondary-menu {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .primary-tabs {
-	height: 30px;
     border-radius: 5px;
 
     .tabs--primary {
@@ -70,7 +71,6 @@
     	height: 30px;
 	    position: relative;
 	    background: #eee url(../images/bleeds.png) 50% 0 no-repeat;
-	    margin-bottom: 10px;
 
 	    &:first-child {
 	    	border-radius: 5px 0 0 5px;

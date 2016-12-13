@@ -2400,7 +2400,8 @@ body {
           justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  margin: 1em 0; }
 
 .primary-tabs {
   border-radius: 5px; }
@@ -2459,7 +2460,8 @@ body {
     vertical-align: middle; }
 
 .action-links {
-  display: inline-block; }
+  display: inline-block;
+  height: 20px; }
   .action-links li {
     display: inline-block; }
 

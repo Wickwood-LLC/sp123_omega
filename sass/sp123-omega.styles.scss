@@ -47,6 +47,7 @@
 	flex-flow: row nowrap;
 	justify-content: flex-end;
 	align-items: center;
+	margin: 1em 0;
 }
 
 .primary-tabs {
@@ -128,6 +129,7 @@
 
 .action-links {
 	display: inline-block;
+	height: 20px;
 
 	li {
 		display: inline-block;

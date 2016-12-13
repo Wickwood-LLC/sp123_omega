@@ -440,7 +440,7 @@ table {
   font-weight: bold;
   background: url(/files/media/roundtable_logo.2.png) no-repeat;
   background-size: 82px 45px;
-  padding-left: 85px; }
+  padding-left: 90px; }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date {
   font-size: 1.6em;
   font-weight: bold; }
@@ -2391,8 +2391,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row nowrap;
-      flex-flow: row nowrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;

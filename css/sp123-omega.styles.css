@@ -6,7 +6,7 @@ html {
 body {
   font: 18px/1.4 Helvetica, Arial, sans-serif;
   margin: 0;
-  background-color: #f5f5f5;
+  background-color: white;
   max-width: 1360px;
   margin: 0 auto;
   min-height: 100%;
@@ -497,7 +497,8 @@ table {
       margin-right: 1em;
       -webkit-box-flex: 0;
           -ms-flex: 0 300px;
-              flex: 0 300px; } }
+              flex: 0 300px;
+      margin-top: 10px; } }
   .myriad-left-sidebar .sidebar > .panel-pane {
     -webkit-box-flex: 1;
         -ms-flex: 1 300px;
@@ -827,6 +828,8 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 
 .views-slideshow-cycle-main-frame-row {
   width: 100%; }
+  .views-slideshow-cycle-main-frame-row .views-slideshow-cycle-main-frame-row-item {
+    margin-top: 0; }
 
 #views_slideshow_cycle_teaser_section_ad_cycles-ad_random {
   width: 100% !important; }
@@ -2376,7 +2379,9 @@ body {
 #header {
   background: white;
   box-sizing: border-box;
-  padding: 0 15px; }
+  padding: 0 15px;
+  border-bottom: 1px solid #689a04;
+  margin-bottom: 1em; }
 
 #page {
   background: white;

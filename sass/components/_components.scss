@@ -118,6 +118,7 @@
       display: inline-block;
       margin-right: 1em;
       flex: 0 300px;
+      margin-top: 10px;
     }
 
     > .panel-pane {
@@ -599,6 +600,10 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 
 .views-slideshow-cycle-main-frame-row {
   width: 100%;
+
+  .views-slideshow-cycle-main-frame-row-item {
+    margin-top: 0;
+  }
 }
 #views_slideshow_cycle_teaser_section_ad_cycles-ad_random {
   width: 100% !important;

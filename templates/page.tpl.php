@@ -6,18 +6,21 @@
 
   <div id='page-title'>
     <div class='limiter clearfix'>
-      <div class='tabs clearfix'>
-        <?php if ($tabs): ?>
-          <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
-        <?php endif; ?>
-      </div>
       <?php print render($title_prefix); ?>
       <?php if (!empty($page_icon_class)): ?><span class='icon'></span><?php endif; ?>
       <h1 class='page-title <?php print $page_icon_class ?>'><?php print $title ?></h1>
-      <?php if ($action_links): ?>
-        <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
-      <?php endif; ?>
       <?php print render($title_suffix); ?>
+    </div>
+  </div>
+
+  <div class="secondary-menu">
+    <?php if ($action_links): ?>
+      <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
+    <?php endif; ?>
+    <div class='tabs clearfix'>
+      <?php if ($tabs): ?>
+        <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
+      <?php endif; ?>
     </div>
   </div>
 

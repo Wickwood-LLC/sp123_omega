@@ -115,9 +115,15 @@
 }
 
 .page-title {
-	display: inline-block;
+	display: table;
+    margin: 0 auto;
 	font-size: 1.8em;
 	font-weight: bold;
+
+	div {
+		display: inline-block;
+		vertical-align: middle;
+	}
 }
 
 .action-links {

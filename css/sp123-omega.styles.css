@@ -446,7 +446,7 @@ table {
     width: 83px;
     display: inline-block;
     margin-right: 10px;
-    float: left; }
+    vertical-align: middle; }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date {
   font-size: 1.6em;
   font-weight: bold; }
@@ -2443,9 +2443,13 @@ body {
       text-decoration: none; }
 
 .page-title {
-  display: inline-block;
+  display: table;
+  margin: 0 auto;
   font-size: 1.8em;
   font-weight: bold; }
+  .page-title div {
+    display: inline-block;
+    vertical-align: middle; }
 
 .action-links {
   display: inline-block; }

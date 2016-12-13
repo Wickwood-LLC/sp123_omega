@@ -437,16 +437,10 @@ table {
   background: #689a04; }
 
 .node-type-training-roundtable .page-title {
-  font-weight: bold; }
-  .node-type-training-roundtable .page-title:before {
-    content: '';
-    background: url(/files/media/roundtable_logo.2.png) no-repeat;
-    background-size: contain;
-    height: 45px;
-    width: 83px;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: middle; }
+  font-weight: bold;
+  background: url(/files/media/roundtable_logo.2.png) no-repeat;
+  background-size: 82px 45px;
+  padding-left: 85px; }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date {
   font-size: 1.6em;
   font-weight: bold; }

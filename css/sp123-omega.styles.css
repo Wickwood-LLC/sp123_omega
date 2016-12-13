@@ -1186,7 +1186,7 @@ html.js fieldset.collapsed {
     margin: 10px; }
 
 .field-type-addressfield .form-item,
-#field-phone-values .form-item {
+[id="field-phone-values"] .form-item {
   margin-bottom: 0.5em; }
 
 #mini-panel-header {

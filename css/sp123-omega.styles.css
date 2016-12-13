@@ -2380,7 +2380,6 @@ body {
   background: white;
   box-sizing: border-box;
   padding: 0 15px;
-  border-bottom: 1px solid #689a04;
   margin-bottom: 1em; }
 
 #page {
@@ -2406,7 +2405,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 1em 0; }
+  margin-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #689a04; }
 
 .primary-tabs {
   border-radius: 5px; }

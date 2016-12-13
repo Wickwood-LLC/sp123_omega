@@ -2464,7 +2464,8 @@ body {
 
 .action-links {
   display: inline-block;
-  height: 20px; }
+  height: 20px;
+  margin: 5px 0; }
   .action-links li {
     display: inline-block; }
 

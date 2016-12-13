@@ -1185,8 +1185,8 @@ html.js fieldset.collapsed {
     display: inline-block;
     margin: 10px; }
 
-.field-type-addressfield .form-item,
-[id="field-phone-values"] .form-item {
+.field-type-addressfield .form-item:not(:last-child),
+[id="field-phone-values"] .form-item:not(:last-child) {
   margin-bottom: 0.5em; }
 
 #mini-panel-header {

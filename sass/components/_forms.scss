@@ -107,7 +107,7 @@ html.js fieldset.collapsed {
 
 .field-type-addressfield,
 [id="field-phone-values"] {
-	.form-item {
+	.form-item:not(:last-child) {
 		margin-bottom: 0.5em;
 	}
 }

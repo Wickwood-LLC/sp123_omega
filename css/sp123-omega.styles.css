@@ -442,8 +442,11 @@ table {
   background-size: 82px 45px;
   padding-left: 90px; }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date {
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: bold; }
+  @media (min-width: 550px) {
+    .node-type-training-roundtable .pane-node-field-roundtable-session-date {
+      font-size: 1.6em; } }
   .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-title, .node-type-training-roundtable .pane-node-field-roundtable-session-date .pane-content {
     display: inline-block; }
 .node-type-training-roundtable .pane-node-field-resources .field-collection-view {

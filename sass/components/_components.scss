@@ -59,8 +59,12 @@
   }
 
   .pane-node-field-roundtable-session-date {
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: bold;
+
+    @include breakpoint(550px) {
+      font-size: 1.6em;
+    }
 
     .pane-title, .pane-content {
       display: inline-block;

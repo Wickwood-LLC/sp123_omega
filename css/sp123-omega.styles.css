@@ -477,8 +477,7 @@ table {
   @media (min-width: 550px) {
     .node-type-course .pane-node-title h2,
     .node-type-training-power-to-publish .pane-node-title h2 {
-      font-size: 1.6em;
-      margin-top: 10px; } }
+      font-size: 1.6em; } }
 
 .myriad-left-sidebar .panel-myriad-layout {
   padding: 0 1em;

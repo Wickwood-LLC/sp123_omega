@@ -2655,6 +2655,10 @@ body {
   .secondary-menu.no-border {
     border: 0; }
 
+.not-logged-in .secondary-menu.no-border {
+  margin: 0;
+  padding: 0; }
+
 .primary-tabs {
   border-radius: 5px; }
   .primary-tabs .tabs--primary {

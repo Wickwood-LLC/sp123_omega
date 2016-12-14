@@ -54,6 +54,13 @@
         // The anchor is then appended to the current element.
         $anchor.appendTo(this);
       });
+
+      $("h1.page-title").each(function(){
+        if (!$(this).text().trim().length) {
+            $(this).addClass("empty");
+        }
+      });
+
     }
   };
 

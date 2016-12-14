@@ -58,6 +58,8 @@
       $("h1.page-title").each(function(){
         if (!$(this).text().trim().length) {
             $(this).addClass("empty");
+
+            $(".secondary-menu").addClass(no-border);
         }
       });
 

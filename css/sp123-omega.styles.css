@@ -2651,6 +2651,8 @@ body {
   margin-top: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid #689a04; }
+  .secondary-menu.no-border {
+    border: 0; }
 
 .primary-tabs {
   border-radius: 5px; }
@@ -2707,6 +2709,8 @@ body {
   .page-title div {
     display: inline-block;
     vertical-align: middle; }
+  .page-title.empty {
+    display: none; }
 
 .action-links {
   display: inline-block;

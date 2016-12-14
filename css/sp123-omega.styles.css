@@ -439,7 +439,7 @@ table {
 .node-type-training-roundtable .page-title {
   font-weight: bold;
   background: url(/files/media/roundtable_logo.3.png) no-repeat;
-  background-size: 82px 45px;
+  background-size: 86px 48px;
   padding-left: 90px; }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date {
   font-size: 1.2em;
@@ -455,13 +455,28 @@ table {
 
 .node-type-training-a-to-z-library .page-title {
   background: url(/files/media/image_uploads/a-to-z-library-logo.170x130.png) no-repeat;
-  background-size: 82px 45px;
-  padding-left: 90px; }
+  background-size: 62px 48px;
+  padding-left: 68px; }
 .node-type-training-a-to-z-library .pane-node-title h2 {
   font-size: 1.2em;
   font-weight: bold; }
   @media (min-width: 550px) {
     .node-type-training-a-to-z-library .pane-node-title h2 {
+      font-size: 1.6em;
+      margin-top: 10px; } }
+
+.node-type-course .page-title,
+.node-type-training-power-to-publish .page-title {
+  background: url(/files/media/image_uploads/power-to-publish_logo.133x130.png) no-repeat;
+  background-size: 49px 48px;
+  padding-left: 54px; }
+.node-type-course .pane-node-title h2,
+.node-type-training-power-to-publish .pane-node-title h2 {
+  font-size: 1.2em;
+  font-weight: bold; }
+  @media (min-width: 550px) {
+    .node-type-course .pane-node-title h2,
+    .node-type-training-power-to-publish .pane-node-title h2 {
       font-size: 1.6em;
       margin-top: 10px; } }
 
@@ -856,7 +871,8 @@ table.fc-border-separate {
 
 .pane-course-outline,
 .pane-course-outline-and-navigation {
-  padding: 0; }
+  padding: 0;
+  margin-top: 0; }
   .pane-course-outline .pane-title,
   .pane-course-outline-and-navigation .pane-title {
     margin-left: 1em; }

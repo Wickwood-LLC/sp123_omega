@@ -453,6 +453,17 @@ table {
   margin: 0;
   padding: 0; }
 
+.node-type-training-a-to-z-library .page-title {
+  background: url(/files/media/image_uploads/a-to-z-library-logo.170x130.png) no-repeat;
+  background-size: 82px 45px;
+  padding-left: 90px; }
+.node-type-training-a-to-z-library .pane-node-title h2 {
+  font-size: 1.2em;
+  font-weight: bold; }
+  @media (min-width: 550px) {
+    .node-type-training-a-to-z-library .pane-node-title h2 {
+      font-size: 1.6em; } }
+
 .myriad-left-sidebar .panel-myriad-layout {
   padding: 0 1em;
   margin-bottom: 1em;

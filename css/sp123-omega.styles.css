@@ -438,9 +438,13 @@ table {
 
 .node-type-training-roundtable .page-title {
   font-weight: bold;
+  font-size: 1.2em;
   background: url(/files/media/roundtable_logo.3.png) no-repeat;
   background-size: 86px 48px;
   padding-left: 90px; }
+  @media (min-width: 519px) {
+    .node-type-training-roundtable .page-title {
+      font-size: 1.8em; } }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date {
   font-size: 1.2em;
   font-weight: bold; }

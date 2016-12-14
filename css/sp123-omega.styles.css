@@ -589,8 +589,6 @@ table {
             min-width: 300px;
             display: inline-block;
             margin: 0.5em; } }
-  .tabbed-course .panel-myriad-layout .pane-node-title h2:not([class]) {
-    margin-top: 0.5em; }
   .tabbed-course .panel-myriad-layout .pane-node-title h2.pane-title {
     margin-bottom: 0.5em; }
 

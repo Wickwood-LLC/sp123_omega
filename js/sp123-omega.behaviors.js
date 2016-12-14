@@ -59,7 +59,7 @@
         if (!$(this).text().trim().length) {
             $(this).addClass("empty");
 
-            $(".secondary-menu").addClass(no-border);
+            $(".secondary-menu").addClass("no-border");
         }
       });
 

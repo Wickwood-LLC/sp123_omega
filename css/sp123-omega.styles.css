@@ -441,6 +441,7 @@ table {
   font-size: 1.2em;
   background: url(/files/media/roundtable_logo.3.png) no-repeat;
   background-size: 86px 48px;
+  background-position-y: center;
   padding-left: 90px; }
   @media (min-width: 519px) {
     .node-type-training-roundtable .page-title {
@@ -460,6 +461,7 @@ table {
 .node-type-training-a-to-z-library .page-title {
   background: url(/files/media/image_uploads/a-to-z-library-logo.170x130.png) no-repeat;
   background-size: 62px 48px;
+  background-position-y: center;
   padding-left: 68px; }
 .node-type-training-a-to-z-library .pane-node-title h2 {
   font-size: 1.2em;
@@ -473,6 +475,7 @@ table {
 .node-type-training-power-to-publish .page-title {
   background: url(/files/media/image_uploads/power-to-publish_logo.133x130.png) no-repeat;
   background-size: 49px 48px;
+  background-position-y: center;
   padding-left: 54px; }
 .node-type-course .pane-node-title h2,
 .node-type-training-power-to-publish .pane-node-title h2 {

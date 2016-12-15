@@ -102,8 +102,7 @@
 			}
 		}
 
-		.form-item-roles,
-		.form-item-notify {
+		.form-item-roles {
 			margin-bottom: 0;
 
 			.form-checkboxes {
@@ -115,6 +114,21 @@
 				    min-width: 200px;
 				    flex: 1 1 50%;
 				}
+			}
+		}
+
+		.form-item-notify {
+			.form-checkbox {
+				display: flex;
+	    		flex-flow: row wrap;
+			}
+
+			input{
+				flex: 0 auto;
+			}
+			label {
+				flex: 1 130px;
+				margin-left: 0;
 			}
 		}
 	}

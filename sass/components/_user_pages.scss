@@ -103,8 +103,6 @@
 		}
 
 		.form-item-roles {
-			margin-bottom: 0;
-
 			.form-checkboxes {
 				display: flex;
 	    		flex-flow: row wrap;
@@ -118,6 +116,8 @@
 		}
 
 		.form-item-notify {
+			margin-bottom: 0;
+			
 			.form-checkbox {
 				display: flex;
 	    		flex-flow: row wrap;

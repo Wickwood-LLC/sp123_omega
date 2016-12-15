@@ -1513,7 +1513,7 @@ html.js fieldset.collapsed {
       border-bottom: 2px solid transparent;
       background-color: white;
       border-width: 2px;
-      z-index: 10; }
+      z-index: 2; }
       .view-course-tabs .jcarousel-container .jcarousel-item-horizontal.active:before {
         z-index: 1;
         border-width: 2px;
@@ -1571,7 +1571,7 @@ html.js fieldset.collapsed {
     border-radius: 10px 10px 0 0;
     background-color: white;
     border-bottom: 2px solid #689a04;
-    z-index: 1;
+    z-index: 5;
     display: block !important; }
     .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal:before,
     .view-course-tabs .jcarousel-container .jcarousel-next-horizontal:before {
@@ -1585,7 +1585,8 @@ html.js fieldset.collapsed {
       -webkit-transform: skew(-24deg);
               transform: skew(-24deg);
       border-radius: 12px 0 0 0;
-      border-left: 1px solid #628E2F; }
+      border-left: 1px solid #628E2F;
+      border-bottom: 2px solid #689a04; }
     .view-course-tabs .jcarousel-container .jcarousel-prev-horizontal:after,
     .view-course-tabs .jcarousel-container .jcarousel-next-horizontal:after {
       content: " ";
@@ -1598,7 +1599,8 @@ html.js fieldset.collapsed {
       -webkit-transform: skew(24deg);
               transform: skew(24deg);
       border-radius: 0 12px 0 0;
-      border-right: 1px solid #628E2F; }
+      border-right: 1px solid #628E2F;
+      border-bottom: 2px solid #689a04; }
 
 /* These are styles for the login and registration pages. */
 .page-user-login #content .row,
@@ -2749,7 +2751,8 @@ body {
 
 .pane-node-title {
   text-align: center;
-  line-height: 1; }
+  line-height: 1;
+  margin-bottom: 10px; }
 
 .pane-node-field-resources .field-collection-container {
   border-bottom: 0px;

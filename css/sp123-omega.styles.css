@@ -607,8 +607,9 @@ table {
             margin: 0.5em; } }
   .tabbed-course .panel-myriad-layout .pane-node-title h2.pane-title {
     margin-bottom: 0.5em; }
-  .tabbed-course .panel-myriad-layout .pane-node-field-video {
-    margin-bottom: 10px; }
+
+.pane-node-field-video {
+  margin-bottom: 10px; }
 
 .sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .panel-display, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .panel-display {
   padding: 0;

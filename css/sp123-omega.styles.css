@@ -462,7 +462,11 @@ table {
   background: url(/files/media/image_uploads/a-to-z-library-logo.170x130.png) no-repeat;
   background-size: 62px 48px;
   background-position-y: center;
-  padding-left: 68px; }
+  padding-left: 68px;
+  font-size: 1.2em; }
+  @media (min-width: 519px) {
+    .node-type-training-a-to-z-library .page-title {
+      font-size: 1.8em; } }
 .node-type-training-a-to-z-library .pane-node-title h2 {
   font-size: 1.2em;
   font-weight: bold; }
@@ -476,7 +480,12 @@ table {
   background: url(/files/media/image_uploads/power-to-publish_logo.133x130.png) no-repeat;
   background-size: 49px 48px;
   background-position-y: center;
-  padding-left: 54px; }
+  padding-left: 54px;
+  font-size: 1.2em; }
+  @media (min-width: 519px) {
+    .node-type-course .page-title,
+    .node-type-training-power-to-publish .page-title {
+      font-size: 1.8em; } }
 .node-type-course .pane-node-title h2,
 .node-type-training-power-to-publish .pane-node-title h2 {
   font-size: 1.2em;

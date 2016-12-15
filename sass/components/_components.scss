@@ -91,6 +91,11 @@
     background-size: 62px 48px;
     background-position-y: center;
     padding-left: 68px;
+    font-size: 1.2em;
+
+    @include breakpoint(519px) {
+      font-size: 1.8em;
+    }
   }
 
   .pane-node-title h2 {
@@ -111,6 +116,11 @@
     background-size: 49px 48px;
     background-position-y: center;
     padding-left: 54px;
+    font-size: 1.2em;
+
+    @include breakpoint(519px) {
+      font-size: 1.8em;
+    }
   }
 
   .pane-node-title h2 {

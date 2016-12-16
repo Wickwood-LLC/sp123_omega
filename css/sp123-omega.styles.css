@@ -2681,9 +2681,9 @@ body {
   display: flex;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2692,6 +2692,16 @@ body {
   border-bottom: 1px solid #689a04; }
   .secondary-menu.no-border {
     border: 0; }
+  .secondary-menu > .tabs {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
 .not-logged-in .secondary-menu.no-border {
   margin: 0;

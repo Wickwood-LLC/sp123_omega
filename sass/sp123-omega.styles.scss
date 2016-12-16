@@ -46,7 +46,7 @@
 .secondary-menu {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	margin-top: 1em;
 	padding-bottom: 1em;
@@ -54,6 +54,12 @@
 
 	&.no-border {
 		border: 0;
+	}
+
+	> .tabs {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
 	}
 }
 

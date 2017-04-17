@@ -1,3 +1,8 @@
+article.main-content p {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
 .boxed {
 	border-radius: 10px;
 	border: 2px solid #689a04;
@@ -862,5 +867,17 @@ td {
   .description {
     font-size: 14px;
     margin-left: 1em;
+  }
+}
+
+.field--name-field-resources {
+  .field-collection-view {
+    margin: 0;
+    padding: 0;
+
+    .field__item {
+      display: list-item;
+      margin-left: 1.5em;
+    }
   }
 }

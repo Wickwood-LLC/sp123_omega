@@ -13,8 +13,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap; }
   body > header, body > main, body > footer {
     width: 100%; }
 
@@ -29,6 +31,10 @@ table {
   width: 100%; }
   table td, table th {
     padding: 5px; }
+
+ol {
+  list-style: decimal;
+  margin-left: 2em; }
 
 .compact-link {
   font-size: 11px;
@@ -110,16 +116,20 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   padding: 1em;
   padding-top: 0px; }
   .blog-type-page #main-content .panel-myriad-layout .row-one {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     width: 100%; }
   .blog-type-page #main-content .panel-myriad-layout .main-content {
     -webkit-box-flex: 1;
@@ -164,8 +174,10 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
       width: 50%;
       -webkit-box-flex: 1;
@@ -180,8 +192,10 @@ table {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap; }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
       @media (min-width: 420px) {
         .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-row {
           -webkit-box-flex: 1;
@@ -216,8 +230,10 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
     .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content .views-row {
       -webkit-box-flex: 1;
           -ms-flex: 1 30%;
@@ -256,8 +272,10 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
     background-color: #689a04;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -272,8 +290,10 @@ table {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap; }
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap; }
       @media (min-width: 375px) {
         .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row {
           min-width: 300px;
@@ -314,8 +334,10 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .node-type-article-post .radix-layouts-content,
 .node-type-panopoly-news-article .radix-layouts-content {
   -webkit-box-flex: 1;
@@ -398,6 +420,10 @@ table {
   text-align: center; }
   .node-type-press-release.panelized-node .pane-node-links .links {
     display: inline-block; }
+
+article.main-content p {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em; }
 
 .boxed {
   border-radius: 10px;
@@ -501,8 +527,10 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .myriad-left-sidebar .panel-myriad-layout > div:not([class]) {
     overflow: hidden; }
 .myriad-left-sidebar .main-content {
@@ -524,8 +552,10 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -ms-flex-line-pack: center;
@@ -558,8 +588,10 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
     .tabbed-course .panel-myriad-layout .row-two .main-content {
       display: inline-block;
       width: 100%;
@@ -578,8 +610,10 @@ table {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
       -ms-flex-pack: distribute;
           justify-content: space-around;
       -webkit-box-align: start;
@@ -1031,12 +1065,21 @@ td .description {
   font-size: 14px;
   margin-left: 1em; }
 
+.field--name-field-resources .field-collection-view {
+  margin: 0;
+  padding: 0; }
+  .field--name-field-resources .field-collection-view .field__item {
+    display: list-item;
+    margin-left: 1.5em; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-faq .radix-layouts-content, .node-type-panopoly-faq .radix-layouts-content {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 500px;
@@ -1083,8 +1126,10 @@ td .description {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -1137,8 +1182,10 @@ td .description {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   @media (min-width: 1150px) {
     #block-panels-mini-footer .certificates {
       position: absolute;
@@ -1233,14 +1280,20 @@ html.js fieldset.collapsed {
 [id="field-phone-values"] .form-item {
   margin-bottom: 0.5em; }
 
+.training-edit-page #field-resource-link-values .button-remove {
+  right: -25px;
+  top: 36%; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-bottom: 0px;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1384,8 +1437,10 @@ html.js fieldset.collapsed {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .front .wwm-sanderson .row > div[class*="col-"],
   .panopoly-landing-page .row > div[class*="col-"] {
     -webkit-box-flex: 1;
@@ -1959,8 +2014,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .page-user-edit #user-edit div[class*="column"] {
     padding: 0.5em;
     -webkit-box-flex: 1;
@@ -2060,8 +2117,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-user-form-account label,
 .page-admin-people-create .pane-user-form-account label,
 .page-user-register .pane-user-form-account label {
@@ -2102,8 +2161,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .page-user-edit .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
   .page-admin-people-create .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox,
   .page-user-register .pane-user-form-account .form-item-roles .form-checkboxes .form-type-checkbox {
@@ -2125,8 +2186,10 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; }
   .page-user-edit .pane-user-form-account .form-item-notify input,
   .page-admin-people-create .pane-user-form-account .form-item-notify input,
   .page-user-register .pane-user-form-account .form-item-notify input {
@@ -2150,8 +2213,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-user-group-personla-info label,
 .page-admin-people-create .pane-user-group-personla-info label,
 .page-user-register .pane-user-group-personla-info label {
@@ -2185,8 +2250,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-user-group-personla-info .field-name-field-birthdate label,
 .page-user-edit .pane-user-group-personla-info .field-name-field-anniversary label,
 .page-admin-people-create .pane-user-group-personla-info .field-name-field-birthdate label,
@@ -2265,8 +2332,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .pane-user-group-full-name label,
 .page-admin-people-create .pane-user-group-full-name label,
 .page-user-register .pane-user-group-full-name label {
@@ -2306,8 +2375,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .page-user-edit .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
   .page-admin-people-create .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user,
   .page-user-register .field-name-field-user-notes #field-user-notes-values td:not([class]) .field-name-field-staff-user {
@@ -2373,8 +2444,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .field-name-field-phone label,
 .page-admin-people-create .field-name-field-phone label,
 .page-user-register .field-name-field-phone label {
@@ -2423,8 +2496,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .page-user-edit .field-name-field-mailing-address label,
 .page-admin-people-create .field-name-field-mailing-address label,
 .page-user-register .field-name-field-mailing-address label {
@@ -2565,8 +2640,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   .page-user.section-users .pane-basic-user-info-for-user-account .field .field__label {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 120px;
@@ -2662,8 +2739,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;

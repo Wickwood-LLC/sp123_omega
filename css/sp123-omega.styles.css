@@ -1280,10 +1280,6 @@ html.js fieldset.collapsed {
 [id="field-phone-values"] .form-item {
   margin-bottom: 0.5em; }
 
-.training-edit-page #field-resource-link-values .button-remove {
-  right: -25px;
-  top: 36%; }
-
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;

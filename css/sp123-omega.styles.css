@@ -1288,13 +1288,15 @@ html.js fieldset.collapsed {
   font-weight: bold; }
 .training-edit-page .pane-node-form-title .form-item {
   display: inline-block;
-  width: calc(100% - 39px); }
+  width: calc(100% - 42px); }
 .training-edit-page #field-resource-link-values .link-field-subrow {
   display: inline-block;
   width: calc(100% - 90px);
   vertical-align: middle; }
 .training-edit-page #field-resource-link-values .link-field-title .form-item {
   white-space: normal; }
+.training-edit-page #field-resource-link-values .link-field-title .form-text {
+  width: 86%; }
 .training-edit-page #field-resource-link-values input[value="Remove"] {
   display: inline-block;
   background-color: #ef9292;

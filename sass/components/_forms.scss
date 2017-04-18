@@ -124,7 +124,7 @@ html.js fieldset.collapsed {
 		}
 		.form-item {
 			display: inline-block;
-			width: calc(100% - 39px);
+			width: calc(100% - 42px);
 		}
 	}
 	#field-resource-link-values {
@@ -133,8 +133,13 @@ html.js fieldset.collapsed {
 			width: calc(100% - 90px);
 			vertical-align: middle;
 		}
-		.link-field-title .form-item {
-			white-space: normal;
+		.link-field-title {
+			.form-item {
+				white-space: normal;
+			}
+			.form-text {
+				width: 86%;
+			}
 		}
 		input[value="Remove"] {
 			display: inline-block;

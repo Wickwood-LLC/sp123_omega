@@ -136,6 +136,21 @@ article.main-content p {
       font-size: 1.6em;
     }
   }
+
+  .field--name-field-training-week,
+  .field--name-field-training-step {
+    text-align: center;
+    font-size: 1.2em;
+
+    @include breakpoint(550px) {
+      font-size: 1.6em;
+    }
+
+    .field__label, .field__items {
+      display: inline-block;
+      float: none;
+    }
+  }
 }
 
 .myriad-left-sidebar {

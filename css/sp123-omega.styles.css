@@ -520,6 +520,27 @@ article.main-content p {
     .node-type-course .pane-node-title h2,
     .node-type-training-power-to-publish .pane-node-title h2 {
       font-size: 1.6em; } }
+.node-type-course .field--name-field-training-week,
+.node-type-course .field--name-field-training-step,
+.node-type-training-power-to-publish .field--name-field-training-week,
+.node-type-training-power-to-publish .field--name-field-training-step {
+  text-align: center;
+  font-size: 1.2em; }
+  @media (min-width: 550px) {
+    .node-type-course .field--name-field-training-week,
+    .node-type-course .field--name-field-training-step,
+    .node-type-training-power-to-publish .field--name-field-training-week,
+    .node-type-training-power-to-publish .field--name-field-training-step {
+      font-size: 1.6em; } }
+  .node-type-course .field--name-field-training-week .field__label, .node-type-course .field--name-field-training-week .field__items,
+  .node-type-course .field--name-field-training-step .field__label,
+  .node-type-course .field--name-field-training-step .field__items,
+  .node-type-training-power-to-publish .field--name-field-training-week .field__label,
+  .node-type-training-power-to-publish .field--name-field-training-week .field__items,
+  .node-type-training-power-to-publish .field--name-field-training-step .field__label,
+  .node-type-training-power-to-publish .field--name-field-training-step .field__items {
+    display: inline-block;
+    float: none; }
 
 .myriad-left-sidebar .panel-myriad-layout {
   padding: 0 1em;

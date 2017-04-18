@@ -1280,6 +1280,28 @@ html.js fieldset.collapsed {
 [id="field-phone-values"] .form-item {
   margin-bottom: 0.5em; }
 
+.training-edit-page .node-form {
+  padding: 0 1em;
+  margin-bottom: 1em; }
+.training-edit-page .pane-node-form-title .pane-title {
+  display: inline-block;
+  font-weight: bold; }
+.training-edit-page .pane-node-form-title .form-item {
+  display: inline-block;
+  width: calc(100% - 39px); }
+.training-edit-page #field-resource-link-values .link-field-subrow {
+  display: inline-block;
+  width: calc(100% - 90px);
+  vertical-align: middle; }
+.training-edit-page #field-resource-link-values .link-field-title .form-item {
+  white-space: normal; }
+.training-edit-page #field-resource-link-values input[value="Remove"] {
+  display: inline-block;
+  background-color: #ef9292;
+  color: white; }
+  .training-edit-page #field-resource-link-values input[value="Remove"]:hover {
+    background-color: red; }
+
 #mini-panel-header {
   display: -webkit-box;
   display: -ms-flexbox;

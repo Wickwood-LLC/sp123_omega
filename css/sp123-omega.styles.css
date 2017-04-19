@@ -1312,7 +1312,7 @@ html.js fieldset.collapsed {
   width: calc(100% - 42px); }
 .training-edit-page .pane-node-form-title input {
   width: 100%; }
-.training-edit-page .form-item-path-alias {
+.training-edit-page .form-item-path-alias input {
   width: calc(100% - 350px); }
 .training-edit-page #field-resource-link-values .link-field-subrow {
   display: inline-block;

@@ -94,11 +94,11 @@ function sp123_omega_field_multiple_value_form($variables) {
 /**
  * Implements hook_preprocess_page().
  */
-function bwmassoc_omega_preprocess_page(&$vars) {
+function sp123_omega_preprocess_page(&$vars) {
   // You can use preprocess hooks to modify the variables before they are passed
   // to the theme function or template file.
 
-  _bwmassoc_omega_local_tasks($vars);
+  _sp123_omega_local_tasks($vars);
 }
 
 /**

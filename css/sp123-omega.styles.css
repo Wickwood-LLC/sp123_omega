@@ -525,7 +525,8 @@ article.main-content p {
 .node-type-training-power-to-publish .field--name-field-training-week,
 .node-type-training-power-to-publish .field--name-field-training-step {
   text-align: center;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  font-weight: bold; }
   @media (min-width: 550px) {
     .node-type-course .field--name-field-training-week,
     .node-type-course .field--name-field-training-step,

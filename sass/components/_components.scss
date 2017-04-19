@@ -141,6 +141,7 @@ article.main-content p {
   .field--name-field-training-step {
     text-align: center;
     font-size: 1.2em;
+    font-weight: bold;
 
     @include breakpoint(550px) {
       font-size: 1.6em;

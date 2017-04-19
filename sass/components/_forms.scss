@@ -126,6 +126,12 @@ html.js fieldset.collapsed {
 			display: inline-block;
 			width: calc(100% - 42px);
 		}
+		input {
+			width: 100%;
+		}
+	}
+	.form-item-path-alias {
+		width: calc(100% - 350px);
 	}
 	#field-resource-link-values {
 		.link-field-subrow {

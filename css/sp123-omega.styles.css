@@ -2820,6 +2820,54 @@ body {
   .primary-tabs .tabs--primary {
     margin-bottom: 0;
     border-bottom: 0; }
+    .primary-tabs .tabs--primary ul.secondary-tabs {
+      height: 20px;
+      overflow: hidden;
+      list-style: none;
+      min-width: 150px;
+      float: left;
+      position: relative;
+      margin: 5px 5px 5px 0;
+      font-size: 11px;
+      background: #2271bd;
+      border-radius: 3px;
+      z-index: 1;
+      padding: 0;
+      border-radius: 5px; }
+      .primary-tabs .tabs--primary ul.secondary-tabs li {
+        background: transparent;
+        float: none;
+        height: auto;
+        text-align: left;
+        margin-bottom: 0;
+        margin-right: 0; }
+        .primary-tabs .tabs--primary ul.secondary-tabs li a {
+          display: block;
+          float: none;
+          height: 0px;
+          position: relative;
+          top: -20px;
+          padding: 0 10px 0 25px;
+          color: white;
+          text-shadow: none;
+          text-align: left; }
+          .primary-tabs .tabs--primary ul.secondary-tabs li a:hover {
+            background: #479bea; }
+        .primary-tabs .tabs--primary ul.secondary-tabs li:first-child, .primary-tabs .tabs--primary ul.secondary-tabs li:first-child a, .primary-tabs .tabs--primary ul.secondary-tabs li:first-child a:hover {
+          border-radius: 5px 5px 0 0; }
+        .primary-tabs .tabs--primary ul.secondary-tabs li:last-child, .primary-tabs .tabs--primary ul.secondary-tabs li:last-child a, .primary-tabs .tabs--primary ul.secondary-tabs li:last-child a:hover {
+          border-radius: 0 0 5px 5px; }
+      .primary-tabs .tabs--primary ul.secondary-tabs li.active a {
+        top: 0;
+        background: transparent;
+        height: 40px; }
+      .primary-tabs .tabs--primary ul.secondary-tabs:hover {
+        height: auto;
+        overflow: visible; }
+        .primary-tabs .tabs--primary ul.secondary-tabs:hover li a {
+          height: auto;
+          position: relative;
+          top: 0px; }
   .primary-tabs .tabs--secondary {
     clear: right; }
     .primary-tabs .tabs--secondary li a {

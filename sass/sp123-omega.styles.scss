@@ -74,6 +74,73 @@
     .tabs--primary {
     	margin-bottom: 0;
     	border-bottom: 0;
+
+    	ul.secondary-tabs {
+    		height: 20px;
+    		overflow: hidden;
+    		list-style: none;
+    		min-width: 150px;
+    		float: left;
+    		position: relative;
+    		margin: 5px 5px 5px 0;
+    		font-size: 11px;
+    		background: #2271bd;
+    		-webkit-border-radius: 3px;
+    		-moz-border-radius: 3px;
+    		border-radius: 3px;
+    		z-index: 1;
+    		padding: 0;
+    		border-radius: 5px;
+
+    		li {
+    			background: transparent;
+    			float: none;
+    			height: auto;
+    			text-align: left;
+    			margin-bottom: 0;
+    			margin-right: 0;
+
+    			a {
+    				display: block;
+    				float: none;
+    				height: 0px;
+    				position: relative;
+    				top: -20px;
+    				padding: 0 10px 0 25px;
+    				color: white;
+    				text-shadow: none;
+    				text-align: left;
+
+    				&:hover {
+    					background: #479bea;
+    				}
+    			}
+
+    			&:first-child, &:first-child a, &:first-child a:hover {
+    				border-radius: 5px 5px 0 0;
+    			}
+    			&:last-child, &:last-child a, &:last-child a:hover {
+    				border-radius: 0 0 5px 5px;
+    			}
+    		}
+
+    		li.active a {
+    			top: 0;
+    			background: transparent;
+    			height: 40px;
+    		}
+
+    		&:hover {
+    			height: auto;
+    			overflow: visible;
+
+    			li a {
+    				height: auto;
+    				position: relative;
+    				top: 0px;
+    			}
+    		}
+    	}
     }
 
     .tabs--secondary {

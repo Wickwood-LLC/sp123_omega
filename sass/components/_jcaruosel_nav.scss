@@ -1,3 +1,22 @@
+.course-jump-menu {
+	.container-inline {
+		text-align: center;
+		margin-bottom: 0.5em;
+	}
+	.ctools-jump-menu-select {
+		display: inline-block;
+		font-size: 1.5em;
+		vertical-align: middle;
+	}
+	.ctools-jump-menu-button {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.jcarousel-tabs {
+	width: 90%;
+	margin: 0 auto;
+}
 .view-course-tabs .jcarousel-container {
 	height: auto;
 	padding: 0 40px;

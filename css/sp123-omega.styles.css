@@ -1094,6 +1094,9 @@ td .description {
     display: list-item;
     margin-left: 1.5em; }
 
+.advanced-help-link {
+  float: left; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1595,6 +1598,21 @@ html.js fieldset.collapsed {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 300px;
             flex: 1 0 300px; } }
+
+.course-jump-menu .container-inline {
+  text-align: center;
+  margin-bottom: 0.5em; }
+.course-jump-menu .ctools-jump-menu-select {
+  display: inline-block;
+  font-size: 1.5em;
+  vertical-align: middle; }
+.course-jump-menu .ctools-jump-menu-button {
+  display: inline-block;
+  vertical-align: middle; }
+
+.jcarousel-tabs {
+  width: 90%;
+  margin: 0 auto; }
 
 .view-course-tabs .jcarousel-container {
   height: auto;

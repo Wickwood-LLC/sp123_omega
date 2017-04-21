@@ -1616,7 +1616,8 @@ html.js fieldset.collapsed {
 .course-jump-menu .ctools-jump-menu-select {
   display: inline-block;
   font-size: 1.5em;
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-width: 100%; }
 .course-jump-menu .ctools-jump-menu-button {
   display: inline-block;
   vertical-align: middle; }

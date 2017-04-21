@@ -107,6 +107,9 @@ ol {
 .page-admin-modules #module-filter-wrapper thead {
   display: table-header-group; }
 
+#edit-options .collapsible {
+  box-sizing: border-box; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;

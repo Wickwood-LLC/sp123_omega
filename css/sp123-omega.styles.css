@@ -110,6 +110,12 @@ ol {
 #edit-options .collapsible {
   box-sizing: border-box; }
 
+.tabs.secondary li {
+  display: inline-block;
+  margin-right: 0.5em; }
+  .tabs.secondary li a {
+    background-color: transparent; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;

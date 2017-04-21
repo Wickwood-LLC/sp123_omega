@@ -102,3 +102,14 @@
 #edit-options .collapsible {
   box-sizing: border-box;
 }
+
+.tabs.secondary {
+  li {
+    display: inline-block;
+    margin-right: 0.5em;
+
+    a {
+      background-color: transparent;
+    }
+  }
+}

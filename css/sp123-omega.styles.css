@@ -1240,8 +1240,13 @@ td .description {
   .form-item .container-inline-date .form-item input {
     margin: 0; }
 
+.form-buttons {
+  text-align: center; }
+  .form-buttons input[type="submit"] {
+    display: inline-block; }
+
 input[type="submit"] {
-  display: table;
+  display: inline-table;
   padding: 6px 12px;
   font-size: 1em;
   font-weight: 400;
@@ -1259,6 +1264,9 @@ input[type="submit"] {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px; }
+
+#panels-dnd-save {
+  margin-right: 0.5em; }
 
 #module-filter-show-wrapper .form-item {
   display: inline-block; }
@@ -1611,7 +1619,7 @@ html.js fieldset.collapsed {
   vertical-align: middle; }
 
 .jcarousel-tabs {
-  width: 90%;
+  width: 95%;
   margin: 0 auto; }
 
 .view-course-tabs .jcarousel-container {

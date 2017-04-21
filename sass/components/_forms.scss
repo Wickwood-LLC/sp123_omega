@@ -31,8 +31,16 @@
 	}
 }
 
+.form-buttons {
+	text-align: center;
+
+	input[type="submit"] {
+		display: inline-block;
+	}
+}
+
 input[type="submit"]{
-	display: table;
+	display: inline-table;
     padding: 6px 12px;
     font-size: 1em;
     font-weight: 400;
@@ -46,6 +54,9 @@ input[type="submit"]{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+}
+#panels-dnd-save {
+	margin-right: 0.5em;
 }
 
 #module-filter-show-wrapper .form-item {

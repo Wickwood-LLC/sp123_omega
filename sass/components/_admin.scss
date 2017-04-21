@@ -100,12 +100,13 @@
 }
 
 #edit-options .collapsible {
-  box-sizing: border-box;
+  float: none;
+  width: inherit;
 }
 
 .tabs.secondary {
   text-align: right;
-  
+
   li {
     display: inline-block;
     margin-right: 0.5em;

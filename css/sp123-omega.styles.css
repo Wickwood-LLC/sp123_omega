@@ -108,7 +108,8 @@ ol {
   display: table-header-group; }
 
 #edit-options .collapsible {
-  box-sizing: border-box; }
+  float: none;
+  width: inherit; }
 
 .tabs.secondary {
   text-align: right; }

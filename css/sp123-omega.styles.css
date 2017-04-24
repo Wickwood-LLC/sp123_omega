@@ -3079,7 +3079,10 @@ img.testimonial-image {
 .top-box h2, .middle-box h2, .bottom-box h2 {
   font-size: 20px;
   text-align: center;
-  margin: 5px; }
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 100%; }
 .top-box p, .middle-box p, .bottom-box p {
   margin: 0 0.5em; }
 

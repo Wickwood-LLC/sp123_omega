@@ -12,7 +12,7 @@ ul.breadcrumb {
     padding-left: 10px;
     margin-left: 13px;
     margin-bottom: 5px;
-    background: #8abe4f;
+    background: #0f753b;
     position: relative;
     font-size: 12px;
 
@@ -29,9 +29,9 @@ ul.breadcrumb {
       width: 0px;
       height: 0px;
       border-left: 10px solid transparent;
-      border-top: 15px solid #8abe4f;
-      border-right: 10px solid #8abe4f;
-      border-bottom: 15px solid #8abe4f;
+      border-top: 15px solid #0f753b;
+      border-right: 10px solid #0f753b;
+      border-bottom: 15px solid #0f753b;
       content: "";
       position: absolute;
       left: -10px;
@@ -42,20 +42,24 @@ ul.breadcrumb {
       left: 100%;
       width: 0;
       border-top: 15px solid transparent;
-      border-left: 10px solid #8abe4f;
+      border-left: 10px solid #0f753b;
       border-bottom: 15px solid transparent;
     }
 
     &:hover {
-      background: #0f753b;
+      background: #8abe4f;
+
+      a {
+        text-decoration: none;
+      }
 
       &:before {
-        border-top: 15px solid #0f753b;
-        border-right: 10px solid #0f753b;
-        border-bottom: 15px solid #0f753b;
+        border-top: 15px solid #8abe4f;
+        border-right: 10px solid #8abe4f;
+        border-bottom: 15px solid #8abe4f;
       }
       &:after {
-        border-left: 10px solid #0f753b;
+        border-left: 10px solid #8abe4f;
       }
     }
 

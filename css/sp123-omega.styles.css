@@ -2872,7 +2872,7 @@ body {
   padding: 0em;
   box-sizing: border-box; }
 
-.page-admin #content {
+#content {
   padding: 0 1em; }
 
 .secondary-menu {

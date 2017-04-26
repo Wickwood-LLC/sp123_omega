@@ -547,22 +547,6 @@
 		"oAP": "\/css\/sp123-omega.reset.css.map",
 		"oF": 0
 		},
-	"\/css\/sp123-omega.styles.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/sp123-omega.styles-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/sp123-omega.styles.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/sp123-omega.styles.css.map",
-		"oF": 0
-		},
 	"\/gulpfile.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1299,19 +1283,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/sass\/sp123-omega.styles.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/sp123-omega.styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 0
 		},
 	"\/sass\/variables\/_variables.scss": {
 		"aP": 0,

@@ -2872,7 +2872,8 @@ body {
   padding: 0em;
   box-sizing: border-box; }
 
-#content {
+.page-admin #content,
+.page-taxonomy-term-edit #content {
   padding: 0 1em; }
 
 .secondary-menu {

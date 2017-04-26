@@ -39,8 +39,11 @@
 	box-sizing: border-box;
 }
 
-#content {
-	padding: 0 1em;
+.page-admin,
+.page-taxonomy-term-edit {
+	#content {
+		padding: 0 1em;
+	}
 }
 
 .secondary-menu {

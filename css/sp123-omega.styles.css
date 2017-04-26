@@ -2873,7 +2873,7 @@ body {
   box-sizing: border-box; }
 
 .page-admin #content,
-.page-taxonomy-term-edit #content,
+.page-taxonomy-term #content,
 .page-node-panelizer-page-manager #content {
   padding: 0 1em; }
 

@@ -1161,6 +1161,11 @@ td .description {
 .advanced-help-link {
   float: left; }
 
+.pane-panopoly-taxonomy-panel-pane-2 .views-field-title h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;

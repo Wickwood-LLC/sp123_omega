@@ -164,3 +164,9 @@ function sp123_omega_menu_local_tasks(&$variables) {
 
   return $output;
 }
+
+function sp123_omega_breadcrumb($variables) {
+  if (count($variables['breadcrumb']) > 1) {
+    return implode($variables['breadcrumb']);
+  }
+}

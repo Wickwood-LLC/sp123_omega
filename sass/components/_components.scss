@@ -908,4 +908,13 @@ td {
     font-weight: bold;
     text-align: center;
   }
+
+  .views-field-view-node {
+    text-align: right;
+
+    a {
+      color: red;
+      font-weight: bold;
+    }
+  }
 }

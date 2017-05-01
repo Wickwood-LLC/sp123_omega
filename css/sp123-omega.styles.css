@@ -1165,6 +1165,11 @@ td .description {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center; }
+.pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node {
+  text-align: right; }
+  .pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node a {
+    color: red;
+    font-weight: bold; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;

@@ -229,6 +229,15 @@
 	}
 }
 
+.blog-type-page.term-page {
+	.main-content {
+		order: 1;
+	}
+	.sidebar-content {
+		order: 0;
+	}
+}
+
 .node-type-article-post,
 .node-type-panopoly-news-article {
 	.field--name-field-featured-image {

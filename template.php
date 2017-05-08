@@ -178,19 +178,3 @@ function sp123_omega_breadcrumb($variables) {
     return $output;
   }
 }
-
-function sp123_omega_panels_pre_render($display, $renderer) {
-  dpm($display);
-  dpm($renderer);
-  if (!empty($display->context['argument_entity_id:node_1']->data)) {
-    // Node page
-    $node = $display->context['argument_entity_id:node_1']->data;
-    $result = custom_breadcrumbs_node_view($node, 'full');
-  } elseif (!empty($display->context['argument_term_1']->data)) {
-    // Taxonomy term page
-    module_load_include('inc', 'custom_breadcrumbs_taxonomy');
-    $term = $display->context['argument_term_1']->data;
-    $result = _custom_breadcrumbs_taxonomy_set_breadcrumb($term->tid, $term->vid, TRUE);
-  }
-  return NULL;
-}

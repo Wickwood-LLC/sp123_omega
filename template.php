@@ -167,7 +167,6 @@ function sp123_omega_menu_local_tasks(&$variables) {
 
 function sp123_omega_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
-  dpm($variables);
 
   if (count($variables['breadcrumb']) > 1) {  // Only display the breadcrumb if there are more than one items in the trail
     // Provide a navigational heading to give context for breadcrumb links to
@@ -181,6 +180,8 @@ function sp123_omega_breadcrumb($variables) {
 }
 
 function sp123_omega_panels_pre_render($display, $renderer) {
+  dpm($display);
+  dpm($renderer);
   if (!empty($display->context['argument_entity_id:node_1']->data)) {
     // Node page
     $node = $display->context['argument_entity_id:node_1']->data;

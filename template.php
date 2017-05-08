@@ -167,6 +167,7 @@ function sp123_omega_menu_local_tasks(&$variables) {
 
 function sp123_omega_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
+  dpm($variables);
 
   if (count($variables['breadcrumb']) > 1) {  // Only display the breadcrumb if there are more than one items in the trail
     // Provide a navigational heading to give context for breadcrumb links to

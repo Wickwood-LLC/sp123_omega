@@ -1175,8 +1175,8 @@ td .description {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center; }
-.pane-panopoly-taxonomy-panel-pane-2 .views-field-field-roundtable-session-date .view-content,
-.pane-roundtable-sessions-list-panel-pane-1 .views-field-field-roundtable-session-date .view-content {
+.pane-panopoly-taxonomy-panel-pane-2 .views-field-field-roundtable-session-date .field-content,
+.pane-roundtable-sessions-list-panel-pane-1 .views-field-field-roundtable-session-date .field-content {
   text-align: center; }
 .pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node,
 .pane-roundtable-sessions-list-panel-pane-1 .views-field-view-node {

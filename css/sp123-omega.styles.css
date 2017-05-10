@@ -1170,13 +1170,16 @@ td .description {
 .advanced-help-link {
   float: left; }
 
-.pane-panopoly-taxonomy-panel-pane-2 .views-field-title h2 {
+.pane-panopoly-taxonomy-panel-pane-2 .views-field-title .field-content,
+.pane-roundtable-sessions-list-panel-pane-1 .views-field-title .field-content {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center; }
-.pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node {
+.pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node,
+.pane-roundtable-sessions-list-panel-pane-1 .views-field-view-node {
   text-align: right; }
-  .pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node a {
+  .pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node a,
+  .pane-roundtable-sessions-list-panel-pane-1 .views-field-view-node a {
     color: red;
     font-weight: bold; }
 

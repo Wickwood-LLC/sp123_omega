@@ -1186,6 +1186,12 @@ td .description {
     color: red;
     font-weight: bold; }
 
+.page-coaching-programs-roundtable-sessions .page-title {
+  background: url(/files/media/roundtable_logo.3.png) no-repeat;
+  background-size: 86px 48px;
+  background-position-y: center;
+  padding-left: 90px; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;

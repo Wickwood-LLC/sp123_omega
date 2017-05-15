@@ -933,8 +933,14 @@ td {
 }
 
 .page-admin-help {
-  ul, ol {
-    list-style: default;
+  ul { 
+     list-style-type: disc; 
+  }
+  ul ul, ol ul { 
+     list-style-type: circle; 
+  }
+  ol ol ul, ol ul ul, ul ol ul, ul ul ul {
+      list-style-type: square;
   }
   li {
     margin-left: 2em;

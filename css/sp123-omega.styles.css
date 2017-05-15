@@ -1246,8 +1246,12 @@ td .description {
   background-position-y: center;
   padding-left: 90px; }
 
-.page-admin-help ul, .page-admin-help ol {
-  list-style: default; }
+.page-admin-help ul {
+  list-style-type: disc; }
+.page-admin-help ul ul, .page-admin-help ol ul {
+  list-style-type: circle; }
+.page-admin-help ol ol ul, .page-admin-help ol ul ul, .page-admin-help ul ol ul, .page-admin-help ul ul ul {
+  list-style-type: square; }
 .page-admin-help li {
   margin-left: 2em; }
 

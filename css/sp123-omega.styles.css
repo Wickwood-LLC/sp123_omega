@@ -1192,6 +1192,9 @@ td .description {
   background-position-y: center;
   padding-left: 90px; }
 
+.page-admin-help li {
+  margin-left: 2em; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;

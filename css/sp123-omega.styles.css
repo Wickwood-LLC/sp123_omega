@@ -511,7 +511,8 @@ ul.breadcrumb {
     margin-bottom: 5px;
     background: #0f753b;
     position: relative;
-    font-size: 12px; }
+    font-size: 12px;
+    list-style: none; }
     ul.breadcrumb li:first-child {
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px; }

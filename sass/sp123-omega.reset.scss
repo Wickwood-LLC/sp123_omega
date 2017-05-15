@@ -48,3 +48,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+dt {
+  display: block;
+}
+
+dd { 
+  display: block;
+  margin-left: 40px;
+}

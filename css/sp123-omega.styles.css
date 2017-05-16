@@ -1230,7 +1230,8 @@ td .description {
 .pane-roundtable-sessions-panel-pane-1 .views-field-title .field-content {
   font-size: 1.5em;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 .pane-panopoly-taxonomy-panel-pane-2 .views-field-field-roundtable-session-date .field-content,
 .pane-filtered-roundtable-sessions-panel-pane-1 .views-field-field-roundtable-session-date .field-content,
 .pane-roundtable-sessions-panel-pane-1 .views-field-field-roundtable-session-date .field-content {

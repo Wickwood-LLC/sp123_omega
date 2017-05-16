@@ -923,15 +923,6 @@ td {
       font-weight: bold;
     }
   }
-
-  .views-exposed-form {
-    text-align: center;
-
-    .views-exposed-widget {
-      padding: 0;
-      float: none;
-    }
-  }
 }
 
 .page-coaching-programs-roundtable-sessions {
@@ -940,6 +931,15 @@ td {
     background-size: 86px 48px;
     background-position-y: center;
     padding-left: 90px;
+  }
+
+  .views-exposed-form {
+    text-align: center;
+
+    .views-exposed-widget {
+      padding: 0;
+      float: none;
+    }
   }
 }
 

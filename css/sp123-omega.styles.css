@@ -1256,6 +1256,10 @@ td .description {
   .page-coaching-programs-roundtable-sessions .views-exposed-form .views-exposed-widget {
     padding: 0;
     float: none; }
+  .page-coaching-programs-roundtable-sessions .views-exposed-form .form-item {
+    margin: 0; }
+  .page-coaching-programs-roundtable-sessions .views-exposed-form .date-padding {
+    float: none; }
 
 .page-admin-help ul {
   list-style-type: disc; }

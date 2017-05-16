@@ -923,6 +923,15 @@ td {
       font-weight: bold;
     }
   }
+
+  .views-exposed-form {
+    text-align: center;
+
+    .views-exposed-widget {
+      padding: 0;
+      float: none;
+    }
+  }
 }
 
 .page-coaching-programs-roundtable-sessions {

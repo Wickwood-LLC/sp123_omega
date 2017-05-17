@@ -975,3 +975,15 @@ td {
     margin-left: 2em;
   }
 }
+
+.view-empty {
+  border-radius: 10px;
+  border: 2px solid #689a04;
+  padding: 1em;
+  margin: 1em 0;
+  position: relative;
+  box-sizing: border-box;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2em;
+}

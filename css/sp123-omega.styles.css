@@ -1283,7 +1283,8 @@ td .description {
 .page-admin-help ol ol ul, .page-admin-help ol ul ul, .page-admin-help ul ol ul, .page-admin-help ul ul ul {
   list-style-type: square; }
 .page-admin-help li {
-  margin-left: 2em; }
+  margin-left: 2em;
+  margin-bottom: 0.8em; }
 
 .view-empty {
   border-radius: 10px;

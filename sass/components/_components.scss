@@ -954,9 +954,17 @@ td {
     }
     .form-item {
       margin: 0;
+
+      input {
+        margin: 0;
+      }
     }
     .date-padding {
       float: none;
+    }
+
+    .date-year.form-select {
+      margin: 0;
     }
   }
 }

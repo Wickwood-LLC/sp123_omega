@@ -915,6 +915,10 @@ td {
   }
   .views-field-field-roundtable-session-date .field-content {
     text-align: center;
+    margin: 0;
+  }
+  .views-field-field-training-description {
+    text-align: justify;
   }
 
   .views-field-view-node {
@@ -933,6 +937,12 @@ td {
     background-size: 86px 48px;
     background-position-y: center;
     padding-left: 90px;
+  }
+
+  #edit-field-roundtable-session-date-value-min-wrapper,
+  #edit-field-roundtable-session-date-value-max-wrapper,
+  .form-item-field-roundtable-session-date-value-jump-value {
+    margin-top: 0.5em;
   }
 
   .views-exposed-form {

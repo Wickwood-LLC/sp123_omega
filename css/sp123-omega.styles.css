@@ -1237,7 +1237,12 @@ td .description {
 .pane-panopoly-taxonomy-panel-pane-2 .views-field-field-roundtable-session-date .field-content,
 .pane-filtered-roundtable-sessions-panel-pane-1 .views-field-field-roundtable-session-date .field-content,
 .pane-roundtable-sessions-panel-pane-1 .views-field-field-roundtable-session-date .field-content {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
+.pane-panopoly-taxonomy-panel-pane-2 .views-field-field-training-description,
+.pane-filtered-roundtable-sessions-panel-pane-1 .views-field-field-training-description,
+.pane-roundtable-sessions-panel-pane-1 .views-field-field-training-description {
+  text-align: justify; }
 .pane-panopoly-taxonomy-panel-pane-2 .views-field-view-node,
 .pane-filtered-roundtable-sessions-panel-pane-1 .views-field-view-node,
 .pane-roundtable-sessions-panel-pane-1 .views-field-view-node {
@@ -1253,6 +1258,10 @@ td .description {
   background-size: 86px 48px;
   background-position-y: center;
   padding-left: 90px; }
+.page-coaching-programs-roundtable-sessions #edit-field-roundtable-session-date-value-min-wrapper,
+.page-coaching-programs-roundtable-sessions #edit-field-roundtable-session-date-value-max-wrapper,
+.page-coaching-programs-roundtable-sessions .form-item-field-roundtable-session-date-value-jump-value {
+  margin-top: 0.5em; }
 .page-coaching-programs-roundtable-sessions .views-exposed-form {
   text-align: center; }
   .page-coaching-programs-roundtable-sessions .views-exposed-form .views-exposed-widget {
@@ -3207,6 +3216,8 @@ img.testimonial-image {
 
 .view-id-roundtable_sessions {
   text-align: center; }
+  .view-id-roundtable_sessions .view-header {
+    text-align: justify; }
 
 .pane-node-field-roundtable-session-date {
   text-align: center; }

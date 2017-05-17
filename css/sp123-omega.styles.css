@@ -1260,7 +1260,7 @@ td .description {
   padding-left: 90px; }
 .page-coaching-programs-roundtable-sessions #edit-field-roundtable-session-date-value-min-wrapper,
 .page-coaching-programs-roundtable-sessions #edit-field-roundtable-session-date-value-max-wrapper,
-.page-coaching-programs-roundtable-sessions .form-item-field-roundtable-session-date-value-jump-value {
+.page-coaching-programs-roundtable-sessions #edit-field-roundtable-session-date-value-jump-value {
   margin-top: 0.5em; }
 .page-coaching-programs-roundtable-sessions .views-exposed-form {
   text-align: center; }

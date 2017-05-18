@@ -1284,7 +1284,8 @@ td .description {
   list-style-type: square; }
 .page-admin-help li {
   margin-left: 2em;
-  margin-bottom: 0.8em; }
+  margin-bottom: 0.8em;
+  line-height: normal; }
 
 .view-empty {
   border-radius: 10px;

@@ -612,6 +612,8 @@ article.main-content p {
     display: inline-block;
     font-size: 1.2em;
     margin: 0; }
+.node-type-training-roundtable .pane-node-field-video {
+  margin-top: 0.5em; }
 .node-type-training-roundtable .pane-node-field-resources .field-collection-view {
   margin: 0;
   padding: 0; }

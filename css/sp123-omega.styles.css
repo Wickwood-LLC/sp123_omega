@@ -600,6 +600,8 @@ article.main-content p {
   @media (min-width: 519px) {
     .node-type-training-roundtable .page-title {
       font-size: 1.8em; } }
+.node-type-training-roundtable .pane-node-title h2 {
+  margin: 0; }
 .node-type-training-roundtable .pane-node-field-roundtable-session-date {
   font-size: 1em;
   font-weight: bold; }
@@ -613,6 +615,15 @@ article.main-content p {
 .node-type-training-roundtable .pane-node-field-resources .field-collection-view {
   margin: 0;
   padding: 0; }
+.node-type-training-roundtable #edit-field-roundtable-session-date-value-jump-wrapper {
+  padding: 0;
+  width: 100%; }
+  .node-type-training-roundtable #edit-field-roundtable-session-date-value-jump-wrapper .views-widget {
+    margin-top: 0.5em; }
+  .node-type-training-roundtable #edit-field-roundtable-session-date-value-jump-wrapper .form-item-field-roundtable-session-date-value-jump-value {
+    margin: 0; }
+  .node-type-training-roundtable #edit-field-roundtable-session-date-value-jump-wrapper .date-year.form-select {
+    margin: 0; }
 
 .node-type-training-a-to-z-library .page-title {
   background: url(/files/media/image_uploads/a-to-z-library-logo.170x130.png) no-repeat;

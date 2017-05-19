@@ -69,6 +69,10 @@ article.main-content p {
     }
   }
 
+  .pane-node-title h2 {
+    margin: 0;
+  }
+
   .pane-node-field-roundtable-session-date {
     font-size: 1em;
     font-weight: bold;
@@ -88,6 +92,21 @@ article.main-content p {
     .field-collection-view {
       margin: 0;
       padding: 0;
+    }
+  }
+
+  #edit-field-roundtable-session-date-value-jump-wrapper {
+    padding: 0;
+    width: 100%;
+
+    .views-widget {
+      margin-top: 0.5em;
+    }
+    .form-item-field-roundtable-session-date-value-jump-value {
+      margin: 0;
+    }
+    .date-year.form-select {
+      margin: 0;
     }
   }
 }

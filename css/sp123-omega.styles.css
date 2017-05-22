@@ -391,14 +391,14 @@ h6 {
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
 
-.blog-type-page.term-page .main-content {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1; }
-.blog-type-page.term-page .sidebar-content {
-  -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0; }
+.blog-type-page.term-page .main-display .view-content {
+  background-color: transparent; }
+  @media (min-width: 375px) {
+    .blog-type-page.term-page .main-display .view-content .views-row {
+      min-width: 400px;
+      -webkit-box-flex: 1;
+          -ms-flex: 1 400px;
+              flex: 1 400px; } }
 
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {

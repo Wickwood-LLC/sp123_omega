@@ -230,11 +230,14 @@
 }
 
 .blog-type-page.term-page {
-	.main-content {
-		order: 1;
-	}
-	.sidebar-content {
-		order: 0;
+	.main-display .view-content {
+		background-color: transparent;
+		.views-row {
+			@include breakpoint(375px) {
+				min-width: 400px;
+				flex: 1 400px;
+			}
+		}
 	}
 }
 

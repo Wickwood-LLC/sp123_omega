@@ -230,7 +230,7 @@
 }
 
 .blog-type-page.term-page {
-	.main-display .view-content {
+	#main-content .panel-myriad-layout .main-display .view-content {
 		background-color: transparent;
 		.views-row {
 			@include breakpoint(375px) {

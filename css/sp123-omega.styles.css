@@ -437,6 +437,12 @@ input {
       color: red;
       font-weight: bold; }
 
+.page-taxonomy-term.blog-type-page .pane-term-description h2 {
+  margin: 0; }
+.page-taxonomy-term.blog-type-page .pane-taxonomy-term-field-featured-image {
+  margin-right: 1.2em;
+  margin-bottom: 0.3em; }
+
 .node-type-article-post .field--name-field-featured-image,
 .node-type-panopoly-news-article .field--name-field-featured-image {
   float: left;

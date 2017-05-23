@@ -304,6 +304,16 @@
 	}
 }
 
+.page-taxonomy-term.blog-type-page {
+	.pane-term-description h2 {
+		margin: 0;
+	}
+	.pane-taxonomy-term-field-featured-image {
+		margin-right: 1.2em;
+		margin-bottom: 0.3em;
+	}
+}
+
 .node-type-article-post,
 .node-type-panopoly-news-article {
 	.field--name-field-featured-image {

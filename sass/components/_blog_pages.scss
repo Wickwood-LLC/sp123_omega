@@ -230,18 +230,47 @@
 }
 
 .blog-type-page.term-page {
-	#main-content .panel-myriad-layout .main-display .view-content {
-		background-color: transparent;
-		.views-row {
-			@include breakpoint(375px) {
-				min-width: 400px;
-				flex: 1 400px;
+	#main-content .panel-myriad-layout .main-display {
+		.views-exposed-form {
+			text-align: center;
+			
+			.views-exposed-widget {
+				float: none;
+				padding: 0;
+			}
+			.views-reset-button {
+				padding: 0;
+				width: 100%;
+				text-align: center;
+
+				input {
+					margin-top: 0;
+				}
 			}
 		}
 
-		.views-field-field-featured-image img {
-			width: 100%;
-			height: auto;
+		.view-content {
+			background-color: transparent;
+			.views-row {
+				@include breakpoint(375px) {
+					min-width: 400px;
+					flex: 1 400px;
+				}
+			}
+	
+			.views-field-field-featured-image img {
+				width: 100%;
+				height: auto;
+			}
+	
+			.views-field-name-1 {
+				text-align: right;
+	
+				a {
+					color: red;
+					font-weight: bold;
+				}
+			}
 		}
 	}
 }

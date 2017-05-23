@@ -57,6 +57,10 @@
 				min-width: 300px;
 				flex: 1 1 300px;
 			}
+
+			div:first-child {
+				margin-top: 0;
+			}
 		}
 
 		.view-display-id-panel_pane_1 .view-content {

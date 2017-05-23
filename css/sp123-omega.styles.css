@@ -232,6 +232,8 @@ input {
         -webkit-box-flex: 1;
             -ms-flex: 1 1 300px;
                 flex: 1 1 300px; } }
+    .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:first-child {
+      margin-top: 0; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {
@@ -1344,6 +1346,7 @@ td .description {
   line-height: normal; }
 
 .view-empty {
+  background-color: white;
   border-radius: 10px;
   border: 2px solid #689a04;
   padding: 1em;

@@ -191,6 +191,16 @@ input {
           flex-flow: row wrap;
   padding: 1em;
   padding-top: 0px; }
+  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-reset-button {
+    float: right; }
+  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-operator, .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
+    margin-left: 1em; }
+  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-published_at .views-widget {
+    margin-top: 0.5em; }
+  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets .views-widget-filter-type .views-widget {
+    margin-left: 1em; }
+  .blog-type-page #main-content .panel-myriad-layout .views-exposed-widgets label:not(.option):after {
+    content: ":"; }
   .blog-type-page #main-content .panel-myriad-layout .row-one {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -387,6 +397,8 @@ input {
       .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-label-field-categories {
         float: left;
         margin-right: 4px; }
+      .blog-type-page #main-content .panel-myriad-layout .main-display .view-content .views-row .views-field-type {
+        font-weight: bold; }
   .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a {
     float: right;
     text-transform: capitalize;

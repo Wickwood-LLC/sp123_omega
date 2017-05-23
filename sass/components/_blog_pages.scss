@@ -12,6 +12,27 @@
 		padding: 1em;
 		padding-top: 0px;
 
+		.views-exposed-widgets {
+			.views-reset-button {
+				float: right;
+			}
+			.views-widget-filter-published_at {
+				.views-operator, .views-widget {
+					margin-left: 1em;
+				}
+				.views-widget {
+					margin-top: 0.5em;
+				}
+			}
+			.views-widget-filter-type .views-widget {
+				margin-left: 1em;
+			}
+
+			label:not(.option):after {
+				content: ":";
+			}
+		}
+
 		.row-one {
 			display: flex;
 			flex-flow: row wrap;
@@ -214,6 +235,9 @@
 				.views-label-field-categories {
 					float: left;
 					margin-right: 4px;
+				}
+				.views-field-type {
+					font-weight: bold;
 				}
 			}
 		}

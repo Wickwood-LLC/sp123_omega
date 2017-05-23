@@ -324,6 +324,10 @@
 		float: left;
     	margin-right: 1em;
 	}
+	.field--name-field-categories {
+		margin-top: 1em;
+		font-weight: bold;
+	}
 
 	.row {
 		display: flex;
@@ -417,6 +421,10 @@
       width: 50%;
       float: left;
     }
+  }
+
+  .field--name-field-categories {
+  	font-weight: bold;
   }
 
   .pane-node-title h1 {

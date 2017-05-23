@@ -449,6 +449,10 @@ input {
 .node-type-panopoly-news-article .field--name-field-featured-image {
   float: left;
   margin-right: 1em; }
+.node-type-article-post .field--name-field-categories,
+.node-type-panopoly-news-article .field--name-field-categories {
+  margin-top: 1em;
+  font-weight: bold; }
 .node-type-article-post .row,
 .node-type-panopoly-news-article .row {
   display: -webkit-box;
@@ -533,6 +537,8 @@ input {
       margin: 0 1em 1em 0;
       width: 50%;
       float: left; } }
+.node-type-press-release.panelized-node .field--name-field-categories {
+  font-weight: bold; }
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }

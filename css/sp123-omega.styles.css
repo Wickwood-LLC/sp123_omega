@@ -90,6 +90,9 @@ h6 {
   margin-right: 0;
   font-weight: bold; }
 
+input {
+  text-transform: capitalize; }
+
 .compact-link {
   font-size: 11px;
   height: 20px;
@@ -401,7 +404,7 @@ h6 {
     width: 100%;
     text-align: center; }
     .blog-type-page.term-page #main-content .panel-myriad-layout .main-display .views-exposed-form .views-reset-button input {
-      margin-top: 0; }
+      margin-top: 0.5em; }
 .blog-type-page.term-page #main-content .panel-myriad-layout .main-display .view-content {
   background-color: transparent; }
   @media (min-width: 375px) {
@@ -1497,6 +1500,9 @@ input[type="submit"] {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px; }
+  input[type="submit"]:hover, input[type="submit"]:focus {
+    background-color: #78b32c;
+    color: white; }
 
 #panels-dnd-save {
   margin-right: 0.5em; }

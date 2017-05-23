@@ -54,6 +54,11 @@ input[type="submit"]{
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
+
+    &:hover, &:focus {
+    	background-color: #78b32c;
+    	color: white;
+    }
 }
 #panels-dnd-save {
 	margin-right: 0.5em;

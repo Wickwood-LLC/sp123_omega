@@ -439,7 +439,7 @@ input {
 
 .page-taxonomy-term.blog-type-page .pane-term-description h2 {
   margin: 0; }
-.page-taxonomy-term.blog-type-page .pane-taxonomy-term-field-featured-image {
+.page-taxonomy-term.blog-type-page .pane-taxonomy-term-field-featured-image img {
   margin-right: 1.2em;
   margin-bottom: 0.3em; }
 

@@ -580,7 +580,8 @@ label {
   font-weight: bold;
   text-align: center; }
   .node-type-press-release.panelized-node .field--name-field-categories .field__label, .node-type-press-release.panelized-node .field--name-field-categories .field__items {
-    display: inline-block; }
+    display: inline-block;
+    float: none; }
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }

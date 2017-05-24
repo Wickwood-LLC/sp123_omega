@@ -311,7 +311,7 @@ label {
               -ms-flex: 1;
                   flex: 1; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
-        max-height: 500px;
+        max-height: 600px;
         overflow: auto; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-title h2 {
         text-align: center;

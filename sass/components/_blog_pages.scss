@@ -5,6 +5,12 @@
     	margin-bottom: 0;
     	display: block;
 	}
+
+	.views-exposed-form {
+		.views-exposed-widget {
+			display: inline-block;
+		}
+	}
 	
 	#main-content .panel-myriad-layout {
 		display: flex;

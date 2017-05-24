@@ -149,11 +149,12 @@
 	
 				    .views-field-body {
 				    	flex: 1;
+				    	display: flex;
 				    }
 			    }
 	
 			    .scroll-pane {
-			    	max-height: 600px;
+			    	max-height: 100%;
 	    			overflow: auto;
 			    }
 	

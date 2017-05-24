@@ -456,7 +456,8 @@ label {
     display: inline-block;
     vertical-align: middle; }
     .blog-type-page.term-page #main-content .panel-myriad-layout .main-display .views-exposed-form .views-reset-button input {
-      margin-top: 0em; }
+      margin-top: 0em;
+      position: static; }
 .blog-type-page.term-page #main-content .panel-myriad-layout .main-display .view-content {
   background-color: transparent; }
   @media (min-width: 375px) {

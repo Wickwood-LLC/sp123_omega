@@ -181,6 +181,9 @@ label {
   text-align: center;
   margin-bottom: 0;
   display: block; }
+.blog-type-page .views-exposed-form .views-exposed-widget {
+  display: inline-block;
+  float: none; }
 .blog-type-page #main-content .panel-myriad-layout {
   display: -webkit-box;
   display: -ms-flexbox;

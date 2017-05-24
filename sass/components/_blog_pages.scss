@@ -22,6 +22,9 @@
 
 			.form-submit {
 				margin-top: 0;
+				position: absolute;
+				top: 10px;
+				right: 10px;
 			}
 		}
 	}
@@ -82,9 +85,6 @@
 
 			div:first-child {
 				margin-top: 0;
-				position: absolute;
-				top: 10px;
-				right: 10px;
 			}
 		}
 

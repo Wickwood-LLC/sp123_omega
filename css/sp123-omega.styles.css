@@ -190,7 +190,10 @@ label {
     min-width: 0;
     max-width: 100%; }
   .blog-type-page .views-exposed-form .views-exposed-widget .form-submit {
-    margin-top: 0; }
+    margin-top: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px; }
 .blog-type-page #main-content .panel-myriad-layout {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,10 +248,7 @@ label {
             -ms-flex: 1 1 300px;
                 flex: 1 1 300px; } }
     .blog-type-page #main-content .panel-myriad-layout .sidebar-content div:first-child {
-      margin-top: 0;
-      position: absolute;
-      top: 10px;
-      right: 10px; }
+      margin-top: 0; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_1 .view-content {
     padding: 0.5em; }
   .blog-type-page #main-content .panel-myriad-layout .view-display-id-panel_pane_2 .pager {

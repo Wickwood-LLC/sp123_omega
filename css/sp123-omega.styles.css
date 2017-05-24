@@ -1395,6 +1395,9 @@ td .description {
   font-weight: bold;
   font-size: 1.2em; }
 
+.view .pager li {
+  display: inline-block; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;

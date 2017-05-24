@@ -1021,3 +1021,9 @@ td {
   font-weight: bold;
   font-size: 1.2em;
 }
+
+.view {
+  .pager li {
+    display: inline-block;
+  }
+}

@@ -260,13 +260,17 @@
 				.views-field-body {
 					flex-grow: 1;
 				}
-
+				.views-field-field-categories {
+					font-weight: bold;
+					font-size: 0.8em;
+				}
 				.views-label-field-categories {
 					float: left;
 					margin-right: 4px;
 				}
 				.views-field-type {
 					font-weight: bold;
+					font-size: 0.8em;
 				}
 			}
 		}

@@ -270,14 +270,17 @@
 			.views-exposed-widget {
 				float: none;
 				padding: 0;
+				display: inline-block;
 			}
 			.views-reset-button {
 				padding: 0;
-				width: 100%;
+				width: auto;
 				text-align: center;
+				display: inline-block;
+				vertical-align: middle;
 
 				input {
-					margin-top: 0.5em;
+					margin-top: 0em;
 				}
 			}
 		}
@@ -294,6 +297,10 @@
 			.views-field-field-featured-image img {
 				width: 100%;
 				height: auto;
+			}
+
+			.views-field-description {
+				flex-grow: 1;
 			}
 	
 			.views-field-name-1 {

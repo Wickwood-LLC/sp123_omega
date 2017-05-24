@@ -904,23 +904,24 @@ article.main-content p {
 .sidebar div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-2, .sidebar div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-2 {
   width: 100%;
   text-align: center; }
-.sidebar .pane-ad-cycles-ad-random .panel-display {
+
+.pane-ad-cycles-ad-random .panel-display {
   padding: 0;
   margin-bottom: 0; }
-  .sidebar .pane-ad-cycles-ad-random .panel-display .col-1, .sidebar .pane-ad-cycles-ad-random .panel-display .col-2 {
+  .pane-ad-cycles-ad-random .panel-display .col-1, .pane-ad-cycles-ad-random .panel-display .col-2 {
     width: 100%; }
-.sidebar .pane-ad-cycles-ad-random .field--name-field-amazon-book-listing .field__item {
+.pane-ad-cycles-ad-random .field--name-field-amazon-book-listing .field__item {
   text-align: center; }
 @media (min-width: 0px) and (max-width: 949px) {
-  .sidebar .pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row .views-row {
+  .pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row .views-row {
     margin: 0; } }
-.sidebar .pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row h2 {
+.pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row h2 {
   margin: 0.5em 0 0 0;
   text-align: center; }
-.sidebar .pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row h3 {
+.pane-ad-cycles-ad-random .views-slideshow-cycle-main-frame-row h3 {
   margin: 0 0 0.5em 0;
   text-align: center; }
-.sidebar .pane-ad-cycles-ad-random .pane-node-field-ad-image {
+.pane-ad-cycles-ad-random .pane-node-field-ad-image {
   text-align: center; }
 
 div.panel-pane div.node.node-advertisement {

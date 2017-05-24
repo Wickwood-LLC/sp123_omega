@@ -312,40 +312,40 @@ article.main-content p {
       }
     }
   } 
+}
 
-  .pane-ad-cycles-ad-random {
-    .panel-display {
-      padding: 0;
-      margin-bottom: 0;
+.pane-ad-cycles-ad-random {
+  .panel-display {
+    padding: 0;
+    margin-bottom: 0;
 
-      .col-1, .col-2 {
-        width: 100%;
+    .col-1, .col-2 {
+      width: 100%;
+    }
+  }
+
+  .field--name-field-amazon-book-listing .field__item {
+    text-align: center;
+  }
+
+  .views-slideshow-cycle-main-frame-row {
+    .views-row {
+      @include breakpoint(0px 949px) {
+        margin: 0;
       }
     }
-
-    .field--name-field-amazon-book-listing .field__item {
+    h2 {
+      margin: 0.5em 0 0 0;
       text-align: center;
     }
-
-    .views-slideshow-cycle-main-frame-row {
-      .views-row {
-        @include breakpoint(0px 949px) {
-          margin: 0;
-        }
-      }
-      h2 {
-        margin: 0.5em 0 0 0;
-        text-align: center;
-      }
-      h3 {
-        margin: 0 0 0.5em 0;
-        text-align: center;
-      }
-    }
-
-    .pane-node-field-ad-image {
+    h3 {
+      margin: 0 0 0.5em 0;
       text-align: center;
     }
+  }
+
+  .pane-node-field-ad-image {
+    text-align: center;
   }
 }
 

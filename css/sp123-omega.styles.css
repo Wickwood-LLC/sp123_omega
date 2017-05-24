@@ -322,6 +322,12 @@ label {
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
       width: 100%;
       height: auto; }
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-field-categories {
+      font-weight: bold;
+      font-size: 0.8em; }
+    .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-label-field-categories {
+      float: left;
+      margin-right: 4px; }
   .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content {
     display: -webkit-box;
     display: -ms-flexbox;

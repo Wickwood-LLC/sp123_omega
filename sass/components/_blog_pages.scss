@@ -476,6 +476,11 @@
 
   .field--name-field-categories {
   	font-weight: bold;
+  	text-align: center;
+
+  	.field__label, .field__items {
+  		display: inline-block;
+  	}
   }
 
   .pane-node-title h1 {

@@ -577,7 +577,10 @@ label {
       width: 50%;
       float: left; } }
 .node-type-press-release.panelized-node .field--name-field-categories {
-  font-weight: bold; }
+  font-weight: bold;
+  text-align: center; }
+  .node-type-press-release.panelized-node .field--name-field-categories .field__label, .node-type-press-release.panelized-node .field--name-field-categories .field__items {
+    display: inline-block; }
 .node-type-press-release.panelized-node .pane-node-title h1 {
   line-height: 1.5;
   text-align: center; }

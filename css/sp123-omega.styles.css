@@ -192,7 +192,7 @@ label {
   .blog-type-page .views-exposed-form .views-exposed-widget .form-submit {
     margin-top: 0;
     position: absolute;
-    top: 10px;
+    top: 18px;
     right: 10px; }
 .blog-type-page #main-content .panel-myriad-layout {
   display: -webkit-box;
@@ -1411,6 +1411,10 @@ td .description {
 
 .view .pager li {
   display: inline-block; }
+
+.pane-views-68df6443216479c90da4235283a03ab4 {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;

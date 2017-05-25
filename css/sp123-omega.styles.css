@@ -1416,6 +1416,10 @@ td .description {
   padding-top: 0.2em;
   padding-bottom: 0.2em; }
 
+.pane-categories-panel-pane-1 .views-row {
+  display: inline-block;
+  width: 49%; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;

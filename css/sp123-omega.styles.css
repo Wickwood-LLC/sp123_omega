@@ -1422,7 +1422,8 @@ td .description {
 
 .pane-categories-panel-pane-4 .views-row {
   display: inline-block;
-  width: 160px; }
+  width: 160px;
+  margin-right: 10px; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;

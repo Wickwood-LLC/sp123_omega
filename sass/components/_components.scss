@@ -1071,10 +1071,12 @@ td {
     content: "\f104";
     font-family: FontAwesome;
     color: inherit;
+    margin-right: 0.3em;
   }
   .views-slideshow-controls-text-next a:after {
     content: "\f105";
     font-family: FontAwesome;
     color: inherit;
+    margin-left: 0.3em;
   }
 }

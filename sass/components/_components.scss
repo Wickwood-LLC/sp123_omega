@@ -1047,3 +1047,32 @@ td {
     margin-right: 10px;
   }
 }
+
+.pane-ad-cycles-ad-slideshow {
+  .views-slideshow-cycle-main-frame,
+  .views-slideshow-cycle-main-frame-row {
+    width: 100%;
+  }
+
+  .field--name-field-ad-image {
+    text-align: center;
+  }
+  .field--name-field-ad-sub-headline {
+    text-align: center;
+  }
+
+  .views-slideshow-controls-text {
+    text-align: center;
+  }
+  .views-slideshow-controls-text-pause {
+    margin: 0.5em;
+  }
+  .views-slideshow-controls-text-previous:before {
+    content: "\f104";
+    font-family: FontAwesome;
+  }
+  .views-slideshow-controls-text-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+  }
+}

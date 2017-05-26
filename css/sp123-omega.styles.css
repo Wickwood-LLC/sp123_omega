@@ -1425,6 +1425,24 @@ td .description {
   width: 160px;
   margin-right: 10px; }
 
+.pane-ad-cycles-ad-slideshow .views-slideshow-cycle-main-frame,
+.pane-ad-cycles-ad-slideshow .views-slideshow-cycle-main-frame-row {
+  width: 100%; }
+.pane-ad-cycles-ad-slideshow .field--name-field-ad-image {
+  text-align: center; }
+.pane-ad-cycles-ad-slideshow .field--name-field-ad-sub-headline {
+  text-align: center; }
+.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text {
+  text-align: center; }
+.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-pause {
+  margin: 0.5em; }
+.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-previous:before {
+  content: "\f104";
+  font-family: FontAwesome; }
+.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-next:before {
+  content: "\f105";
+  font-family: FontAwesome; }
+
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;
   display: -ms-flexbox;

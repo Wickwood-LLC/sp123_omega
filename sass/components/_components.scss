@@ -1051,7 +1051,12 @@ td {
 .pane-ad-cycles-ad-slideshow {
   .views-slideshow-cycle-main-frame,
   .views-slideshow-cycle-main-frame-row {
+    width: 100% !important;
+  }
+
+  .col-1 {
     width: 100%;
+    text-align: center;
   }
 
   .field--name-field-ad-image {

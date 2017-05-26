@@ -1427,7 +1427,10 @@ td .description {
 
 .pane-ad-cycles-ad-slideshow .views-slideshow-cycle-main-frame,
 .pane-ad-cycles-ad-slideshow .views-slideshow-cycle-main-frame-row {
-  width: 100%; }
+  width: 100% !important; }
+.pane-ad-cycles-ad-slideshow .col-1 {
+  width: 100%;
+  text-align: center; }
 .pane-ad-cycles-ad-slideshow .field--name-field-ad-image {
   text-align: center; }
 .pane-ad-cycles-ad-slideshow .field--name-field-ad-sub-headline {

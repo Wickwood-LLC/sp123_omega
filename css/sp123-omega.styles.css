@@ -1436,12 +1436,14 @@ td .description {
   text-align: center; }
 .pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-pause {
   margin: 0.5em; }
-.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-previous:before {
+.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-previous a:before {
   content: "\f104";
-  font-family: FontAwesome; }
-.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-next:before {
+  font-family: FontAwesome;
+  color: inherit; }
+.pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-next a:after {
   content: "\f105";
-  font-family: FontAwesome; }
+  font-family: FontAwesome;
+  color: inherit; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;

@@ -1067,12 +1067,14 @@ td {
   .views-slideshow-controls-text-pause {
     margin: 0.5em;
   }
-  .views-slideshow-controls-text-previous:before {
+  .views-slideshow-controls-text-previous a:before {
     content: "\f104";
     font-family: FontAwesome;
+    color: inherit;
   }
-  .views-slideshow-controls-text-next:before {
+  .views-slideshow-controls-text-next a:after {
     content: "\f105";
     font-family: FontAwesome;
+    color: inherit;
   }
 }

@@ -1502,6 +1502,10 @@ td .description {
   font-family: FontAwesome;
   color: inherit;
   margin-left: 0.3em; }
+.pane-ad-cycles-ad-slideshow .vscc-controls {
+  text-align: center; }
+  .pane-ad-cycles-ad-slideshow .vscc-controls .vscc_controls_pause {
+    display: inline-block; }
 
 .page-faq .row, .node-type-panopoly-faq .row {
   display: -webkit-box;

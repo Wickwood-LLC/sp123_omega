@@ -1084,4 +1084,12 @@ td {
     color: inherit;
     margin-left: 0.3em;
   }
+
+  .vscc-controls {
+    text-align: center;
+    
+    .vscc_controls_pause {
+      display: inline-block;
+    }
+  }
 }

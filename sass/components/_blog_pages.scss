@@ -438,8 +438,10 @@
 		flex: 1 1 500px;
 	}
 	.panel-col-right {
-		flex: 0 300px;
-		min-width: 300px;
+		@include breakpoint(848px){
+			flex: 0 300px;
+			min-width: 300px;
+		}
 	}
 
 	h1.page-title {

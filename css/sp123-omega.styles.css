@@ -557,11 +557,12 @@ label {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 500px;
           flex: 1 1 500px; }
-.node-type-press-release.panelized-node .panel-col-right {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 300px;
-          flex: 0 300px;
-  min-width: 300px; }
+@media (min-width: 848px) {
+  .node-type-press-release.panelized-node .panel-col-right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 300px;
+            flex: 0 300px;
+    min-width: 300px; } }
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
 .node-type-press-release.panelized-node .content-main {

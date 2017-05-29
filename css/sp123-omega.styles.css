@@ -591,6 +591,17 @@ label {
   .node-type-press-release.panelized-node .pane-node-links .links {
     display: inline-block; }
 
+.pane-news-test-panel-pane-5 .views-row {
+  display: inline-block;
+  min-width: 240px;
+  margin-right: 10px;
+  margin-bottom: 0.3em; }
+.pane-news-test-panel-pane-5 .views-field-field-featured-image {
+  float: left;
+  margin-right: 10px; }
+.pane-news-test-panel-pane-5 .views-field-published-at {
+  font-size: 0.8em; }
+
 ul.breadcrumb {
   list-style: none;
   display: inline-block;

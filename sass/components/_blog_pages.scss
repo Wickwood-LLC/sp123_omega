@@ -498,3 +498,19 @@
     }
   }
 }
+
+.pane-news-test-panel-pane-5 {
+	.views-row {
+		display: inline-block;
+		min-width: 240px;
+		margin-right: 10px;
+		margin-bottom: 0.3em;
+	}
+	.views-field-field-featured-image {
+		float: left;
+		margin-right: 10px;
+	}
+	.views-field-published-at {
+		font-size: 0.8em;
+	}
+}

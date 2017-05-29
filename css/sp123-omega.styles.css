@@ -550,6 +550,9 @@ label {
               flex: 0 300px;
       padding-left: 15px; } }
 
+.node-type-press-release.panelized-node #content {
+  margin-right: 1%;
+  margin-left: 1%; }
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
 .node-type-press-release.panelized-node .content-main {
@@ -614,18 +617,21 @@ label {
     display: inline-block; }
 
 .pane-news-test-panel-pane-5 .views-row,
-.pane-articles-test-panel-pane-5 .views-row {
+.pane-articles-test-panel-pane-5 .views-row,
+.pane-press-releases-test-panel-pane-5 .views-row {
   display: inline-block;
   vertical-align: top;
   width: 230px;
   margin-right: 10px;
   margin-bottom: 0.5em; }
 .pane-news-test-panel-pane-5 .views-field-field-featured-image,
-.pane-articles-test-panel-pane-5 .views-field-field-featured-image {
+.pane-articles-test-panel-pane-5 .views-field-field-featured-image,
+.pane-press-releases-test-panel-pane-5 .views-field-field-featured-image {
   float: left;
   margin-right: 10px; }
 .pane-news-test-panel-pane-5 .views-field-published-at,
-.pane-articles-test-panel-pane-5 .views-field-published-at {
+.pane-articles-test-panel-pane-5 .views-field-published-at,
+.pane-press-releases-test-panel-pane-5 .views-field-published-at {
   font-size: 0.8em; }
 
 ul.breadcrumb {

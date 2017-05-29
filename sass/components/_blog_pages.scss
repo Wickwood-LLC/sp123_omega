@@ -375,6 +375,24 @@
 	.field--name-field-featured-image {
 		float: left;
     	margin-right: 1em;
+
+    	@include breakpoint(560px) {
+    		width: 100%;
+    	}
+    	@include breakpoint(700px) {
+    		width: auto;
+    	}
+    	@include breakpoint(848px) {
+    		width: 100%;
+    	}
+    	@include breakpoint(1000px) {
+    		width: auto;
+    	}
+
+    	img {
+    		max-width: 100%;
+    		height: auto;
+    	}
 	}
 	.field--name-field-categories {
 		margin-top: 1em;
@@ -502,7 +520,7 @@
 .pane-news-test-panel-pane-5 {
 	.views-row {
 		display: inline-block;
-		min-width: 240px;
+		min-width: 230px;
 		margin-right: 10px;
 		margin-bottom: 0.3em;
 	}

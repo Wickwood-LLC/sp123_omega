@@ -438,7 +438,7 @@
 		flex: 1 1 500px;
 	}
 	.panel-col-right {
-		@include breakpoint(848px){
+		@include breakpoint(1024px){
 			flex: 0 300px;
 			min-width: 300px;
 		}

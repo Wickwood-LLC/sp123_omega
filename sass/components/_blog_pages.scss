@@ -391,7 +391,9 @@
 
     	img {
     		max-width: 100%;
+    		min-width: 0;
     		height: auto;
+    		width: 100%;
     	}
 	}
 	.field--name-field-categories {

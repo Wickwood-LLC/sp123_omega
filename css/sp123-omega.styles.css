@@ -508,7 +508,9 @@ label {
   .node-type-article-post .field--name-field-featured-image img,
   .node-type-panopoly-news-article .field--name-field-featured-image img {
     max-width: 100%;
-    height: auto; }
+    min-width: 0;
+    height: auto;
+    width: 100%; }
 .node-type-article-post .field--name-field-categories,
 .node-type-panopoly-news-article .field--name-field-categories {
   margin-top: 1em;

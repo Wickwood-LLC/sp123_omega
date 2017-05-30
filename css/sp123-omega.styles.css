@@ -1504,6 +1504,8 @@ td .description {
   text-align: center; }
 .pane-ad-cycles-ad-slideshow .field--name-field-ad-sub-headline {
   text-align: center; }
+.pane-ad-cycles-ad-slideshow .pane-node-title h2 {
+  margin: 0; }
 .pane-ad-cycles-ad-slideshow .views-slideshow-controls-text {
   text-align: center; }
 .pane-ad-cycles-ad-slideshow .views-slideshow-controls-text-pause {

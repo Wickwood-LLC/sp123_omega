@@ -373,20 +373,12 @@
 .node-type-article-post,
 .node-type-panopoly-news-article {
 	.field--name-field-featured-image {
-		float: left;
-    	margin-right: 1em;
+		width: 100%;
 
-    	@include breakpoint(560px) {
-    		width: 100%;
-    	}
-    	@include breakpoint(700px) {
-    		width: auto;
-    	}
-    	@include breakpoint(848px) {
-    		width: 100%;
-    	}
-    	@include breakpoint(1000px) {
-    		width: auto;
+    	@include breakpoint(481px) {
+    		margin: 0 1em 1em 0;
+    		width: 50%;
+    		float: left;
     	}
 
     	img {

@@ -1002,8 +1002,7 @@ div.panel-pane div.node.node-advertisement {
   width: 100%;
   box-sizing: border-box; }
   div.panel-pane div.node.node-advertisement.node-ad-image-portrait .col-1, div.panel-pane div.node.node-advertisement.node-ad-amazon-book .col-1 {
-    float: left;
-    margin-right: 1em; }
+    text-align: center; }
   div.panel-pane div.node.node-advertisement.node-ad-image-landscape {
     text-align: center; }
   div.panel-pane div.node.node-advertisement .pane-node-title {
@@ -1941,7 +1940,8 @@ html.js fieldset.collapsed {
         min-width: 300px; } }
     .front .wwm-sanderson .row > div[class*="col-"] img,
     .panopoly-landing-page .row > div[class*="col-"] img {
-      width: 100px; }
+      width: 100px;
+      height: auto; }
     .front .wwm-sanderson .row > div[class*="col-"] img.ad-image-landscape,
     .panopoly-landing-page .row > div[class*="col-"] img.ad-image-landscape {
       width: auto; }
@@ -2031,6 +2031,9 @@ html.js fieldset.collapsed {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 300px;
             flex: 1 0 300px; } }
+.front .wwm-sanderson .radix-layouts-secondarycolumn2 .panels-ipe-portlet-wrapper:not(:last-child),
+.panopoly-landing-page .radix-layouts-secondarycolumn2 .panels-ipe-portlet-wrapper:not(:last-child) {
+  margin-bottom: 1em; }
 
 .course-jump-menu .container-inline {
   text-align: center;

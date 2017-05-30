@@ -18,6 +18,7 @@
 
 			img {
 				width: 100px;
+				height: auto;
 			}
 
 			img.ad-image-landscape {
@@ -114,6 +115,12 @@
 		.row:nth-child(2) > div[class*="col-"] {
 			max-width: initial;
 			flex: 1 0 300px;
+		}
+	}
+
+	.radix-layouts-secondarycolumn2 {
+		.panels-ipe-portlet-wrapper:not(:last-child) {
+			margin-bottom: 1em;
 		}
 	}
 }

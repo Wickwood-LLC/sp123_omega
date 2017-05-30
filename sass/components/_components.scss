@@ -700,6 +700,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 
   .views-slideshow-cycle-main-frame-row-item {
     margin-top: 0;
+    padding-top: 2em;
   }
 }
 #views_slideshow_cycle_teaser_section_ad_cycles-ad_random {
@@ -1087,8 +1088,13 @@ td {
 
   .vscc-controls {
     text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    height: 2em;
     
-    .vscc_controls_pause {
+    span {
+      vertical-align: middle;
       display: inline-block;
     }
   }

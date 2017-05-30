@@ -563,12 +563,14 @@ label {
         -ms-flex: 0 300px;
             flex: 0 300px;
     min-width: 300px; } }
+.node-type-press-release.panelized-node .panel-col-right div:first-child .panel-pane {
+  margin-top: 0; }
 .node-type-press-release.panelized-node h1.page-title {
   text-align: center; }
 .node-type-press-release.panelized-node .content-main {
   max-width: 960px;
   background: #FFF;
-  margin: 40px auto;
+  margin: 0 auto 40px auto;
   position: relative;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   padding: 5%;
@@ -626,6 +628,16 @@ label {
   .node-type-press-release.panelized-node .pane-node-links .links {
     display: inline-block; }
 
+.pane-news-test-panel-pane-5 .view-content,
+.pane-articles-test-panel-pane-5 .view-content,
+.pane-press-releases-test-panel-pane-5 .view-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
 .pane-news-test-panel-pane-5 .views-row,
 .pane-articles-test-panel-pane-5 .views-row,
 .pane-press-releases-test-panel-pane-5 .views-row {
@@ -633,7 +645,10 @@ label {
   vertical-align: top;
   width: 230px;
   margin-right: 10px;
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.5em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 240px;
+          flex: 1 240px; }
 .pane-news-test-panel-pane-5 .views-field-field-featured-image,
 .pane-articles-test-panel-pane-5 .views-field-field-featured-image,
 .pane-press-releases-test-panel-pane-5 .views-field-field-featured-image {

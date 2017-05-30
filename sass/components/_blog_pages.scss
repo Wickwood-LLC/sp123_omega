@@ -442,6 +442,10 @@
 			flex: 0 300px;
 			min-width: 300px;
 		}
+
+		div:first-child .panel-pane {
+			margin-top: 0;
+		}
 	}
 
 	h1.page-title {
@@ -451,7 +455,7 @@
 	.content-main {
 		max-width: 960px;
 		background: #FFF;
-		margin: 40px auto;
+		margin: 0 auto 40px auto;
 		position: relative;
 		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 		padding: 5%;
@@ -537,12 +541,17 @@
 .pane-news-test-panel-pane-5,
 .pane-articles-test-panel-pane-5,
 .pane-press-releases-test-panel-pane-5 {
+	.view-content {
+		display: flex;
+		flex-flow: row wrap;
+	}
 	.views-row {
 		display: inline-block;
 		vertical-align: top;
 		width: 230px;
 		margin-right: 10px;
 		margin-bottom: 0.5em;
+		flex: 1 240px;
 	}
 	.views-field-field-featured-image {
 		float: left;

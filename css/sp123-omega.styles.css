@@ -1940,10 +1940,6 @@ html.js fieldset.collapsed {
             -ms-flex: 1 0 300px;
                 flex: 1 0 300px;
         min-width: 300px; } }
-    .front .wwm-sanderson .row > div[class*="col-"] img,
-    .panopoly-landing-page .row > div[class*="col-"] img {
-      width: 100px;
-      height: auto; }
     .front .wwm-sanderson .row > div[class*="col-"] img.ad-image-landscape,
     .panopoly-landing-page .row > div[class*="col-"] img.ad-image-landscape {
       width: auto; }
@@ -2021,9 +2017,6 @@ html.js fieldset.collapsed {
           -ms-flex: 1 0 300px;
               flex: 1 0 300px;
       max-width: initial; }
-      .front .wwm-sanderson .row > div[class*="col-"] img,
-      .panopoly-landing-page .row > div[class*="col-"] img {
-        width: 150px; }
       .front .wwm-sanderson .row > div[class*="col-"] img.ad-image-landscape,
       .panopoly-landing-page .row > div[class*="col-"] img.ad-image-landscape {
         width: auto; }

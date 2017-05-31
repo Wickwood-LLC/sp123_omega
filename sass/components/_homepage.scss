@@ -117,7 +117,7 @@
 
 	.scroll-pane {
 		@include breakpoint(0px 1279px) {
-			max-height: none;
+			max-height: initial;
 		}
 	}
 }

@@ -738,7 +738,8 @@ article.main-content p {
   margin: 0 0.5em; }
 .node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(2) {
   background: white;
-  padding: 1em; }
+  padding: 1em;
+  padding-top: 0; }
 .node-type-panopoly-landing-page .wwm-sanderson .row:nth-child(3) {
   background: #689a04; }
 
@@ -2029,6 +2030,10 @@ html.js fieldset.collapsed {
 .front .wwm-sanderson .radix-layouts-secondarycolumn2 .panels-ipe-portlet-wrapper:not(:last-child),
 .panopoly-landing-page .radix-layouts-secondarycolumn2 .panels-ipe-portlet-wrapper:not(:last-child) {
   margin-bottom: 1em; }
+@media (min-width: 0px) and (max-width: 1279px) {
+  .front .wwm-sanderson .scroll-pane,
+  .panopoly-landing-page .scroll-pane {
+    max-height: none; } }
 
 .course-jump-menu .container-inline {
   text-align: center;

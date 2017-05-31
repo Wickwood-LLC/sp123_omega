@@ -66,8 +66,8 @@
       var $homeScroll = $(".front .wwm-sanderson .jspPane").width();
       var $landingScroll = $(".panopoly-landing-page .jspPane").width();
       if ($(window).width() < 960) {
-        $(".front .wwm-sanderson .scroll-pane").css('height', $homeScroll);
-        $(".panopoly-landing-page .scroll-pane").css('height', $landingScroll);
+        $(".front .wwm-sanderson .scroll-pane").height($homeScroll);
+        $(".panopoly-landing-page .scroll-pane").height($landingScroll);
       }
     }
   };

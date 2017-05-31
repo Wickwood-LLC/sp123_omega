@@ -65,10 +65,13 @@
 
       var $homeScroll = $(".front .wwm-sanderson .jspPane").height();
       var $landingScroll = $(".panopoly-landing-page .jspPane").height();
-      if ($(window).width() < 1280) {
-        $(".front .wwm-sanderson .scroll-pane").height($homeScroll);
-        $(".panopoly-landing-page .scroll-pane").height($landingScroll);
-      }
+
+      $(window).on('resize', function(){
+        if ($(window).width() < 1280) {
+          $(".front .wwm-sanderson .scroll-pane").height($homeScroll);
+          $(".panopoly-landing-page .scroll-pane").height($landingScroll);
+        }
+      });
     }
   };
 

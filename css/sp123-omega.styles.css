@@ -603,6 +603,10 @@ label {
       margin: 0 1em 1em 0;
       width: 50%;
       float: left; } }
+  .node-type-press-release.panelized-node .field--name-field-featured-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; }
 .node-type-press-release.panelized-node .field--name-field-categories {
   font-weight: bold;
   text-align: center; }

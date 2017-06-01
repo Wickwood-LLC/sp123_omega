@@ -274,6 +274,11 @@
 
 				.views-field-body {
 					flex-grow: 1;
+
+					.field-content {
+						margin-bottom: 1em;
+						line-height: 1.35em;
+					}
 				}
 				.views-field-field-categories {
 					font-weight: bold;

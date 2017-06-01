@@ -494,6 +494,8 @@ div.panel-pane div.node.node-testimonial {
   .row-two .col-1 {
     float: left;
     margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .row-2 {
@@ -521,13 +523,14 @@ div.panel-pane div.node.node-testimonial.node-testimonial-video {
 	padding: 0;
 
 	.pane-node-field-video {
-		background: #9bcb3b;
+		background: #d8debc;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 		padding: 1em;
 	}
 	.row-2 {
 		padding: 0 1em 1em 1em;
+    margin-top: 1em;
 
     .panel-pane.pane-node-title h2 {
       margin-top: 0.5em;
@@ -540,7 +543,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 	padding: 0;
 
 	.row-one {
-		background: #9bcb3b;
+		background: #d8debc;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 		color: black;
@@ -553,6 +556,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
 
 	.row-two {
 		padding: 0 1em 1em 1em;
+    margin-top: 1em;
 
     .field--name-field-written-testimonial p {
       margin-bottom: 0;

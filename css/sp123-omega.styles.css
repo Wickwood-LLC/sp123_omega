@@ -184,6 +184,9 @@ label {
     .tabs.secondary li a {
       background-color: transparent; }
 
+.page-node-add #main-content {
+  margin: 0 1em; }
+
 .blog-type-page h1.page-title {
   width: 100%;
   text-align: center;

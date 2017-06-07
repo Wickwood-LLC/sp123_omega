@@ -109,14 +109,10 @@
           currentPosition = windowTop;    // tells how far our target element is from where our screen is currently 
 
           console.log(stickyTop);
-          console.log(currentPosition - menuHeight);
-          console.log(stickyTop - (currentPosition - menuHeight));
+          console.log(currentPosition);
 
-          if (stickyTop > (currentPosition - (menuHeight))) {    // if target element goes below the screen
-            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the bottom
-          }
-          else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
-            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });   //stick it at the top
+          if (stickyTop < 0) {   // if target element goes above the screen
+            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
           }
           else {
             $this.css({ position: 'static', width: menuWidth });
@@ -126,10 +122,9 @@
 
       $(window).scroll(function(){ // scroll event 
         console.log(stickyTop);
-        console.log(currentPosition - menuHeight);
-        console.log(stickyTop - (currentPosition - (menuHeight)));
+        console.log(currentPosition);
 
-        if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
+        if (stickyTop < 0) {   // if target element goes above the screen
           $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
         }
         else {

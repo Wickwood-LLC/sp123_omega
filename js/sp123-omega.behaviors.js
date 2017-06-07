@@ -126,6 +126,9 @@
           }
           else {
             $this.css({ position: 'static', width: menuWidth });
+            $('#block-panels-mini-header').css({
+              "margin-bottom": 0
+            });
           }
         }); 
       });

@@ -99,7 +99,7 @@
 
       $(window).on("load resize scroll", function() {
         $('#block-superfish-1').each(function() {
-          $this = $(this);
+          $this = $('#block-superfish-1');
 
           stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
           windowHeight = $(window).height();    // measures the window height

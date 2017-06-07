@@ -103,8 +103,8 @@
 
           stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
           windowHeight = $(window).height();    // measures the window height
-          menuWidth = $this.parent().width(); // gets the width of our button
-          menuHeight = $this.parent().height();        // gets the height of our button
+          menuWidth = $this.width(); // gets the width of our button
+          menuHeight = $this.height();        // gets the height of our button
           windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
           currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently 
 

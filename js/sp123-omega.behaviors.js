@@ -98,7 +98,7 @@
       var $this;
 
       $(window).on("load resize", function() {
-        $('#block-superfish-1').each(function() {
+        $('block-superfish-1').each(function() {
           $this = $(this);
 
           stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
@@ -106,11 +106,11 @@
           menuWidth = $this.parent().width(); // gets the width of our button
           menuHeight = $this.parent().height();        // gets the height of our button
           windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-          currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
+          currentPosition = windowTop;    // tells how far our target element is from where our screen is currently 
 
           console.log(stickyTop);
           console.log(currentPosition - menuHeight);
-          console.log(stickyTop - (currentPosition - (menuHeight)));
+          console.log(stickyTop - (currentPosition - menuHeight));
 
           if (stickyTop > (currentPosition - (menuHeight))) {    // if target element goes below the screen
             $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the bottom

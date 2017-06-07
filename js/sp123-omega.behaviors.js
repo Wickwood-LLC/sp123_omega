@@ -100,19 +100,18 @@
       $(window).on("load resize scroll", function() {
         $('#block-superfish-1').each(function() {
           $this = $('#block-superfish-1');
-          console.log($this.offset().top);
 
           stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
           windowHeight = $(window).height();    // measures the window height
           menuWidth = $this.parent().width(); // gets the width of our button
           menuHeight = $this.parent().height();        // gets the height of our button
           windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-          currentPosition = windowTop;    // tells how far our target element is from where our screen is currently 
+          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently 
 
           console.log(stickyTop);
           console.log(currentPosition);
 
-          if (stickyTop < 0) {   // if target element goes above the screen
+          if (currentPosition < 0) {   // if target element goes above the screen
             $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
           }
           else {

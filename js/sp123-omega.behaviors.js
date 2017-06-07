@@ -112,25 +112,13 @@
           console.log(currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
-            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
+            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width(), z-index: '1' });   //stick it at the top
           }
           else {
             $this.css({ position: 'static', width: menuWidth });
           }
         }); 
       });
-
-      // $(window).scroll(function(){ // scroll event 
-      //   console.log(stickyTop);
-      //   console.log(currentPosition);
-
-      //   if (currentPosition < 0) {   // if target element goes above the screen
-      //     $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
-      //   }
-      //   else {
-      //     $this.css({ position: 'static', width: menuWidth });
-      //   }
-      // });
     }
   };
 

@@ -13,16 +13,18 @@
     </div>
   </div>
 
-  <div class="secondary-menu">
-    <?php if ($action_links): ?>
-      <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
-    <?php endif; ?>
-    <div class='tabs clearfix'>
-      <?php if ($tabs): ?>
-        <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
+  <?php if ($action_links && $tabs): ?>
+    <div class="secondary-menu">
+      <?php if ($action_links): ?>
+        <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
       <?php endif; ?>
+      <div class='tabs clearfix'>
+        <?php if ($tabs): ?>
+          <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
+        <?php endif; ?>
+      </div>
     </div>
-  </div>
+  <?php endif; ?>
 
   <?php if ($show_messages && $messages): ?>
     <div id='console'><div class='limiter clearfix'><?php print $messages; ?></div></div>

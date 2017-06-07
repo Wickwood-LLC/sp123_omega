@@ -3281,8 +3281,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 1em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid #689a04; }
+  padding-bottom: 1em; }
   .secondary-menu.no-border {
     border: 0; }
   .secondary-menu > .tabs {

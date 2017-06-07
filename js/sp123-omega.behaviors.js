@@ -97,7 +97,9 @@
       var currentPosition;
       var $this;
 
-      $(window).on("load resize", function() {
+      var topSpacing;
+
+      $(window).on("load resize scroll", function() {
         $('#block-superfish-1').each(function() {
           $this = $('#block-superfish-1');
 
@@ -107,13 +109,15 @@
           windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
           currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently 
 
+          topSpacing = $('#admin-menu').height();
+
           // console.log(stickyTop);
           // console.log(currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $this.css({
               position: 'fixed',
-              top: '65px',
+              top: topSpacing,
               bottom: 'initial',
               width: $this.parent().width(),
               zIndex: '1' 
@@ -131,39 +135,39 @@
         }); 
       });
 
-      $(window).scroll(function(){ // scroll event 
-        $('#block-superfish-1').each(function() {
-          $this = $('#block-superfish-1');
+      // $(window).scroll(function(){ // scroll event 
+      //   $('#block-superfish-1').each(function() {
+      //     $this = $('#block-superfish-1');
 
-          // stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
-          // menuWidth = $this.width(); // gets the width of our button
-          // menuHeight = $this.height();        // gets the height of our button
-          windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently 
+      //     // stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
+      //     // menuWidth = $this.width(); // gets the width of our button
+      //     // menuHeight = $this.height();        // gets the height of our button
+      //     windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+      //     currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently 
 
-          // console.log(stickyTop);
-          // console.log(currentPosition);
+      //     // console.log(stickyTop);
+      //     // console.log(currentPosition);
 
-          if (currentPosition < 0) {   // if target element goes above the screen
-            $this.css({
-              position: 'fixed',
-              top: '65px',
-              bottom: 'initial',
-              width: $this.parent().width(),
-              zIndex: '1' 
-            });   //stick it at the top
-            $('#block-panels-mini-header').css({
-              "margin-bottom": menuHeight + 18
-            });
-          }
-          else {
-            $this.css({ position: 'static', width: menuWidth });
-            $('#block-panels-mini-header').css({
-              "margin-bottom": 0
-            });
-          }
-        }); 
-      });
+      //     if (currentPosition < 0) {   // if target element goes above the screen
+      //       $this.css({
+      //         position: 'fixed',
+      //         top: '65px',
+      //         bottom: 'initial',
+      //         width: $this.parent().width(),
+      //         zIndex: '1' 
+      //       });   //stick it at the top
+      //       $('#block-panels-mini-header').css({
+      //         "margin-bottom": menuHeight + 18
+      //       });
+      //     }
+      //     else {
+      //       $this.css({ position: 'static', width: menuWidth });
+      //       $('#block-panels-mini-header').css({
+      //         "margin-bottom": 0
+      //       });
+      //     }
+      //   }); 
+      // });
     }
   };
 

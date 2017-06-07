@@ -121,7 +121,7 @@
               zIndex: '1' 
             });   //stick it at the top
             $('#block-panels-mini-header').css({
-              "margin-bottom": spacer
+              "margin-bottom": menuHeight + 1 + "em"
             });
           }
           else {

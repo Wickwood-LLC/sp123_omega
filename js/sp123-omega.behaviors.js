@@ -98,7 +98,7 @@
       var $this;
 
       $(window).on("load resize", function() {
-        $('block-superfish-1').each(function() {
+        $('#block-superfish-1').each(function() {
           $this = $(this);
 
           stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page

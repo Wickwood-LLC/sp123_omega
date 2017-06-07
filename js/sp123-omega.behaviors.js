@@ -83,19 +83,62 @@
 
   Drupal.behaviors.jCarouselNav = {
     attach: function (context, settings) {
-    $('.jcarousel-item a.active').parents('.jcarousel-item').addClass('active');
+      $('.jcarousel-item a.active').parents('.jcarousel-item').addClass('active');
+    }
+  };
 
-    // $('.jcarousel').jcarousel('scroll', $('.jcarousel li.active'));
+  Drupal.behaviors.stickyMenu = {
+    attach: function (context, settings) {
+      var stickyTop;
+      var windowHeight;
+      var menuWidth;
+      var menuHeight;
+      var windowTop;
+      var currentPosition;
+      var $this;
 
-    // $('.jcarousel')
-    // .on('jcarousel:createend', function() {
-    //     // Arguments:
-    //     // 1. The method to call
-    //     // 2. The index of the item (note that indexes are 0-based)
-    //     // 3. A flag telling jCarousel jumping to the index without animation
-    //     $(this).jcarousel('scroll', $('.jcarousel li.active'), false);
-    // })
-    // .jcarousel();
+      $(window).on("load resize", function() {
+        $('#block-superfish-1').each(function() {
+          $this = $(this);
+
+          stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
+          windowHeight = $(window).height();    // measures the window height
+          menuWidth = $this.parent().width(); // gets the width of our button
+          menuHeight = $this.parent().height();        // gets the height of our button
+          windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+          currentPosition = windowTop + windowHeight;    // tells how far our target element is from where our screen is currently 
+
+          console.log(stickyTop);
+          console.log(currentPosition - menuHeight);
+          console.log(stickyTop - (currentPosition - (menuHeight)));
+
+          if (stickyTop > (currentPosition - (menuHeight))) {    // if target element goes below the screen
+            $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $(this).parent().width() });   // stick it to the bottom
+          }
+          else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
+            $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $(this).parent().width() });   //stick it at the top
+          }
+          else {
+            $this.css({ position: 'static', width: menuWidth });
+          }
+        }); 
+      });
+
+      $(window).scroll(function(){ // scroll event 
+        console.log(stickyTop);
+        console.log(currentPosition - menuHeight);
+        console.log(stickyTop - (currentPosition - (menuHeight)));
+
+        if (stickyTop > currentPosition) {    // if target element goes below the screen
+          $this.css({ position: 'fixed', top: 'initial', bottom: 0, width: $this.parent().width() });    // stick it to the bottom
+        }
+        else if ((stickyTop - windowTop) < 0) {   // if target element goes above the screen
+          $this.css({ position: 'fixed', top: '65px', bottom: 'initial', width: $this.parent().width() });   //stick it at the top
+        }
+        else {
+          $this.css({ position: 'static', width: menuWidth });
+        }
+      });
     }
   };
 

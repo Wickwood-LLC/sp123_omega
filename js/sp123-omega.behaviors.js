@@ -102,6 +102,8 @@
       $this = $('#block-superfish-1');
       topSpacing = $('#admin-menu').height();
 
+      $(window).off();
+
       $(window).on("load resize", function() {
         $('#block-superfish-1').each(function() {
           stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page

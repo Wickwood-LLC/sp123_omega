@@ -167,6 +167,16 @@
             });
           }
         }); 
+
+        if ($('#admin-menu').length) {
+          windowTop = $(window).scrollTop() + topSpacing;
+
+          if (currentPosition < 0) {
+            $this.css({
+              top: topSpacing
+            });
+          }
+        }
       });
     }
   };

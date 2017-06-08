@@ -716,7 +716,7 @@ ul.breadcrumb {
         border-bottom: 15px solid #8abe4f; }
       ul.breadcrumb li:hover:after {
         border-left: 10px solid #8abe4f; }
-    ul.breadcrumb li a {
+    ul.breadcrumb li a, ul.breadcrumb li span {
       color: white; }
 
 article.main-content p {

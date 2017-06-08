@@ -125,7 +125,7 @@
             });
           }
           else {
-            $this.css({ position: 'static', width: menuWidth });
+            $this.css({ position: 'static' });
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });
@@ -153,7 +153,7 @@
             });
           }
           else {
-            $this.css({ position: 'static', width: menuWidth });
+            $this.css({ position: 'static' });
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });

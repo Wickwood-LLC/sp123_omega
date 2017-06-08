@@ -147,12 +147,8 @@
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $this.css({
-              position: 'fixed',
-              top: 0,
-              zIndex: '1',
               width: '100%',
               left: '0',
-              marginTop: 0,
             });   //stick it at the top
             $this.addClass('sticky-menu');
 
@@ -162,9 +158,7 @@
           }
           else {
             $this.css({
-              position: 'static',
-              width: menuWidth,
-              marginTop: '1em'
+              width: menuWidth ,
             });
             $this.removeClass('sticky-menu');
 

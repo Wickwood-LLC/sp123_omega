@@ -126,7 +126,7 @@
           }
           else {
             $menu.css({
-              width: menuWidth ,
+              width: menuWidth,
             });
             $menu.removeClass('sticky-menu');
 
@@ -158,7 +158,7 @@
           }
           else {
             $menu.css({
-              width: menuWidth ,
+              width: menuWidth,
             });
             $menu.removeClass('sticky-menu');
 
@@ -173,7 +173,7 @@
 
           if (currentPosition < 0) {
             $menu.css({
-              top: topSpacing
+              top: topSpacing,
             });
           }
         }

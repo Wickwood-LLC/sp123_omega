@@ -118,14 +118,16 @@
               position: 'fixed',
               top: 0,
               bottom: 'initial',
-              zIndex: '1' 
+              zIndex: '1',
+              width: '100%',
+              left: '0' 
             });   //stick it at the top
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
           }
           else {
-            $this.css({ position: 'static' });
+            $this.css({ position: 'static', width: menuWidth });
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });
@@ -146,14 +148,16 @@
               position: 'fixed',
               top: 0,
               bottom: 'initial',
-              zIndex: '1' 
+              zIndex: '1',
+              width: '100%',
+              left: '0' 
             });   //stick it at the top
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
           }
           else {
-            $this.css({ position: 'static' });
+            $this.css({ position: 'static', width: menuWidth });
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });

@@ -110,8 +110,8 @@
           menuWidth = $this.parent().width();          // gets the width of our button
           menuHeight = $this.height();        // gets the height of our button
 
-          console.log(stickyTop);
-          console.log(currentPosition);
+          console.log('load ' + stickyTop);
+          console.log('load ' + currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $this.css({

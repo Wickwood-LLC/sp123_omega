@@ -154,7 +154,7 @@
 
             if ($('#admin-menu').length) {
               $menu.css({
-                marginTop: topSpacing,
+                top: topSpacing,
               });
             }
 

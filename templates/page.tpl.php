@@ -13,7 +13,7 @@
     </div>
   </div>
 
-  <?php if ($action_links || $tabs): ?>
+  <?php if ($action_links && $tabs): ?>
     <div class="secondary-menu">
       <?php if ($action_links): ?>
         <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>

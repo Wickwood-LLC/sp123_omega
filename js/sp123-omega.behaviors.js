@@ -147,7 +147,6 @@
               position: 'fixed',
               top: 0,
               bottom: 'initial',
-              width: $this.width(),
               zIndex: '1' 
             });   //stick it at the top
             $('#block-panels-mini-header').css({

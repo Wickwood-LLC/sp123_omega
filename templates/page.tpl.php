@@ -13,13 +13,12 @@
     </div>
   </div>
 
-  <?php if ($action_links && $tabs): ?>
+  <?php if ($action_links || $tabs): ?>
     <div class="secondary-menu">
       <?php if ($action_links): ?>
         <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
       <?php endif; ?>
-      <?php if ($tabs): ?>
-        <?php dpm($tabs); ?>
+      <?php if ($tabs['#primary']): ?>
         <div class='tabs'>
           <ul class='primary-tabs links'><?php print render($tabs) ?></ul>
         </div>

@@ -18,11 +18,11 @@
       <?php if ($action_links): ?>
         <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
       <?php endif; ?>
-      <div class='tabs clearfix'>
-        <?php if ($tabs): ?>
+      <?php if ($tabs): ?>
+        <div class='tabs clearfix'>
           <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
-        <?php endif; ?>
-      </div>
+        </div>
+      <?php endif; ?>
     </div>
   <?php endif; ?>
 

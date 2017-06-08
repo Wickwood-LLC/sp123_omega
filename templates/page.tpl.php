@@ -19,6 +19,7 @@
         <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
       <?php endif; ?>
       <?php if ($tabs): ?>
+        <?php dpm($tabs); ?>
         <div class='tabs'>
           <ul class='primary-tabs links'><?php print render($tabs) ?></ul>
         </div>

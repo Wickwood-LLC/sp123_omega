@@ -3,10 +3,15 @@
     display: table;
     margin: 0 auto;
     margin-top: 1em;
+    text-align: center;
   }
 
   a:hover {
     text-decoration: none;
+  }
+
+  .block__content {
+    display: inline-block;
   }
 
   #superfish-1 {

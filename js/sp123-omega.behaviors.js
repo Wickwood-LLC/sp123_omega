@@ -110,8 +110,8 @@
           menuWidth = $this.width();          // gets the width of our button
           menuHeight = $this.height();        // gets the height of our button
 
-          // console.log(stickyTop);
-          // console.log(currentPosition);
+          console.log(stickyTop);
+          console.log(currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $this.css({
@@ -140,8 +140,8 @@
           windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
           currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
-          // console.log(stickyTop);
-          // console.log(currentPosition);
+          console.log(stickyTop);
+          console.log(currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $this.css({

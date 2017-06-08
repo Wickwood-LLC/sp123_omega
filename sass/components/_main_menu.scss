@@ -1,9 +1,18 @@
 #block-superfish-1 {
+  position: static;
+  margin-top: 1em;
+  text-align: center;
+
   @include breakpoint(718px) {
     display: table;
     margin: 0 auto;
     margin-top: 1em;
-    text-align: center;
+  }
+  &.sticky-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-top: 0;
   }
 
   a:hover {

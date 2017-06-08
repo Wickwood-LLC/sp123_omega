@@ -115,24 +115,21 @@
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $this.css({
-              position: 'fixed',
-              top: 0,
-              bottom: 'initial',
-              zIndex: '1',
               width: '100%',
               left: '0',
-              marginTop: 0,
             });   //stick it at the top
+            $this.addClass('sticky-menu');
+
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
           }
           else {
             $this.css({
-              position: 'static',
               width: menuWidth ,
-              marginTop: '1em'
             });
+            $this.removeClass('sticky-menu');
+
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });
@@ -152,12 +149,13 @@
             $this.css({
               position: 'fixed',
               top: 0,
-              bottom: 'initial',
               zIndex: '1',
               width: '100%',
               left: '0',
               marginTop: 0,
             });   //stick it at the top
+            $this.addClass('sticky-menu');
+
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
@@ -168,6 +166,8 @@
               width: menuWidth,
               marginTop: '1em'
             });
+            $this.removeClass('sticky-menu');
+
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });

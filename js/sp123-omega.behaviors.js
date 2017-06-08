@@ -95,40 +95,40 @@
       var menuHeight;
       var windowTop;
       var currentPosition;
-      var $this;
+      var $menu;
 
       var topSpacing;
 
-      $this = $('#block-superfish-1');
+      $menu = $('#block-superfish-1');
       topSpacing = $('#admin-menu').height();
 
       $(window).on("load resize", function() {
         $('#block-superfish-1').each(function() {
-          stickyTop = $this.offset().top;       // tells how far our target element is from the top of the page
+          stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
           windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
           currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-          menuWidth = $this.parent().width();          // gets the width of our button
-          menuHeight = $this.height();        // gets the height of our button
+          menuWidth = $menu.parent().width();          // gets the width of our button
+          menuHeight = $menu.height();        // gets the height of our button
 
           console.log('load ' + stickyTop);
           console.log('load ' + currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
-            $this.css({
+            $menu.css({
               width: '100%',
               left: '0',
             });   //stick it at the top
-            $this.addClass('sticky-menu');
+            $menu.addClass('sticky-menu');
 
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
           }
           else {
-            $this.css({
+            $menu.css({
               width: menuWidth ,
             });
-            $this.removeClass('sticky-menu');
+            $menu.removeClass('sticky-menu');
 
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
@@ -146,21 +146,21 @@
           console.log(currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
-            $this.css({
+            $menu.css({
               width: '100%',
               left: '0',
             });   //stick it at the top
-            $this.addClass('sticky-menu');
+            $menu.addClass('sticky-menu');
 
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
           }
           else {
-            $this.css({
+            $menu.css({
               width: menuWidth ,
             });
-            $this.removeClass('sticky-menu');
+            $menu.removeClass('sticky-menu');
 
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
@@ -172,14 +172,12 @@
           windowTop = $(window).scrollTop() + topSpacing;
 
           if (currentPosition < 0) {
-            $this.css({
+            $menu.css({
               top: topSpacing
             });
           }
         }
       });
-
-      $(window).off();
     }
   };
 

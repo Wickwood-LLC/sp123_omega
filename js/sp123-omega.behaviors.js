@@ -120,14 +120,19 @@
               bottom: 'initial',
               zIndex: '1',
               width: '100%',
-              left: '0' 
+              left: '0',
+              marginTop: 0,
             });   //stick it at the top
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
           }
           else {
-            $this.css({ position: 'static', width: menuWidth });
+            $this.css({
+              position: 'static',
+              width: menuWidth ,
+              marginTop: '1em'
+            });
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });
@@ -150,14 +155,19 @@
               bottom: 'initial',
               zIndex: '1',
               width: '100%',
-              left: '0' 
+              left: '0',
+              marginTop: 0,
             });   //stick it at the top
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
           }
           else {
-            $this.css({ position: 'static', width: menuWidth });
+            $this.css({
+              position: 'static',
+              width: menuWidth,
+              marginTop: '1em'
+            });
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });

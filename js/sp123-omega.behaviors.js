@@ -152,6 +152,12 @@
             });   //stick it at the top
             $menu.addClass('sticky-menu');
 
+            if ($('#admin-menu').length) {
+              $menu.css({
+                marginTop: topSpacing,
+              });
+            }
+
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
@@ -167,16 +173,6 @@
             });
           }
         }); 
-
-        if ($('#admin-menu').length) {
-          windowTop = $(window).scrollTop() + topSpacing;
-
-          if (currentPosition < 0) {
-            $menu.css({
-              top: topSpacing,
-            });
-          }
-        }
       });
     }
   };

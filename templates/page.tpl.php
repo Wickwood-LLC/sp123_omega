@@ -20,7 +20,7 @@
       <?php endif; ?>
       <?php if ($tabs): ?>
         <div class='tabs clearfix'>
-          <ul class='primary-tabs links clearfix'><?php print render($tabs) ?></ul>
+          <ul class='primary-tabs links'><?php print render($tabs) ?></ul>
         </div>
       <?php endif; ?>
     </div>

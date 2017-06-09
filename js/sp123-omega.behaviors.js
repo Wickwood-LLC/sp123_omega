@@ -110,8 +110,8 @@
         menuHeight = $menu.height();        // gets the height of our button
         topSpacing = $('#admin-menu').height();
 
-        console.log('load ' + stickyTop);
-        console.log('load ' + currentPosition);
+        console.log('Distance from top of page: ' + stickyTop);
+        console.log('Position on load ' + currentPosition);
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $menu.css({
@@ -156,8 +156,8 @@
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
-        console.log(stickyTop);
-        console.log(currentPosition);
+        console.log('Distance from top of page: ' + stickyTop);
+        console.log('Current position: ' + currentPosition);
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $menu.css({
@@ -184,6 +184,8 @@
         if ($('#admin-menu').length) {
           windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
           currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+          console.log('Distance from top of page: ' + stickyTop);
+          console.log('Current position: ' + currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $menu.css({

@@ -135,6 +135,22 @@
               "margin-bottom": 0
             });
           }
+
+          if ($('#admin-menu').length) {
+            windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+            currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+
+            if (currentPosition < 0) {   // if target element goes above the screen
+              $menu.css({
+                top: topSpacing,
+              });
+            }
+            else {
+              $menu.css({
+                top: '0',
+              });
+            }
+          }
         }); 
       });
 

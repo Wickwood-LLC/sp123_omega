@@ -123,11 +123,8 @@
 	}
 }
 
-.not-logged-in {
-	.front .wwm-sanderson,
-	.panopoly-landing-page {
-		.row:not(:first-child) .panel-pane:not(:last-child) {
-			margin-bottom: 1em;
-		}
+.not-logged-in .panopoly-landing-page {
+	.row:not(:first-child) .panel-pane:not(:last-child) {
+		margin-bottom: 1em;
 	}
 }

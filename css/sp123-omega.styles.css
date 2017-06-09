@@ -2062,7 +2062,6 @@ html.js fieldset.collapsed {
     max-height: none;
     height: auto; } }
 
-.not-logged-in .front .wwm-sanderson .row:not(:first-child) .panel-pane:not(:last-child),
 .not-logged-in .panopoly-landing-page .row:not(:first-child) .panel-pane:not(:last-child) {
   margin-bottom: 1em; }
 

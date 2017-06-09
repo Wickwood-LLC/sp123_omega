@@ -1939,6 +1939,9 @@ html.js fieldset.collapsed {
         font-size: 18px;
         max-width: 625px; } }
 
+.not-logged-in #header {
+  margin-bottom: 1em; }
+
 .front .wwm-sanderson .row,
 .panopoly-landing-page .row {
   display: -webkit-box;
@@ -2058,6 +2061,10 @@ html.js fieldset.collapsed {
   .panopoly-landing-page .scroll-pane {
     max-height: none;
     height: auto; } }
+
+.not-logged-in .front .wwm-sanderson .row:not(:first-child) .panel-pane:not(:last-child),
+.not-logged-in .panopoly-landing-page .row:not(:first-child) .panel-pane:not(:last-child) {
+  margin-bottom: 1em; }
 
 .course-jump-menu .container-inline {
   text-align: center;

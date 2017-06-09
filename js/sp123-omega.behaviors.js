@@ -103,103 +103,99 @@
       topSpacing = $('#admin-menu').height();
 
       $(window).on("load resize", function() {
-        $('#block-superfish-1').each(function() {
-          stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
-          windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-          menuWidth = $menu.parent().width();          // gets the width of our button
-          menuHeight = $menu.height();        // gets the height of our button
-          topSpacing = $('#admin-menu').height();
+        stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+        menuWidth = $menu.parent().width();          // gets the width of our button
+        menuHeight = $menu.height();        // gets the height of our button
+        topSpacing = $('#admin-menu').height();
 
-          console.log('load ' + stickyTop);
-          console.log('load ' + currentPosition);
+        console.log('load ' + stickyTop);
+        console.log('load ' + currentPosition);
+
+        if (currentPosition < 0) {   // if target element goes above the screen
+          $menu.css({
+            width: '100%',
+            left: '0',
+          });   //stick it at the top
+          $menu.addClass('sticky-menu');
+
+          $('#block-panels-mini-header').css({
+            "margin-bottom": menuHeight + 18
+          });
+        }
+        else {
+          $menu.css({
+            width: menuWidth,
+          });
+          $menu.removeClass('sticky-menu');
+
+          $('#block-panels-mini-header').css({
+            "margin-bottom": 0
+          });
+        }
+
+        if ($('#admin-menu').length) {
+          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $menu.css({
-              width: '100%',
-              left: '0',
-            });   //stick it at the top
-            $menu.addClass('sticky-menu');
-
-            $('#block-panels-mini-header').css({
-              "margin-bottom": menuHeight + 18
+              top: topSpacing,
             });
           }
           else {
             $menu.css({
-              width: menuWidth,
-            });
-            $menu.removeClass('sticky-menu');
-
-            $('#block-panels-mini-header').css({
-              "margin-bottom": 0
+              top: '0',
             });
           }
-
-          if ($('#admin-menu').length) {
-            windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
-            currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-
-            if (currentPosition < 0) {   // if target element goes above the screen
-              $menu.css({
-                top: topSpacing,
-              });
-            }
-            else {
-              $menu.css({
-                top: '0',
-              });
-            }
-          }
-        }); 
+        }
       });
 
       $(window).scroll(function(){ // scroll event 
-        $('#block-superfish-1').each(function() {
-          windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
-          console.log(stickyTop);
-          console.log(currentPosition);
+        console.log(stickyTop);
+        console.log(currentPosition);
+
+        if (currentPosition < 0) {   // if target element goes above the screen
+          $menu.css({
+            width: '100%',
+            left: '0',
+          });   //stick it at the top
+          $menu.addClass('sticky-menu');
+
+          $('#block-panels-mini-header').css({
+            "margin-bottom": menuHeight + 18
+          });
+        }
+        else {
+          $menu.css({
+            width: menuWidth,
+          });
+          $menu.removeClass('sticky-menu');
+
+          $('#block-panels-mini-header').css({
+            "margin-bottom": 0
+          });
+        }
+
+        if ($('#admin-menu').length) {
+          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $menu.css({
-              width: '100%',
-              left: '0',
-            });   //stick it at the top
-            $menu.addClass('sticky-menu');
-
-            $('#block-panels-mini-header').css({
-              "margin-bottom": menuHeight + 18
+              top: topSpacing,
             });
           }
           else {
             $menu.css({
-              width: menuWidth,
-            });
-            $menu.removeClass('sticky-menu');
-
-            $('#block-panels-mini-header').css({
-              "margin-bottom": 0
+              top: '0',
             });
           }
-
-          if ($('#admin-menu').length) {
-            windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
-            currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-
-            if (currentPosition < 0) {   // if target element goes above the screen
-              $menu.css({
-                top: topSpacing,
-              });
-            }
-            else {
-              $menu.css({
-                top: '0',
-              });
-            }
-          }
-        }); 
+        }
       });
     }
   };

@@ -109,6 +109,7 @@
           currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
           menuWidth = $menu.parent().width();          // gets the width of our button
           menuHeight = $menu.height();        // gets the height of our button
+          topSpacing = $('#admin-menu').height();
 
           console.log('load ' + stickyTop);
           console.log('load ' + currentPosition);
@@ -152,12 +153,6 @@
             });   //stick it at the top
             $menu.addClass('sticky-menu');
 
-            if ($('#admin-menu').length) {
-              $menu.css({
-                top: topSpacing,
-              });
-            }
-
             $('#block-panels-mini-header').css({
               "margin-bottom": menuHeight + 18
             });
@@ -171,6 +166,22 @@
             $('#block-panels-mini-header').css({
               "margin-bottom": 0
             });
+          }
+
+          if ($('#admin-menu').length) {
+            windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+            currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+
+            if (currentPosition < 0) {   // if target element goes above the screen
+              $menu.css({
+                top: topSpacing,
+              });
+            }
+            else {
+              $menu.css({
+                top: '0',
+              });
+            }
           }
         }); 
       });

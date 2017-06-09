@@ -159,6 +159,37 @@
         console.log('Distance from top of page: ' + stickyTop);
         console.log('Current position: ' + currentPosition);
 
+        if ($('#admin-menu').length) {
+          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
+          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+          console.log('[admin] Distance from top of page: ' + stickyTop);
+          console.log('[admin] Current position: ' + currentPosition);
+
+          if (currentPosition < 0) {   // if target element goes above the screen
+            $menu.css({
+              top: topSpacing,
+              width: '100%',
+              left: '0',
+            });   //stick it at the top
+            $menu.addClass('sticky-menu');
+
+            $('#block-panels-mini-header').css({
+              "margin-bottom": menuHeight + 18
+            });
+          }
+          else {
+            $menu.css({
+              top: '0',
+              width: menuWidth,
+            });
+            $menu.removeClass('sticky-menu');
+
+            $('#block-panels-mini-header').css({
+              "margin-bottom": 0
+            });
+          }
+        }
+
         if (currentPosition < 0) {   // if target element goes above the screen
           $menu.css({
             width: '100%',
@@ -179,24 +210,6 @@
           $('#block-panels-mini-header').css({
             "margin-bottom": 0
           });
-        }
-
-        if ($('#admin-menu').length) {
-          windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
-          currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-          console.log('[admin] Distance from top of page: ' + stickyTop);
-          console.log('[admin] Current position: ' + currentPosition);
-
-          if (currentPosition < 0) {   // if target element goes above the screen
-            $menu.css({
-              top: topSpacing,
-            });
-          }
-          else {
-            $menu.css({
-              top: '0',
-            });
-          }
         }
       });
     }

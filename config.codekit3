@@ -620,11 +620,11 @@
 		"oAP": "\/images\/README.txt",
 		"oF": 0
 		},
-	"\/js\/jquery.resize.js": {
+	"\/js\/min\/mresize.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/jquery.resize-min.js",
+		"oAP": "\/js\/min\/min\/mresize.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

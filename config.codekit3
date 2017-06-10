@@ -620,6 +620,15 @@
 		"oAP": "\/images\/README.txt",
 		"oF": 0
 		},
+	"\/js\/jquery.resize.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/jquery.resize-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/min\/sp123-omega.behaviors-min.js": {
 		"ft": 64,
 		"mi": 1,

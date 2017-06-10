@@ -102,7 +102,7 @@
       $menu = $('#block-superfish-1');
       topSpacing = $('#admin-menu').height();
 
-      $(window).on("load resize", function() {
+      function reset() {
         stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
@@ -150,7 +150,10 @@
             });
           }
         }
-      });
+      }
+
+      $(window).on("load resize", reset());
+      $('#admin-menu').resize(reset());
 
       $(window).scroll(function(){ // scroll event 
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page

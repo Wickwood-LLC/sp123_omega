@@ -106,8 +106,8 @@
         stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-        menuWidth = $menu.parent().width();          // gets the width of our button
-        menuHeight = $menu.height();        // gets the height of our button
+        menuWidth = $menu.parent().width();          // gets the width of the container
+        menuHeight = $menu.height();        // gets the height of our menu
         topSpacing = $('#admin-menu').height();
 
         console.log('Distance from top of page: ' + stickyTop);
@@ -154,6 +154,7 @@
 
       $(window).on("load resize", reset());
       $('#admin-menu').resize(reset());
+      $('#admin-menu').removeResize(reset());
 
       $(window).scroll(function(){ // scroll event 
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page

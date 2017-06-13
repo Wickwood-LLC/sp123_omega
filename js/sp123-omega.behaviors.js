@@ -215,7 +215,7 @@
           });
         }
 
-        dpm("Top spacing is " + topSpacing);
+        console.log("Top spacing is " + topSpacing);
       });
     }
   };

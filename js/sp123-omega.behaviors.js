@@ -214,6 +214,8 @@
             "margin-bottom": 0
           });
         }
+
+        dpm("Top spacing is " + topSpacing);
       });
     }
   };

@@ -103,13 +103,7 @@
       topSpacing = $('#admin-menu').height();
 
       $(window).on("load resize", function() {
-        stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
-        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
         menuWidth = $menu.parent().width();          // gets the width of the container
-        menuHeight = $menu.height();        // gets the height of our menu
-        topSpacing = $('#admin-menu').height();
-
         $menu.css({
           width: menuWidth,
         });
@@ -118,6 +112,12 @@
         $('#block-panels-mini-header').css({
           "margin-bottom": 0
         });
+
+        stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+        menuHeight = $menu.height();        // gets the height of our menu
+        topSpacing = $('#admin-menu').height();
 
         console.log('Distance from top of page: ' + stickyTop);
         console.log('Position on load ' + currentPosition);
@@ -164,13 +164,7 @@
       });
       
       $('#admin-menu').on("mresize", function(){
-        stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
-        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
-        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
         menuWidth = $menu.parent().width();          // gets the width of the container
-        menuHeight = $menu.height();        // gets the height of our menu
-        topSpacing = $('#admin-menu').height();
-
         $menu.css({
           width: menuWidth,
         });
@@ -179,6 +173,12 @@
         $('#block-panels-mini-header').css({
           "margin-bottom": 0
         });
+
+        stickyTop = $menu.offset().top;       // tells how far our target element is from the top of the page
+        windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
+        currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
+        menuHeight = $menu.height();        // gets the height of our menu
+        topSpacing = $('#admin-menu').height();
 
         console.log('Distance from top of page: ' + stickyTop);
         console.log('Position on load ' + currentPosition);

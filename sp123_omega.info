@@ -14,7 +14,7 @@ stylesheets[all][] = css/sp123-omega.styles.css
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = js/min/mresize.min.js
+;scripts[] = js/min/mresize.min.js
 scripts[] = js/sp123-omega.behaviors.js
 
 ; ========================================

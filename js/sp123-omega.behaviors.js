@@ -155,7 +155,7 @@
       }
 
       $(window).on("load resize", reset());
-      $('#admin-menu').on("mresize", reset());
+      // $('#admin-menu').on("mresize", reset());
 
       $(window).scroll(function(){ // scroll event 
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page

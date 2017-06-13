@@ -150,6 +150,8 @@
             });
           }
         }
+
+        console.log("Top spacing is " + topSpacing);
       }
 
       $(window).on("load resize", reset());

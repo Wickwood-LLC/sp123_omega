@@ -21,6 +21,11 @@
 
   .block__content {
     display: inline-block;
+    width: 100%;
+
+    @include breakpoint (718px) {
+      width: auto;
+    }
   }
 
   #superfish-1 {

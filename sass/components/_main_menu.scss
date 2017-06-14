@@ -2,6 +2,9 @@
   position: static;
   margin-top: 1em;
   text-align: center;
+  transition-property: background, padding;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
 
   @include breakpoint(718px) {
     display: table;
@@ -13,6 +16,9 @@
     top: 0;
     z-index: 1;
     margin-top: 0;
+    background: white;
+    padding-top: 0.5em;
+    box-shadow: 0 0px 10px #333;
 
     .block__content {
       display: inline-block;
@@ -23,6 +29,13 @@
         width: auto;
         padding: 0;
       }
+    }
+
+    .sf-accordion-toggle {
+      padding-bottom: 0.5em;
+      transition-property: padding;
+      transition-duration: 1s;
+      transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
     }
   }
 

@@ -2294,7 +2294,13 @@ form#user-login, form#user-pass {
 #block-superfish-1 {
   position: static;
   margin-top: 1em;
-  text-align: center; }
+  text-align: center;
+  -webkit-transition-property: background, padding;
+  transition-property: background, padding;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+          transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1); }
   @media (min-width: 718px) {
     #block-superfish-1 {
       display: table;
@@ -2304,7 +2310,10 @@ form#user-login, form#user-pass {
     position: fixed;
     top: 0;
     z-index: 1;
-    margin-top: 0; }
+    margin-top: 0;
+    background: white;
+    padding-top: 0.5em;
+    box-shadow: 0 0px 10px #333; }
     #block-superfish-1.sticky-menu .block__content {
       display: inline-block;
       width: 100%;
@@ -2313,6 +2322,14 @@ form#user-login, form#user-pass {
         #block-superfish-1.sticky-menu .block__content {
           width: auto;
           padding: 0; } }
+    #block-superfish-1.sticky-menu .sf-accordion-toggle {
+      padding-bottom: 0.5em;
+      -webkit-transition-property: padding;
+      transition-property: padding;
+      -webkit-transition-duration: 1s;
+              transition-duration: 1s;
+      -webkit-transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+              transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1); }
   #block-superfish-1 .block__content, #block-superfish-1.sticky-menu .block-content {
     display: inline-block;
     width: 100%; }

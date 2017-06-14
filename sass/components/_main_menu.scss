@@ -13,19 +13,21 @@
     top: 0;
     z-index: 1;
     margin-top: 0;
+
+    .block__content {
+      display: inline-block;
+      width: 100%;
+      padding: 0 0.5em;
+
+      @include breakpoint (718px) {
+        width: auto;
+        padding: 0;
+      }
+    }
   }
 
   a:hover {
     text-decoration: none;
-  }
-
-  .block__content {
-    display: inline-block;
-    width: 100%;
-
-    @include breakpoint (718px) {
-      width: auto;
-    }
   }
 
   #superfish-1 {

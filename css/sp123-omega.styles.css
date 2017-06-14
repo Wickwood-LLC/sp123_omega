@@ -2305,14 +2305,16 @@ form#user-login, form#user-pass {
     top: 0;
     z-index: 1;
     margin-top: 0; }
+    #block-superfish-1.sticky-menu .block__content {
+      display: inline-block;
+      width: 100%;
+      padding: 0 0.5em; }
+      @media (min-width: 718px) {
+        #block-superfish-1.sticky-menu .block__content {
+          width: auto;
+          padding: 0; } }
   #block-superfish-1 a:hover {
     text-decoration: none; }
-  #block-superfish-1 .block__content {
-    display: inline-block;
-    width: 100%; }
-    @media (min-width: 718px) {
-      #block-superfish-1 .block__content {
-        width: auto; } }
   #block-superfish-1 #superfish-1 {
     background: #6fae1b;
     background: -webkit-linear-gradient(top, #1e5799 0%, #8bbf50 0%, #6fae1b 98%, #6fae1b 100%);

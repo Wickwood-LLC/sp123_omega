@@ -292,10 +292,10 @@
   }
 }
 
-#block-superfish-1 #logo {
+#block-superfish-1 #logo img {
   width: 0;
-  transition: width 1s linear;
+  transition: width 1s linear 1s;
 }
-#block-superfish-1 #logo.animate {
+#block-superfish-1 #logo.animate img {
   width: auto;
 }

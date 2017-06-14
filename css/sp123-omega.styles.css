@@ -2488,12 +2488,12 @@ form#user-login, form#user-pass {
     #block-superfish-1 {
       font-size: 16px; } }
 
-#block-superfish-1 #logo {
+#block-superfish-1 #logo img {
   width: 0;
-  -webkit-transition: width 1s linear;
-  transition: width 1s linear; }
+  -webkit-transition: width 1s linear 1s;
+  transition: width 1s linear 1s; }
 
-#block-superfish-1 #logo.animate {
+#block-superfish-1 #logo.animate img {
   width: auto; }
 
 body.maintenance-page {

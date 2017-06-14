@@ -2306,13 +2306,14 @@ form#user-login, form#user-pass {
     z-index: 1;
     margin-top: 0; }
     #block-superfish-1.sticky-menu .block__content {
-      display: inline-block;
       width: 100%;
       padding: 0 15px; }
       @media (min-width: 718px) {
         #block-superfish-1.sticky-menu .block__content {
           width: auto;
           padding: 0; } }
+  #block-superfish-1 .block__content {
+    display: inline-block; }
   #block-superfish-1 a:hover {
     text-decoration: none; }
   #block-superfish-1 #superfish-1 {

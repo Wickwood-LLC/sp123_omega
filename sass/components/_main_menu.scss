@@ -15,7 +15,6 @@
     margin-top: 0;
 
     .block__content {
-      display: inline-block;
       width: 100%;
       padding: 0 15px;
 
@@ -24,6 +23,10 @@
         padding: 0;
       }
     }
+  }
+
+  .block__content {
+    display: inline-block;
   }
 
   a:hover {

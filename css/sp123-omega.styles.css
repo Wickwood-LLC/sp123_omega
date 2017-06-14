@@ -2306,6 +2306,7 @@ form#user-login, form#user-pass {
     z-index: 1;
     margin-top: 0; }
     #block-superfish-1.sticky-menu .block__content {
+      display: inline-block;
       width: 100%;
       padding: 0 15px; }
       @media (min-width: 718px) {

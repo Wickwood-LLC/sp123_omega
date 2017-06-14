@@ -90,7 +90,6 @@
   Drupal.behaviors.stickyMenu = {
     attach: function (context, settings) {
       var stickyTop;
-      var windowHeight;
       var menuWidth;
       var menuHeight;
       var windowTop;
@@ -129,7 +128,7 @@
           });   //stick it at the top
           $menu.addClass('sticky-menu');
           
-          if (!($("#block-superfish-1 #logo").length)) {
+          if (!($("#block-superfish-1 #logo").length) && $(window).width() > 1080) {
             $("#logo").one().clone().prependTo('#block-superfish-1');
           }
 
@@ -142,6 +141,8 @@
             width: menuWidth,
           });
           $menu.removeClass('sticky-menu');
+
+          $("#block-superfish-1 #logo").remove();
 
           $('#block-panels-mini-header').css({
             "margin-bottom": 0
@@ -194,7 +195,7 @@
           });   //stick it at the top
           $menu.addClass('sticky-menu');
           
-          if (!($("#block-superfish-1 #logo").length)) {
+          if (!($("#block-superfish-1 #logo").length) && $(window).width() > 1080) {
             $("#logo").one().clone().prependTo('#block-superfish-1');
           }
 
@@ -207,6 +208,8 @@
             width: menuWidth,
           });
           $menu.removeClass('sticky-menu');
+
+          $("#block-superfish-1 #logo").remove();
 
           $('#block-panels-mini-header').css({
             "margin-bottom": 0
@@ -277,7 +280,7 @@
           });   //stick it at the top
           $menu.addClass('sticky-menu');
 
-          if (!($("#block-superfish-1 #logo").length)) {
+          if (!($("#block-superfish-1 #logo").length) && $(window).width() > 1080) {
             $("#logo").one().clone().prependTo('#block-superfish-1');
           }
 
@@ -290,6 +293,8 @@
             width: menuWidth,
           });
           $menu.removeClass('sticky-menu');
+
+          $("#block-superfish-1 #logo").remove();
 
           $('#block-panels-mini-header').css({
             "margin-bottom": 0

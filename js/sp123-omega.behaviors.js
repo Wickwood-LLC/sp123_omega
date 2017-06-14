@@ -128,7 +128,7 @@
             left: '0',
           });   //stick it at the top
           $menu.addClass('sticky-menu');
-          $("#logo").clone().prependTo('#block-superfish-1');
+          $("#logo").one().clone().prependTo('#block-superfish-1');
 
           $('#block-panels-mini-header').css({
             "margin-bottom": menuHeight + 18
@@ -190,7 +190,7 @@
             left: '0',
           });   //stick it at the top
           $menu.addClass('sticky-menu');
-          $("#logo").clone().prependTo('#block-superfish-1');
+          $("#logo").one().clone().prependTo('#block-superfish-1');
 
           $('#block-panels-mini-header').css({
             "margin-bottom": menuHeight + 18
@@ -270,7 +270,7 @@
             left: '0',
           });   //stick it at the top
           $menu.addClass('sticky-menu');
-          $("#logo").clone().prependTo('#block-superfish-1');
+          $("#logo").one().clone().prependTo('#block-superfish-1');
 
           $('#block-panels-mini-header').css({
             "margin-bottom": menuHeight + 18

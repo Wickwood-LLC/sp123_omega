@@ -629,24 +629,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/min\/sp123-omega.behaviors-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/min\/min\/sp123-omega.behaviors-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/sp123-omega.behaviors.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/sp123-omega.behaviors-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/logo.png": {
 		"ft": 32768,
 		"iS": 1775,

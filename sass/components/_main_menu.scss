@@ -291,3 +291,11 @@
     font-size: 16px;
   }
 }
+
+#block-superfish-1 #logo {
+  width: 0;
+  transition: width 1s linear;
+}
+#block-superfish-1 #logo.animate {
+  width: auto;
+}

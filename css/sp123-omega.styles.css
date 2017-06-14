@@ -2488,6 +2488,14 @@ form#user-login, form#user-pass {
     #block-superfish-1 {
       font-size: 16px; } }
 
+#block-superfish-1 #logo {
+  width: 0;
+  -webkit-transition: width 1s linear;
+  transition: width 1s linear; }
+
+#block-superfish-1 #logo.animate {
+  width: auto; }
+
 body.maintenance-page {
   height: 100%;
   display: -webkit-box;

@@ -13,17 +13,26 @@
     top: 0;
     z-index: 1;
     margin-top: 0;
+
+    .block__content {
+      display: inline-block;
+      width: 100%;
+      padding: 0 15px;
+
+      @include breakpoint (718px) {
+        width: auto;
+        padding: 0;
+      }
+    }
   }
 
   .block__content,
   &.sticky-menu .block-content {
     display: inline-block;
     width: 100%;
-    padding: 0 15px;
 
     @include breakpoint (718px) {
       width: auto;
-      padding: 0;
     }
   }
 

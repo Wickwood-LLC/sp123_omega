@@ -2313,12 +2313,15 @@ form#user-login, form#user-pass {
     margin-top: 0;
     background: white;
     padding-top: 0.5em;
+    padding-bottom: 0.5em;
     box-shadow: 0 0px 10px #333; }
+    @media (min-width: 718px) {
+      #block-superfish-1.sticky-menu {
+        padding-bottom: 0; } }
     #block-superfish-1.sticky-menu .block__content {
       display: inline-block;
       width: 100%;
-      padding: 0 15px;
-      padding-bottom: 0.5em; }
+      padding: 0 15px; }
       @media (min-width: 718px) {
         #block-superfish-1.sticky-menu .block__content {
           width: auto;

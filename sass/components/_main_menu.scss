@@ -294,7 +294,7 @@
 
 #block-superfish-1 #logo img {
   width: 0px;
-  transition: width 1s linear 1s;
+  transition: width 0.5s linear;
 }
 #block-superfish-1 #logo.animate img {
   width: 68px;

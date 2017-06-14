@@ -119,8 +119,8 @@
         menuHeight = $menu.height();        // gets the height of our menu
         topSpacing = $('#admin-menu').height();
 
-        console.log('Distance from top of page: ' + stickyTop);
-        console.log('Position on load ' + currentPosition);
+        // console.log('Distance from top of page: ' + stickyTop);
+        // console.log('Position on load ' + currentPosition);
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $menu.css({
@@ -128,6 +128,7 @@
             left: '0',
           });   //stick it at the top
           $menu.addClass('sticky-menu');
+          $("#logo").clone().prependTo('#block-superfish-1');
 
           $('#block-panels-mini-header').css({
             "margin-bottom": menuHeight + 18
@@ -160,7 +161,7 @@
           }
         }
 
-        console.log("Top spacing is " + topSpacing);
+        // console.log("Top spacing is " + topSpacing);
       });
       
       $('#admin-menu').on("mresize", function(){
@@ -180,8 +181,8 @@
         menuHeight = $menu.height();        // gets the height of our menu
         topSpacing = $('#admin-menu').height();
 
-        console.log('Distance from top of page: ' + stickyTop);
-        console.log('Position on load ' + currentPosition);
+        // console.log('Distance from top of page: ' + stickyTop);
+        // console.log('Position on load ' + currentPosition);
 
         if (currentPosition < 0) {   // if target element goes above the screen
           $menu.css({
@@ -189,6 +190,7 @@
             left: '0',
           });   //stick it at the top
           $menu.addClass('sticky-menu');
+          $("#logo").clone().prependTo('#block-superfish-1');
 
           $('#block-panels-mini-header').css({
             "margin-bottom": menuHeight + 18
@@ -221,21 +223,21 @@
           }
         }
 
-        console.log("Top spacing is " + topSpacing);
+        // console.log("Top spacing is " + topSpacing);
       });
 
       $(window).scroll(function(){ // scroll event 
         windowTop = $(window).scrollTop();    // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
 
-        console.log('Distance from top of page: ' + stickyTop);
-        console.log('Current position: ' + currentPosition);
+        // console.log('Distance from top of page: ' + stickyTop);
+        // console.log('Current position: ' + currentPosition);
 
         if ($('#admin-menu').length) {
           windowTop = $(window).scrollTop() + topSpacing;    // tells how far our screen is currently from the top of the page
           currentPosition = stickyTop - windowTop;    // tells how far our target element is from where our screen is currently
-          console.log('[admin] Distance from top of page: ' + stickyTop);
-          console.log('[admin] Current position: ' + currentPosition);
+          // console.log('[admin] Distance from top of page: ' + stickyTop);
+          // console.log('[admin] Current position: ' + currentPosition);
 
           if (currentPosition < 0) {   // if target element goes above the screen
             $menu.css({
@@ -268,6 +270,7 @@
             left: '0',
           });   //stick it at the top
           $menu.addClass('sticky-menu');
+          $("#logo").clone().prependTo('#block-superfish-1');
 
           $('#block-panels-mini-header').css({
             "margin-bottom": menuHeight + 18
@@ -284,7 +287,7 @@
           });
         }
 
-        console.log("Top spacing is " + topSpacing);
+        // console.log("Top spacing is " + topSpacing);
       });
     }
   };

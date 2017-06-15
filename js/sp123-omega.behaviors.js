@@ -145,7 +145,6 @@
             });
           }
           else {
-            $("#block-superfish-1 #logo").remove();
             $("#block-superfish-1 #site-title").remove();
           }
 
@@ -230,7 +229,6 @@
             });
           }
           else {
-            $("#block-superfish-1 #logo").remove();
             $("#block-superfish-1 #site-title").remove();
           }
 

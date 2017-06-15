@@ -2295,10 +2295,10 @@ form#user-login, form#user-pass {
   position: static;
   margin-top: 1em;
   text-align: center;
-  -webkit-transition-property: background, padding;
-  transition-property: background, padding;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
   -webkit-transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
           transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1); }
   @media (min-width: 718px) {

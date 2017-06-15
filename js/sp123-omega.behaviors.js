@@ -292,6 +292,12 @@
               $("#block-superfish-1 #logo").addClass('animate').dequeue();
             });
           }
+          if (!($("#block-superfish-1 #site-title").length) && $(window).width() > 1280) {
+            $("#site-title").clone().prependTo('#block-superfish-1');
+            $("#block-superfish-1 #site-title").delay(500).queue(function() {
+              $("#block-superfish-1 #site-title").addClass('animate').dequeue();
+            });
+          }
 
           $('#block-panels-mini-header').css({
             "margin-bottom": menuHeight + 18
@@ -304,6 +310,7 @@
           $menu.removeClass('sticky-menu');
 
           $("#block-superfish-1 #logo").remove();
+          $("#block-superfish-1 #site-title").remove();
 
           $('#block-panels-mini-header').css({
             "margin-bottom": 0

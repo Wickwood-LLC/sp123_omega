@@ -1939,6 +1939,9 @@ html.js fieldset.collapsed {
         font-size: 18px;
         max-width: 625px; } }
 
+.not-logged-in #header {
+  margin-bottom: 1em; }
+
 .front .wwm-sanderson .row,
 .panopoly-landing-page .row {
   display: -webkit-box;

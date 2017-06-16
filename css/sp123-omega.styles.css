@@ -1809,6 +1809,20 @@ html.js fieldset.collapsed {
           justify-content: center;
   box-sizing: border-box;
   padding: 0; }
+  #mini-panel-header #site-title {
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+    font-size: 3em; }
+    #mini-panel-header #site-title a:hover {
+      color: #0f753b;
+      text-decoration: none; }
+    @media (min-width: 435px) {
+      #mini-panel-header #site-title {
+        font-size: 4em; } }
+    @media (min-width: 640px) {
+      #mini-panel-header #site-title {
+        font-size: 5em; } }
   #mini-panel-header .brand {
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -1901,21 +1915,6 @@ html.js fieldset.collapsed {
       #mini-panel-header .pane-page-slogan {
         font-size: 18px;
         max-width: 625px; } }
-
-#site-title {
-  display: inline-block;
-  line-height: 1;
-  margin: 0;
-  font-size: 3em; }
-  #site-title a:hover {
-    color: #0f753b;
-    text-decoration: none; }
-  @media (min-width: 435px) {
-    #site-title {
-      font-size: 4em; } }
-  @media (min-width: 640px) {
-    #site-title {
-      font-size: 5em; } }
 
 .site-title-1 {
   white-space: nowrap;

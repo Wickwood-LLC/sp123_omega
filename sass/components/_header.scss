@@ -8,6 +8,25 @@
 	box-sizing: border-box;
 	padding: 0;
 
+	#site-title {
+		display: inline-block;
+		line-height: 1;
+		margin: 0;
+		font-size: 3em;
+
+		a:hover {
+			color: #0f753b;
+			text-decoration: none;
+		}
+
+		@include breakpoint(435px) {
+			font-size: 4em;
+		}
+		@include breakpoint(640px) {
+			font-size: 5em;
+		}
+	}
+
 	.brand {
 		flex: 1;
 		text-align: center;
@@ -102,25 +121,6 @@
 			font-size: 18px;
 			max-width: 625px;
 		}
-	}
-}
-
-#site-title {
-	display: inline-block;
-	line-height: 1;
-	margin: 0;
-	font-size: 3em;
-
-	a:hover {
-		color: #0f753b;
-		text-decoration: none;
-	}
-
-	@include breakpoint(435px) {
-		font-size: 4em;
-	}
-	@include breakpoint(640px) {
-		font-size: 5em;
 	}
 }
 

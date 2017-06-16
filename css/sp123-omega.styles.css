@@ -1838,43 +1838,6 @@ html.js fieldset.collapsed {
       margin-right: 10px; }
   #mini-panel-header .site-title-logo {
     text-align: center; }
-  #mini-panel-header #site-title {
-    display: inline-block;
-    line-height: 1;
-    margin: 0;
-    font-size: 3em; }
-    #mini-panel-header #site-title a:hover {
-      color: #0f753b;
-      text-decoration: none; }
-    @media (min-width: 435px) {
-      #mini-panel-header #site-title {
-        font-size: 4em; } }
-    @media (min-width: 640px) {
-      #mini-panel-header #site-title {
-        font-size: 5em; } }
-  #mini-panel-header .site-title-1 {
-    white-space: nowrap;
-    float: right;
-    clear: both; }
-    @media (min-width: 640px) {
-      #mini-panel-header .site-title-1 {
-        float: none; } }
-  #mini-panel-header .site-title-2 {
-    white-space: nowrap;
-    float: right;
-    clear: both;
-    margin-right: 0.9em;
-    margin-top: -0.5em; }
-    @media (min-width: 640px) {
-      #mini-panel-header .site-title-2 {
-        float: none;
-        margin: 0; } }
-    #mini-panel-header .site-title-2 .blue {
-      color: #4285F4; }
-    #mini-panel-header .site-title-2 .yellow {
-      color: #F3B500; }
-    #mini-panel-header .site-title-2 .red {
-      color: #EA4335; }
   #mini-panel-header #logo img {
     height: 61px;
     width: auto; }
@@ -1938,6 +1901,46 @@ html.js fieldset.collapsed {
       #mini-panel-header .pane-page-slogan {
         font-size: 18px;
         max-width: 625px; } }
+
+#site-title {
+  display: inline-block;
+  line-height: 1;
+  margin: 0;
+  font-size: 3em; }
+  #site-title a:hover {
+    color: #0f753b;
+    text-decoration: none; }
+  @media (min-width: 435px) {
+    #site-title {
+      font-size: 4em; } }
+  @media (min-width: 640px) {
+    #site-title {
+      font-size: 5em; } }
+
+.site-title-1 {
+  white-space: nowrap;
+  float: right;
+  clear: both; }
+  @media (min-width: 640px) {
+    .site-title-1 {
+      float: none; } }
+
+.site-title-2 {
+  white-space: nowrap;
+  float: right;
+  clear: both;
+  margin-right: 0.9em;
+  margin-top: -0.5em; }
+  @media (min-width: 640px) {
+    .site-title-2 {
+      float: none;
+      margin: 0; } }
+  .site-title-2 .blue {
+    color: #4285F4; }
+  .site-title-2 .yellow {
+    color: #F3B500; }
+  .site-title-2 .red {
+    color: #EA4335; }
 
 .not-logged-in #header {
   margin-bottom: 1em; }

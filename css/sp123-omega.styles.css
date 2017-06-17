@@ -1502,6 +1502,14 @@ td .description {
 .pane-press-releases-test-panel-pane-3 .views-row {
   display: inline-block;
   width: 49%; }
+  @media (min-width: 667px) and (max-width: 943px) {
+    .pane-categories-panel-pane-1 .views-row,
+    .pane-news-test-panel-pane-3 .views-row,
+    .pane-articles-test-panel-pane-7 .views-row,
+    .pane-press-releases-test-panel-pane-3 .views-row {
+      display: inline-block;
+      width: 160px;
+      margin-right: 10px; } }
 
 .pane-categories-panel-pane-4 .views-row {
   display: inline-block;

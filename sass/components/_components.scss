@@ -1046,6 +1046,12 @@ td {
   .views-row {
     display: inline-block;
     width: 49%;
+
+    @include breakpoint(667px 943px) {
+      display: inline-block;
+      width: 160px;
+      margin-right: 10px;
+    }
   }
 }
 .pane-categories-panel-pane-4 {

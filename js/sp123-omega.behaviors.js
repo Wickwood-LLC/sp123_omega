@@ -128,23 +128,23 @@
           });   //stick it at the top
           $menu.addClass('sticky-menu');
           
-          if (!($("#block-superfish-1 #logo").length) && $(window).width() > 1080) {
+          if (!($("#block-superfish-1 #logo").length) && $(window).width() >= 1080) {
             $("#logo").clone().prependTo('#block-superfish-1');
             $("#block-superfish-1 #logo").delay(500).queue(function() {
               $("#block-superfish-1 #logo").addClass('animate').dequeue();
             });
           }
-          else {
+          else if ($(window).width() < 1080) {
             $("#block-superfish-1 #logo").remove();
           }
 
-          if (!($("#block-superfish-1 #site-title").length) && $(window).width() > 1280) {
+          if (!($("#block-superfish-1 #site-title").length) && $(window).width() >= 1280) {
             $("#site-title").clone().prependTo('#block-superfish-1');
             $("#block-superfish-1 #site-title").delay(500).queue(function() {
               $("#block-superfish-1 #site-title").addClass('animate').dequeue();
             });
           }
-          else {
+          else if ($(window).width() < 1280) {
             $("#block-superfish-1 #site-title").remove();
           }
 
@@ -212,23 +212,23 @@
           });   //stick it at the top
           $menu.addClass('sticky-menu');
           
-          if (!($("#block-superfish-1 #logo").length) && $(window).width() > 1080) {
+          if (!($("#block-superfish-1 #logo").length) && $(window).width() >= 1080) {
             $("#logo").clone().prependTo('#block-superfish-1');
             $("#block-superfish-1 #logo").delay(500).queue(function() {
               $("#block-superfish-1 #logo").addClass('animate').dequeue();
             });
           }
-          else {
+          else if ($(window).width() < 1080) {
             $("#block-superfish-1 #logo").remove();
           }
 
-          if (!($("#block-superfish-1 #site-title").length) && $(window).width() > 1280) {
+          if (!($("#block-superfish-1 #site-title").length) && $(window).width() >= 1280) {
             $("#site-title").clone().prependTo('#block-superfish-1');
             $("#block-superfish-1 #site-title").delay(500).queue(function() {
               $("#block-superfish-1 #site-title").addClass('animate').dequeue();
             });
           }
-          else {
+          else if ($(window).width() < 1280) {
             $("#block-superfish-1 #site-title").remove();
           }
 

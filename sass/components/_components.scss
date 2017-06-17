@@ -1039,7 +1039,10 @@ td {
   padding-bottom: 0.2em;
 }
 
-.pane-categories-panel-pane-1 {
+.pane-categories-panel-pane-1,
+.pane-news-test-panel-pane-3,
+.pane-articles-test-panel-pane-7,
+.pane-press-releases-test-panel-pane-3 {
   .views-row {
     display: inline-block;
     width: 49%;

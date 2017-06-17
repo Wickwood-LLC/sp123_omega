@@ -1496,7 +1496,10 @@ td .description {
   padding-top: 0.2em;
   padding-bottom: 0.2em; }
 
-.pane-categories-panel-pane-1 .views-row {
+.pane-categories-panel-pane-1 .views-row,
+.pane-news-test-panel-pane-3 .views-row,
+.pane-articles-test-panel-pane-7 .views-row,
+.pane-press-releases-test-panel-pane-3 .views-row {
   display: inline-block;
   width: 49%; }
 

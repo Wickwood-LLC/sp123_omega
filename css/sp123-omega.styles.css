@@ -279,6 +279,8 @@ label {
     background-size: cover;
     margin: 0 0 1em 0;
     height: 100%; }
+  .blog-type-page #main-content .panel-myriad-layout .pane-panopoly-faq-panel-pane-4 {
+    height: auto; }
   .blog-type-page #main-content .panel-myriad-layout .featured-display {
     height: 100%; }
     .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content {

@@ -557,6 +557,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/sp123-omega.styles.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/sp123-omega.styles.css.map",
+		"oF": 0
+		},
 	"\/gulpfile.js": {
 		"ft": 64,
 		"mi": 1,

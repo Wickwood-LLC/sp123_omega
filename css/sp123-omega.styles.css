@@ -455,11 +455,11 @@ label {
       color: #0f753b; }
 .blog-type-page .views-field-field-categories {
   font-weight: bold;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  clear: both; }
 .blog-type-page .views-label-field-categories {
   float: left;
-  margin-right: 4px;
-  clear: both; }
+  margin-right: 4px; }
 
 .blog-type-page.term-page #main-content .panel-myriad-layout .main-display .views-exposed-form {
   text-align: center; }

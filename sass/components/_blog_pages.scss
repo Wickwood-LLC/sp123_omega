@@ -162,10 +162,6 @@
 	    			overflow: auto;
 			    }
 	
-			    .views-field-title h2 {
-			    	text-align: center;
-	    			margin: 0;
-			    }
 			    .views-field-published-at {
 			    	text-align: center;
 			    	margin-bottom: 1em;
@@ -306,6 +302,10 @@
 		}
 	}
 
+	.views-field-title h2 {
+		text-align: center;
+		margin: 0;
+	}
 	.views-field-field-categories {
 		font-weight: bold;
 		font-size: 0.8em;

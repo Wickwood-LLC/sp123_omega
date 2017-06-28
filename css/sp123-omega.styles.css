@@ -343,12 +343,6 @@ label {
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-body img {
         width: 100%;
         height: auto; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-field-categories {
-        font-weight: bold;
-        font-size: 0.8em; }
-      .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-label-field-categories {
-        float: left;
-        margin-right: 4px; }
   .blog-type-page #main-content .panel-myriad-layout .pane-ad-cycles-ad-blog .view-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -459,6 +453,12 @@ label {
       text-decoration: underline; }
     .blog-type-page #main-content .panel-myriad-layout .views-field-view-node a:focus {
       color: #0f753b; }
+.blog-type-page .views-field-field-categories {
+  font-weight: bold;
+  font-size: 0.8em; }
+.blog-type-page .views-label-field-categories {
+  float: left;
+  margin-right: 4px; }
 
 .blog-type-page.term-page #main-content .panel-myriad-layout .main-display .views-exposed-form {
   text-align: center; }

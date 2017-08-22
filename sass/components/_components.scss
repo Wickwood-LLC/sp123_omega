@@ -293,9 +293,9 @@ article.main-content p {
 }
 
 .sidebar {
-  div.panel-pane div.node.node-advertisement {
-    &.node-ad-image-portrait,
-    &.node-ad-amazon-book {
+  div.panel-pane div.node.node-card {
+    &.node-card-image-portrait,
+    &.node-card-amazon-book {
       .panel-display {
         padding: 0;
         margin: 0;
@@ -315,7 +315,7 @@ article.main-content p {
   } 
 }
 
-.pane-ad-cycles-ad-random {
+.pane-card-cycles-card-random {
   .panel-display {
     padding: 0;
     margin-bottom: 0;
@@ -345,12 +345,12 @@ article.main-content p {
     }
   }
 
-  .pane-node-field-ad-image {
+  .pane-node-field-card-image {
     text-align: center;
   }
 }
 
-div.panel-pane div.node.node-advertisement {
+div.panel-pane div.node.node-card {
  	background-color: #f5f5f5;
   padding: 1em;
 	border-radius: 10px;
@@ -359,14 +359,14 @@ div.panel-pane div.node.node-advertisement {
 	width: 100%;
 	box-sizing: border-box;
 
-  &.node-ad-image-portrait,
-  &.node-ad-amazon-book {
+  &.node-card-image-portrait,
+  &.node-card-amazon-book {
     .col-1 {
       text-align: center;
     }
   }
 
-  &.node-ad-image-landscape {
+  &.node-card-image-landscape {
     text-align: center;
   }
 
@@ -378,7 +378,7 @@ div.panel-pane div.node.node-advertisement {
       margin-bottom: 0.5em;
     }
   }
-  .pane-node-field-ad-sub-headline {
+  .pane-node-field-card-sub-headline {
     text-align: center;
   }
 
@@ -707,7 +707,7 @@ div.panel-pane div.node.node-testimonial.node-testimonial-image {
     padding-top: 2em;
   }
 }
-#views_slideshow_cycle_teaser_section_ad_cycles-ad_random {
+#views_slideshow_cycle_teaser_section_card_cycles-card_random {
   width: 100% !important;
 }
 
@@ -1063,7 +1063,7 @@ td {
   }
 }
 
-.pane-ad-cycles-ad-slideshow {
+.pane-card-cycles-card-slideshow {
   .views-slideshow-cycle-main-frame,
   .views-slideshow-cycle-main-frame-row {
     width: 100% !important;
@@ -1074,10 +1074,10 @@ td {
     text-align: center;
   }
 
-  .field--name-field-ad-image {
+  .field--name-field-card-image {
     text-align: center;
   }
-  .field--name-field-ad-sub-headline {
+  .field--name-field-card-sub-headline {
     text-align: center;
   }
   .pane-node-title h2 {

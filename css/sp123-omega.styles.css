@@ -327,8 +327,7 @@ label {
                   flex: 1;
           display: -webkit-box;
           display: -ms-flexbox;
-          display: flex;
-          max-height: 716px; }
+          display: flex; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
         max-height: 716px;
         overflow: auto; }

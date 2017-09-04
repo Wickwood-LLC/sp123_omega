@@ -327,9 +327,10 @@ label {
                   flex: 1;
           display: -webkit-box;
           display: -ms-flexbox;
-          display: flex; }
+          display: flex;
+          max-height: 716px; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .scroll-pane {
-        max-height: 700px;
+        max-height: 716px;
         overflow: auto; }
       .blog-type-page #main-content .panel-myriad-layout .featured-display .view-content .views-field-published-at {
         text-align: center;
